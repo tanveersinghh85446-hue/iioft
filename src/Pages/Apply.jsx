@@ -161,7 +161,7 @@
 
 
 
-
+import React from "react";
 import { motion } from "framer-motion";
 import { CgPlayButtonR } from "react-icons/cg";
 import { Helmet } from "react-helmet-async";
