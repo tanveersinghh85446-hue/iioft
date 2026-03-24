@@ -49,7 +49,7 @@ const CONTACT_CARDS = [
   {
     icon: <CiPhone className="text-2xl sm:text-3xl mx-auto text-blue-600 mb-3 sm:mb-4 animate-pulse" />,
     title: "Phone",
-    lines: ["+91 9217661339", "+91 9560307098"],
+    lines: ["+91 9560307098"],
   },
   {
     icon: <MdOutlineMarkEmailRead className="text-2xl sm:text-3xl mx-auto text-blue-600 mb-3 sm:mb-4 animate-pulse" />,
