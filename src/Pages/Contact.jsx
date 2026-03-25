@@ -2,6 +2,8 @@ import React from "react";
 import { FaHourglassHalf } from "react-icons/fa6";
 import { CiLocationOn, CiPhone } from "react-icons/ci";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
+import { BsCodeSlash } from "react-icons/bs";
+
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet-async";
 
