@@ -12,16 +12,16 @@ const FAQ_SECTIONS = [
     title: "Mode of Learning",
     subtitle: "Explore flexible learning options available at IIOFT.",
     items: [
-      ["Are classes online or offline?",  "IIOFT offers both online and offline learning modes."],
-      ["Are classes live or recorded?",   "We provide live classes and recorded lectures."],
+      ["Are classes online or offline?", "IIOFT offers both online and offline learning modes."],
+      ["Are classes live or recorded?", "We provide live classes and recorded lectures."],
     ],
   },
   {
     title: "Certification & Placement",
     subtitle: "Learn more about certification and career support at IIOFT.",
     items: [
-      ["Will I receive a certificate?",              "Yes, students receive an official certificate after completion."],
-      ["Does IIOFT provide placement assistance?",   "Yes, we provide placement support and interview guidance."],
+      ["Will I receive a certificate?", "Yes, students receive an official certificate after completion."],
+      ["Does IIOFT provide placement assistance?", "Yes, we provide placement support and interview guidance."],
     ],
   },
   {
@@ -30,7 +30,7 @@ const FAQ_SECTIONS = [
     items: [
       ["What courses are available at IIOFT?", "IIOFT offers Web Development, Data Science, AI, Cyber Security, Digital Marketing, and Software Development."],
       ["What is the duration of the courses?", "The course duration ranges from 3 months to 1 year depending on the selected program."],
-      ["Can beginners apply?",                 "Yes, beginners can apply. We offer foundation-level courses."],
+      ["Can beginners apply?", "Yes, beginners can apply. We offer foundation-level courses."],
     ],
   },
 ];
@@ -161,8 +161,11 @@ export default function Contact() {
 
       {/* Footer */}
       <div className="bg-blue-950 flex justify-center items-center mt-4 h-10 md:h-12 px-2">
-        <p className="text-white text-xs sm:text-sm text-center">
-          © 2026 IIOFT | All Rights Reserved | Designed by Web Developer
+        <p className="text-white text-xs sm:text-sm text-center flex items-center gap-1">
+          © 2026 IIOFT. All Rights Reserved.
+          <span className="flex items-center gap-1">
+            Designed & Developed by Developer <BsCodeSlash className="text-yellow-400" />
+          </span>
         </p>
       </div>
 
