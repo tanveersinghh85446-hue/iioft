@@ -56,7 +56,7 @@ const CONTACT_CARDS = [
   {
     icon: <MdOutlineMarkEmailRead className="text-2xl sm:text-3xl mx-auto text-blue-600 mb-3 sm:mb-4 animate-pulse" />,
     title: "Email",
-    lines: ["iioft.education@gmail.com"],
+    lines: ["info@iioft.co.in"],
   },
 ];
 
