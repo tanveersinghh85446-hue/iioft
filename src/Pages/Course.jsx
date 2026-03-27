@@ -499,9 +499,7 @@ export default function CourseSyllabus() {
       <div className="bg-blue-950 flex justify-center items-center mt-4 h-10 md:h-12 px-2">
         <p className="text-white text-xs sm:text-sm text-center flex items-center gap-1">
           © 2026 IIOFT. All Rights Reserved.
-          <span className="flex items-center gap-1">
-            Designed & Developed by Developer <BsCodeSlash className="text-yellow-400" />
-          </span>
+          
         </p>
       </div>
     </div>

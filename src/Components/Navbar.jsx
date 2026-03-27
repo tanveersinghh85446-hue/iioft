@@ -10,7 +10,11 @@ const NAV_LINKS = [
   { path: "/about", name: "About" },
 ];
 
-const NAV_ANIMATION = { initial: { opacity: 0, y: -20 }, animate: { opacity: 1, y: 0 }, transition: { duration: 0.6 } };
+const NAV_ANIMATION = {
+  initial: { opacity: 0, y: -20 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.6 },
+};
 
 export default function Navbar() {
   const { pathname } = useLocation();
@@ -19,40 +23,68 @@ export default function Navbar() {
   return (
     <>
       <nav className="bg-blue-600 text-white shadow-md w-full relative z-50">
-        <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-8 py-4 md:py-5 gap-4">
+        <div className="px-4 md:px-8 py-4 md:py-5">
 
-          <img className="max-h-12 w-auto object-contain" src="Logo.png" alt="Logo" />
+          {/* Top Row: Logo + Hamburger (mobile) | Logo + Title + Nav (desktop) */}
+          <div className="flex items-center justify-between">
 
-          <h1 className="font-bold text-base sm:text-lg md:text-2xl lg:text-3xl leading-tight text-center">
+            <img
+              className="max-h-12 w-auto object-contain"
+              src="Logo.png"
+              alt="Logo"
+            />
+
+            {/* Title — desktop only */}
+            <h1 className="hidden md:block font-bold text-2xl lg:text-3xl leading-tight text-center">
+              INTERNATIONAL INSTITUTE OF FUTURISTIC TECHNOLOGY
+            </h1>
+
+            {/* Desktop Nav */}
+            <motion.div
+              {...NAV_ANIMATION}
+              className="hidden md:flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 font-semibold text-sm sm:text-base md:text-lg"
+            >
+              {NAV_LINKS.map(({ path, name }) => (
+                <Link
+                  key={path}
+                  to={path}
+                  className={`transition duration-300 ${
+                    pathname === path ? "text-black" : "hover:text-black"
+                  }`}
+                >
+                  {name}
+                </Link>
+              ))}
+            </motion.div>
+
+            {/* Hamburger Button — mobile only */}
+            <button
+              className="md:hidden flex flex-col gap-1.5 p-2 focus:outline-none"
+              onClick={() => setIsOpen(!isOpen)}
+              aria-label="Toggle menu"
+            >
+              <span
+                className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
+                  isOpen ? "rotate-45 translate-y-2" : ""
+                }`}
+              />
+              <span
+                className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
+                  isOpen ? "opacity-0" : ""
+                }`}
+              />
+              <span
+                className={`block w-6 h-0.5 bg-white transition-all duration-300 ${
+                  isOpen ? "-rotate-45 -translate-y-2" : ""
+                }`}
+              />
+            </button>
+          </div>
+
+          {/* Title — mobile only, below logo row */}
+          <h1 className="md:hidden font-bold text-base sm:text-lg leading-tight text-center mt-2">
             INTERNATIONAL INSTITUTE OF FUTURISTIC TECHNOLOGY
           </h1>
-
-          {/* Desktop Nav */}
-          <motion.div
-            {...NAV_ANIMATION}
-            className="hidden md:flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 font-semibold text-sm sm:text-base md:text-lg"
-          >
-            {NAV_LINKS.map(({ path, name }) => (
-              <Link
-                key={path}
-                to={path}
-                className={`transition duration-300 ${pathname === path ? "text-black" : "hover:text-black"}`}
-              >
-                {name}
-              </Link>
-            ))}
-          </motion.div>
-
-          {/* Hamburger Button — mobile only */}
-          <button
-            className="md:hidden flex flex-col gap-1.5 p-2 self-end focus:outline-none"
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label="Toggle menu"
-          >
-            <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isOpen ? "rotate-45 translate-y-2" : ""}`} />
-            <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isOpen ? "opacity-0" : ""}`} />
-            <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isOpen ? "-rotate-45 -translate-y-2" : ""}`} />
-          </button>
 
         </div>
       </nav>
@@ -95,7 +127,9 @@ export default function Navbar() {
                 key={path}
                 to={path}
                 onClick={() => setIsOpen(false)}
-                className={`transition duration-300 border-b border-blue-600 pb-4 ${pathname === path ? "text-black" : "hover:text-black"}`}
+                className={`transition duration-300 border-b border-blue-600 pb-4 ${
+                  pathname === path ? "text-black" : "hover:text-black"
+                }`}
               >
                 {name}
               </Link>
