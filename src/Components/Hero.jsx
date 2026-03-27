@@ -287,78 +287,102 @@ export default function Hero() {
       <LogoMarquee />
 
       {/* ── FOOTER ── */}
-      <div className="bg-blue-600 flex flex-col lg:flex-row justify-between items-start px-6 md:px-12 lg:px-32 py-12 gap-10 text-white">
+      {/* ── FOOTER ── */}
+      <div className="bg-blue-600 text-white px-6 md:px-12 lg:px-32 py-12">
 
-        {/* Brand + social */}
-        <div className="max-w-md">
-          <img className="max-h-12 w-auto object-contain" src="Logo.png" alt="Logo" />
-          <p className="text-xl">
-            International Institute of Futuristic Technology (IIOFT) prepares students with practical skills and advanced knowledge.
-          </p>
-          <div className="mt-8">
-            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white mb-6">
-              Connect With Us!
-            </h2>
-            <div className="lg:flex gap-4 grid grid-cols-4">
-              {SOCIAL_LINKS.map((s, i) => <SocialButton key={i} {...s} />)}
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-8">
+
+          {/* Brand + social */}
+          <div className="w-full lg:max-w-55 lg:shrink-0">
+            <img className="max-h-12 w-auto object-contain mb-4" src="Logo.png" alt="Logo" />
+            <p className="text-sm text-blue-100 leading-relaxed">
+              International Institute of Futuristic Technology (IIOFT) prepares students with practical skills and advanced knowledge.
+            </p>
+            <div className="mt-6">
+              <h2 className="text-xl font-bold text-white mb-4">Connect With Us!</h2>
+              <div className="flex flex-wrap gap-2">
+                {SOCIAL_LINKS.map((s, i) => <SocialButton key={i} {...s} />)}
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Locations */}
-        <div>
-          <h3 className="text-lg md:text-2xl font-bold mb-4">India-Based. Globally Focused</h3>
-          {LOCATIONS.map((loc, i) => (
-            <p
-              key={i}
-              className="cursor-pointer hover:text-black"
-              onClick={() => window.open(loc.link, "_blank")}
-            >
-              {loc.name}
-            </p>
-          ))}
-        </div>
+          {/* Middle 3 columns — stack on mobile, row on tablet+ */}
+          <div className="w-full grid grid-cols-1 sm:grid-cols-3 lg:contents gap-8">
 
-        {/* Quick links */}
-        <div>
-          <h3 className="text-lg md:text-2xl font-bold mb-4">Quick Links</h3>
-          <ul className="flex flex-col space-y-2">
-            {[["Home", "/"], ["Contact", "/contact"], ["Course", "/course"], ["About", "/about"], ["Know More", "/know-more"]].map(([label, to]) => (
-              <Link key={to} className="cursor-pointer hover:text-black" to={to}>{label}</Link>
-            ))}
-          </ul>
-        </div>
+            {/* Locations */}
+            <div className="lg:shrink-0">
+              <h3 className="text-lg font-bold mb-3">India-Based. Globally Focused</h3>
+              <div className="w-8 h-0.5 bg-blue-300 mb-3" />
+              <ul className="space-y-1.5">
+                {LOCATIONS.map((loc, i) => (
+                  <li
+                    key={i}
+                    className="flex items-start gap-2 text-sm text-blue-100 cursor-pointer hover:text-black transition-colors duration-200"
+                    onClick={() => window.open(loc.link, "_blank")}
+                  >
+                    <FaMapMarkerAlt className="text-blue-300 text-xs mt-1 shrink-0" />
+                    {loc.name}
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-        {/* Contact */}
-        <div>
-          <h3 className="text-lg md:text-2xl font-bold mb-4">Contact Us</h3>
-          <div className="space-y-2">
-            <p className="flex items-center gap-2"><FaPhoneAlt />+91 9560307098</p>
-            <p className="flex items-center gap-2"><FaEnvelope /> info@iioft.co.in</p>
-            <p className="flex items-center gap-2"><FaMapMarkerAlt /> India, Dwarka</p>
+            {/* Quick links */}
+            <div className="lg:shrink-0">
+              <h3 className="text-lg font-bold mb-3">Quick Links</h3>
+              <div className="w-8 h-0.5 bg-blue-300 mb-3" />
+              <ul className="flex flex-col space-y-1.5">
+                {[["Home", "/"], ["Contact", "/contact"], ["Course", "/course"], ["About", "/about"], ["Know More", "/know-more"]].map(([label, to]) => (
+                  <Link key={to} to={to} className="flex items-center gap-2 text-sm text-blue-100 hover:text-black transition-colors duration-200">
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-300 shrink-0" />
+                    {label}
+                  </Link>
+                ))}
+              </ul>
+            </div>
+
+            {/* Contact */}
+            <div className="lg:shrink-0">
+              <h3 className="text-lg font-bold mb-3">Contact Us</h3>
+              <div className="w-8 h-0.5 bg-blue-300 mb-3" />
+              <div className="space-y-2">
+                <p className="flex items-center gap-2 text-sm text-blue-100"><FaPhoneAlt className="text-blue-300 shrink-0" /> +91 9560307098</p>
+                <p className="flex items-center gap-2 text-sm text-blue-100"><FaEnvelope className="text-blue-300 shrink-0" /> info@iioft.co.in</p>
+                <p className="flex items-center gap-2 text-sm text-blue-100"><FaMapMarkerAlt className="text-blue-300 shrink-0" /> India, Dwarka</p>
+              </div>
+              <motion.div
+                className="mt-6"
+                animate={{ scale: [1, 1.05, 1] }}
+                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+              >
+                <Link to="apply">
+                  <button className="w-full sm:w-auto px-6 py-2 border-2 border-white rounded-lg font-semibold text-sm hover:bg-white hover:text-blue-600 transition-all duration-300">
+                    Apply Now →
+                  </button>
+                </Link>
+              </motion.div>
+            </div>
+
           </div>
-          <motion.div
-            className="mt-8"
-            animate={{ scale: [1, 1.05, 1] }}
-            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          >
-            <Link to="apply">
-              <button className="px-5 py-2 sm:px-8 sm:py-3 border-2 border-white rounded-lg font-semibold hover:bg-white hover:text-black transition duration-300 w-full sm:w-auto">
-                Apply Now
-              </button>
-            </Link>
-          </motion.div>
+
+          {/* Map */}
+          <div className="w-full lg:w-56 lg:shrink-0">
+            <img
+              src="Map.png"
+              alt="Global Presence Map"
+              className="w-full lg:w-56 h-auto rounded-xl shadow-lg opacity-90 hover:opacity-100 transition-opacity duration-300"
+            />
+          </div>
+
         </div>
       </div>
 
-      
+
 
       <div className="bg-blue-950 flex justify-center items-center mt-4 h-10 md:h-12 px-2">
         <p className="text-white text-xs sm:text-sm text-center flex items-center gap-1">
           © 2026 IIOFT. All Rights Reserved.
-          {/* <span className="flex items-center gap-1">
-            Designed & Developed by Developer <BsCodeSlash className="text-yellow-400" />
-          </span> */}
+          
         </p>
       </div>
 
