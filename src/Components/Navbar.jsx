@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { path: "/contact", name: "Contact" },
   { path: "/know-more", name: "Know More" },
   { path: "/about", name: "About" },
+  {path:"/blog", name:"Blog"}
 ];
 
 const NAV_ANIMATION = {

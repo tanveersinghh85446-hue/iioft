@@ -8,6 +8,7 @@ import Navbar from "./Components/Navbar";
 import Contact from "./Pages/Contact";
 import Course from "./Pages/Course";
 import About from "./Pages/About";
+import Blog from "./Pages/Blog";
 import KnowMore from "./Pages/Kmore";
 import HeroSection from "./Components/Hero";
 import Apply from "./Pages/Apply";
@@ -76,6 +77,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/course" element={<Course />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/blog" element={<Blog/>}/>
                 <Route path="/know-more" element={<KnowMore />} />
                 <Route path="/Apply" element={<Apply />} />
             </Routes>
