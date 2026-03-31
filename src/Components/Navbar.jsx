@@ -29,11 +29,14 @@ export default function Navbar() {
           {/* Top Row: Logo + Hamburger (mobile) | Logo + Title + Nav (desktop) */}
           <div className="flex items-center justify-between">
 
+            <Link to="/">
             <img
               className="max-h-12 w-auto object-contain"
               src="Logo.png"
               alt="Logo"
             />
+
+            </Link>
 
             {/* Title — desktop only */}
             <h1 className="hidden md:block font-bold text-2xl lg:text-3xl leading-tight text-center">
