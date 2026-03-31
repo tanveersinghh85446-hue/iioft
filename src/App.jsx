@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import Navbar from "./Components/Navbar";
@@ -58,12 +58,33 @@ function App() {
                                 <option>Diploma in Interior Design</option>
                                 <option>Advanced Finance & Accounting</option>
                                 <option>Diploma in Human Resource Management</option>
+                                <option>Python Programming</option>
+                                <option>Tally Prime + GST Professional</option>
+                                <option>Anti-Money Laundering (AML)</option>
+                                <option>Certified Industrial Accountant (CIA)</option>
+                                <option>BUSY Accounting Software</option>
+                                <option>SAP FICO Professional</option>
+                                <option>SAP MM (Materials Management)</option>
+                                <option>SAP SD (Sales & Distribution)</option>
+                                <option>SAP PP (Production Planning)</option>
+                                <option>SAP HCM (Human Capital Management)</option>
+                                <option>Microsoft Office Professional</option>
+                                <option>Mobile App Development</option>
+                                <option>Artificial Intelligence</option>
+                                <option>Cloud Computing</option>
+                                <option>UI/UX Design</option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+
 
                             </select>
 
-                            <button className="bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+                            <Link to="Apply" className="bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
                                 Submit
-                            </button>
+                            </Link>
                         </form>
 
                     </div>
@@ -77,7 +98,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/course" element={<Course />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/blog" element={<Blog/>}/>
+                <Route path="/blog" element={<Blog />} />
                 <Route path="/know-more" element={<KnowMore />} />
                 <Route path="/Apply" element={<Apply />} />
             </Routes>
