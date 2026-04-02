@@ -1,18 +1,22 @@
 import React from "react";
-import { BsCodeSlash } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet-async";
 
-// ─── Shared animation variants ────────────────────────────────────────────────
+// ─── Animation variants ───────────────────────────────────────────────────────
 
 const fadeUp = {
-  hidden: { opacity: 0, y: 60 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.8 } },
+  hidden: { opacity: 0, y: 50 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" } },
 };
 
 const stagger = {
   hidden: {},
-  show: { transition: { staggerChildren: 0.2 } },
+  show: { transition: { staggerChildren: 0.15 } },
+};
+
+const scaleIn = {
+  hidden: { opacity: 0, scale: 0.9 },
+  show: { opacity: 1, scale: 1, transition: { duration: 0.6, ease: "easeOut" } },
 };
 
 // ─── Static data ──────────────────────────────────────────────────────────────
@@ -20,39 +24,98 @@ const stagger = {
 const VISION_MISSION = [
   {
     title: "Our Vision",
-    color: "text-green-600",
-    border: "border-green-600",
+    icon: "🌍",
+    accent: "from-green-400 to-green-600",
+    ring: "ring-green-200",
+    badge: "bg-green-50 text-green-700",
     text: "To become a globally recognized institute empowering students with next-generation technical expertise and leadership qualities.",
   },
   {
     title: "Our Mission",
-    color: "text-blue-600",
-    border: "border-blue-600",
+    icon: "🚀",
+    accent: "from-blue-500 to-blue-700",
+    ring: "ring-blue-200",
+    badge: "bg-blue-50 text-blue-700",
     text: "To provide practical, industry-aligned training that prepares students for real-world challenges and successful professional careers.",
   },
 ];
 
 const WHY_CHOOSE = [
-  { title: "Expert Faculty", text: "Learn from certified industry professionals with real-world experience." },
-  { title: "Modern Infrastructure", text: "Advanced labs, smart classrooms, and latest technology tools." },
-  { title: "Career Support", text: "Dedicated placement cell guiding students toward top companies." },
+  {
+    icon: "🎓",
+    title: "Expert Faculty",
+    text: "Learn from certified industry professionals with real-world experience and proven track records.",
+    stat: "50+ Experts",
+  },
+  {
+    icon: "🏛️",
+    title: "Modern Infrastructure",
+    text: "Advanced labs, smart classrooms, and the latest technology tools to enhance your learning.",
+    stat: "10,000+ sq ft",
+  },
+  {
+    icon: "💼",
+    title: "Career Support",
+    text: "Dedicated placement cell guiding every student toward top companies and dream roles.",
+    stat: "95% Placement",
+  },
 ];
 
 const TEAM = [
-  { name: "Rampal Soni", role: "Founder & CEO", img: "Rampal.jpeg" },
-  { name: "Manoj Soni", role: "Head of Department", img: "Manoj Soni.jpeg" },
-  { name: "Vinay Rojha", role: "Marketing Head & Managing Director", img: "Vinay Soni.jpeg" },
-  { name: "Akash Soni", role: "Technical Head", img: "Akash Soni.jpeg" },
-  { name: "Anjali Singh", role: "Career & Placement Coordinator", img: "Anjali.jpeg" },
+  { name: "Rampal Soni", role: "Founder & CEO", img: "Rampal.jpeg", initial: "R" },
+  { name: "Manoj Soni", role: "Head of Department", img: "Manoj Soni.jpeg", initial: "M" },
+  { name: "Vinay Rojha", role: "Marketing Head & Managing Director", img: "Vinay Soni.jpeg", initial: "V" },
+  { name: "Akash Soni", role: "Technical Head", img: "Akash Soni.jpeg", initial: "A" },
+  { name: "Anjali Singh", role: "Career & Placement Coordinator", img: "Anjali.jpeg", initial: "An" },
 ];
 
-// ─── Component ────────────────────────────────────────────────────────────────
+// ─── Team Card ────────────────────────────────────────────────────────────────
+
+function TeamCard({ name, role, img, initial }) {
+  return (
+    <motion.div
+      variants={scaleIn}
+      whileHover={{ y: -8, transition: { duration: 0.25 } }}
+      className="group relative bg-white rounded-3xl shadow-md hover:shadow-2xl hover:shadow-blue-200 transition-shadow duration-300 overflow-hidden"
+    >
+      {/* Top gradient bar */}
+      <div className="h-1.5 w-full bg-linear-to-r from-blue-500 via-indigo-500 to-blue-700" />
+
+      <div className="p-6 sm:p-8 text-center">
+        {/* Avatar */}
+        <div className="relative w-24 h-24 mx-auto mb-4">
+          <div className="absolute inset-0 rounded-full bg-linear-to-br from-blue-400 to-indigo-600 blur-sm opacity-30 scale-110" />
+          <img
+            src={img}
+            alt={name}
+            onError={(e) => {
+              e.target.style.display = "none";
+              e.target.nextSibling.style.display = "flex";
+            }}
+            className="relative w-24 h-24 rounded-full object-cover border-4 border-white shadow-lg"
+          />
+          {/* Fallback avatar */}
+          <div
+            style={{ display: "none" }}
+            className="relative w-24 h-24 rounded-full bg-linear-to-br from-blue-500 to-indigo-700 border-4 border-white shadow-lg items-center justify-center text-white font-bold text-2xl"
+          >
+            {initial}
+          </div>
+        </div>
+
+        <h3 className="font-bold text-gray-900 text-base sm:text-lg mb-1">{name}</h3>
+        <p className="text-blue-600 text-xs sm:text-sm font-medium">{role}</p>
+      </div>
+    </motion.div>
+  );
+}
+
+// ─── Main Component ───────────────────────────────────────────────────────────
 
 export default function Kmore() {
   return (
-    <div className="bg-gray-50 overflow-hidden">
+    <div className="bg-gray-50 overflow-hidden font-sans">
 
-      {/* HELMET */}
       <Helmet>
         <title>Know More - IIOFT Delhi | Faculty, Team & Why Choose Us</title>
         <meta name="description" content="IIOFT Delhi ke baare mein aur jaano. Expert Faculty, Modern Infrastructure, Career Support aur hamaari dedicated team ke baare mein detail mein samjho. Founder: Rampal Soni." />
@@ -63,137 +126,259 @@ export default function Kmore() {
         <link rel="canonical" href="https://iioft.co.in/know-more" />
       </Helmet>
 
-      {/* HERO */}
-      <section className="bg-linear-to-r from-blue-700 via-indigo-700 to-blue-900 text-white py-24 px-6 text-center">
-        <motion.h1
-          initial={{ opacity: 0, y: -60 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-          className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight"
-        >
-          Shaping The Future With{" "}
-          <span className="text-yellow-300 font-serif">IIOFT</span>
-        </motion.h1>
+      {/* ── HERO ── */}
+      <section className="relative bg-linear-to-br from-blue-700 via-indigo-700 to-blue-900 text-white py-24 sm:py-32 px-6 text-center overflow-hidden">
+        {/* Decorative orbs */}
+        <div className="absolute top-0 left-0 w-80 h-80 bg-blue-500 rounded-full blur-3xl opacity-20 -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-indigo-500 rounded-full blur-3xl opacity-20 translate-x-1/3 translate-y-1/3 pointer-events-none" />
+        {/* Grid overlay */}
+        <div
+          className="absolute inset-0 opacity-5 pointer-events-none"
+          style={{ backgroundImage: "linear-gradient(white 1px, transparent 1px), linear-gradient(90deg, white 1px, transparent 1px)", backgroundSize: "40px 40px" }}
+        />
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 1 }}
-          className="mt-6 text-sm sm:text-lg md:text-xl max-w-3xl mx-auto text-gray-200"
-        >
-          International Institute of Futuristic Technology is committed to delivering
-          industry-ready skills, innovation-driven learning, and career-focused programs.
-        </motion.p>
+        <div className="relative max-w-4xl mx-auto">
+          {/* Badge */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            className="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur-sm text-white text-xs sm:text-sm px-4 py-1.5 rounded-full mb-8"
+          >
+            <span className="w-2 h-2 bg-yellow-300 rounded-full animate-pulse inline-block" />
+            International Institute of Futuristic Technology
+          </motion.div>
+
+          <motion.h1
+            initial={{ opacity: 0, y: -40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9 }}
+            className="text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight"
+          >
+            Shaping The Future{" "}
+            <br className="hidden sm:block" />
+            With{" "}
+            <span className="text-yellow-300 font-serif italic">IIOFT</span>
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 0.9 }}
+            className="mt-6 text-sm sm:text-lg max-w-2xl mx-auto text-blue-100 leading-relaxed"
+          >
+            Industry-ready skills, innovation-driven learning, and career-focused
+            programs — built for the leaders of tomorrow.
+          </motion.p>
+
+          {/* Stat pills */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.8, duration: 0.7 }}
+            className="mt-10 flex flex-wrap justify-center gap-3"
+          >
+            {["500+ Graduates", "95% Placement Rate", "10+ Courses", "Est. 2018"].map((s) => (
+              <span key={s} className="bg-white/10 border border-white/20 backdrop-blur-sm text-white text-xs sm:text-sm px-4 py-2 rounded-full font-medium">
+                {s}
+              </span>
+            ))}
+          </motion.div>
+        </div>
       </section>
 
-      {/* VISION & MISSION */}
+      {/* ── VISION & MISSION ── */}
       <motion.section
-        variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true }}
-        className="py-24 px-6 max-w-6xl mx-auto"
+        variants={stagger}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        className="py-20 sm:py-28 px-4 sm:px-6 max-w-6xl mx-auto"
       >
-        <motion.h2 variants={fadeUp} className="text-3xl sm:text-4xl font-bold text-center mb-16 text-blue-700">
-          Our Core Foundation
-        </motion.h2>
+        <motion.div variants={fadeUp} className="text-center mb-14">
+          <span className="text-blue-600 font-semibold text-sm tracking-widest uppercase">What Drives Us</span>
+          <h2 className="text-2xl sm:text-4xl font-bold text-gray-900 mt-2">Our Core Foundation</h2>
+        </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-12">
-          {VISION_MISSION.map(({ title, color, border, text }) => (
+        <div className="grid md:grid-cols-2 gap-8">
+          {VISION_MISSION.map(({ title, icon, accent, ring, badge, text }) => (
             <motion.div
               key={title}
               variants={fadeUp}
-              whileHover={{ scale: 1.05 }}
-              className={`bg-white p-10 rounded-3xl shadow-lg border-t-4 ${border}`}
+              whileHover={{ scale: 1.03, transition: { duration: 0.25 } }}
+              className={`relative bg-white rounded-3xl shadow-lg ring-2 ${ring} p-8 sm:p-10 overflow-hidden`}
             >
-              <h3 className={`text-2xl font-bold mb-4 ${color}`}>{title}</h3>
-              <p className="text-gray-600 leading-relaxed">{text}</p>
+              {/* Gradient top bar */}
+              <div className={`absolute top-0 left-0 right-0 h-1.5 bg-linear-to-r ${accent}`} />
+              {/* Background glow */}
+              <div className={`absolute -top-10 -right-10 w-40 h-40 bg-linear-to-br ${accent} rounded-full blur-2xl opacity-10`} />
+
+              <div className="relative">
+                <div className="flex items-center gap-3 mb-5">
+                  <span className="text-3xl">{icon}</span>
+                  <span className={`${badge} text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider`}>{title}</span>
+                </div>
+                <p className="text-gray-600 leading-relaxed text-sm sm:text-base">{text}</p>
+              </div>
             </motion.div>
           ))}
         </div>
       </motion.section>
 
-      {/* WHY CHOOSE US */}
+      {/* ── WHY CHOOSE US ── */}
       <motion.section
-        variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true }}
-        className="py-24 bg-linear-to-r from-indigo-50 to-blue-100"
+        variants={stagger}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        className="py-20 sm:py-28 bg-linear-to-br from-indigo-50 via-blue-50 to-blue-100 relative overflow-hidden"
       >
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <motion.h2 variants={fadeUp} className="text-3xl sm:text-4xl font-bold text-blue-700">
-            Why Choose Our Institute?
-            <span className="text-5xl font-serif text-yellow-300 ml-2">IIOFT</span>
-          </motion.h2>
+        {/* Decorative shape */}
+        <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-transparent via-blue-300 to-transparent opacity-60" />
 
-          <motion.div variants={stagger} className="mt-16 grid md:grid-cols-3 gap-10">
-            {WHY_CHOOSE.map(({ title, text }) => (
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+          <motion.div variants={fadeUp} className="mb-14">
+            <span className="text-blue-600 font-semibold text-sm tracking-widest uppercase">Our Strengths</span>
+            <h2 className="text-2xl sm:text-4xl font-bold text-gray-900 mt-2">
+              Why Choose{" "}
+              <span className="text-yellow-500 font-serif italic">IIOFT?</span>
+            </h2>
+          </motion.div>
+
+          <motion.div variants={stagger} className="grid md:grid-cols-3 gap-6 sm:gap-8">
+            {WHY_CHOOSE.map(({ icon, title, text, stat }) => (
               <motion.div
                 key={title}
                 variants={fadeUp}
-                whileHover={{ y: -15 }}
-                className="bg-white p-8 rounded-3xl shadow-lg"
+                whileHover={{ y: -12, transition: { duration: 0.25 } }}
+                className="bg-white rounded-3xl shadow-md hover:shadow-xl hover:shadow-blue-100 transition-shadow duration-300 p-8 text-left relative overflow-hidden"
               >
-                <h3 className="text-xl font-bold mb-4 text-blue-600">{title}</h3>
-                <p className="text-gray-600">{text}</p>
+                {/* Corner accent */}
+                <div className="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-bl-3xl" />
+
+                <div className="text-4xl mb-5">{icon}</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">{title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed mb-6">{text}</p>
+                <div className="inline-block bg-blue-50 text-blue-700 text-xs font-bold px-3 py-1.5 rounded-full">
+                  {stat}
+                </div>
               </motion.div>
             ))}
           </motion.div>
         </div>
       </motion.section>
 
-      {/* TEAM */}
+      {/* ── TEAM ── */}
       <motion.section
-        variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true }}
-        className="bg-blue-500 py-16 px-4"
+        variants={stagger}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        className="py-20 sm:py-28 px-4 sm:px-6 bg-linear-to-br from-blue-600 via-blue-500 to-indigo-600 relative overflow-hidden"
       >
-        <div className="max-w-7xl mx-auto text-center">
-          <motion.h2 variants={fadeUp} className="text-4xl font-serif font-bold mb-12 text-white">
-            Meet Our IIOFT Team
-          </motion.h2>
+        {/* Decorative elements */}
+        <div className="absolute inset-0 opacity-10 pointer-events-none"
+          style={{ backgroundImage: "radial-gradient(circle, white 1px, transparent 1px)", backgroundSize: "30px 30px" }} />
+        <div className="absolute top-10 left-10 w-64 h-64 bg-white rounded-full blur-3xl opacity-5" />
+        <div className="absolute bottom-10 right-10 w-64 h-64 bg-indigo-300 rounded-full blur-3xl opacity-10" />
 
-          <motion.div variants={stagger} className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {TEAM.map(({ name, role, img }) => (
-              <motion.div
-                key={name}
-                variants={fadeUp}
-                whileHover={{ scale: 1.08 }}
-                className="bg-white shadow-lg p-6 rounded-xl"
-              >
-                <img className="h-30 w-30 rounded-full mx-auto" src={img} alt={name} />
-                <h3 className="font-semibold text-lg">{name}</h3>
-                <p className="text-gray-500 text-sm">{role}</p>
-              </motion.div>
+        <div className="max-w-7xl mx-auto relative">
+          <motion.div variants={fadeUp} className="text-center mb-14">
+            <span className="text-blue-200 font-semibold text-sm tracking-widest uppercase">The People Behind IIOFT</span>
+            <h2 className="text-2xl sm:text-4xl font-bold text-white mt-2">Meet Our Expert Team</h2>
+          </motion.div>
+
+          {/* First row: 3 cards */}
+          <motion.div variants={stagger} className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
+            {TEAM.slice(0, 3).map((member) => (
+              <TeamCard key={member.name} {...member} />
+            ))}
+          </motion.div>
+
+          {/* Second row: 2 cards centered */}
+          <motion.div variants={stagger} className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
+            {TEAM.slice(3).map((member) => (
+              <TeamCard key={member.name} {...member} />
             ))}
           </motion.div>
         </div>
       </motion.section>
 
-      {/* CTA */}
+      {/* ── CTA ── */}
       <motion.section
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.9 }}
         viewport={{ once: true }}
-        className="py-28 bg-linear-to-r from-blue-800 to-indigo-900 text-center text-white px-6"
+        className="relative py-24 sm:py-32 bg-linear-to-br from-blue-800 via-indigo-800 to-blue-900 text-center text-white px-6 overflow-hidden"
       >
-        <motion.h2
-          initial={{ y: 50 }}
-          whileInView={{ y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-bold"
-        >
-          Start Your Future Today
-        </motion.h2>
-        <p className="mt-6 text-lg max-w-2xl mx-auto text-gray-200">
-          Take the first step toward a successful career in technology with
-          International Institute of Futuristic Technology.
-        </p>
+        <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-150 h-150 bg-blue-500 rounded-full blur-3xl opacity-10 pointer-events-none" />
+
+        <div className="relative max-w-3xl mx-auto">
+          <motion.span
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className="inline-block bg-yellow-300 text-blue-900 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider mb-6"
+          >
+            Your Journey Starts Here
+          </motion.span>
+
+          <motion.h2
+            initial={{ y: 40, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight"
+          >
+            Start Your Future Today
+          </motion.h2>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.3, duration: 0.8 }}
+            viewport={{ once: true }}
+            className="mt-5 text-base sm:text-lg text-blue-200 max-w-xl mx-auto leading-relaxed"
+          >
+            Take the first step toward a successful career in technology with
+            International Institute of Futuristic Technology.
+          </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 0.7 }}
+            viewport={{ once: true }}
+            className="mt-8 flex flex-col sm:flex-row gap-4 justify-center"
+          >
+            <a
+              href="tel:+919560307098"
+              className="bg-yellow-300 text-blue-900 font-bold px-8 py-3.5 rounded-full text-sm sm:text-base shadow-lg hover:shadow-yellow-300/40 hover:scale-105 active:scale-95 transition-all duration-200"
+            >
+              Call Now: +91 9560307098
+            </a>
+            <a
+              href="mailto:info@iioft.co.in"
+              className="bg-white/10 border border-white/20 backdrop-blur-sm text-white font-semibold px-8 py-3.5 rounded-full text-sm sm:text-base hover:bg-white/20 transition-all duration-200"
+            >
+              Email Us →
+            </a>
+          </motion.div>
+        </div>
       </motion.section>
 
-      {/* FOOTER */}
-      <div className="bg-blue-950 flex justify-center items-center mt-4 h-10 md:h-12 px-2">
-        <p className="text-white text-xs sm:text-sm text-center flex items-center gap-1">
-          © 2026 IIOFT. All Rights Reserved.
-          
-        </p>
-      </div>
+      {/* ── FOOTER ── */}
+      <footer className="bg-blue-950">
+        <div className="max-w-6xl mx-auto px-4 py-4 sm:py-5 flex flex-col sm:flex-row justify-between items-center gap-2">
+          <p className="text-blue-300 text-xs sm:text-sm">© 2026 IIOFT. All Rights Reserved.</p>
+          <div className="flex gap-4">
+            <a href="tel:+919560307098" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">+91 9560307098</a>
+            <a href="mailto:info@iioft.co.in" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">info@iioft.co.in</a>
+          </div>
+        </div>
+      </footer>
 
     </div>
   );
