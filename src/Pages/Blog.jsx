@@ -44,58 +44,67 @@ const categories = [
 const posts = [
   {
     id: 1,
-    category: "ai",
-    title: "GPT-5 and the Next Leap in Reasoning Engines",
+    category: "Education",
+    title: "A Teacher Guiding a Student",
     excerpt:
-      "As large language models grow beyond pattern recognition, a new class of reasoning engines is reshaping how machines understand context and causality.",
-    tag: "AI & ML",
-    img: "GPT-5.jpg",
+      "A teacher helping a student understand lessons with patience and dedication, showing how the right guidance and support can make learning easier and more meaningful for students.",
+    tag: "Education Teaching Mentorship",
+    img: "Study.jpeg",
   },
   {
     id: 2,
-    category: "robotics",
-    title: "Soft Robotics: Machines That Mimic Life",
+    category: "Education / Events",
+    title: "Inauguration of IBM SkillsBuild Training Program",
     excerpt:
-      "Bio-inspired actuators and flexible electronics are converging to create robots that move, adapt, and interact more like living organisms than machines.",
-    tag: "Robotics",
-    img: "Soft Robotics.jpg",
+      "The inauguration ceremony of the IBM SkillsBuild training program began with the traditional lamp lighting, marking the start of advanced IT skills training for students and learners.",
+    tag: "IBM SkillsBuild",
+    img: "Image1.jpeg",
   },
   {
     id: 3,
-    category: "space",
-    title: "Mars Colony Blueprint: 2040 Timeline Unveiled",
+    category: "Event, IT Training",
+    title: "Group Photo of IBM SkillsBuild Training Participants",
     excerpt:
-      "SpaceX and NASA jointly released architectural plans for a semi-permanent Martian settlement, detailing life-support, power, and agriculture systems.",
-    tag: "Space Tech",
-    img: "Mars Colony.jpg",
+      "Students and faculty gathered for a group photo after the successful completion of the IBM SkillsBuild training program at the institute, capturing memories of learning, collaboration, and achievement.",
+    tag: "Trinity Institute",
+    img: "Team.jpeg",
   },
   {
     id: 4,
-    category: "institute",
-    title: "Annual Tech Fest 2026 — Highlights & Winners",
+    category: "Training / Education / Workshop",
+    title: "Professional Training and Presentation Session",
     excerpt:
-      "Over 3,000 students competed in 18 events across AI, hardware, and design. Here's a recap of breakthroughs, projects, and standout moments.",
-    tag: "Institute News",
+      "A trainer delivering a presentation during a professional training session, where participants learn through discussions, visual presentations, and practical work on laptops.",
+    tag: "Professional Training",
     img: "AB.jpeg",
   },
   {
     id: 5,
-    category: "ai",
-    title: "Neural Architecture Search: AI Designing AI",
+    category: "institute",
+    title: "Digital Learning and Media Controls Interface",
     excerpt:
-      "AutoML is growing up. NAS systems now outperform hand-crafted networks on vision benchmarks, raising questions about human intuition in model design.",
-    tag: "AI & ML",
-    img: "Neural Architecture.jpg",
+      "A digital interface showing media control buttons used in video playback, editing, or e-learning platforms, representing modern digital learning and technology-based education.",
+    tag: "Digital learning, Media player",
+    img: "Group.jpeg",
   },
-  {
-    id: 6,
-    category: "space",
-    title: "Dark Matter Detector Goes Online in Antarctic Ice",
-    excerpt:
-      "IceCube's latest upgrade features quantum sensors capable of detecting particle collisions at energies previously thought undetectable on Earth.",
-    tag: "Space Tech",
-    img: "Dark Matter Detector.jpg",
-  },
+  // {
+  //   id: 6,
+  //   category: "ai",
+  //   title: "Neural Architecture Search: AI Designing AI",
+  //   excerpt:
+  //     "AutoML is growing up. NAS systems now outperform hand-crafted networks on vision benchmarks, raising questions about human intuition in model design.",
+  //   tag: "AI & ML",
+  //   img: "Neural Architecture.jpg",
+  // },
+  // {
+  //   id: 7,
+  //   category: "space",
+  //   title: "Dark Matter Detector Goes Online in Antarctic Ice",
+  //   excerpt:
+  //     "IceCube's latest upgrade features quantum sensors capable of detecting particle collisions at energies previously thought undetectable on Earth.",
+  //   tag: "Space Tech",
+  //   img: "Dark Matter Detector.jpg",
+  // },
 ];
 
 const popularTags = [
