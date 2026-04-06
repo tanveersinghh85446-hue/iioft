@@ -287,7 +287,6 @@ export default function Hero() {
       <LogoMarquee />
 
       {/* ── FOOTER ── */}
-      {/* ── FOOTER ── */}
       <div className="bg-blue-600 text-white px-6 md:px-12 lg:px-32 py-12">
 
         <div className="flex flex-col lg:flex-row justify-between items-start gap-8">
@@ -379,12 +378,18 @@ export default function Hero() {
 
 
 
-      <div className="bg-blue-950 flex justify-center items-center mt-4 h-10 md:h-12 px-2">
-        <p className="text-white text-xs sm:text-sm text-center flex items-center gap-1">
-          © 2026 IIOFT. All Rights Reserved.
-          
-        </p>
-      </div>
+       {/* ── Footer ── */}
+      <footer className="bg-blue-950 mt-6">
+        <div className="max-w-6xl mx-auto px-4 py-4 sm:py-5 flex flex-col sm:flex-row justify-between items-center gap-2">
+          <p className="text-blue-300 text-xs sm:text-sm text-center">
+            © 2026 IIOFT. All Rights Reserved.
+          </p>
+          <div className="flex gap-4">
+            <a href="tel:+919560307098" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">+91 9560307098</a>
+            <a href="mailto:info@iioft.co.in" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">info@iioft.co.in</a>
+          </div>
+        </div>
+      </footer>
 
     </div>
   );
