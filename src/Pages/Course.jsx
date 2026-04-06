@@ -42,6 +42,8 @@ import { IoPlaySharp } from "react-icons/io5";
 import { IoStarSharp } from "react-icons/io5";
 import { IoBriefcaseSharp } from "react-icons/io5";
 
+// ─── DATA ────────────────────────────────────────────────────────────────────
+
 const masterDiplomaCourses = [
   {
     id: "DOAP",
@@ -4069,13 +4071,39 @@ const advanceSpecializationCourses = [
   },
 ];
 
-const STATS = [
-  ["42+", "Courses"],
-  ["200+", "Projects"],
-  ["100%", "Job Ready"],
-];
+// ─── ICON BG COLORS ──────────────────────────────────────────────────────────
+const iconBgMap = {
+  wd: "bg-blue-900",
+  ds: "bg-purple-900",
+  da: "bg-cyan-900",
+  eh: "bg-red-900",
+  dm: "bg-orange-900",
+  id: "bg-pink-900",
+  fa: "bg-green-900",
+  hr: "bg-teal-900",
+  py: "bg-yellow-900",
+  uiux: "bg-fuchsia-900",
+  cc: "bg-sky-900",
+  ai: "bg-violet-900",
+  mad: "bg-rose-900",
+  mso: "bg-indigo-900",
+  pd: "bg-amber-900",
+  se: "bg-lime-900",
+  vba: "bg-emerald-900",
+  mac: "bg-slate-800",
+  adfa: "bg-green-950",
+  aml: "bg-red-950",
+  tally: "bg-blue-950",
+  cia: "bg-purple-950",
+  busy: "bg-orange-950",
+  sapfico: "bg-cyan-950",
+  sapmm: "bg-teal-950",
+  sapsd: "bg-violet-950",
+  sappp: "bg-indigo-950",
+  saphcm: "bg-rose-950",
+};
 
-// ── helpers ──────────────────────────────────────────────────────────────────
+// ─── COURSE DETAIL (unchanged) ────────────────────────────────────────────────
 const isMaster = (type) => type === "master";
 
 function CourseDetail({ course, type, onBack }) {
@@ -4085,7 +4113,7 @@ function CourseDetail({ course, type, onBack }) {
       {onBack && (
         <button
           onClick={onBack}
-          className={`flex items-center gap-1.5 text-xs hover:text-black font-semibold mb-5 rounded w-30 h-5   bg-white border-0 cursor-pointer ${master ? "text-blue-700" : "text-indigo-700"}`}
+          className={`flex items-center gap-1.5 text-xs font-semibold mb-5 bg-transparent border-0 cursor-pointer ${master ? "text-blue-700" : "text-indigo-700"}`}
         >
           <svg
             width="14"
@@ -4104,8 +4132,6 @@ function CourseDetail({ course, type, onBack }) {
           Back to Courses
         </button>
       )}
-
-      {/* Header */}
       <div
         className={`rounded-2xl p-6 mb-6 relative overflow-hidden ${master ? "bg-linear-to-br from-slate-900 via-blue-900 to-blue-700" : "bg-linear-to-br from-indigo-950 via-indigo-800 to-indigo-600"}`}
       >
@@ -4130,8 +4156,6 @@ function CourseDetail({ course, type, onBack }) {
           </div>
         </div>
       </div>
-
-      {/* Modules */}
       <div className="mb-6">
         <div className="flex items-center gap-2 mb-3">
           <span className="text-sm">📚</span>
@@ -4182,8 +4206,6 @@ function CourseDetail({ course, type, onBack }) {
           ))}
         </div>
       </div>
-
-      {/* Tools */}
       {course.tools?.length > 0 && (
         <div className="mb-5">
           <div className="flex items-center gap-2 mb-2.5">
@@ -4207,8 +4229,6 @@ function CourseDetail({ course, type, onBack }) {
           </div>
         </div>
       )}
-
-      {/* Projects */}
       {course.projects?.length > 0 && (
         <div className="mb-5">
           <div className="flex items-center gap-2 mb-2.5">
@@ -4236,62 +4256,106 @@ function CourseDetail({ course, type, onBack }) {
   );
 }
 
-function MobileView({ search, setSearch }) {
-  const [openId, setOpenId] = useState(null);
-
-  const filteredM = useMemo(() => {
-    const q = search.toLowerCase();
-    return q
-      ? masterDiplomaCourses.filter((c) => c.title.toLowerCase().includes(q))
-      : masterDiplomaCourses;
-  }, [search]);
-
-  const filteredA = useMemo(() => {
-    const q = search.toLowerCase();
-    return q
-      ? advanceSpecializationCourses.filter((c) =>
-          c.title.toLowerCase().includes(q),
-        )
-      : advanceSpecializationCourses;
-  }, [search]);
-
-  const toggle = (id) => setOpenId((prev) => (prev === id ? null : id));
-
-  const Row = ({ course, type }) => {
-    const isOpen = openId === course.id;
-    const master = isMaster(type);
-    return (
-      <div className="border-b border-slate-100">
-        <button
-          onClick={() => toggle(course.id)}
-          className={`w-full flex items-center gap-3 px-4 py-3.5 border-0 cursor-pointer text-left transition-all duration-150 ${isOpen ? (master ? "bg-linear-to-r from-blue-700 to-blue-600 shadow-[inset_4px_0_0_#93c5fd]" : "bg-linear-to-r from-indigo-700 to-indigo-600 shadow-[inset_4px_0_0_#a5b4fc]") : "bg-white"}`}
+// ─── COURSE CARD ──────────────────────────────────────────────────────────────
+function CourseCard({ course, type, onViewDetails }) {
+  const master = isMaster(type);
+  const bg = iconBgMap[course.id] || "bg-slate-800";
+  return (
+    <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden flex flex-col shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200">
+      {/* Image / Icon Area */}
+      <div
+        className={`relative ${bg} flex items-center justify-center`}
+        style={{ height: "160px" }}
+      >
+        <div
+          className="text-white opacity-80"
+          style={{ fontSize: "56px", lineHeight: 1 }}
         >
-          <span
-            className={`w-9 h-9 rounded-xl flex items-center justify-center text-lg shrink-0 ${isOpen ? "bg-white/20 text-white" : master ? "bg-blue-50 text-blue-700" : "bg-indigo-50 text-indigo-700"}`}
-          >
-            {course.icon}
+          {course.icon}
+        </div>
+        {course.badge && (
+          <span className="absolute top-3 left-3 text-xs font-bold bg-amber-400 text-amber-900 rounded-full px-2.5 py-1">
+            {course.badge}
           </span>
-          <div className="flex-1 min-w-0">
-            <div
-              className={`text-sm font-semibold truncate ${isOpen ? "text-white" : "text-black"}`}
+        )}
+        <span
+          className={`absolute top-3 right-3 text-xs font-semibold px-2.5 py-1 rounded-full border border-white/30 text-white/80 backdrop-blur-sm ${master ? "bg-blue-700/60" : "bg-indigo-700/60"}`}
+        >
+          {course.subtitle}
+        </span>
+      </div>
+
+      {/* Body */}
+      <div className="flex flex-col flex-1 p-4 gap-3">
+        <h3 className="text-base font-bold text-slate-900 leading-snug">
+          {course.title}
+        </h3>
+
+        {/* Topics */}
+        <ul className="flex flex-col gap-1 flex-1">
+          {course.topics?.map((t, i) => (
+            <li
+              key={i}
+              className="flex items-start gap-1.5 text-xs text-slate-500"
             >
-              {course.title}
-            </div>
-            <div
-              className={`text-xs mt-0.5 ${isOpen ? "text-white/60" : "text-slate-400"}`}
+              <span
+                className={`mt-1.5 w-1.5 h-1.5 rounded-full shrink-0 ${master ? "bg-blue-400" : "bg-indigo-400"}`}
+              />
+              {t}
+            </li>
+          ))}
+        </ul>
+
+        {/* Duration + CTA */}
+        <div className="flex items-center justify-between pt-3 border-t border-slate-100">
+          <div className="flex items-center gap-1.5 text-xs text-slate-500">
+            <svg
+              className="w-3.5 h-3.5 shrink-0"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
             >
-              {course.subtitle}
-            </div>
+              <circle cx="12" cy="12" r="10" />
+              <path strokeLinecap="round" d="M12 6v6l4 2" />
+            </svg>
+            {course.duration}
           </div>
-          {course.badge && (
-            <span
-              className={`text-xs font-bold rounded-full px-2 py-0.5 shrink-0 ${isOpen ? "bg-white/20 text-white" : "bg-amber-100 text-amber-800"}`}
-            >
-              {course.badge.replace(/[🔥🚀]/g, "").trim()}
-            </span>
-          )}
+          <button
+            onClick={() => onViewDetails(course, type)}
+            className={`text-xs font-semibold px-4 py-1.5 rounded-full border cursor-pointer transition-all duration-150 ${
+              master
+                ? "border-blue-600 text-blue-700 hover:bg-blue-700 hover:text-white"
+                : "border-indigo-600 text-indigo-700 hover:bg-indigo-700 hover:text-white"
+            }`}
+          >
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ─── MODAL ────────────────────────────────────────────────────────────────────
+function Modal({ course, type, onClose }) {
+  if (!course) return null;
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4"
+      style={{ background: "rgba(0,0,0,0.55)", backdropFilter: "blur(4px)" }}
+      onClick={onClose}
+    >
+      <div
+        className="bg-white rounded-3xl w-full max-w-2xl max-h-[90vh] overflow-y-auto relative shadow-2xl"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button
+          onClick={onClose}
+          className="absolute top-4 right-4 z-10 w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-500 border-0 cursor-pointer transition"
+        >
           <svg
-            className={`w-3.5 h-3.5 shrink-0 transition-transform duration-200 ${isOpen ? "rotate-180 text-white/70" : "text-black"}`}
+            className="w-4 h-4"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -4300,351 +4364,92 @@ function MobileView({ search, setSearch }) {
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
-              d="M19 9l-7 7-7-7"
+              d="M6 18L18 6M6 6l12 12"
             />
           </svg>
         </button>
-        {isOpen && (
-          <div className="bg-slate-50 border-t border-slate-200">
-            <CourseDetail course={course} type={type} />
-          </div>
-        )}
-      </div>
-    );
-  };
-
-  const SectionHead = ({ title, count, type }) => (
-    <div
-      className={`px-4 py-3 ${isMaster(type) ? "bg-linear-to-r from-slate-900 via-blue-900 to-blue-700" : "bg-linear-to-r from-indigo-950 via-indigo-800 to-indigo-600"}`}
-    >
-      <div className="text-xs font-extrabold tracking-widest uppercase text-white">
-        {title}
-      </div>
-      <div className="text-xs text-white/50 mt-0.5">{count} courses</div>
-    </div>
-  );
-
-  return (
-    <div className="flex flex-col h-full">
-      {/* Search */}
-      <div className="px-4 py-3 bg-white border-b border-slate-100 sticky top-0 z-10 shadow-sm">
-        <div className="flex items-center gap-2 bg-slate-50 rounded-xl px-3.5 py-2.5 border border-slate-200">
-          <svg
-            className="w-3.5 h-3.5 text--black shrink-0"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"
-            />
-          </svg>
-          <input
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search courses..."
-            className="bg-transparent border-0 outline-none text-sm text-black w-full placeholder-slate-400"
-          />
-          {search && (
-            <button
-              onClick={() => setSearch("")}
-              className="bg-transparent border-0 cursor-pointer text-black p-0"
-            >
-              <svg
-                className="w-3 h-3"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2.5}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-          )}
-        </div>
-      </div>
-
-      <div className="overflow-y-auto flex-1">
-        {filteredM.length > 0 && (
-          <>
-            <SectionHead
-              title="🎓 Master Diploma Course Multi Skills"
-              count={filteredM.length}
-              type="master"
-            />
-            {filteredM.map((c) => (
-              <Row key={c.id} course={c} type="master" />
-            ))}
-          </>
-        )}
-        {filteredA.length > 0 && (
-          <>
-            <SectionHead
-              title="🏆 Advance Professional Specialization Course"
-              count={filteredA.length}
-              type="advance"
-            />
-            {filteredA.map((c) => (
-              <Row key={c.id} course={c} type="advance" />
-            ))}
-          </>
-        )}
-        {filteredM.length === 0 && filteredA.length === 0 && (
-          <div className="py-10 text-center text-black text-sm">
-            No courses found
-          </div>
-        )}
+        <CourseDetail course={course} type={type} onBack={onClose} />
       </div>
     </div>
   );
 }
 
-function CourseBtn({ course, isActive, onClick, type }) {
-  const master = isMaster(type);
-  return (
-    <button
-      onClick={onClick}
-      className={`w-full flex items-center gap-2.5 px-3.5 py-3 border-b border-slate-100 border-0 cursor-pointer text-left transition-all duration-150 ${isActive ? (master ? "bg-linear-to-r from-blue-700 to-blue-600 shadow-[inset_4px_0_0_#93c5fd]" : "bg-linear-to-r from-indigo-700 to-indigo-600 shadow-[inset_4px_0_0_#a5b4fc]") : "bg-white hover:bg-slate-50"}`}
-    >
-      <span
-        className={`w-8 h-8 rounded-xl flex items-center justify-center text-base shrink-0 ${isActive ? "bg-white/20 text-white" : master ? "bg-blue-50 text-blue-700" : "bg-indigo-50 text-indigo-700"}`}
-      >
-        {course.icon}
-      </span>
-      <div className="min-w-0 flex-1">
-        <div
-          className={`text-xs font-semibold truncate leading-snug ${isActive ? "text-white" : "text-black"}`}
-        >
-          {course.title}
-        </div>
-        <div
-          className={`text-xs mt-0.5 truncate ${isActive ? "text-white/60" : "text-black"}`}
-        >
-          {course.subtitle}
-        </div>
-      </div>
-      {course.badge && (
-        <span
-          className={`text-xs font-bold rounded-full px-1.5 py-0.5 shrink-0 ${isActive ? "bg-white/20 text-white" : "bg-amber-100 text-amber-800"}`}
-        >
-          {course.badge.replace(/[🔥🚀]/g, "").trim()}
-        </span>
-      )}
-    </button>
-  );
-}
-
-function PanelHead({ title1, title2, count, type }) {
-  const master = isMaster(type);
-  return (
-    <div
-      className={`px-3.5 py-3 sticky top-0 z-5 ${master ? "bg-linear-to-b from-blue-900 to-blue-700" : "bg-linear-to-b from-indigo-900 to-indigo-700"}`}
-    >
-      <div className="text-xs font-extrabold tracking-widest uppercase text-white leading-relaxed">
-        {title1}
-      </div>
-      <div className="text-xs font-extrabold tracking-widest uppercase text-white leading-relaxed">
-        {title2}
-      </div>
-      <div
-        className={`text-xs mt-1 ${master ? "text-blue-200/80" : "text-indigo-200/80"}`}
-      >
-        {count} courses
-      </div>
-    </div>
-  );
-}
-
-function DefaultView({ onSelect }) {
-  const fm = masterDiplomaCourses.filter((c) =>
-    ["wd", "ai", "ds", "py"].includes(c.id),
-  );
-  const fa = advanceSpecializationCourses.filter((c) =>
-    ["adfa", "sapfico", "tally", "cia"].includes(c.id),
-  );
-
-  return (
-    <div className="p-6">
-      {/* Hero */}
-      <div className="rounded-3xl overflow-hidden mb-6 relative shadow-xl">
-        <img
-          src="/Hero1.jpeg"
-          alt="IIOFT"
-          className="w-full h-52 object-cover block"
-        />
-        <div className="absolute inset-0 bg-linear-to-br from-slate-900/90 via-blue-900/80 to-indigo-700/65 flex flex-col items-center justify-center p-6">
-          <img
-            src="/Logo.png"
-            alt="IIOFT Logo"
-            className="h-12 object-contain mb-3 drop-shadow-lg"
-          />
-          <p className="text-white text-lg font-extrabold tracking-wide text-center leading-relaxed m-0">
-            <span className="text-red-300">Think Smart</span>
-            <span className="text-white/40 mx-2.5">|</span>
-            <span className="text-yellow-200">Learn Smart</span>
-            <span className="text-white/40 mx-2.5">|</span>
-            <span className="text-sky-300">Skill Up with IIOFT</span>
-          </p>
-        </div>
-      </div>
-
-      {/* Stats */}
-      <div className="bg-linear-to-br from-slate-900 via-blue-900 to-blue-700 rounded-2xl p-5 mb-6 shadow-lg shadow-blue-900/30">
-       
-        <div className="grid grid-cols-3 gap-2.5">
-          {STATS.map(([num, label]) => (
-            <div
-              key={label}
-              className="bg-white/10 backdrop-blur border border-white/20 rounded-2xl text-center py-3 px-2"
-            >
-              <div className="text-2xl font-black text-white leading-none">
-                {num}
-              </div>
-              <div className="text-xs uppercase tracking-wider text-blue-200/80 mt-1">
-                {label}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Master Featured */}
-      <div className="mb-5">
-        <div className="flex items-center gap-2 mb-3">
-          <span className="w-1 h-5 rounded-sm bg-linear-to-b from-blue-700 to-blue-400 inline-block" />
-          <span className="text-xs font-extrabold tracking-widest uppercase text-blue-700">
-            Master Diploma — Featured
-          </span>
-        </div>
-        <div className="grid grid-cols-2 gap-2.5">
-          {fm.map((c) => (
-            <button
-              key={c.id}
-              onClick={() => onSelect(c, "master")}
-              className="bg-white border border-slate-200 rounded-2xl p-4 text-left cursor-pointer hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150 w-full"
-            >
-              <div className="flex items-center gap-2 mb-2.5">
-                <span className="w-9 h-9 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center text-lg">
-                  {c.icon}
-                </span>
-                {c.badge && (
-                  <span className="text-xs font-bold bg-amber-100 text-amber-800 rounded-full px-2 py-0.5">
-                    {c.badge.replace(/[🔥🚀]/g, "").trim()}
-                  </span>
-                )}
-              </div>
-              <div className="text-sm font-bold text-black leading-snug mb-1">
-                {c.title}
-              </div>
-              <div className="text-xs text-black mb-2.5">{c.subtitle}</div>
-              <div className="text-xs font-semibold text-blue-700">
-                View Syllabus →
-              </div>
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* Advance Featured */}
-      <div className="mb-4">
-        <div className="flex items-center gap-2 mb-3">
-          <span className="w-1 h-5 rounded-sm bg-linear-to-b from-indigo-700 to-indigo-400 inline-block" />
-          <span className="text-xs font-extrabold tracking-widest uppercase text-indigo-700">
-            Advance Specialization — Featured
-          </span>
-        </div>
-        <div className="grid grid-cols-2 gap-2.5">
-          {fa.map((c) => (
-            <button
-              key={c.id}
-              onClick={() => onSelect(c, "advance")}
-              className="bg-white border border-slate-200 rounded-2xl p-4 text-left cursor-pointer hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150 w-full"
-            >
-              <div className="flex items-center gap-2 mb-2.5">
-                <span className="w-9 h-9 rounded-xl bg-indigo-50 text-indigo-700 flex items-center justify-center text-lg">
-                  {c.icon}
-                </span>
-              </div>
-              <div className="text-sm font-bold text-slate-800 leading-snug mb-1">
-                {c.title}
-              </div>
-              <div className="text-xs text-black mb-2.5">{c.subtitle}</div>
-              <div className="text-xs font-semibold text-indigo-700">
-                View Syllabus →
-              </div>
-            </button>
-          ))}
-        </div>
-      </div>
-
-     
-    </div>
-  );
-}
+// ─── MAIN COMPONENT ───────────────────────────────────────────────────────────
+const BATCH_SIZE = 6;
 
 export default function CourseSyllabus() {
-  const [selected, setSelected] = useState(null);
-  const [selType, setSelType] = useState(null);
+  const [activeTab, setActiveTab] = useState("master"); // "master" | "advance"
+  const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
+  const [modalCourse, setModalCourse] = useState(null);
+  const [modalType, setModalType] = useState(null);
   const [search, setSearch] = useState("");
-  const [mSearch, setMSearch] = useState("");
 
-  const pick = (c, t) => {
-    setSelected(c);
-    setSelType(t);
+  const allCourses =
+    activeTab === "master"
+      ? masterDiplomaCourses
+      : advanceSpecializationCourses;
+
+  const filtered = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    if (!q) return allCourses;
+    return allCourses.filter(
+      (c) =>
+        c.title.toLowerCase().includes(q) ||
+        c.subtitle.toLowerCase().includes(q),
+    );
+  }, [activeTab, search, allCourses]);
+
+  const visible = filtered.slice(0, visibleCount);
+  const hasMore = visibleCount < filtered.length;
+
+  const handleTab = (tab) => {
+    setActiveTab(tab);
+    setVisibleCount(BATCH_SIZE);
+    setSearch("");
   };
 
-  const fm = useMemo(() => {
-    const q = search.toLowerCase();
-    return q
-      ? masterDiplomaCourses.filter(
-          (c) =>
-            c.title.toLowerCase().includes(q) ||
-            c.subtitle.toLowerCase().includes(q),
-        )
-      : masterDiplomaCourses;
-  }, [search]);
-
-  const fa = useMemo(() => {
-    const q = search.toLowerCase();
-    return q
-      ? advanceSpecializationCourses.filter(
-          (c) =>
-            c.title.toLowerCase().includes(q) ||
-            c.subtitle.toLowerCase().includes(q),
-        )
-      : advanceSpecializationCourses;
-  }, [search]);
+  const openModal = (course, type) => {
+    setModalCourse(course);
+    setModalType(type);
+  };
+  const closeModal = () => {
+    setModalCourse(null);
+    setModalType(null);
+  };
 
   return (
-    <div className="h-screen flex flex-col">
-      {/* Desktop Header */}
-      <div className="hidden md:block bg-linear-to-r from-slate-900 via-blue-900 to-blue-700 px-6 py-3.5 shrink-0 shadow-lg shadow-black/20">
-        <div className="flex items-center justify-between">
-          <div>
-            <p className="text-xs text-blue-300/85 mb-2">
-              All Industry-Ready Programs — Tech, Design & Business
-            </p>
-            <div className="flex gap-7">
-              {STATS.map(([num, label]) => (
-                <div key={label} className="flex items-baseline gap-1.5">
-                  <span className="text-xl font-black text-white">{num}</span>
-                  <span className="text-xs uppercase tracking-widest text-blue-200/80">
-                    {label}
-                  </span>
-                </div>
-              ))}
-            </div>
+    <div className="min-h-screen bg-slate-50 flex flex-col">
+      {/* ── FILTER TABS + SEARCH ── */}
+      <div className="sticky top-16 z-30 bg-white border-b border-slate-200 shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex flex-col sm:flex-row items-center justify-between gap-3">
+          {/* Tabs */}
+          <div className="flex rounded-xl overflow-hidden border border-slate-200 shrink-0">
+            <button
+              onClick={() => handleTab("master")}
+              className={`px-5 py-2.5 text-sm font-semibold cursor-pointer border-0 transition-all duration-150 ${
+                activeTab === "master"
+                  ? "bg-linear-to-r from-blue-700 to-blue-600 text-white shadow-inner"
+                  : "bg-white text-slate-600 hover:bg-slate-50"
+              }`}
+            >
+              🎓 Master Diploma
+            </button>
+            <button
+              onClick={() => handleTab("advance")}
+              className={`px-5 py-2.5 text-sm font-semibold cursor-pointer border-0 border-l border-slate-200 transition-all duration-150 ${
+                activeTab === "advance"
+                  ? "bg-linear-to-r from-indigo-700 to-indigo-600 text-white shadow-inner"
+                  : "bg-white text-slate-600 hover:bg-slate-50"
+              }`}
+            >
+              🏆 Advance Professional
+            </button>
           </div>
-          <div className="flex items-center gap-2 bg-white/15 backdrop-blur rounded-2xl px-4 py-2.5 border border-white/20 min-w-56">
+
+          {/* Search */}
+          <div className="flex items-center gap-2 bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2 w-full sm:w-64">
             <svg
-              className="w-3.5 h-3.5 text-white/50 shrink-0"
+              className="w-4 h-4 text-slate-400 shrink-0"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -4658,17 +4463,20 @@ export default function CourseSyllabus() {
             </svg>
             <input
               value={search}
-              onChange={(e) => setSearch(e.target.value)}
+              onChange={(e) => {
+                setSearch(e.target.value);
+                setVisibleCount(BATCH_SIZE);
+              }}
               placeholder="Search courses..."
-              className="bg-transparent border-0 outline-none text-sm text-white placeholder-white/50 w-full"
+              className="bg-transparent border-0 outline-none text-sm text-slate-700 w-full placeholder-slate-400"
             />
             {search && (
               <button
                 onClick={() => setSearch("")}
-                className="bg-transparent border-0 cursor-pointer text-white/50 p-0"
+                className="bg-transparent border-0 cursor-pointer text-slate-400 p-0"
               >
                 <svg
-                  className="w-3 h-3"
+                  className="w-3.5 h-3.5"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -4686,106 +4494,77 @@ export default function CourseSyllabus() {
         </div>
       </div>
 
-      {/* Mobile Header */}
-      <div className="md:hidden bg-linear-to-r from-slate-900 via-blue-900 to-blue-700 px-4 py-3 shrink-0">
-        <div className="flex items-center justify-between">
-          <p className="text-xs text-blue-300/85 m-0">
-            Industry-Ready Programs
-          </p>
-          <div className="flex gap-4">
-            {STATS.map(([num, label]) => (
-              <div key={label} className="text-center">
-                <div className="text-sm font-black text-white">{num}</div>
-                <div className="text-xs uppercase tracking-wider text-blue-200/80">
-                  {label}
-                </div>
-              </div>
+      {/* ── COURSE GRID ── */}
+      <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 py-10">
+        {/* Section heading */}
+        <div className="mb-6 flex items-center gap-3">
+          <span
+            className={`w-1 h-6 rounded-sm ${activeTab === "master" ? "bg-blue-600" : "bg-indigo-600"}`}
+          />
+          <h2 className="text-sm font-extrabold uppercase tracking-widest text-slate-700">
+            {activeTab === "master"
+              ? "Master Diploma Course — Multi Skills"
+              : "Advance Professional Specialization"}
+          </h2>
+          <span className="text-xs text-slate-400 font-medium ml-1">
+            ({filtered.length} courses)
+          </span>
+        </div>
+
+        {filtered.length === 0 ? (
+          <div className="text-center py-16 text-slate-400 text-sm">
+            No courses found for "{search}"
+          </div>
+        ) : (
+          <div
+            className="grid gap-6"
+            style={{
+              gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+            }}
+          >
+            {visible.map((course) => (
+              <CourseCard
+                key={course.id}
+                course={course}
+                type={activeTab}
+                onViewDetails={openModal}
+              />
             ))}
           </div>
-        </div>
-      </div>
+        )}
 
-      {/* Mobile Layout */}
-      <div className="md:hidden flex-1 overflow-hidden">
-        <MobileView search={mSearch} setSearch={setMSearch} />
-      </div>
-
-      {/* Desktop 3-Panel */}
-      <div className="hidden md:flex flex-1 min-h-0 overflow-hidden">
-        {/* LEFT panel */}
-        <div className="w-56 shrink-0 bg-white border-r border-black overflow-y-auto h-full">
-          <PanelHead
-            title1="🎓 Master Diploma"
-            title2="Course Multi Skills"
-            count={fm.length}
-            type="master"
-          />
-          {fm.length === 0 ? (
-            <div className="p-4 text-center text-black text-xs">No results</div>
-          ) : (
-            fm.map((c) => (
-              <CourseBtn
-                key={c.id}
-                course={c}
-                isActive={selected?.id === c.id}
-                onClick={() => pick(c, "master")}
-                type="master"
-              />
-            ))
-          )}
-        </div>
-
-        {/* CENTER panel */}
-        <div className="flex-1 overflow-y-auto min-w-0">
-          {selected ? (
-            <CourseDetail
-              course={selected}
-              type={selType}
-              onBack={() => {
-                setSelected(null);
-                setSelType(null);
-              }}
-            />
-          ) : (
-            <DefaultView onSelect={pick} />
-          )}
-        </div>
-
-        {/* RIGHT panel */}
-        <div className="w-56 shrink-0 bg-white border-l border-black overflow-y-auto h-full">
-          <PanelHead
-            title1="🏆 Advance Professional"
-            title2="Specialization Course"
-            count={fa.length}
-            type="advance"
-          />
-          {fa.length === 0 ? (
-            <div className="p-4 text-center text-black text-xs">No results</div>
-          ) : (
-            fa.map((c) => (
-              <CourseBtn
-                key={c.id}
-                course={c}
-                isActive={selected?.id === c.id}
-                onClick={() => pick(c, "advance")}
-                type="advance"
-              />
-            ))
-          )}
-        </div>
-      </div>
-       {/* ── Footer ── */}
-      <footer className="bg-blue-950 mt-6">
-        <div className="max-w-6xl mx-auto px-4 py-4 sm:py-5 flex flex-col sm:flex-row justify-between items-center gap-2">
-          <p className="text-blue-300 text-xs sm:text-sm text-center">
-            © 2026 IIOFT. All Rights Reserved.
-          </p>
-          <div className="flex gap-4">
-            <a href="tel:+919560307098" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">+91 9560307098</a>
-            <a href="mailto:info@iioft.co.in" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">info@iioft.co.in</a>
+        {/* ── LOAD MORE ── */}
+        {hasMore && (
+          <div className="text-center mt-12">
+            <button
+              onClick={() => setVisibleCount((c) => c + BATCH_SIZE)}
+              className={`inline-flex items-center gap-2 px-8 py-3 rounded-full font-semibold text-sm border-2 cursor-pointer transition-all duration-150 ${
+                activeTab === "master"
+                  ? "border-blue-700 text-blue-700 hover:bg-blue-700 hover:text-white"
+                  : "border-indigo-700 text-indigo-700 hover:bg-indigo-700 hover:text-white"
+              }`}
+            >
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+              Load More Courses ({filtered.length - visibleCount} remaining)
+            </button>
           </div>
-        </div>
-      </footer>
+        )}
+      </main>
+
+      {/* ── MODAL ── */}
+      <Modal course={modalCourse} type={modalType} onClose={closeModal} />
     </div>
   );
 }
