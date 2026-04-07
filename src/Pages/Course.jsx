@@ -4119,7 +4119,7 @@ const iconBgMap = {
   DOAP: "bg-red-500",
   PPRO: "bg-blue-500",
   FILMORA: "bg-purple-600",
-  AEF: "bg-orange-400",
+  AEF: "bg-blue-400",
   ANIM2D3D: "bg-red-600",
   ANIM: "bg-yellow-400",
 };
@@ -4330,16 +4330,6 @@ function CourseCard({ course, type, onViewDetails }) {
         {/* Duration + CTA */}
         <div className="flex items-center justify-between pt-3 border-t border-slate-100">
           <div className="flex items-center gap-1.5 text-xs text-slate-500">
-            <svg
-              className="w-3.5 h-3.5 shrink-0"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-            >
-              <circle cx="12" cy="12" r="10" />
-              <path strokeLinecap="round" d="M12 6v6l4 2" />
-            </svg>
             {course.duration}
           </div>
           <button
