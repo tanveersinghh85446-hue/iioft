@@ -164,6 +164,7 @@ const masterDiplomaCourses = [
       "Mock Interviews & Resume Review",
     ],
   },
+
   {
     id: "ZBRUSH",
     icon: <IoPencilSharp />,
@@ -262,6 +263,7 @@ const masterDiplomaCourses = [
       "Portfolio Presentation & Mock Client Pitch",
     ],
   },
+
   {
     id: "DTP",
     icon: <IoNewspaperSharp />,
@@ -4061,7 +4063,9 @@ const advanceSpecializationCourses = [
         ],
       },
     ],
-    tools: ["Blender"],
+    tools: [
+      "Blender"
+    ],
     projects: [
       "Simple Object & Basic Scene Setup",
       "Product Model & Simple Character Model",
@@ -4078,7 +4082,6 @@ const advanceSpecializationCourses = [
 // ─── ICON BG COLORS ──────────────────────────────────────────────────────────
 const iconBgMap = {
   BLENDER: "bg-blue-600",
-
   GD: "bg-black",
   BA: "bg-yellow-500",
   wd: "bg-blue-400",
