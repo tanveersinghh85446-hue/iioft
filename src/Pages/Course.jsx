@@ -2093,6 +2093,7 @@ const advanceSpecializationCourses = [
       "Demo Reel & Portfolio Presentation",
     ],
   },
+
   {
     id: "FILMORA",
     icon: <IoPlaySharp />,
@@ -2188,6 +2189,7 @@ const advanceSpecializationCourses = [
       "Demo Reel & Portfolio Presentation",
     ],
   },
+
   {
     id: "PPRO",
     icon: <IoVideocamSharp />,
@@ -2286,6 +2288,7 @@ const advanceSpecializationCourses = [
       "Showreel & Portfolio Presentation",
     ],
   },
+
   {
     id: "MAYA",
     icon: <IoSparklesSharp />,
@@ -2397,6 +2400,7 @@ const advanceSpecializationCourses = [
       "Demo Reel & Portfolio Presentation",
     ],
   },
+
   {
     id: "UIUX",
     icon: <IoPhonePortraitSharp />,
@@ -4073,34 +4077,48 @@ const advanceSpecializationCourses = [
 
 // ─── ICON BG COLORS ──────────────────────────────────────────────────────────
 const iconBgMap = {
-  wd: "bg-blue-900",
+  BLENDER: "bg-blue-600",
+
+  GD: "bg-black",
+  BA: "bg-yellow-500",
+  wd: "bg-blue-400",
   ds: "bg-purple-900",
   da: "bg-cyan-900",
   eh: "bg-red-900",
   dm: "bg-orange-900",
   id: "bg-pink-900",
   fa: "bg-green-900",
-  hr: "bg-teal-900",
-  py: "bg-yellow-900",
-  uiux: "bg-fuchsia-900",
-  cc: "bg-sky-900",
-  ai: "bg-violet-900",
+  hr: "bg-blue-900",
+  py: "bg-green-600",
+  uiux: "bg-fuchsia-600",
+  cc: "bg-sky-600",
+  ai: "bg-violet-600",
   mad: "bg-rose-900",
   mso: "bg-indigo-900",
   pd: "bg-amber-900",
   se: "bg-lime-900",
   vba: "bg-emerald-900",
   mac: "bg-slate-800",
-  adfa: "bg-green-950",
-  aml: "bg-red-950",
-  tally: "bg-blue-950",
-  cia: "bg-purple-950",
-  busy: "bg-orange-950",
-  sapfico: "bg-cyan-950",
-  sapmm: "bg-teal-950",
-  sapsd: "bg-violet-950",
+  adfa: "bg-green-900",
+  aml: "bg-red-900",
+  tally: "bg-blue-900",
+  cia: "bg-purple-900",
+  busy: "bg-orange-900",
+  sapfico: "bg-cyan-900",
+  sapmm: "bg-teal-900",
+  sapsd: "bg-violet-900",
+  DTP: "bg-pink-600",
   sappp: "bg-indigo-950",
-  saphcm: "bg-rose-950",
+  saphcm: "bg-rose-500",
+  UIUX: "bg-green-600",
+  MAYA: "bg-red-600",
+  ZBRUSH: "bg-orange-500",
+  DOAP: "bg-red-500",
+  PPRO: "bg-blue-500",
+  FILMORA: "bg-purple-600",
+  AEF: "bg-orange-400",
+  ANIM2D3D: "bg-red-600",
+  ANIM: "bg-yellow-400",
 };
 
 // ─── COURSE DETAIL (unchanged) ────────────────────────────────────────────────
@@ -4432,7 +4450,7 @@ export default function CourseSyllabus() {
                   : "bg-white text-slate-600 hover:bg-slate-50"
               }`}
             >
-              🎓 Master Diploma
+              Master Diploma
             </button>
             <button
               onClick={() => handleTab("advance")}
@@ -4442,7 +4460,7 @@ export default function CourseSyllabus() {
                   : "bg-white text-slate-600 hover:bg-slate-50"
               }`}
             >
-              🏆 Advance Professional
+              Advance Professional
             </button>
           </div>
 
@@ -4468,7 +4486,7 @@ export default function CourseSyllabus() {
                 setVisibleCount(BATCH_SIZE);
               }}
               placeholder="Search courses..."
-              className="bg-transparent border-0 outline-none text-sm text-slate-700 w-full placeholder-slate-400"
+              className="bg-transparent border-0 outline-none text-sm text-black w-full placeholder-black"
             />
             {search && (
               <button
@@ -4506,9 +4524,9 @@ export default function CourseSyllabus() {
               ? "Master Diploma Course — Multi Skills"
               : "Advance Professional Specialization"}
           </h2>
-          <span className="text-xs text-slate-400 font-medium ml-1">
+          {/* <span className="text-xs text-slate-400 font-medium ml-1">
             ({filtered.length} courses)
-          </span>
+          </span> */}
         </div>
 
         {filtered.length === 0 ? (
