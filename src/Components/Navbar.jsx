@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const NAV_LINKS = [
   { path: "/", name: "Home" },
-    { path: "/about", name: "About" },
+  { path: "/about", name: "About" },
   { path: "/course", name: "Course" },
   { path: "/contact", name: "Contact" },
 ];
@@ -28,7 +28,6 @@ export default function Navbar() {
   const [aboutHover, setAboutHover] = useState(false);
   const [aboutMobileOpen, setAboutMobileOpen] = useState(false);
 
-  // Mobile links (flat list without About, replaced by dropdown)
   const MOBILE_LINKS = [
     { path: "/", name: "Home" },
     { path: "/course", name: "Course" },
@@ -40,9 +39,7 @@ export default function Navbar() {
     <>
       <nav className="bg-blue-600 text-white shadow-md w-full relative z-50">
         <div className="px-4 md:px-8 py-4 md:py-5">
-
           <div className="flex items-center justify-between">
-
             <Link to="/">
               <img
                 className="max-h-12 w-auto object-contain"
@@ -62,8 +59,6 @@ export default function Navbar() {
               className="hidden md:flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 font-semibold text-sm sm:text-base md:text-lg"
             >
               {NAV_LINKS.map(({ path, name }) => {
-
-                // About ke liye dropdown
                 if (name === "About") {
                   return (
                     <div
@@ -99,19 +94,22 @@ export default function Navbar() {
                             transition={{ duration: 0.25 }}
                             className="absolute top-full left-0 mt-2 w-40 bg-white rounded-xl shadow-xl overflow-hidden z-50"
                           >
-                            {ABOUT_DROPDOWN.map(({ path: dPath, name: dName }) => (
-                              <Link
-                                key={dPath}
-                                to={dPath}
-                                className={`block px-4 py-3 text-sm font-semibold transition duration-200 border-b border-blue-50 last:border-0
-                                  ${pathname === dPath
-                                    ? "bg-blue-600 text-white"
-                                    : "text-blue-600 hover:bg-blue-600 hover:text-white"
+                            {ABOUT_DROPDOWN.map(
+                              ({ path: dPath, name: dName }) => (
+                                <Link
+                                  key={dPath}
+                                  to={dPath}
+                                  className={`block px-4 py-3 text-sm font-semibold transition duration-200 border-b border-blue-50 last:border-0
+                                  ${
+                                    pathname === dPath
+                                      ? "bg-blue-600 text-white"
+                                      : "text-blue-600 hover:bg-blue-600 hover:text-white"
                                   }`}
-                              >
-                                {dName}
-                              </Link>
-                            ))}
+                                >
+                                  {dName}
+                                </Link>
+                              ),
+                            )}
                           </motion.div>
                         )}
                       </AnimatePresence>
@@ -134,15 +132,20 @@ export default function Navbar() {
               })}
             </motion.div>
 
-            {/* Hamburger Button — mobile only */}
             <button
               className="md:hidden flex flex-col gap-1.5 p-2 focus:outline-none"
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle menu"
             >
-              <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isOpen ? "rotate-45 translate-y-2" : ""}`} />
-              <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isOpen ? "opacity-0" : ""}`} />
-              <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isOpen ? "-rotate-45 -translate-y-2" : ""}`} />
+              <span
+                className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isOpen ? "rotate-45 translate-y-2" : ""}`}
+              />
+              <span
+                className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isOpen ? "opacity-0" : ""}`}
+              />
+              <span
+                className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isOpen ? "-rotate-45 -translate-y-2" : ""}`}
+              />
             </button>
           </div>
 
@@ -150,7 +153,6 @@ export default function Navbar() {
           <h1 className="md:hidden font-bold text-base sm:text-lg leading-tight text-center mt-2">
             INTERNATIONAL INSTITUTE OF FUTURISTIC TECHNOLOGY
           </h1>
-
         </div>
       </nav>
 
@@ -213,7 +215,7 @@ export default function Navbar() {
                   transition={{ duration: 0.3 }}
                   className="text-xs"
                 >
-                  ▼
+                  +
                 </motion.span>
               </button>
 
@@ -232,7 +234,9 @@ export default function Navbar() {
                         to={path}
                         onClick={() => setIsOpen(false)}
                         className={`text-base font-medium transition duration-300 ${
-                          pathname === path ? "text-black" : "text-blue-200 hover:text-white"
+                          pathname === path
+                            ? "text-black"
+                            : "text-blue-200 hover:text-white"
                         }`}
                       >
                         → {name}
@@ -242,7 +246,6 @@ export default function Navbar() {
                 )}
               </AnimatePresence>
             </div>
-
           </motion.div>
         )}
       </AnimatePresence>
