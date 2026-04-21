@@ -1,10 +1,10 @@
 import React from "react";
-
 import { Routes, Route, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import Navbar from "./Components/Navbar";
-
+import WelcomeAnimation from "./Components/WelcomeAnimation"; //
+import Testimonials from "./Pages/Testimonials";
 import Contact from "./Pages/Contact";
 import Course from "./Pages/Course";
 import About from "./Pages/About";
@@ -18,14 +18,17 @@ function App() {
 
     useEffect(() => {
         const hasSeenPopup = localStorage.getItem("careerPopupShown");
-
         if (hasSeenPopup !== "true") {
             setShowPopup(true);
             localStorage.setItem("careerPopupShown", "true");
         }
     }, []);
+
     return (
         <div className="relative">
+
+            {/* ✅ Welcome Animation - sirf pehli baar dikhega */}
+            <WelcomeAnimation />
 
             {/* POPUP */}
             {showPopup && (
@@ -73,16 +76,9 @@ function App() {
                                 <option>Artificial Intelligence</option>
                                 <option>Cloud Computing</option>
                                 <option>UI/UX Design</option>
-                                <option></option>
-                                <option></option>
-                                <option></option>
-                                <option></option>
-                                <option></option>
-
-
                             </select>
 
-                            <Link to="Apply" className="bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+                            <Link to="Apply" className="bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 text-center">
                                 Submit
                             </Link>
                         </form>
@@ -99,6 +95,7 @@ function App() {
                 <Route path="/course" element={<Course />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/blog" element={<Blog />} />
+                <Route path="/testimonials" element={<Testimonials />}  />
                 <Route path="/know-more" element={<KnowMore />} />
                 <Route path="/Apply" element={<Apply />} />
             </Routes>

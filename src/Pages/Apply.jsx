@@ -130,15 +130,12 @@ function ApplyForm() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -30 }}
           transition={{ duration: 0.5 }}
-          className="w-full max-w-xl mx-auto bg-white/80 backdrop-blur-xl border border-white/60 rounded-3xl shadow-2xl p-8"
+          className="w-full max-w-xl mx-auto bg-white/80 backdrop-blur-xl border border-white/60 rounded-xl shadow-2xl p-8"
         >
-          <div className="flex items-center gap-4 mb-6">
-            <div className="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-700 font-bold text-sm shrink-0">
-              IIOFT
-            </div>
+          <div className="items-center gap-4 mb-6">
+           <img src="/Logo.png" alt="Logo" className="w-120 h-22" />
             <div>
-              <h3 className="text-xl font-extrabold text-gray-800">Admission Application 2026</h3>
-              <p className="text-xs text-gray-400 mt-0.5">Fill the form — we'll contact you on WhatsApp</p>
+              <h3 className="text-xl mt-6 font-extrabold text-gray-800 justify-center items-center flex">Admission</h3>
             </div>
           </div>
 
@@ -212,7 +209,7 @@ function ApplyForm() {
               Message (Optional)
             </label>
             <textarea name="message" value={form.message} onChange={handleChange} rows={3}
-              placeholder="Any questions or queries? Write here..."
+              placeholder="Any questions or queries?"
               className={`${inputBase} ${normalBorder} resize-none`} />
           </div>
 
@@ -236,12 +233,12 @@ function ApplyForm() {
             className="w-full flex items-center justify-center gap-3 py-3.5 rounded-2xl bg-[#25D366] hover:bg-[#20c25c] text-white font-bold text-base shadow-lg transition-colors"
           >
             <WhatsAppIcon size={20} />
-            Send Application on WhatsApp
+            Send on WhatsApp
           </motion.button>
 
-          <p className="text-center text-xs text-gray-400 mt-3">
+          {/* <p className="text-center text-xs text-gray-400 mt-3">
             No forms, no waiting — instant reply on WhatsApp
-          </p>
+          </p> */}
         </motion.div>
       ) : (
         <motion.div
@@ -421,8 +418,8 @@ export default function Apply() {
           className="text-center mb-12"
         >
           <h2 className="text-4xl font-extrabold text-indigo-700">Apply Now</h2>
-          <p className="text-gray-500 mt-3 text-lg">
-            Fill the form below — your details will be sent directly to us on WhatsApp
+          <p className="text-gray-500 mt-6 text-lg">
+            INTERNATIONAL INSTITUTE OF FUTURISTIC TECHNOLOGY
           </p>
         </motion.div>
 

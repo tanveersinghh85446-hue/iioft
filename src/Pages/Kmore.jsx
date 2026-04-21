@@ -57,7 +57,7 @@ const WHY_CHOOSE = [
     icon: "💼",
     title: "Career Support",
     text: "Dedicated placement cell guiding every student toward top companies and dream roles.",
-    stat: "95% Placement",
+    stat: "100% Placement",
   },
 ];
 
@@ -178,7 +178,7 @@ export default function Kmore() {
             transition={{ delay: 0.8, duration: 0.7 }}
             className="mt-10 flex flex-wrap justify-center gap-3"
           >
-            {["500+ Graduates", "95% Placement Rate", "10+ Courses", "Est. 2018"].map((s) => (
+            {["500+ Graduates", "100% Placement Rate", "42+ Courses"].map((s) => (
               <span key={s} className="bg-white/10 border border-white/20 backdrop-blur-sm text-white text-xs sm:text-sm px-4 py-2 rounded-full font-medium">
                 {s}
               </span>
