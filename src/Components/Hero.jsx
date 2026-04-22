@@ -514,76 +514,50 @@ export default function Hero() {
 
       {/* FAQ */}
 
-      {/* <section className="py-20 bg-blue-100">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-600 mb-14">
-            Frequently Asked Questions
-          </h2>
-          <div className="space-y-4">
-            {FAQS.map((faq, i) => (
-              <div
-                key={i}
-                className="bg-white rounded-lg shadow-md overflow-hidden"
-              >
-                <button
-                  className="flex justify-between items-center p-6 w-full text-left"
-                  onClick={() => toggle(i)}
-                >
-                  <h3 className="text-lg font-semibold text-blue-600">
-                    {faq.question}
-                  </h3>
-                  <span className="text-blue-600">
-                    {openIndex === i ? "-" : "+"}
-                  </span>
-                </button>
-                {openIndex === i && (
-                  <div className="p-6 border-t border-gray-200">
-                    <p className="text-gray-600">{faq.answer}</p>
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
+     <section
+  className="relative py-20 bg-cover bg-center bg-no-repeat"
+  style={{ backgroundImage: "url('AB.jpeg')" }}
+>
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-black/50"></div>
+
+  {/* Content */}
+  <div className="relative max-w-6xl mx-auto px-4">
+    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-white mb-14">
+      Frequently Asked Questions
+    </h2>
+
+    <div className="space-y-4">
+      {FAQS.map((faq, i) => (
+        <div
+          key={i}
+          className="bg-white/90 backdrop-blur-sm rounded-lg shadow-md overflow-hidden"
+        >
+          <button
+            className="flex justify-between items-center p-4 sm:p-6 w-full text-left"
+            onClick={() => toggle(i)}
+          >
+            <h3 className="text-base sm:text-lg font-semibold text-black">
+              {faq.question}
+            </h3>
+
+            <span className="text-red-600 text-xl font-bold">
+              {openIndex === i ? "−" : "+"}
+            </span>
+          </button>
+
+          {openIndex === i && (
+            <div className="p-4 sm:p-6 border-t border-gray-200 bg-gray-50">
+              <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+                {faq.answer}
+              </p>
+            </div>
+          )}
         </div>
-      </section> */}
-
-      <section className="py-20 bg-blue-100">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-600 mb-14">
-            Frequently Asked Questions
-          </h2>
-
-          <div className="space-y-4">
-            {FAQS.map((faq, i) => (
-              <div
-                key={i}
-                className="bg-white rounded-lg shadow-md overflow-hidden transition duration-300"
-              >
-                <button
-                  className="flex justify-between items-center p-6 w-full text-left"
-                  onClick={() => toggle(i)}
-                >
-                  <h3 className="text-lg font-semibold text-blue-600">
-                    {faq.question}
-                  </h3>
-
-                  <span className="text-blue-600 text-xl font-bold">
-                    {openIndex === i ? "−" : "+"}
-                  </span>
-                </button>
-
-                {openIndex === i && (
-                  <div className="p-6 border-t border-gray-200 bg-gray-50">
-                    <p className="text-gray-700 leading-relaxed">
-                      {faq.answer}
-                    </p>
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       <LogoMarquee />
 
