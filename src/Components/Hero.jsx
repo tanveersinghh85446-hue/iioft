@@ -37,6 +37,40 @@ const IMAGES = [
   "Hero4.jpeg",
 ];
 
+const FAQS = [
+  {
+    question: "What courses are available at IIOFT?",
+    answer:
+      "IIOFT offers industry-relevant courses such as Data Science, Web Development, Digital Marketing, Ethical Hacking, Cloud Computing, and Artificial Intelligence/Machine Learning. All programs include hands-on training and provide globally recognized certifications.",
+  },
+  {
+    question: "Does IIOFT offer a 100% placement guarantee?",
+    answer:
+      "Yes, IIOFT has a strong placement record with students placed in top companies such as Google, Microsoft, IBM, Accenture, and Wipro. Our dedicated placement team provides complete career support, including resume building and mock interviews.",
+  },
+  {
+    question: "What are the course fees, and are EMI options available?",
+    answer:
+      "Course fees vary depending on the program. We offer flexible payment plans and EMI options to make learning accessible. For detailed fee information, please contact us at +91 9560307098 or fill out the Apply Now form.",
+  },
+  {
+    question:
+      "How many IIOFT centers are there, and are online classes available?",
+    answer:
+      "IIOFT has multiple centers across India, including Delhi (Dwarka), Bangalore, Hyderabad, Pune, and Gujarat. We also have an international presence in cities like London, Toronto, New York, Paris, Sydney, Perth, Adelaide, and Cape Town. Both online and hybrid learning options are available.",
+  },
+  {
+    question: "What certification will I receive after completing the course?",
+    answer:
+      "Upon successful completion, you will receive a globally recognized IIOFT certification accepted by industries worldwide. You will also become a part of the IIOFT Alumni Network, which supports future career opportunities.",
+  },
+  {
+    question: "What are the eligibility criteria for admission?",
+    answer:
+      "Most courses require a minimum qualification of 10+2. Some advanced programs may require a graduate degree. Students from all backgrounds—engineering, commerce, or arts—are welcome. The admission process is simple: just click on the Apply Now button.",
+  },
+];
+
 const LOGOS = [
   "Google.png",
   "Alcoa.png",
@@ -224,6 +258,9 @@ function SocialButton({ href, icon }) {
 
 export default function Hero() {
   const [showMap, setShowMap] = useState(false);
+  const [openIndex, setOpenIndex] = useState(null);
+  const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
+
   const [index, setIndex] = useState(0);
   const [count, setCount] = useState({
     labs: 0,
@@ -406,61 +443,59 @@ export default function Hero() {
       </div>
 
       {/* ── HIRING PARTNERS ── */}
-      <section>
-        {/* <div className="max-w-6xl mx-auto text-center mb-14">
+
+      <section className="py-20 bg-blue-600">
+        <div className="max-w-6xl mx-auto text-center mb-14">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
             Our Hiring Partners
           </h2>
           <p className="text-blue-100 mt-4 text-lg">
             Students Placed In Top MNC Companies
           </p>
-        </div> */}
+        </div>
 
-        {/* <div className="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
-          {PLACEMENT_LOGOS.map((logo, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 40, scale: 0.9 }}
-              whileInView={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ delay: i * 0.07, duration: 0.5, ease: "easeOut" }}
-              viewport={{ once: true }}
-              whileHover={{ scale: 1.1 }}
-              className="bg-black rounded-2xl p-6 flex items-center justify-center shadow-lg hover:shadow-2xl transition duration-300"
-            >
-              <img
-                src={`/${logo}`}
-                alt="company logo"
-                className="h-12 md:h-16 object-contain opacity-80 hover:opacity-100 transition duration-300"
-              />
-            </motion.div>
-          ))}
-        </div> */}
+        {/* First Row */}
+        <div className="overflow-hidden mb-8">
+          <motion.div
+            className="flex gap-8"
+            animate={{ x: ["0%", "-100%"] }}
+            transition={{
+              repeat: Infinity,
+              duration: 18,
+              ease: "linear",
+            }}
+          >
+            {[
+              ...PLACEMENT_LOGOS.slice(0, 10),
+              ...PLACEMENT_LOGOS.slice(0, 10),
+            ].map((logo, i) => (
+              <div
+                key={i}
+                className="min-w-45 bg-black rounded-2xl p-6 flex items-center justify-center shadow-lg"
+              >
+                <img
+                  src={`/${logo}`}
+                  alt="company logo"
+                  className="h-12 md:h-16 object-contain"
+                />
+              </div>
+            ))}
+          </motion.div>
+        </div>
 
-        <section className="py-20 bg-blue-600">
-          <div className="max-w-6xl mx-auto text-center mb-14">
-            <h2 className="text-4xl md:text-5xl font-bold text-white">
-              Our Hiring Partners
-            </h2>
-            <p className="text-blue-100 mt-4 text-lg">
-              Students Placed In Top MNC Companies
-            </p>
-          </div>
-
-          {/* First Row */}
-          <div className="overflow-hidden mb-8">
-            <motion.div
-              className="flex gap-8"
-              animate={{ x: ["0%", "-100%"] }}
-              transition={{
-                repeat: Infinity,
-                duration: 18,
-                ease: "linear",
-              }}
-            >
-              {[
-                ...PLACEMENT_LOGOS.slice(0, 10),
-                ...PLACEMENT_LOGOS.slice(0, 10),
-              ].map((logo, i) => (
+        {/* Second Row */}
+        <div className="overflow-hidden">
+          <motion.div
+            className="flex gap-8"
+            animate={{ x: ["-100%", "0%"] }}
+            transition={{
+              repeat: Infinity,
+              duration: 18,
+              ease: "linear",
+            }}
+          >
+            {[...PLACEMENT_LOGOS.slice(10), ...PLACEMENT_LOGOS.slice(10)].map(
+              (logo, i) => (
                 <div
                   key={i}
                   className="min-w-45 bg-black rounded-2xl p-6 flex items-center justify-center shadow-lg"
@@ -471,39 +506,83 @@ export default function Hero() {
                     className="h-12 md:h-16 object-contain"
                   />
                 </div>
-              ))}
-            </motion.div>
-          </div>
+              ),
+            )}
+          </motion.div>
+        </div>
+      </section>
 
-          {/* Second Row */}
-          <div className="overflow-hidden">
-            <motion.div
-              className="flex gap-8"
-              animate={{ x: ["-100%", "0%"] }}
-              transition={{
-                repeat: Infinity,
-                duration: 18,
-                ease: "linear",
-              }}
-            >
-              {[...PLACEMENT_LOGOS.slice(10), ...PLACEMENT_LOGOS.slice(10)].map(
-                (logo, i) => (
-                  <div
-                    key={i}
-                    className="min-w-45 bg-black rounded-2xl p-6 flex items-center justify-center shadow-lg"
-                  >
-                    <img
-                      src={`/${logo}`}
-                      alt="company logo"
-                      className="h-12 md:h-16 object-contain"
-                    />
+      {/* FAQ */}
+
+      {/* <section className="py-20 bg-blue-100">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-600 mb-14">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-4">
+            {FAQS.map((faq, i) => (
+              <div
+                key={i}
+                className="bg-white rounded-lg shadow-md overflow-hidden"
+              >
+                <button
+                  className="flex justify-between items-center p-6 w-full text-left"
+                  onClick={() => toggle(i)}
+                >
+                  <h3 className="text-lg font-semibold text-blue-600">
+                    {faq.question}
+                  </h3>
+                  <span className="text-blue-600">
+                    {openIndex === i ? "-" : "+"}
+                  </span>
+                </button>
+                {openIndex === i && (
+                  <div className="p-6 border-t border-gray-200">
+                    <p className="text-gray-600">{faq.answer}</p>
                   </div>
-                ),
-              )}
-            </motion.div>
+                )}
+              </div>
+            ))}
           </div>
-        </section>
+        </div>
+      </section> */}
 
+      <section className="py-20 bg-blue-100">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-blue-600 mb-14">
+            Frequently Asked Questions
+          </h2>
+
+          <div className="space-y-4">
+            {FAQS.map((faq, i) => (
+              <div
+                key={i}
+                className="bg-white rounded-lg shadow-md overflow-hidden transition duration-300"
+              >
+                <button
+                  className="flex justify-between items-center p-6 w-full text-left"
+                  onClick={() => toggle(i)}
+                >
+                  <h3 className="text-lg font-semibold text-blue-600">
+                    {faq.question}
+                  </h3>
+
+                  <span className="text-blue-600 text-xl font-bold">
+                    {openIndex === i ? "−" : "+"}
+                  </span>
+                </button>
+
+                {openIndex === i && (
+                  <div className="p-6 border-t border-gray-200 bg-gray-50">
+                    <p className="text-gray-700 leading-relaxed">
+                      {faq.answer}
+                    </p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
 
       <LogoMarquee />
