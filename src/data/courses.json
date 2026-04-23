@@ -516,7 +516,7 @@
     "duration": "3 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "",
+    "image": "AA.png",
     "features": [
       "Timeline & Frame-by-Frame Animation",
       "Symbols, Masking & Easing Techniques",
@@ -606,12 +606,12 @@
     "duration": "6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "2D3D.png",
+    "image": "2D3DA.png",
     "features": [
       "12 Principles of Animation",
       "2D Frame Animation & Motion Design (Adobe Animate)",
       "3D Modeling & Texturing (Blender)",
-      "Character Rigging & Walk Cycles",
+      "Character Rigging & Walk Cycles",  
       "Eevee & Cycles Rendering",
       "Showreel & Portfolio Development"
     ],

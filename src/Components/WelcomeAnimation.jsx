@@ -6,7 +6,6 @@ export default function WelcomeAnimation() {
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    // ✅ localStorage hata diya - har refresh pe dikhega
     setTimeout(() => setFadeOut(true), 3000);
     setTimeout(() => setShow(false), 3800);
   }, []);
@@ -64,8 +63,6 @@ export default function WelcomeAnimation() {
             <img src="/Logo.png" alt="IIoFT Logo" />
           </motion.h1>
 
-        
-
           <motion.p
             className="text-blue-100 text-[10px] sm:text-xs md:text-sm mt-2 sm:mt-3 tracking-wide sm:tracking-widest uppercase text-center px-3 sm:px-0 leading-relaxed"
             initial={{ opacity: 0 }}
@@ -74,8 +71,6 @@ export default function WelcomeAnimation() {
           >
             International Institute of Futuristic Technology
           </motion.p>
-
-          
 
           {/* Tagline */}
           <motion.p
