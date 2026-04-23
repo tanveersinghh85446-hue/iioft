@@ -109,7 +109,7 @@ function CourseCard({ course }) {
             rel="noopener noreferrer"
             className={`text-xs font-semibold px-4 py-1.5 rounded-full border cursor-pointer transition-all duration-150 ${cat.accent} ${cat.btnBorder} ${cat.btnHover} hover:text-white no-underline`}
           >
-            View Details ↗
+            View Details 
           </Link>
         </div>
       </div>

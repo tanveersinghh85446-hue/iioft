@@ -628,6 +628,9 @@
     "metaTitle": "2D & 3D Animation Course | Adobe Animate & Blender | 6 Months",
     "metaDescription": "Master both 2D and 3D animation in one 6-month course. Learn Adobe Animate for 2D and Blender for 3D modeling, rigging & rendering. Build a professional animation showreel."
   },
+
+
+  
   {
     "id": "AEF",
     "slug": "adobe-after-effects-vfx-motion-graphics",
@@ -637,7 +640,7 @@
     "duration": "3–4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "",
+    "image": "AAE.png",
     "features": [
       "Motion Graphics & Kinetic Typography",
       "Green Screen & Chroma Key VFX",
@@ -668,7 +671,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "",
+    "image": "FVEC.png",
     "features": [
       "Video Cutting, Trimming & Timeline Editing",
       "Transitions, Titles & Visual Effects",
@@ -699,7 +702,7 @@
     "duration": "3 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "",
+    "image": "APP.png",
     "features": [
       "Professional Cutting & Sequence Editing",
       "Audio Editing & Sound Design",
@@ -730,7 +733,7 @@
     "duration": "6 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "",
+    "image": "MAYA.png",
     "features": [
       "Hard Surface & Organic 3D Modeling",
       "UV Mapping, Texturing & Lighting",
@@ -762,7 +765,7 @@
     "duration": "4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "",
+    "image": "UIUXDAF.png",
     "features": [
       "Design Thinking & UX Research Methods",
       "Wireframing & Information Architecture",
@@ -792,7 +795,7 @@
     "duration": "4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "",
+    "image": "BA.png",
     "features": [
       "Excel — VLOOKUP, Pivot Tables, Dashboards",
       "SQL for Business Data Extraction",
@@ -823,7 +826,7 @@
     "duration": "2-3 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "",
+    "image": "PD.png",
     "features": [
       "Communication & Active Listening Skills",
       "Public Speaking & Stage Confidence",
@@ -853,7 +856,7 @@
     "duration": "3-4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "",
+    "image": "SE.png",
     "features": [
       "Grammar — Tenses, Modals & Sentence Structure",
       "Everyday Conversation Practice",
@@ -883,7 +886,7 @@
     "duration": "2-3 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "",
+    "image": "MEVBA.png",
     "features": [
       "VBA Editor & Module Basics",
       "Recording & Editing Macros",
