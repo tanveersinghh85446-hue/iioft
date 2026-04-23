@@ -1,0 +1,1276 @@
+[
+  {
+    "id": "DOAP",
+    "slug": "diploma-office-automation-publishing",
+    "title": "Diploma in Office Automation & Publishing",
+    "shortDescription": "Master Microsoft Office, DTP tools, and office automation in this comprehensive 6-month diploma program.",
+    "fullDescription": "This 6-month diploma equips you with complete office productivity skills — from Word, Excel, PowerPoint, and Outlook to CorelDRAW-based desktop publishing. You'll learn real-world document handling, data reporting, and office automation workflows that prepare you for roles like Office Executive, MIS Executive, or Data Entry Operator.",
+    "duration": "6 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "Diploma in Office Automation & Publishing.png",
+    "features": [
+      "Microsoft Office Suite (Word, Excel, PowerPoint, Outlook, Access)",
+      "Desktop Publishing with CorelDRAW",
+      "Professional Email & Calendar Management",
+      "Office Automation & Workflow Optimization",
+      "Mock Interviews & Resume Building",
+      "10 Real-World Projects"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Computer Fundamentals & Office Productivity", "topics": ["Operating System Basics", "File/Folder Management", "Keyboard Shortcuts", "Email Usage", "Basic Cybersecurity Awareness"] },
+      { "module": 2, "title": "Microsoft Word", "topics": ["Text Formatting", "Professional Documents — Letters, Reports, Resumes", "Mail Merge", "Headers, Footers & Tables"] },
+      { "module": 3, "title": "Microsoft Excel", "topics": ["Formulas & Functions — SUM, IF, VLOOKUP", "Pivot Tables & Charts", "Data Reports & Analysis"] },
+      { "module": 4, "title": "Microsoft PowerPoint", "topics": ["Slide Design Principles", "Transitions & Animations", "Visual Storytelling"] },
+      { "module": 5, "title": "Outlook & Office Communication", "topics": ["Professional Emails", "Calendar Management", "Communication Etiquette"] },
+      { "module": 6, "title": "Microsoft Access", "topics": ["Tables, Records & Fields", "Queries & Data Retrieval", "Form-Based Data Entry"] },
+      { "module": 7, "title": "Desktop Publishing (DTP)", "topics": ["Brochures, Cards & Flyers in CorelDRAW", "Typography & Color Usage"] },
+      { "module": 8, "title": "Office Automation", "topics": ["Templates & Basic Macros", "Cloud Platform Collaboration"] },
+      { "module": 9, "title": "Practical Projects", "topics": ["Multi-Tool Projects", "Speed & Accuracy Training"] },
+      { "module": 10, "title": "Career Preparation", "topics": ["Resume Building", "Mock Interviews", "Professional Etiquette"] }
+    ],
+    "metaTitle": "Diploma in Office Automation & Publishing | 6-Month Program",
+    "metaDescription": "Learn Microsoft Office, DTP, and office automation in a 6-month hands-on diploma. Covers Word, Excel, PowerPoint, Access, CorelDRAW & more. Build a career as an Office Executive or MIS Executive."
+  },
+  {
+    "id": "ZBRUSH",
+    "slug": "zbrush-3d-sculpting",
+    "title": "ZBrush 3D Sculpting",
+    "shortDescription": "Learn professional 3D digital sculpting for films, games, and collectibles in this 4-month ZBrush course.",
+    "fullDescription": "Master ZBrush — the industry-standard tool for 3D sculpting used in films, games, and product design. You'll learn organic and hard surface sculpting, retopology, Polypaint texturing, and rendering workflows. Build a portfolio-ready character sculpt and learn to pitch clients professionally.",
+    "duration": "4 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/zbrush.jpg",
+    "features": [
+      "Industry-standard ZBrush software",
+      "Organic & Hard Surface Sculpting",
+      "Retopology & UV Mapping",
+      "Polypaint Texturing Techniques",
+      "Export Pipeline to Maya/Blender",
+      "Portfolio & Freelance Guidance"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to ZBrush Interface", "topics": ["Workspace & Navigation", "Brushes & Tools Overview", "Understanding Mesh & Subdivisions"] },
+      { "module": 2, "title": "Sculpting Fundamentals", "topics": ["Primary, Secondary & Tertiary Forms", "Human Body Proportions", "Blocking Out Forms"] },
+      { "module": 3, "title": "Advanced Sculpting & Detailing", "topics": ["Skin Textures", "Hard Surface Sculpting", "Custom Brushes & Alphas"] },
+      { "module": 4, "title": "Retopology & Optimization", "topics": ["Clean Topology", "Mesh Complexity Reduction", "UV Mapping Basics"] },
+      { "module": 5, "title": "Texturing & Polypaint", "topics": ["Painting Directly on Models", "Exporting Textures", "Surface Detailing"] },
+      { "module": 6, "title": "Rendering & Presentation", "topics": ["Lighting & Materials", "Turntable Renders", "Exporting to Maya/Blender"] },
+      { "module": 7, "title": "Character Design & Portfolio", "topics": ["Concept to Final Sculpt", "Portfolio Development"] },
+      { "module": 8, "title": "Career & Freelancing", "topics": ["Career Paths", "Finding Clients", "Mock Client Pitch"] }
+    ],
+    "metaTitle": "ZBrush 3D Sculpting Course | 4-Month Professional Program",
+    "metaDescription": "Learn ZBrush 3D sculpting for films, games & collectibles. Master organic sculpting, retopology, Polypaint & rendering. Build a professional character artist portfolio."
+  },
+  {
+    "id": "DTP",
+    "slug": "desktop-publishing-dtp",
+    "title": "DTP (Desktop Publishing)",
+    "shortDescription": "Become a professional DTP operator with hands-on training in InDesign, CorelDRAW, and Photoshop in 3 months.",
+    "fullDescription": "This 3-month Desktop Publishing course covers everything from layout design and typography to print-ready file preparation. You'll work with Adobe InDesign, CorelDRAW, and Photoshop to design brochures, banners, books, and print media — and learn to deliver professional print projects.",
+    "duration": "3 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/dtp.jpg",
+    "features": [
+      "Adobe InDesign / PageMaker for Layout",
+      "CorelDRAW for Print & Graphic Design",
+      "Photoshop for Image Editing",
+      "Print-Ready File Preparation (PDF, CMYK)",
+      "Freelancing & Client Management",
+      "6 Hands-On Projects"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "DTP & Design Basics", "topics": ["Typography, Layout & Grids", "RGB vs CMYK", "Print vs Digital Design"] },
+      { "module": 2, "title": "InDesign / PageMaker", "topics": ["Multi-page Documents", "Master Pages & Templates", "Managing Large Documents"] },
+      { "module": 3, "title": "CorelDRAW", "topics": ["Visiting Cards & Letterheads", "Banners & Poster Design", "Exporting Print-Ready Files"] },
+      { "module": 4, "title": "Photoshop Basics", "topics": ["Background Removal", "Preparing Images for Print", "Color Correction"] },
+      { "module": 5, "title": "Print Production", "topics": ["Bleed, Resolution & DPI", "Offset vs Digital Printing", "Paper Types & Finishing"] },
+      { "module": 6, "title": "Practical Projects", "topics": ["Brochures, Certificates & Booklets", "Working Under Deadlines"] },
+      { "module": 7, "title": "Career & Freelancing", "topics": ["Printing Press Roles", "Portfolio Preparation", "Mock Client Interaction"] }
+    ],
+    "metaTitle": "Desktop Publishing (DTP) Course | 3-Month Program | InDesign, CorelDRAW",
+    "metaDescription": "Learn DTP with InDesign, CorelDRAW & Photoshop. Design brochures, banners, books & print media. Become a professional DTP Operator in just 3 months."
+  },
+  {
+    "id": "wd",
+    "slug": "full-stack-web-development",
+    "title": "Full Stack Web Development",
+    "shortDescription": "Become a job-ready full-stack developer with HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
+    "fullDescription": "This comprehensive full-stack web development course takes you from complete beginner to building and deploying real-world web applications. You'll master frontend (HTML, CSS, JavaScript, React) and backend (Node.js, Express, MongoDB/MySQL) technologies, plus deployment, testing, and security best practices.",
+    "duration": "6-12 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/web-dev.jpg",
+    "features": [
+      "HTML5, CSS3, JavaScript & React.js",
+      "Node.js, Express & REST APIs",
+      "MongoDB & MySQL Databases",
+      "MERN Stack Development",
+      "Deployment, Testing & Security",
+      "Git, GitHub & VS Code",
+      "Interview Preparation"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Internet & Web Basics", "topics": ["How websites work", "Domain, Hosting & DNS", "Frontend vs Backend"] },
+      { "module": 2, "title": "HTML5", "topics": ["Tags, Elements, Attributes", "Tables, Forms & Semantic HTML", "Audio, Video, iFrame"] },
+      { "module": 3, "title": "CSS3", "topics": ["Flexbox & Grid", "Responsive Design", "Animations"] },
+      { "module": 4, "title": "JavaScript", "topics": ["Variables & Data Types", "DOM & Events", "Form Validation", "ES6 Concepts"] },
+      { "module": 5, "title": "Bootstrap & UI Frameworks", "topics": ["Responsive Grids", "Components & Utilities"] },
+      { "module": 6, "title": "React.js", "topics": ["Components, Props & State", "Hooks", "React Router"] },
+      { "module": 7, "title": "Node.js & Express", "topics": ["Server-side Development", "REST APIs", "Middleware"] },
+      { "module": 8, "title": "MongoDB & MySQL", "topics": ["Database Design", "CRUD Operations", "Mongoose ORM"] },
+      { "module": 9, "title": "MERN Stack & Deployment", "topics": ["Full-stack Projects", "Hosting on Vercel/Render"] },
+      { "module": 10, "title": "Interview Preparation", "topics": ["DSA Basics", "System Design", "Mock Interviews"] }
+    ],
+    "metaTitle": "Full Stack Web Development Course | MERN Stack | React, Node.js, MongoDB",
+    "metaDescription": "Master full-stack web development with React, Node.js, MongoDB & MySQL. Build real-world MERN stack applications and become job-ready. Includes deployment & interview prep."
+  },
+  {
+    "id": "DAMD",
+    "slug": "diploma-animation-multimedia-designing",
+    "title": "Diploma in Animation, Multimedia & Designing",
+    "shortDescription": "A 9–12 month all-in-one diploma covering graphic design, 2D/3D animation, video editing, and UI/UX.",
+    "fullDescription": "This comprehensive 9–12 month diploma program covers the full spectrum of creative digital media — from Photoshop and Illustrator to Blender 3D, Premiere Pro, After Effects, and Figma. Perfect for students who want a strong multi-skill foundation in design and animation.",
+    "duration": "9–12 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/damd.jpg",
+    "features": [
+      "Photoshop & Illustrator for Graphic Design",
+      "Adobe Animate for 2D Animation",
+      "Blender for 3D Animation",
+      "Premiere Pro & After Effects for Video",
+      "Figma for UI/UX Design",
+      "Portfolio & Showreel Development"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Design Fundamentals", "topics": ["Color Theory, Typography, Layout", "Visual Storytelling"] },
+      { "module": 2, "title": "Graphic Designing", "topics": ["Photoshop Image Editing", "Illustrator Logo & Branding"] },
+      { "module": 3, "title": "2D Animation & Motion Graphics", "topics": ["Adobe Animate", "After Effects Transitions"] },
+      { "module": 4, "title": "Video Editing", "topics": ["Premiere Pro Editing", "Audio-Visual Production"] },
+      { "module": 5, "title": "3D Animation Basics", "topics": ["Blender Modeling", "Keyframe Animation"] },
+      { "module": 6, "title": "UI/UX Basics", "topics": ["Wireframing", "Figma Layouts"] },
+      { "module": 7, "title": "Advanced Projects", "topics": ["Real-World Client Projects", "Multi-Format Content"] },
+      { "module": 8, "title": "Portfolio Development", "topics": ["Showreel Creation", "Production Pipeline"] },
+      { "module": 9, "title": "Career Preparation", "topics": ["Freelancing", "Mock Interviews", "Resume Building"] }
+    ],
+    "metaTitle": "Diploma in Animation, Multimedia & Designing | 9–12 Month Program",
+    "metaDescription": "Complete diploma in graphic design, 2D & 3D animation, video editing & UI/UX. Learn Photoshop, Illustrator, Blender, Premiere Pro, After Effects & Figma."
+  },
+  {
+    "id": "ds",
+    "slug": "data-science",
+    "title": "Data Science",
+    "shortDescription": "Master Python, Machine Learning, Deep Learning, and Big Data tools to launch a data science career.",
+    "fullDescription": "This end-to-end Data Science course covers Python, statistics, machine learning, deep learning (TensorFlow/Keras), NLP, and cloud deployment. You'll build 6+ real-world projects from house price prediction to sentiment analysis and model deployment on AWS.",
+    "duration": "6-12 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/data-science.jpg",
+    "features": [
+      "Python, NumPy, Pandas, Matplotlib",
+      "Machine Learning (Scikit-learn)",
+      "Deep Learning (TensorFlow & Keras)",
+      "NLP & Computer Vision",
+      "Power BI & SQL",
+      "Model Deployment (Flask, AWS)"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to Data Science", "topics": ["Data Science Life Cycle", "Roles & Tools Overview"] },
+      { "module": 2, "title": "Python for Data Science", "topics": ["NumPy, Pandas, Matplotlib, Seaborn"] },
+      { "module": 3, "title": "Statistics & Mathematics", "topics": ["Probability", "Hypothesis Testing", "Linear Algebra"] },
+      { "module": 4, "title": "Machine Learning", "topics": ["Supervised & Unsupervised Learning", "Ensemble Methods"] },
+      { "module": 5, "title": "Deep Learning", "topics": ["CNN, RNN, LSTM", "Transfer Learning, GAN, NLP"] },
+      { "module": 6, "title": "Big Data & Deployment", "topics": ["Hadoop, Spark", "Flask, Streamlit, AWS"] }
+    ],
+    "metaTitle": "Data Science Course | Python, ML, Deep Learning & AI",
+    "metaDescription": "Learn Data Science with Python, Machine Learning, Deep Learning, NLP & AWS deployment. Build real projects like house price prediction, image classification & sentiment analysis."
+  },
+  {
+    "id": "da",
+    "slug": "data-analytics",
+    "title": "Data Analytics",
+    "shortDescription": "Learn Excel, SQL, Python, Power BI and Tableau to become a job-ready data analyst.",
+    "fullDescription": "This Data Analytics course teaches you to collect, clean, analyze, and visualize data using Excel, SQL, Python, Power BI, and Tableau. You'll work on real datasets and build dashboards that drive business decisions — from sales analysis to customer churn.",
+    "duration": "4-6 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/data-analytics.jpg",
+    "features": [
+      "Excel for Data Analysis",
+      "SQL Queries & Database Analysis",
+      "Python (Pandas, Matplotlib, Seaborn)",
+      "Power BI Dashboard Creation",
+      "Statistics & Business Analytics",
+      "5 Real-World Projects"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to Data Analytics", "topics": ["Analytics Life Cycle", "Roles & Industry Applications"] },
+      { "module": 2, "title": "Excel for Data Analysis", "topics": ["Pivot Tables", "Data Cleaning", "Charts"] },
+      { "module": 3, "title": "SQL", "topics": ["Joins, Subqueries", "Group By & Aggregates"] },
+      { "module": 4, "title": "Python", "topics": ["NumPy & Pandas", "EDA", "Matplotlib & Seaborn"] },
+      { "module": 5, "title": "Power BI", "topics": ["DAX", "Dashboard Creation", "Interactive Reports"] },
+      { "module": 6, "title": "Statistics & Business Analytics", "topics": ["Correlation & Regression", "KPIs & Metrics"] }
+    ],
+    "metaTitle": "Data Analytics Course | Excel, SQL, Python, Power BI & Tableau",
+    "metaDescription": "Become a data analyst with Excel, SQL, Python, Power BI & Tableau. Build sales dashboards, HR analytics reports & customer churn models. Job-ready in 4–6 months."
+  },
+  {
+    "id": "eh",
+    "slug": "ethical-hacking",
+    "title": "Ethical Hacking",
+    "shortDescription": "Learn penetration testing, web hacking, network security, and cybersecurity tools with Kali Linux.",
+    "fullDescription": "This Ethical Hacking course covers the complete hacking lifecycle — from reconnaissance and scanning to exploitation, web application attacks, wireless hacking, and cryptography. You'll work with industry tools like Kali Linux, Metasploit, Burp Suite, and Wireshark.",
+    "duration": "4-6 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/ethical-hacking.jpg",
+    "features": [
+      "Kali Linux & Penetration Testing",
+      "Network Scanning (Nmap, Nessus)",
+      "Web Application Hacking (OWASP Top 10)",
+      "Metasploit Framework",
+      "Wireless & Cryptography Security",
+      "4 Real-World Lab Projects"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to Ethical Hacking", "topics": ["Hacker Types", "Hacking Life Cycle", "Legal Guidelines"] },
+      { "module": 2, "title": "Footprinting & Reconnaissance", "topics": ["Domain & IP Lookup", "Network Scanning", "Social Engineering"] },
+      { "module": 3, "title": "Scanning & Enumeration", "topics": ["Port Scanning", "Nmap & Nessus"] },
+      { "module": 4, "title": "System Hacking", "topics": ["Password Cracking", "Trojans & Backdoors"] },
+      { "module": 5, "title": "Web Application Hacking", "topics": ["SQL Injection", "XSS & CSRF", "OWASP Top 10"] },
+      { "module": 6, "title": "Network, Wireless & Cryptography", "topics": ["Wi-Fi Hacking", "Packet Sniffing", "Encryption"] }
+    ],
+    "metaTitle": "Ethical Hacking Course | Kali Linux, Metasploit, Burp Suite",
+    "metaDescription": "Learn ethical hacking & penetration testing with Kali Linux, Nmap, Metasploit & Burp Suite. Master web hacking, wireless security & OWASP Top 10 vulnerabilities."
+  },
+  {
+    "id": "dm",
+    "slug": "digital-marketing",
+    "title": "Digital Marketing",
+    "shortDescription": "Master SEO, social media, Google Ads, email marketing, and analytics to grow businesses online.",
+    "fullDescription": "This Digital Marketing course covers all major digital channels — SEO, social media marketing, PPC advertising, email campaigns, content marketing, and Google Analytics. You'll run live campaigns and build measurable marketing skills that businesses need.",
+    "duration": "4-6 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/digital-marketing.jpg",
+    "features": [
+      "SEO — On-page, Off-page & Technical",
+      "Social Media Marketing (Facebook, Instagram, LinkedIn)",
+      "Google Ads & PPC Campaigns",
+      "Email Marketing & Automation",
+      "Content Strategy & Blogging",
+      "Google Analytics & Performance Reporting"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to Digital Marketing", "topics": ["Digital Channels Overview", "Career Opportunities"] },
+      { "module": 2, "title": "SEO", "topics": ["Keyword Research", "On-page & Off-page SEO", "SEO Tools"] },
+      { "module": 3, "title": "Social Media Marketing", "topics": ["Content Strategy", "Facebook, Instagram, LinkedIn"] },
+      { "module": 4, "title": "Paid Advertising (PPC)", "topics": ["Google Ads", "Campaign Optimization"] },
+      { "module": 5, "title": "Email & Content Marketing", "topics": ["Email Automation", "Blog Writing & SEO Content"] },
+      { "module": 6, "title": "Analytics & Reporting", "topics": ["Google Analytics", "KPIs & Conversion Tracking"] }
+    ],
+    "metaTitle": "Digital Marketing Course | SEO, Google Ads, Social Media & Analytics",
+    "metaDescription": "Master digital marketing — SEO, Google Ads, social media, email marketing & analytics. Run live campaigns and become job-ready in 4–6 months."
+  },
+  {
+    "id": "id",
+    "slug": "interior-design-diploma",
+    "title": "Interior Design Diploma",
+    "shortDescription": "Diploma course in interior design covering space planning, color theory, 3D modeling, and CAD.",
+    "fullDescription": "This Interior Design Diploma teaches you the principles of design, space planning, material selection, furniture and lighting design, and 3D visualization using AutoCAD and SketchUp. You'll work on real residential and commercial design projects.",
+    "duration": "6-9 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/interior-design.jpg",
+    "features": [
+      "Design Principles & Visual Communication",
+      "Space Planning for Residential & Commercial",
+      "Color Theory, Materials & Finishes",
+      "Furniture & Lighting Design",
+      "AutoCAD & SketchUp / 3ds Max",
+      "Portfolio Building & Presentations"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to Interior Design", "topics": ["Design Principles", "History & Evolution"] },
+      { "module": 2, "title": "Space Planning", "topics": ["Residential & Commercial Layouts", "Circulation & Flow"] },
+      { "module": 3, "title": "Color Theory & Materials", "topics": ["Color Psychology", "Surface Textures & Patterns"] },
+      { "module": 4, "title": "Furniture & Lighting", "topics": ["Furniture Styles", "Ambient & Accent Lighting"] },
+      { "module": 5, "title": "CAD & Design Software", "topics": ["AutoCAD Basics", "SketchUp 3D Modeling"] },
+      { "module": 6, "title": "Textiles & Styles", "topics": ["Modern, Minimalist & Classical Styles", "Soft Furnishings"] }
+    ],
+    "metaTitle": "Interior Design Diploma | AutoCAD, SketchUp, Space Planning",
+    "metaDescription": "Learn interior design with hands-on training in space planning, color theory, AutoCAD & SketchUp. Work on real residential and commercial design projects."
+  },
+  {
+    "id": "fa",
+    "slug": "advanced-finance-accounting",
+    "title": "Advanced Finance & Accounting",
+    "shortDescription": "Master corporate financial reporting, cost accounting, taxation, and financial management.",
+    "fullDescription": "This Advanced Finance & Accounting course covers corporate reporting, financial analysis, cost accounting, taxation (GST & corporate tax), investment appraisal, and financial management using Excel, Tally ERP, and QuickBooks.",
+    "duration": "6 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/finance-accounting.jpg",
+    "features": [
+      "Corporate Financial Reporting",
+      "Financial Ratio & Trend Analysis",
+      "Cost & Management Accounting",
+      "GST & Corporate Taxation",
+      "Capital Budgeting & Investment Appraisal",
+      "Tally ERP & Excel (Advanced)"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Advanced Accounting", "topics": ["Accounting Standards", "Financial Statements"] },
+      { "module": 2, "title": "Corporate Reporting", "topics": ["Balance Sheet, P&L", "IFRS / GAAP"] },
+      { "module": 3, "title": "Financial Analysis", "topics": ["Ratio Analysis", "Trend & Comparative Analysis"] },
+      { "module": 4, "title": "Cost Accounting", "topics": ["Budgeting & Variance Analysis", "Break-even Analysis"] },
+      { "module": 5, "title": "Taxation", "topics": ["GST & Indirect Taxes", "Corporate Tax Planning"] },
+      { "module": 6, "title": "Financial Management", "topics": ["Capital Budgeting", "Risk Management"] }
+    ],
+    "metaTitle": "Advanced Finance & Accounting Course | GST, Tally, Excel",
+    "metaDescription": "Master corporate financial reporting, cost accounting, GST taxation & financial management. Covers Tally ERP, Excel & QuickBooks."
+  },
+  {
+    "id": "hr",
+    "slug": "human-resource-management-diploma",
+    "title": "Human Resource Management Diploma",
+    "shortDescription": "Diploma course covering HRIS, recruitment, payroll, HR analytics, and strategic HRM using modern tools.",
+    "fullDescription": "This HR Management Diploma covers end-to-end HR operations — from HRIS platforms like SAP SuccessFactors and Workday to recruitment pipelines, payroll processing, HR analytics, and strategic workforce planning.",
+    "duration": "4-6 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/hrm.jpg",
+    "features": [
+      "SAP SuccessFactors & Workday Basics",
+      "Recruitment & ATS (LinkedIn Recruiter)",
+      "Payroll Processing (ADP, QuickBooks)",
+      "HR Analytics with Excel & Power BI",
+      "LMS Platforms & Learning Development",
+      "Strategic HRM & Workforce Planning"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to HR Management", "topics": ["HR Functions", "Technology in Modern HR"] },
+      { "module": 2, "title": "HRIS", "topics": ["SAP SuccessFactors & Workday", "Employee Data Management"] },
+      { "module": 3, "title": "Recruitment & ATS", "topics": ["LinkedIn Recruiter", "Screening & Analytics"] },
+      { "module": 4, "title": "Payroll & Engagement", "topics": ["ADP, QuickBooks", "Tax Compliance"] },
+      { "module": 5, "title": "HR Analytics & L&D", "topics": ["Power BI for HR", "LMS Platforms"] },
+      { "module": 6, "title": "Strategic HRM", "topics": ["Workforce Planning", "Asana & Trello for HR"] }
+    ],
+    "metaTitle": "Human Resource Management Diploma | SAP, Payroll, HR Analytics",
+    "metaDescription": "Learn HR management with SAP SuccessFactors, Workday, recruitment, payroll & HR analytics. Diploma in strategic HRM for modern workplaces."
+  },
+  {
+    "id": "py",
+    "slug": "python-programming",
+    "title": "Python Programming",
+    "shortDescription": "Learn Python from scratch — fundamentals, OOP, data structures, web scraping, APIs, and automation.",
+    "fullDescription": "This Python course takes you from basics to advanced — covering variables, data structures, OOP, file handling, web scraping, API integration, GUI development with Tkinter, and automation scripting. Includes interview preparation and 6 real projects.",
+    "duration": "4-6 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/python.jpg",
+    "features": [
+      "Python Fundamentals & Control Flow",
+      "Functions, Modules & OOP",
+      "Data Structures (Lists, Dicts, Sets)",
+      "File Handling & Exception Handling",
+      "Web Scraping & API Requests",
+      "GUI with Tkinter & Automation"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Python Fundamentals", "topics": ["Variables & Data Types", "Input/Output", "Comments & Indentation"] },
+      { "module": 2, "title": "Control Flow", "topics": ["if/elif/else", "for & while Loops", "Pattern Programs"] },
+      { "module": 3, "title": "Functions & Modules", "topics": ["Lambda Functions", "Built-in & Custom Modules"] },
+      { "module": 4, "title": "Data Structures", "topics": ["Lists, Tuples, Dicts, Sets", "List Comprehensions"] },
+      { "module": 5, "title": "OOP in Python", "topics": ["Classes & Objects", "Inheritance & Polymorphism"] },
+      { "module": 6, "title": "Advanced Python", "topics": ["Web Scraping", "API Requests", "GUI with Tkinter", "Automation"] }
+    ],
+    "metaTitle": "Python Programming Course | OOP, Web Scraping, Automation",
+    "metaDescription": "Learn Python from scratch to advanced. Covers OOP, data structures, web scraping, API requests, GUI development & automation. Includes 6 real-world projects."
+  },
+  {
+    "id": "uiux",
+    "slug": "ui-ux-design",
+    "title": "UI/UX Design",
+    "shortDescription": "Master user research, wireframing, Figma, prototyping, and accessibility to become a UI/UX designer.",
+    "fullDescription": "This UI/UX Design course covers the full design process — from user research and wireframing to high-fidelity mockups in Figma, interactive prototyping, accessibility standards, and portfolio building. Prepare for real design roles with end-to-end case studies.",
+    "duration": "4-6 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/ui-ux.jpg",
+    "features": [
+      "Design Thinking & User Research",
+      "Wireframing & Information Architecture",
+      "Figma Mastery (Components, Auto Layout)",
+      "Interactive Prototyping",
+      "Accessibility (WCAG Standards)",
+      "End-to-End UX Case Studies"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to UI/UX", "topics": ["Design Thinking", "User-Centered Design"] },
+      { "module": 2, "title": "Design Principles", "topics": ["Typography, Color, Grid, Hierarchy"] },
+      { "module": 3, "title": "User Research", "topics": ["Personas, Empathy Maps, Journey Mapping"] },
+      { "module": 4, "title": "Wireframing & Prototyping", "topics": ["Lo-fi to Hi-fi Mockups", "Usability Testing"] },
+      { "module": 5, "title": "Figma Mastery", "topics": ["Components, Design Systems", "Developer Handoff"] },
+      { "module": 6, "title": "Advanced UX & Portfolio", "topics": ["Accessibility", "Motion Design", "Case Studies"] }
+    ],
+    "metaTitle": "UI/UX Design Course | Figma, Prototyping & User Research",
+    "metaDescription": "Become a UI/UX designer with Figma, Adobe XD & InVision. Learn user research, wireframing, prototyping & accessibility. Build a portfolio with 5 real-world case studies."
+  },
+  {
+    "id": "cc",
+    "slug": "cloud-computing",
+    "title": "Cloud Computing",
+    "shortDescription": "Master AWS, Azure, GCP, Docker, Kubernetes, and DevOps CI/CD pipelines for cloud careers.",
+    "fullDescription": "This Cloud Computing course covers all three major cloud platforms — AWS, Microsoft Azure, and Google Cloud — plus DevOps tools like Docker, Kubernetes, Terraform, and GitHub Actions. Prepare for AWS Solutions Architect and Azure AZ-900 certifications.",
+    "duration": "6-9 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/cloud-computing.jpg",
+    "features": [
+      "AWS (EC2, S3, RDS, Lambda)",
+      "Microsoft Azure & Google Cloud Platform",
+      "Docker & Kubernetes",
+      "CI/CD Pipelines (GitHub Actions)",
+      "Terraform (Infrastructure as Code)",
+      "AWS Solutions Architect & AZ-900 Prep"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to Cloud", "topics": ["IaaS, PaaS, SaaS", "Public, Private & Hybrid Cloud"] },
+      { "module": 2, "title": "AWS Core Services", "topics": ["EC2, S3, RDS, VPC, IAM"] },
+      { "module": 3, "title": "Microsoft Azure", "topics": ["Azure VMs, Blob Storage, App Service, AD"] },
+      { "module": 4, "title": "Google Cloud Platform", "topics": ["Compute Engine, BigQuery, Firebase"] },
+      { "module": 5, "title": "DevOps & CI/CD", "topics": ["Docker, Kubernetes, Terraform, GitHub Actions"] },
+      { "module": 6, "title": "Advanced Cloud & Certification Prep", "topics": ["Serverless, Security, Cost Optimization, CloudWatch"] }
+    ],
+    "metaTitle": "Cloud Computing Course | AWS, Azure, GCP, Docker & Kubernetes",
+    "metaDescription": "Learn cloud computing with AWS, Azure, Google Cloud, Docker & Kubernetes. Master DevOps, CI/CD & Terraform. Prepare for AWS Solutions Architect & Azure AZ-900 certifications."
+  },
+  {
+    "id": "ai",
+    "slug": "artificial-intelligence",
+    "title": "Artificial Intelligence",
+    "shortDescription": "From ML fundamentals to Generative AI, LLMs, LangChain, and AI agents — a complete AI course.",
+    "fullDescription": "This AI course covers AI fundamentals, Python for AI, search algorithms, knowledge representation, machine learning, deep learning, and generative AI — including LLMs, prompt engineering, fine-tuning, LangChain, RAG, and AI agents.",
+    "duration": "6-12 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/ai.jpg",
+    "features": [
+      "Python, NumPy & Data Visualization",
+      "Search Algorithms & Knowledge Graphs",
+      "Machine Learning (SVM, Decision Trees, Ensembles)",
+      "Generative AI & Large Language Models",
+      "Prompt Engineering & Fine-tuning",
+      "LangChain, RAG & AI Agents"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to AI", "topics": ["AI vs ML vs Deep Learning", "Ethical Concerns"] },
+      { "module": 2, "title": "Python for AI", "topics": ["NumPy, Pandas", "Jupyter & Google Colab"] },
+      { "module": 3, "title": "Search & Problem Solving", "topics": ["BFS, DFS, A* Algorithm", "Game Trees & Minimax"] },
+      { "module": 4, "title": "Knowledge Representation", "topics": ["First-Order Logic", "Knowledge Graphs", "Expert Systems"] },
+      { "module": 5, "title": "Machine Learning for AI", "topics": ["Supervised & Unsupervised Learning", "AutoML"] },
+      { "module": 6, "title": "Generative AI & LLMs", "topics": ["Transformers, LLMs, Prompt Engineering", "LangChain, RAG, AI Agents"] }
+    ],
+    "metaTitle": "Artificial Intelligence Course | ML, Generative AI, LLMs & LangChain",
+    "metaDescription": "Learn AI from fundamentals to Generative AI. Covers ML, deep learning, LLMs, prompt engineering, LangChain, RAG & AI agents using Python, TensorFlow & OpenAI API."
+  },
+  {
+    "id": "mad",
+    "slug": "mobile-app-development",
+    "title": "Mobile App Development",
+    "shortDescription": "Build cross-platform mobile apps with React Native, Firebase, Redux, and deploy to App Store & Play Store.",
+    "fullDescription": "This Mobile App Development course uses React Native to teach you cross-platform iOS and Android development. You'll cover core UI components, state management with Redux, Firebase backend integration, push notifications, and publishing your app to both stores.",
+    "duration": "6-9 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/mobile-dev.jpg",
+    "features": [
+      "React Native & Expo Framework",
+      "Navigation, Forms & Responsive Layouts",
+      "Redux Toolkit & Context API",
+      "Firebase Authentication & Database",
+      "Push Notifications & Media Handling",
+      "Deploy to Play Store & App Store"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to Mobile Development", "topics": ["Native vs Cross-platform", "App Life Cycle"] },
+      { "module": 2, "title": "React Native Fundamentals", "topics": ["JSX, Components, Navigation"] },
+      { "module": 3, "title": "Core UI Components", "topics": ["FlatList, TextInput, Modals, Tabs"] },
+      { "module": 4, "title": "State Management", "topics": ["Redux Toolkit", "Async Storage", "Axios"] },
+      { "module": 5, "title": "Backend Integration", "topics": ["Firebase Auth & Database", "Push Notifications"] },
+      { "module": 6, "title": "Advanced & Deployment", "topics": ["Maps, Camera", "Publishing to Play/App Store"] }
+    ],
+    "metaTitle": "Mobile App Development Course | React Native, Firebase & Redux",
+    "metaDescription": "Build iOS & Android apps with React Native. Learn Firebase, Redux, push notifications & deploy to Play Store and App Store. Covers Expo, Android Studio & Xcode."
+  },
+  {
+    "id": "ANIM",
+    "slug": "adobe-animate",
+    "title": "Adobe Animate",
+    "shortDescription": "Learn 2D animation, motion graphics, interactive content, and character animation using Adobe Animate.",
+    "fullDescription": "This 3-month Adobe Animate course covers the complete 2D animation workflow — from drawing tools and timeline animation to symbols, masking, interactive elements, sound integration, and exporting. Build animated ads, social media content, and educational animations.",
+    "duration": "3 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/adobe-animate.jpg",
+    "features": [
+      "Timeline & Frame-by-Frame Animation",
+      "Symbols, Masking & Easing Techniques",
+      "Interactive Animation Basics",
+      "Sound & Multimedia Integration",
+      "Exporting for GIF, Video & Web",
+      "Demo Reel & Portfolio Development"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction & Interface", "topics": ["Workspace, Timeline & Drawing Tools"] },
+      { "module": 2, "title": "Timeline & Frame Animation", "topics": ["Keyframes", "Motion & Shape Tweening"] },
+      { "module": 3, "title": "Symbols & Techniques", "topics": ["Masking", "Character Movement"] },
+      { "module": 4, "title": "Interactive Animation", "topics": ["Buttons & Navigation", "Scene Management"] },
+      { "module": 5, "title": "Sound & Multimedia", "topics": ["Audio Sync", "Animated Story Projects"] },
+      { "module": 6, "title": "Real Projects", "topics": ["Animated Ads", "Social Media Animations"] },
+      { "module": 7, "title": "Portfolio & Career", "topics": ["Demo Reel", "Freelancing Basics"] }
+    ],
+    "metaTitle": "Adobe Animate Course | 2D Animation, Motion Graphics & Interactive Content",
+    "metaDescription": "Learn Adobe Animate for 2D animation, motion graphics & interactive content. Create animated ads, educational videos & social media animations in just 3 months."
+  },
+  {
+    "id": "mso",
+    "slug": "microsoft-office",
+    "title": "Microsoft Office",
+    "shortDescription": "Master Word, Excel, PowerPoint, Outlook, Teams, and OneNote with a focus on professional productivity.",
+    "fullDescription": "This Microsoft Office course covers all major applications in the Office suite — from advanced Word document formatting and Excel dashboards to PowerPoint presentations, Outlook email management, and Teams collaboration. Includes MOS exam preparation.",
+    "duration": "2-3 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/ms-office.jpg",
+    "features": [
+      "Microsoft Word — Advanced Formatting & Mail Merge",
+      "Microsoft Excel — Pivot Tables, VLOOKUP, Dashboards",
+      "PowerPoint — Custom Animations & Presenter Mode",
+      "Outlook — Email & Calendar Management",
+      "Microsoft Teams & OneNote Collaboration",
+      "MOS Certification Exam Preparation"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "MS Office Suite Overview", "topics": ["Interface, OneDrive & Keyboard Shortcuts"] },
+      { "module": 2, "title": "Microsoft Word Advanced", "topics": ["Styles, Mail Merge, TOC & Macros"] },
+      { "module": 3, "title": "Microsoft Excel Professional", "topics": ["VLOOKUP, INDEX-MATCH, Pivot Tables"] },
+      { "module": 4, "title": "PowerPoint Advanced", "topics": ["Custom Animations", "Embedding Media"] },
+      { "module": 5, "title": "Outlook", "topics": ["Email Rules", "Calendar & Task Management"] },
+      { "module": 6, "title": "Teams & OneNote", "topics": ["Collaboration", "Planner & Task Management"] },
+      { "module": 7, "title": "Capstone & Certification Prep", "topics": ["MOS Exam Prep", "Portfolio Projects"] }
+    ],
+    "metaTitle": "Microsoft Office Course | Word, Excel, PowerPoint, Teams & MOS Certification",
+    "metaDescription": "Master Microsoft Office — Word, Excel, PowerPoint, Outlook, Teams & OneNote. Professional productivity training with MOS certification exam preparation."
+  },
+  {
+    "id": "GD",
+    "slug": "graphic-designing",
+    "title": "Graphic Designing",
+    "shortDescription": "4-month graphic design course covering Photoshop, Illustrator, CorelDRAW, Canva, and branding.",
+    "fullDescription": "This Graphic Designing course covers the complete design workflow — from color theory and typography to Photoshop image editing, Illustrator logo design, CorelDRAW print media, and Canva social media creatives. Build a professional portfolio and learn to freelance.",
+    "duration": "4 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/graphic-design.jpg",
+    "features": [
+      "Adobe Photoshop — Image Editing & Poster Design",
+      "Adobe Illustrator — Logo & Vector Design",
+      "CorelDRAW — Print Media & Brochures",
+      "Canva — Social Media Templates",
+      "Brand Identity & Campaign Design",
+      "Portfolio on Behance & Mock Interviews"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Design Fundamentals", "topics": ["Color Theory", "Typography", "Layout & Composition"] },
+      { "module": 2, "title": "Photoshop", "topics": ["Image Editing", "Retouching", "Poster & Banner Design"] },
+      { "module": 3, "title": "Illustrator", "topics": ["Pen Tool", "Logo Design", "Brand Identity"] },
+      { "module": 4, "title": "CorelDRAW & Canva", "topics": ["Print Media", "Social Media Creatives"] },
+      { "module": 5, "title": "Branding & Advertising", "topics": ["Logo Systems", "Campaign Design"] },
+      { "module": 6, "title": "Portfolio Development", "topics": ["Client Briefs", "Freelancing Basics"] },
+      { "module": 7, "title": "Career Preparation", "topics": ["Behance Portfolio", "Mock Interviews"] }
+    ],
+    "metaTitle": "Graphic Designing Course | Photoshop, Illustrator, CorelDRAW & Canva",
+    "metaDescription": "Learn graphic design with Adobe Photoshop, Illustrator, CorelDRAW & Canva. Design logos, posters, brochures & social media creatives. Build a Behance portfolio in 4 months."
+  },
+  {
+    "id": "ANIM2D3D",
+    "slug": "2d-3d-animation",
+    "title": "2D & 3D Animation",
+    "shortDescription": "6-month dual animation course covering Adobe Animate for 2D and Blender for 3D animation.",
+    "fullDescription": "This 6-month animation program teaches you both 2D animation using Adobe Animate and 3D animation using Blender. You'll cover animation principles, character design, rigging, rendering, and create a professional showreel for your portfolio.",
+    "duration": "6 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "/images/courses/animation-2d-3d.jpg",
+    "features": [
+      "12 Principles of Animation",
+      "2D Frame Animation & Motion Design (Adobe Animate)",
+      "3D Modeling & Texturing (Blender)",
+      "Character Rigging & Walk Cycles",
+      "Eevee & Cycles Rendering",
+      "Showreel & Portfolio Development"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Animation Fundamentals", "topics": ["Squash & Stretch", "Storyboarding", "2D vs 3D Differences"] },
+      { "module": 2, "title": "2D Animation (Adobe Animate)", "topics": ["Frame-by-Frame", "Motion Tweening", "Character Design"] },
+      { "module": 3, "title": "2D Advanced & Motion Design", "topics": ["Masking", "Motion Graphics", "Audio Sync"] },
+      { "module": 4, "title": "3D Modeling (Blender)", "topics": ["Hard Surface Modeling", "Texturing & Lighting"] },
+      { "module": 5, "title": "3D Animation & Rigging", "topics": ["Keyframe Animation", "Walk Cycles"] },
+      { "module": 6, "title": "Rendering & Output", "topics": ["Eevee vs Cycles", "Camera & Cinematic Shots"] },
+      { "module": 7, "title": "Portfolio Development", "topics": ["Showreel Creation", "Client Requirements"] },
+      { "module": 8, "title": "Career Preparation", "topics": ["Freelancing", "Intro to After Effects & Maya"] }
+    ],
+    "metaTitle": "2D & 3D Animation Course | Adobe Animate & Blender | 6 Months",
+    "metaDescription": "Master both 2D and 3D animation in one 6-month course. Learn Adobe Animate for 2D and Blender for 3D modeling, rigging & rendering. Build a professional animation showreel."
+  },
+  {
+    "id": "AEF",
+    "slug": "adobe-after-effects-vfx-motion-graphics",
+    "title": "Adobe After Effects (VFX & Motion Graphics)",
+    "shortDescription": "Learn VFX, motion graphics, green screen compositing, and cinematic effects in 3–4 months.",
+    "fullDescription": "This Adobe After Effects course covers motion graphics, kinetic typography, green screen VFX, motion tracking, compositing, color grading, and advanced expressions. Build a professional showreel with YouTube intros, Instagram reels, and promotional VFX content.",
+    "duration": "3–4 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/after-effects.jpg",
+    "features": [
+      "Motion Graphics & Kinetic Typography",
+      "Green Screen & Chroma Key VFX",
+      "Motion Tracking & Rotoscoping",
+      "Cinematic Color Grading & LUTs",
+      "Expressions & Animation Automation",
+      "3D Space & Camera Movement in AE"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to After Effects", "topics": ["Workspace & Composition", "Keyframe Animation Basics"] },
+      { "module": 2, "title": "Motion Graphics & Text", "topics": ["Animated Titles", "Kinetic Typography", "Easing"] },
+      { "module": 3, "title": "VFX Basics", "topics": ["Green Screen", "Masking & Rotoscoping", "Motion Tracking"] },
+      { "module": 4, "title": "Advanced Effects & Compositing", "topics": ["Layer Integration", "Glows & Cinematic Transitions"] },
+      { "module": 5, "title": "Color & Lighting", "topics": ["Exposure & Contrast", "LUTs & Cinematic Tones"] },
+      { "module": 6, "title": "Advanced Animation", "topics": ["Expressions", "3D Camera Movement"] },
+      { "module": 7, "title": "Real Projects", "topics": ["YouTube Intro", "Instagram Reel Effects", "Promo Video"] },
+      { "module": 8, "title": "Career Preparation", "topics": ["Freelancing", "Premiere Pro Pipeline"] }
+    ],
+    "metaTitle": "Adobe After Effects Course | VFX, Motion Graphics & Cinematic Effects",
+    "metaDescription": "Learn Adobe After Effects for VFX, motion graphics & cinematic effects. Master green screen, motion tracking, color grading & expressions. Build a professional showreel in 3–4 months."
+  },
+  {
+    "id": "FILMORA",
+    "slug": "filmora-video-editing",
+    "title": "Filmora Video Editing Course",
+    "shortDescription": "Learn video editing for YouTube, Instagram Reels, and social media using Wondershare Filmora in 2 months.",
+    "fullDescription": "This beginner-friendly Filmora course teaches you everything you need to edit engaging videos — cutting, transitions, effects, audio editing, color correction, and optimized export for YouTube and social platforms. Includes freelancing guidance and portfolio building.",
+    "duration": "2 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/filmora.jpg",
+    "features": [
+      "Video Cutting, Trimming & Timeline Editing",
+      "Transitions, Titles & Visual Effects",
+      "Audio Editing & Background Music Sync",
+      "Color Correction & Visual Enhancement",
+      "Export Optimization for YouTube & Social Media",
+      "Freelancing & Content Creator Guidance"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction & Filmora Interface", "topics": ["Workspace, Timeline, Media Import"] },
+      { "module": 2, "title": "Basic Editing", "topics": ["Cutting, Trimming, Transitions, Speed Control"] },
+      { "module": 3, "title": "Effects, Titles & Creative Editing", "topics": ["Captions, Filters, Stickers"] },
+      { "module": 4, "title": "Audio Editing", "topics": ["Volume Control", "Music Sync", "Voice-Over"] },
+      { "module": 5, "title": "Color Enhancement", "topics": ["Brightness, Contrast", "Color Filters"] },
+      { "module": 6, "title": "Exporting & Optimization", "topics": ["YouTube & Social Exports", "File Compression"] },
+      { "module": 7, "title": "Real Projects", "topics": ["YouTube Video", "Instagram Reel", "Promo Video"] },
+      { "module": 8, "title": "Freelancing & Career", "topics": ["Finding Clients", "Demo Reel"] }
+    ],
+    "metaTitle": "Filmora Video Editing Course | YouTube, Reels & Social Media Editing",
+    "metaDescription": "Learn video editing with Filmora in 2 months. Edit YouTube videos, Instagram Reels & promotional content. Covers audio editing, color correction & export optimization."
+  },
+  {
+    "id": "PPRO",
+    "slug": "adobe-premiere-pro-video-editing",
+    "title": "Adobe Premiere Pro Video Editing",
+    "shortDescription": "Professional video editing course covering Premiere Pro for YouTube, social media, and corporate videos.",
+    "fullDescription": "This 3-month Adobe Premiere Pro course covers the complete video editing workflow — from importing and cutting to audio editing, color grading, motion effects, multi-camera editing, and export for all platforms. Build a professional editing showreel.",
+    "duration": "3 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/premiere-pro.jpg",
+    "features": [
+      "Professional Cutting & Sequence Editing",
+      "Audio Editing & Sound Design",
+      "Color Correction & Cinematic Grading",
+      "Titles, Captions & Motion Effects",
+      "Multi-Camera Editing & Time Remapping",
+      "Export for YouTube, Instagram & Corporate Use"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction & Interface", "topics": ["Workspace, Sequence Settings, Media Import"] },
+      { "module": 2, "title": "Basic Editing", "topics": ["Cutting, Ripple Edit, Transitions"] },
+      { "module": 3, "title": "Audio Editing", "topics": ["Levels, Music Sync, Voice-Over"] },
+      { "module": 4, "title": "Color Grading", "topics": ["Cinematic Looks, LUTs, Color Matching"] },
+      { "module": 5, "title": "Titles & Effects", "topics": ["Animated Titles", "Keyframe Animation"] },
+      { "module": 6, "title": "Advanced Editing", "topics": ["Multi-Camera", "Speed Ramp", "Shortcuts"] },
+      { "module": 7, "title": "Real Projects", "topics": ["YouTube, Reels, Corporate Videos"] },
+      { "module": 8, "title": "Career Preparation", "topics": ["Freelancing", "Intro to After Effects"] }
+    ],
+    "metaTitle": "Adobe Premiere Pro Video Editing Course | 3-Month Professional Training",
+    "metaDescription": "Learn Adobe Premiere Pro for professional video editing. Covers color grading, audio editing, multi-camera editing & export for YouTube, Instagram & corporate videos."
+  },
+  {
+    "id": "MAYA",
+    "slug": "maya-3d-animation",
+    "title": "Maya 3D Animation",
+    "shortDescription": "Industry-level 3D modeling, rigging, animation, and rendering using Autodesk Maya in 6 months.",
+    "fullDescription": "This 6-month Maya course covers the complete 3D production pipeline — modeling, UV mapping, texturing, lighting, rigging, character animation, dynamics, and Arnold rendering. Build film-quality animations and prepare for studio roles.",
+    "duration": "6 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/maya.jpg",
+    "features": [
+      "Hard Surface & Organic 3D Modeling",
+      "UV Mapping, Texturing & Lighting",
+      "Character Rigging (IK/FK Systems)",
+      "Walk Cycles & Facial Animation",
+      "Dynamics — Particles, Cloth & Hair",
+      "Arnold Renderer & Showreel Development"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to Maya", "topics": ["Workspace, Navigation, Primitives"] },
+      { "module": 2, "title": "3D Modeling", "topics": ["Hard Surface & Character Modeling"] },
+      { "module": 3, "title": "Texturing & Lighting", "topics": ["UV Mapping", "Shading & Realistic Lighting"] },
+      { "module": 4, "title": "Rigging", "topics": ["Joints, IK/FK, Smooth Skinning"] },
+      { "module": 5, "title": "Animation Principles", "topics": ["Keyframes, Walk Cycles, Facial Animation"] },
+      { "module": 6, "title": "Dynamics & Effects", "topics": ["Particles, Cloth, Hair Simulation"] },
+      { "module": 7, "title": "Rendering", "topics": ["Arnold Renderer", "Image & Video Export"] },
+      { "module": 8, "title": "Portfolio Development", "topics": ["Showreel Creation", "Studio Pipeline"] },
+      { "module": 9, "title": "Career Preparation", "topics": ["Mock Interviews", "Freelancing"] }
+    ],
+    "metaTitle": "Maya 3D Animation Course | Modeling, Rigging & Arnold Rendering | 6 Months",
+    "metaDescription": "Learn Autodesk Maya for professional 3D animation. Covers modeling, UV mapping, rigging, walk cycles, dynamics & Arnold rendering. Build a film-quality animation showreel."
+  },
+  {
+    "id": "UIUX",
+    "slug": "ui-ux-design-figma-advanced",
+    "title": "UI/UX Design (Figma Advanced)",
+    "shortDescription": "4-month advanced UI/UX course with Figma — from wireframes and design systems to prototypes and portfolios.",
+    "fullDescription": "This advanced UI/UX course with Figma takes you through the complete design process — UX research, wireframing, information architecture, UI design systems, interactive prototypes, and case study documentation. Perfect for building a job-ready portfolio.",
+    "duration": "4 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/uiux-figma.jpg",
+    "features": [
+      "Design Thinking & UX Research Methods",
+      "Wireframing & Information Architecture",
+      "Figma — Components, Auto Layout & Design Systems",
+      "Interactive Prototyping & Usability Testing",
+      "Accessibility & Mobile-First Design",
+      "Portfolio on Behance & Dribbble"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "UX Fundamentals", "topics": ["Design Thinking", "User Personas & Journeys"] },
+      { "module": 2, "title": "Wireframing & IA", "topics": ["Low-Fi Wireframes", "Navigation Structure"] },
+      { "module": 3, "title": "Figma Mastery", "topics": ["Components, Styles, Auto Layout, Prototyping"] },
+      { "module": 4, "title": "UI Design Principles", "topics": ["Typography, Color, Accessibility"] },
+      { "module": 5, "title": "Prototyping & Interactions", "topics": ["Micro Interactions", "Usability Testing"] },
+      { "module": 6, "title": "Real Projects & Case Studies", "topics": ["E-commerce App", "Banking App Design"] },
+      { "module": 7, "title": "Career Preparation", "topics": ["Behance Profile", "Mock Interviews"] }
+    ],
+    "metaTitle": "Advanced UI/UX Design Course with Figma | Prototyping & Case Studies",
+    "metaDescription": "Master UI/UX design with Figma. Learn UX research, wireframing, design systems, interactive prototyping & accessibility. Build a professional portfolio in 4 months."
+  },
+  {
+    "id": "BA",
+    "slug": "business-analyst",
+    "title": "Business Analyst",
+    "shortDescription": "4-month Business Analyst course covering Excel, SQL, Power BI, Agile, BRD/FRD documentation, and case studies.",
+    "fullDescription": "This Business Analyst course teaches you to gather requirements, analyze business workflows, document BRDs/FRDs, build dashboards, and use data to drive decisions — covering Excel, SQL, Power BI/Tableau, Agile methodology, and domain-specific case studies.",
+    "duration": "4 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/business-analyst.jpg",
+    "features": [
+      "Excel — VLOOKUP, Pivot Tables, Dashboards",
+      "SQL for Business Data Extraction",
+      "Power BI & Tableau Dashboards",
+      "BRD & FRD Documentation",
+      "Agile & Scrum Framework",
+      "Domain Case Studies (Banking, E-commerce, Ops)"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Fundamentals of BA", "topics": ["BA Roles", "Process Mapping", "Requirement Types"] },
+      { "module": 2, "title": "Excel for BA", "topics": ["Pivot Tables", "Dashboards", "Data Cleaning"] },
+      { "module": 3, "title": "SQL", "topics": ["Joins, Aggregations, Business Queries"] },
+      { "module": 4, "title": "Data Visualization", "topics": ["Power BI / Tableau", "Data Storytelling"] },
+      { "module": 5, "title": "BA Tools & Techniques", "topics": ["BRD, FRD, Use Cases", "Agile & Scrum"] },
+      { "module": 6, "title": "Python Basics (Optional)", "topics": ["Pandas", "Data Cleaning"] },
+      { "module": 7, "title": "Domain Case Studies", "topics": ["Banking, E-commerce, Supply Chain"] },
+      { "module": 8, "title": "Capstone & Career Prep", "topics": ["End-to-End Project", "Mock Interviews"] }
+    ],
+    "metaTitle": "Business Analyst Course | Excel, SQL, Power BI, Agile & BRD/FRD",
+    "metaDescription": "Become a Business Analyst with Excel, SQL, Power BI, Tableau & Agile. Learn BRD/FRD documentation, use cases & domain case studies. 4-month job-ready program."
+  },
+  {
+    "id": "PD",
+    "slug": "personality-development",
+    "title": "Personality Development",
+    "shortDescription": "Build confidence, communication skills, emotional intelligence, leadership, and professional etiquette.",
+    "fullDescription": "This Personality Development course covers self-awareness, communication skills, public speaking, emotional intelligence, leadership, professional etiquette, and goal-setting frameworks. Perfect for students and professionals who want to grow personally and professionally.",
+    "duration": "2-3 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/personality-dev.jpg",
+    "features": [
+      "Communication & Active Listening Skills",
+      "Public Speaking & Stage Confidence",
+      "Emotional Intelligence (EQ)",
+      "Leadership & Team Collaboration",
+      "Corporate & Digital Etiquette",
+      "Resume & Interview Preparation"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to Personality", "topics": ["Self-Awareness", "Growth vs Fixed Mindset"] },
+      { "module": 2, "title": "Communication Skills", "topics": ["Verbal & Non-verbal", "Body Language"] },
+      { "module": 3, "title": "Public Speaking", "topics": ["Stage Fear", "Voice Modulation", "Presentations"] },
+      { "module": 4, "title": "Emotional Intelligence", "topics": ["EQ vs IQ", "Stress Management"] },
+      { "module": 5, "title": "Leadership & Team Skills", "topics": ["Leadership Styles", "Conflict Resolution"] },
+      { "module": 6, "title": "Professional Etiquette", "topics": ["Email & Phone Etiquette", "LinkedIn Branding"] },
+      { "module": 7, "title": "Goal Setting & Life Skills", "topics": ["SMART Goals", "Time Management", "Atomic Habits"] }
+    ],
+    "metaTitle": "Personality Development Course | Communication, Confidence & Leadership",
+    "metaDescription": "Develop communication skills, public speaking confidence, emotional intelligence & leadership. Corporate etiquette, resume building & mock interviews included."
+  },
+  {
+    "id": "se",
+    "slug": "spoken-english",
+    "title": "Spoken English",
+    "shortDescription": "Improve English fluency, pronunciation, grammar, and business communication through practice.",
+    "fullDescription": "This Spoken English course takes you from grammar basics to confident everyday and business English conversations. You'll practice pronunciation, fluency techniques, idioms, formal vocabulary, and real-world scenarios like interviews and presentations.",
+    "duration": "3-4 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/spoken-english.jpg",
+    "features": [
+      "Grammar — Tenses, Modals & Sentence Structure",
+      "Everyday Conversation Practice",
+      "Vocabulary — Idioms, Phrases & Business English",
+      "Pronunciation & Stress/Intonation Patterns",
+      "Business English & Email Writing",
+      "Group Discussions, Debates & Presentations"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Foundation of English", "topics": ["Parts of Speech", "Pronunciation & Phonetics"] },
+      { "module": 2, "title": "Grammar for Speaking", "topics": ["Tenses, Articles, Modal Verbs"] },
+      { "module": 3, "title": "Everyday Conversation", "topics": ["Shopping, Travel & Phone Conversations"] },
+      { "module": 4, "title": "Vocabulary Enhancement", "topics": ["Idioms, Phrases, Word Formation"] },
+      { "module": 5, "title": "Fluency & Pronunciation", "topics": ["Stress & Intonation", "Accent Reduction"] },
+      { "module": 6, "title": "Business English", "topics": ["Email Writing", "Job Interviews in English"] },
+      { "module": 7, "title": "Advanced Speaking", "topics": ["Group Discussions", "Extempore Speaking"] }
+    ],
+    "metaTitle": "Spoken English Course | Fluency, Grammar & Business Communication",
+    "metaDescription": "Improve spoken English with grammar, pronunciation & business communication training. Practice everyday conversations, interviews, group discussions & public speaking."
+  },
+  {
+    "id": "vba",
+    "slug": "microsoft-excel-vba-macros",
+    "title": "Microsoft Excel (VBA + Macros) Advanced",
+    "shortDescription": "Advanced Excel course covering VBA programming, Macros, UserForms, and office automation.",
+    "fullDescription": "This Advanced Excel VBA & Macros course teaches you to automate repetitive tasks, build custom UserForms, write VBA scripts, and create powerful automated reporting tools in Excel — from invoice generators to payroll systems.",
+    "duration": "2-3 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/excel-vba.jpg",
+    "features": [
+      "VBA Editor & Module Basics",
+      "Recording & Editing Macros",
+      "Control Structures (If, Loops, Case)",
+      "Working with Excel Objects via VBA",
+      "Custom UserForms & Data Entry Systems",
+      "Automating Charts, Reports & Emails"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Excel Advanced Revision", "topics": ["Power Query", "Dynamic Arrays", "Named Ranges"] },
+      { "module": 2, "title": "Introduction to VBA", "topics": ["VBA Editor", "Variables & Procedures"] },
+      { "module": 3, "title": "Macros in Excel", "topics": ["Recording & Editing Macros", "Macro Security"] },
+      { "module": 4, "title": "VBA Control Structures", "topics": ["If/Else", "Loops", "Nested Conditions"] },
+      { "module": 5, "title": "Excel Objects", "topics": ["Workbooks, Sheets, Ranges via VBA"] },
+      { "module": 6, "title": "UserForms", "topics": ["TextBox, ComboBox", "Form Validation"] },
+      { "module": 7, "title": "Advanced VBA & Automation", "topics": ["File Operations", "Sending Emails via Outlook"] },
+      { "module": 8, "title": "Projects", "topics": ["Invoice Generator", "Payroll Automation", "Dashboard with VBA"] }
+    ],
+    "metaTitle": "Advanced Excel VBA & Macros Course | Automation & UserForms",
+    "metaDescription": "Master Excel VBA & Macros for office automation. Build invoice generators, payroll systems & automated dashboards. Advanced Excel programming in 2–3 months."
+  },
+  {
+    "id": "mac",
+    "slug": "microsoft-access",
+    "title": "Microsoft Access",
+    "shortDescription": "Learn Microsoft Access to design relational databases, queries, forms, and automated reports.",
+    "fullDescription": "This Microsoft Access course covers relational database design, table relationships, queries (select, action, crosstab), forms, reports, and macros — culminating in a complete business database application.",
+    "duration": "2-3 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/ms-access.jpg",
+    "features": [
+      "Relational Database Design",
+      "Tables, Relationships & Referential Integrity",
+      "Queries — Select, Action, Crosstab & SQL View",
+      "Forms with Subforms & Combo Boxes",
+      "Reports with Grouping & Charts",
+      "Macros & Complete Database Application"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to Access", "topics": ["Database Concepts", "Planning a Database"] },
+      { "module": 2, "title": "Tables & Data Entry", "topics": ["Field Types", "Primary Keys", "Importing from Excel"] },
+      { "module": 3, "title": "Relationships", "topics": ["One-to-Many, Many-to-Many", "Referential Integrity"] },
+      { "module": 4, "title": "Queries", "topics": ["Select, Parameter, Crosstab, Action Queries"] },
+      { "module": 5, "title": "Forms", "topics": ["Form Design", "Subforms & Navigation"] },
+      { "module": 6, "title": "Reports", "topics": ["Grouping, Totals & Charts", "Exporting to PDF"] },
+      { "module": 7, "title": "Macros & Capstone", "topics": ["Automation", "Full Database Application"] }
+    ],
+    "metaTitle": "Microsoft Access Course | Database Design, Queries, Forms & Reports",
+    "metaDescription": "Learn Microsoft Access for database management. Design relational databases, write queries, build forms & generate automated reports. Covers macros & complete business apps."
+  },
+  {
+    "id": "adfa",
+    "slug": "advanced-diploma-finance-accounting",
+    "title": "Advanced Diploma in Finance & Accounting",
+    "shortDescription": "Comprehensive diploma covering financial accounting, corporate reporting, GST, Tally Prime, and financial modeling.",
+    "fullDescription": "This Advanced Finance & Accounting Diploma covers everything from journal entries and financial statements to corporate accounting, GST filing, auditing, financial management, Tally Prime, and Excel financial modeling. Job-ready for finance roles.",
+    "duration": "9-12 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/adfa.jpg",
+    "features": [
+      "Financial Accounting — Journal to Balance Sheet",
+      "Corporate Accounting & IFRS/GAAP",
+      "Cost & Management Accounting",
+      "GST Filing (GSTR-1, 3B) & Tax Planning",
+      "Tally Prime — Complete Accounting Software",
+      "Financial Modeling & Excel Dashboard"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Financial Accounting Fundamentals", "topics": ["Double Entry", "Trial Balance", "BRS"] },
+      { "module": 2, "title": "Financial Statements", "topics": ["Balance Sheet, P&L, Cash Flow"] },
+      { "module": 3, "title": "Corporate Accounting", "topics": ["Share Capital", "Debentures", "Mergers"] },
+      { "module": 4, "title": "Cost Accounting", "topics": ["Marginal Costing", "Variance Analysis"] },
+      { "module": 5, "title": "Taxation", "topics": ["Income Tax", "GST Returns (GSTR-1, 3B)"] },
+      { "module": 6, "title": "Auditing", "topics": ["Internal Controls", "Audit Reports"] },
+      { "module": 7, "title": "Financial Management", "topics": ["Capital Budgeting (NPV, IRR)"] },
+      { "module": 8, "title": "Tally Prime", "topics": ["GST in Tally", "Payroll & MIS Reports"] },
+      { "module": 9, "title": "Advanced Excel", "topics": ["Financial Modeling", "Scenario Analysis"] },
+      { "module": 10, "title": "Capstone & Interview Prep", "topics": ["End-to-End Financial Project"] }
+    ],
+    "metaTitle": "Advanced Diploma in Finance & Accounting | Tally, GST & Excel Financial Modeling",
+    "metaDescription": "Complete diploma in finance & accounting covering financial statements, GST, corporate accounting, Tally Prime & Excel financial modeling. Job-ready in 9–12 months."
+  },
+  {
+    "id": "aml",
+    "slug": "anti-money-laundering",
+    "title": "Anti-Money Laundering (AML) Certification",
+    "shortDescription": "Certification course in AML compliance, KYC, transaction monitoring, PMLA, and FATF guidelines.",
+    "fullDescription": "This AML Certification course covers money laundering stages, Indian regulatory framework (PMLA, FIU-IND, RBI Guidelines), KYC/CDD processes, suspicious transaction identification, STR/CTR reporting, investigation procedures, and the role of AI in AML compliance.",
+    "duration": "2-3 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/aml.jpg",
+    "features": [
+      "Money Laundering Stages & Financial Crimes",
+      "PMLA, FIU-IND, RBI & FATF Guidelines",
+      "KYC & Customer Due Diligence (CDD)",
+      "Red Flags & Transaction Monitoring",
+      "STR & CTR Reporting",
+      "AI & Data Analytics in AML"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to AML", "topics": ["Money Laundering Stages", "Financial Crimes"] },
+      { "module": 2, "title": "Regulatory Framework", "topics": ["PMLA, FIU-IND, RBI, FATF"] },
+      { "module": 3, "title": "KYC & CDD", "topics": ["Customer Identification", "Risk-Based Approach"] },
+      { "module": 4, "title": "Transaction Monitoring", "topics": ["Red Flags", "Structuring/Smurfing"] },
+      { "module": 5, "title": "Reporting & Documentation", "topics": ["STR, CTR, FIU Filing"] },
+      { "module": 6, "title": "Investigation & Case Handling", "topics": ["Evidence Collection", "Escalation Matrix"] },
+      { "module": 7, "title": "Technology in AML", "topics": ["AI & ML in AML", "SQL & Excel for Analysts"] },
+      { "module": 8, "title": "Risk Management & Assessment", "topics": ["AML Risk Framework", "Certification Test"] }
+    ],
+    "metaTitle": "AML Certification Course | PMLA, KYC, Transaction Monitoring & FATF",
+    "metaDescription": "Get certified in Anti-Money Laundering (AML). Learn PMLA, FIU-IND, KYC/CDD, transaction monitoring, STR/CTR reporting & AI in AML compliance."
+  },
+  {
+    "id": "tally",
+    "slug": "tally-prime-gst",
+    "title": "Tally Prime + GST Professional Course",
+    "shortDescription": "Complete Tally Prime training with GST, inventory management, financial reports, and e-invoicing.",
+    "fullDescription": "This Tally Prime + GST course covers accounting fundamentals, ledger management, inventory tracking, GST configuration, GSTR-1 and GSTR-3B reports, e-invoicing, e-way bills, and financial reporting — making you fully job-ready for accounting roles.",
+    "duration": "2-3 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/tally.jpg",
+    "features": [
+      "Tally Prime — Complete Accounting Setup",
+      "Ledger Groups & Voucher Entries",
+      "Inventory Management & Stock Tracking",
+      "GST Configuration — CGST, SGST, IGST",
+      "GSTR-1, GSTR-3B & E-Way Bill Generation",
+      "Financial Reports — Balance Sheet, P&L"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Accounting Fundamentals & Tally Intro", "topics": ["Company Creation", "Navigation"] },
+      { "module": 2, "title": "Ledgers & Voucher Entries", "topics": ["Payment, Receipt, Journal Vouchers"] },
+      { "module": 3, "title": "Inventory Management", "topics": ["Stock Groups, Purchase & Sales Orders"] },
+      { "module": 4, "title": "GST Configuration", "topics": ["CGST, SGST, IGST", "ITC Concept"] },
+      { "module": 5, "title": "GST Returns", "topics": ["GSTR-1, GSTR-3B", "E-Invoicing & E-Way Bill"] },
+      { "module": 6, "title": "Financial Reports", "topics": ["Balance Sheet", "P&L", "Exporting to Excel"] }
+    ],
+    "metaTitle": "Tally Prime + GST Course | Professional Accounting & GST Returns",
+    "metaDescription": "Learn Tally Prime with GST for professional accounting. Covers ledgers, inventory, GSTR-1, GSTR-3B, e-invoicing & financial reports. Job-ready accounting course."
+  },
+  {
+    "id": "cia",
+    "slug": "certified-industrial-accountant",
+    "title": "Certified Industrial Accountant (CIA)",
+    "shortDescription": "Certification covering accounting, Excel MIS, Tally, GST, cost accounting, and interview preparation.",
+    "fullDescription": "The Certified Industrial Accountant (CIA) program prepares you for industry accounting roles with training in financial accounting, advanced Excel MIS, Tally Prime, GST compliance, cost accounting, and financial ratio analysis — plus resume building and mock interviews.",
+    "duration": "4-6 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/cia.jpg",
+    "features": [
+      "Financial Accounting — Journal to Balance Sheet",
+      "Advanced Excel — MIS Reports & Dashboards",
+      "Tally Prime — Full Accounting Setup",
+      "GST — GSTR-1, GSTR-3B & Compliance",
+      "Cost Accounting & Variance Analysis",
+      "Mock Interviews & Resume Building"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Accounting Fundamentals", "topics": ["Double Entry", "Trial Balance", "Financial Statements"] },
+      { "module": 2, "title": "Advanced Excel for Finance", "topics": ["VLOOKUP, Pivot Tables", "MIS Dashboards"] },
+      { "module": 3, "title": "Tally Prime", "topics": ["Ledgers", "Inventory", "Transactions"] },
+      { "module": 4, "title": "GST Compliance", "topics": ["GST Entries", "ITC", "GSTR-1 & 3B"] },
+      { "module": 5, "title": "Cost Accounting", "topics": ["FIFO, LIFO", "Variance Analysis", "Budgeting"] },
+      { "module": 6, "title": "Financial Analysis", "topics": ["Ratio Analysis", "Cash Flow Statements"] },
+      { "module": 7, "title": "Career Preparation", "topics": ["Resume Building", "Mock Interviews"] }
+    ],
+    "metaTitle": "Certified Industrial Accountant (CIA) | Tally, GST, Excel MIS & Accounting",
+    "metaDescription": "Become a Certified Industrial Accountant with training in financial accounting, Tally Prime, GST, advanced Excel MIS & cost accounting. Includes mock interviews & resume prep."
+  },
+  {
+    "id": "busy",
+    "slug": "busy-accounting-software",
+    "title": "BUSY Accounting Software",
+    "shortDescription": "Professional training in BUSY accounting software covering ledgers, GST, inventory, and financial reports.",
+    "fullDescription": "This BUSY Accounting Software course covers the complete workflow — from company setup, ledger management, and inventory billing to GST configuration, GSTR-1 and GSTR-3B reports, e-way bills, and financial reporting.",
+    "duration": "1-2 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/busy.jpg",
+    "features": [
+      "Company Setup in BUSY",
+      "Ledger Accounts & Voucher Entries",
+      "Inventory Management & Billing",
+      "GST Configuration (CGST, SGST, IGST)",
+      "GSTR-1, GSTR-3B & E-Way Bill",
+      "Financial Reports — Balance Sheet & P&L"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to BUSY", "topics": ["Interface", "Company Creation"] },
+      { "module": 2, "title": "Ledger & Voucher Entries", "topics": ["Payment, Receipt, Journal, Purchase, Sales"] },
+      { "module": 3, "title": "Inventory & Billing", "topics": ["Stock Items", "Purchase & Sales Invoices"] },
+      { "module": 4, "title": "GST Configuration", "topics": ["GST Types", "ITC Management"] },
+      { "module": 5, "title": "GST Returns & Reports", "topics": ["GSTR-1, GSTR-3B", "E-Way Bill"] },
+      { "module": 6, "title": "Financial Reports", "topics": ["Balance Sheet", "P&L", "Export to Excel"] }
+    ],
+    "metaTitle": "BUSY Accounting Software Course | GST, Inventory & Financial Reports",
+    "metaDescription": "Learn BUSY accounting software for GST compliance, inventory management & financial reporting. Professional training in GSTR-1, GSTR-3B & e-way bill generation."
+  },
+  {
+    "id": "sapfico",
+    "slug": "sap-fico",
+    "title": "SAP FICO Professional Course",
+    "shortDescription": "Learn SAP Financial Accounting (FI) and Controlling (CO) for enterprise ERP roles.",
+    "fullDescription": "This SAP FICO course covers the complete financial accounting and controlling modules — chart of accounts, vendor/customer management, asset accounting, cost center allocation, profitability analysis, financial reporting, and integration with MM, SD, and PP modules.",
+    "duration": "3-4 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/sap-fico.jpg",
+    "features": [
+      "SAP FI — Chart of Accounts & GL Posting",
+      "Accounts Payable & Receivable",
+      "Asset Accounting & Depreciation",
+      "SAP CO — Cost Centers & Profitability Analysis",
+      "Integration with MM, SD & PP",
+      "SAP FICO Consultant Career Preparation"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "ERP & SAP Environment", "topics": ["SAP Architecture", "Navigation & T-Codes"] },
+      { "module": 2, "title": "SAP FI Fundamentals", "topics": ["Chart of Accounts", "Vendor/Customer Master Data"] },
+      { "module": 3, "title": "Asset Accounting", "topics": ["Asset Creation", "Depreciation Calculation"] },
+      { "module": 4, "title": "SAP CO", "topics": ["Cost Centers", "Budget Monitoring", "PA Analysis"] },
+      { "module": 5, "title": "Financial Reporting", "topics": ["Balance Sheet, P&L", "Cost Reports"] },
+      { "module": 6, "title": "Module Integration", "topics": ["MM, SD & PP Integration"] },
+      { "module": 7, "title": "Career Preparation", "topics": ["FICO Consultant Roles", "Mock Interviews"] }
+    ],
+    "metaTitle": "SAP FICO Course | Financial Accounting & Controlling | ERP Professional",
+    "metaDescription": "Learn SAP FICO for financial accounting & controlling. Covers GL posting, asset accounting, cost centers, profitability analysis & module integration. SAP consultant career prep."
+  },
+  {
+    "id": "sapmm",
+    "slug": "sap-mm-materials-management",
+    "title": "SAP MM (Materials Management)",
+    "shortDescription": "Professional SAP MM training in procurement, inventory management, invoice verification, and reporting.",
+    "fullDescription": "This SAP MM course covers the full procurement-to-pay cycle — material master data, purchase requisitions, purchase orders, goods receipt, inventory management, invoice verification (3-way match), and integration with FI, SD, and PP modules.",
+    "duration": "3-4 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/sap-mm.jpg",
+    "features": [
+      "Material Master Records & Purchasing Org",
+      "Purchase Requisition to PO Workflow",
+      "Goods Receipt & Inventory Management",
+      "Invoice Verification (3-Way Matching)",
+      "Stock Overview & Vendor Analysis Reports",
+      "SAP MM Consultant Career Preparation"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "ERP & SAP Environment", "topics": ["SAP Architecture", "Navigation"] },
+      { "module": 2, "title": "Organizational Structure", "topics": ["Material Master", "Purchasing Organization"] },
+      { "module": 3, "title": "Procurement Process", "topics": ["PRs, Quotations, Purchase Orders"] },
+      { "module": 4, "title": "Inventory Management", "topics": ["Goods Receipt/Issue", "Stock Movements"] },
+      { "module": 5, "title": "Invoice Verification", "topics": ["3-Way Matching", "Discrepancy Handling"] },
+      { "module": 6, "title": "Reporting", "topics": ["PO Reports", "Vendor Performance Analysis"] },
+      { "module": 7, "title": "Module Integration", "topics": ["FI, PP & SD Integration"] },
+      { "module": 8, "title": "Career Preparation", "topics": ["SAP MM Consultant Roles", "Mock Interviews"] }
+    ],
+    "metaTitle": "SAP MM Course | Materials Management, Procurement & Inventory | ERP",
+    "metaDescription": "Learn SAP MM for materials management & procurement. Covers purchase orders, goods receipt, inventory management, invoice verification & 3-way matching. SAP MM consultant prep."
+  },
+  {
+    "id": "sapsd",
+    "slug": "sap-sd-sales-distribution",
+    "title": "SAP SD (Sales & Distribution)",
+    "shortDescription": "Learn SAP SD for sales order processing, delivery, billing, and integration with FI and MM modules.",
+    "fullDescription": "This SAP SD course covers the complete order-to-cash cycle — customer master data, quotations, sales orders, pricing, outbound delivery, goods issue, billing, invoice processing, and integration with FI and MM modules.",
+    "duration": "3-4 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/sap-sd.jpg",
+    "features": [
+      "Customer & Material Master Data",
+      "Quotation to Sales Order Processing",
+      "Pricing Procedures & Discounts",
+      "Delivery, Shipping & Goods Issue",
+      "Billing & Invoice Processing",
+      "SAP SD Consultant Career Preparation"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "ERP & SAP Environment", "topics": ["Integration of Sales, Finance & Logistics"] },
+      { "module": 2, "title": "Organizational Structure", "topics": ["Sales Organization", "Customer Master Data"] },
+      { "module": 3, "title": "Sales Order Processing", "topics": ["Inquiries, Quotations, Pricing"] },
+      { "module": 4, "title": "Delivery & Shipping", "topics": ["Outbound Delivery", "Goods Issue"] },
+      { "module": 5, "title": "Billing", "topics": ["Invoice Generation", "Credit & Debit Memos"] },
+      { "module": 6, "title": "Reporting", "topics": ["Sales Reports", "Customer Performance"] },
+      { "module": 7, "title": "Module Integration", "topics": ["MM, FI & PP Integration"] },
+      { "module": 8, "title": "Career Preparation", "topics": ["SAP SD Consultant Roles", "Mock Interviews"] }
+    ],
+    "metaTitle": "SAP SD Course | Sales & Distribution, Order Management & Billing | ERP",
+    "metaDescription": "Learn SAP SD for sales order management, delivery, billing & pricing. Complete order-to-cash cycle training with MM & FI integration. SAP SD consultant career preparation."
+  },
+  {
+    "id": "sappp",
+    "slug": "sap-pp-production-planning",
+    "title": "SAP PP (Production Planning)",
+    "shortDescription": "Learn SAP PP for production planning, MRP, work centers, routing, and manufacturing execution.",
+    "fullDescription": "This SAP PP course covers the complete production planning and execution cycle — BOM, work centers, routing, MRP, planned orders, production orders, goods issue, goods receipt, quality control, and integration with MM, SD, and FI modules.",
+    "duration": "3-4 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/sap-pp.jpg",
+    "features": [
+      "Bill of Materials (BOM) & Work Centers",
+      "Routing & Machine Capacity Planning",
+      "MRP — Demand Forecasting & Planned Orders",
+      "Production Order Processing & Execution",
+      "Quality Control in Production",
+      "SAP PP Consultant Career Preparation"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "ERP & SAP Environment", "topics": ["Manufacturing, Finance & Procurement Integration"] },
+      { "module": 2, "title": "Master Data", "topics": ["Material Master", "BOM Creation", "Plant Setup"] },
+      { "module": 3, "title": "Work Centers & Routing", "topics": ["Capacity Planning", "Production Operations"] },
+      { "module": 4, "title": "Production Planning", "topics": ["MRP Logic", "Planned Orders"] },
+      { "module": 5, "title": "Production Execution", "topics": ["Production Orders", "Goods Issue/Receipt"] },
+      { "module": 6, "title": "Quality & Monitoring", "topics": ["Quality Checks", "Capacity Reports"] },
+      { "module": 7, "title": "Module Integration", "topics": ["MM, SD & FI Integration"] },
+      { "module": 8, "title": "Career Preparation", "topics": ["SAP PP Consultant Roles", "Mock Interviews"] }
+    ],
+    "metaTitle": "SAP PP Course | Production Planning, MRP & Manufacturing Execution | ERP",
+    "metaDescription": "Learn SAP PP for production planning & manufacturing execution. Covers BOM, MRP, work centers, routing, production orders & quality control. SAP PP consultant prep."
+  },
+  {
+    "id": "saphcm",
+    "slug": "sap-hcm-human-capital-management",
+    "title": "SAP HCM (Human Capital Management)",
+    "shortDescription": "Learn SAP HCM for HR operations — payroll, time management, personnel administration, and talent management.",
+    "fullDescription": "This SAP HCM course covers organizational management, personnel administration, time management, payroll processing, recruitment, performance management, and HR analytics — with integration to FI and other SAP modules.",
+    "duration": "3-4 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/sap-hcm.jpg",
+    "features": [
+      "Organizational Structure & Position Management",
+      "Employee Master Data & Hiring Process",
+      "Time Management — Attendance, Leave & Overtime",
+      "Payroll Processing & Payslip Generation",
+      "Recruitment & Talent Management",
+      "SAP HCM Consultant Career Preparation"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "ERP & SAP Environment", "topics": ["HR, Finance & Operations Integration"] },
+      { "module": 2, "title": "Organizational Management", "topics": ["Org Units, Positions, Hierarchy"] },
+      { "module": 3, "title": "Personnel Administration", "topics": ["Employee Records", "Hiring & Transfers"] },
+      { "module": 4, "title": "Time Management", "topics": ["Attendance", "Leave Management", "Overtime"] },
+      { "module": 5, "title": "Payroll Management", "topics": ["Salary Components", "Payroll Cycles"] },
+      { "module": 6, "title": "Recruitment & Talent", "topics": ["Vacancy Management", "Performance Evaluations"] },
+      { "module": 7, "title": "Reporting & Analytics", "topics": ["Workforce Reports", "HR Analytics"] },
+      { "module": 8, "title": "Module Integration", "topics": ["FI & PS Integration"] },
+      { "module": 9, "title": "Career Preparation", "topics": ["SAP HCM Consultant Roles", "Mock Interviews"] }
+    ],
+    "metaTitle": "SAP HCM Course | Human Capital Management, Payroll & HR Operations | ERP",
+    "metaDescription": "Learn SAP HCM for HR operations — payroll, time management, personnel administration & talent management. Complete SAP Human Capital Management consultant training."
+  },
+  {
+    "id": "BLENDER",
+    "slug": "blender-3d-animation",
+    "title": "Blender 3D Animation",
+    "shortDescription": "4–6 month Blender course covering 3D modeling, texturing, rigging, animation, rendering, and showreel creation.",
+    "fullDescription": "This Blender 3D Animation course takes you from the basics of 3D modeling to professional character animation, rendering, and showreel development. You'll cover hard surface and organic modeling, UV mapping, rigging, walk cycles, Eevee/Cycles rendering, and portfolio building.",
+    "duration": "4–6 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "/images/courses/blender.jpg",
+    "features": [
+      "3D Modeling — Hard Surface & Organic",
+      "Materials, UV Mapping & Texturing",
+      "Rigging & Character Animation",
+      "Eevee & Cycles Rendering Engines",
+      "Product & Short Film Animation",
+      "Showreel & Freelance Guidance"
+    ],
+    "syllabus": [
+      { "module": 1, "title": "Introduction to Blender", "topics": ["Workspace, Navigation, Primitives"] },
+      { "module": 2, "title": "3D Modeling", "topics": ["Edit Mode", "Hard Surface & Organic Modeling"] },
+      { "module": 3, "title": "Materials & Texturing", "topics": ["Shaders, UV Mapping, Lighting"] },
+      { "module": 4, "title": "Animation Fundamentals", "topics": ["Keyframes", "Timing & Camera Animation"] },
+      { "module": 5, "title": "Rigging & Character Animation", "topics": ["Armatures", "Walk Cycle"] },
+      { "module": 6, "title": "Rendering & Output", "topics": ["Eevee vs Cycles", "Image & Video Export"] },
+      { "module": 7, "title": "Real Projects", "topics": ["Product Ad Animation", "Short Scene"] },
+      { "module": 8, "title": "Career & Freelancing", "topics": ["Showreel", "Industry Tools Intro"] }
+    ],
+    "metaTitle": "Blender 3D Animation Course | Modeling, Rigging & Rendering | 4–6 Months",
+    "metaDescription": "Learn Blender 3D animation from scratch. Covers modeling, UV mapping, rigging, walk cycles, Eevee & Cycles rendering. Build a professional 3D animation showreel."
+  }
+]

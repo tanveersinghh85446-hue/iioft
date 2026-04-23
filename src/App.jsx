@@ -1,12 +1,12 @@
-import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import { useState, useEffect } from "react";
-
+import React, { useState, useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
+import Courses from "./Pages/Courses";
 import Navbar from "./Components/Navbar";
-import WelcomeAnimation from "./Components/WelcomeAnimation"; //
+import WelcomeAnimation from "./Components/WelcomeAnimation";
 import Testimonials from "./Pages/Testimonials";
 import Contact from "./Pages/Contact";
 import Course from "./Pages/Course";
+import CourseDetail from "./Pages/Coursedetail"; // ✅ FIXED
 import About from "./Pages/About";
 import Blog from "./Pages/Blog";
 import KnowMore from "./Pages/Kmore";
@@ -27,18 +27,19 @@ function App() {
   return (
     <div className="relative">
       <WelcomeAnimation />
-
       <Navbar />
 
       <Routes>
+        <Route path="/courses" element={<Courses />} />
         <Route path="/" element={<HeroSection />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/course" element={<Course />} />
+        <Route path="/course/:slug" element={<CourseDetail />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/know-more" element={<KnowMore />} />
-        <Route path="/Apply" element={<Apply />} />
+        <Route path="/apply" element={<Apply />} />
       </Routes>
     </div>
   );

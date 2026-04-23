@@ -35,20 +35,33 @@ function CourseCard({ course }) {
     <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden flex flex-col shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200">
       {/* Header */}
       <div
-        className={`relative ${cat.bg} flex items-center justify-center`}
+        className={`relative ${cat.bg} overflow-hidden`}
         style={{ height: "150px" }}
       >
-        <div className="text-white/30 absolute inset-0 flex items-center justify-center">
-          <span className="text-7xl font-black tracking-tighter select-none">
+        <img
+          src={`/${course.image.split("/").pop()}`}
+          alt={course.title}
+          className="w-full h-full object-cover"
+          onError={(e) => {
+            e.target.style.display = "none";
+            e.target.nextSibling.style.display = "flex";
+          }}
+        />
+        <div
+          className="absolute inset-0 items-center justify-center"
+          style={{ display: "none" }}
+        >
+          <span className="text-7xl font-black tracking-tighter select-none text-white/30">
             {course.title.charAt(0)}
           </span>
         </div>
-        <div className="relative z-10 text-center px-4">
-          <p className="text-white text-xs font-bold tracking-widest uppercase opacity-70">
+        {/* Duration overlay */}
+        <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/60 to-transparent px-4 py-3">
+          <p className="text-white text-xs font-bold tracking-widest uppercase">
             {course.duration}
           </p>
         </div>
-        {/* Category badge */}
+        {/* Badge */}
         <span
           className={`absolute top-3 right-3 text-xs font-semibold px-2.5 py-1 rounded-full border border-white/30 text-white/90 backdrop-blur-sm ${cat.badge}`}
         >
