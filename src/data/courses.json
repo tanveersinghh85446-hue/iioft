@@ -41,7 +41,7 @@
     "duration": "4 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/zbrush.jpg",
+    "image": "ZBrush 3D Sculpting.png",
     "features": [
       "Industry-standard ZBrush software",
       "Organic & Hard Surface Sculpting",
@@ -72,7 +72,7 @@
     "duration": "3 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/dtp.jpg",
+    "image": "DTP (Desktop Publishing).png",
     "features": [
       "Adobe InDesign / PageMaker for Layout",
       "CorelDRAW for Print & Graphic Design",
@@ -102,7 +102,7 @@
     "duration": "6-12 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/web-dev.jpg",
+    "image": "Full Stack Web Development.png",
     "features": [
       "HTML5, CSS3, JavaScript & React.js",
       "Node.js, Express & REST APIs",
@@ -136,7 +136,7 @@
     "duration": "9–12 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/damd.jpg",
+    "image": "Diploma in Animation, Multimedia & Designing.png",
     "features": [
       "Photoshop & Illustrator for Graphic Design",
       "Adobe Animate for 2D Animation",
@@ -168,7 +168,7 @@
     "duration": "6-12 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/data-science.jpg",
+    "image": "Data Science.png",
     "features": [
       "Python, NumPy, Pandas, Matplotlib",
       "Machine Learning (Scikit-learn)",
@@ -197,7 +197,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/data-analytics.jpg",
+    "image": "Data Analytics.png",
     "features": [
       "Excel for Data Analysis",
       "SQL Queries & Database Analysis",
@@ -226,7 +226,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/ethical-hacking.jpg",
+    "image": "Ethical Hacking.png",
     "features": [
       "Kali Linux & Penetration Testing",
       "Network Scanning (Nmap, Nessus)",
@@ -255,7 +255,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/digital-marketing.jpg",
+    "image": "Digital Marketing.png",
     "features": [
       "SEO — On-page, Off-page & Technical",
       "Social Media Marketing (Facebook, Instagram, LinkedIn)",
@@ -284,7 +284,7 @@
     "duration": "6-9 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/interior-design.jpg",
+    "image": "Interior Design Diploma.png",
     "features": [
       "Design Principles & Visual Communication",
       "Space Planning for Residential & Commercial",
@@ -313,7 +313,7 @@
     "duration": "6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/finance-accounting.jpg",
+    "image": "Advanced Finance & Accounting.png",
     "features": [
       "Corporate Financial Reporting",
       "Financial Ratio & Trend Analysis",
@@ -342,7 +342,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/hrm.jpg",
+    "image": "Human Resource Management Diploma.png",
     "features": [
       "SAP SuccessFactors & Workday Basics",
       "Recruitment & ATS (LinkedIn Recruiter)",
@@ -371,7 +371,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/python.jpg",
+    "image": "Python Programming.png",
     "features": [
       "Python Fundamentals & Control Flow",
       "Functions, Modules & OOP",
@@ -400,7 +400,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/ui-ux.jpg",
+    "image": "UI-UX Design.png",
     "features": [
       "Design Thinking & User Research",
       "Wireframing & Information Architecture",
@@ -429,7 +429,7 @@
     "duration": "6-9 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/cloud-computing.jpg",
+    "image": "",
     "features": [
       "AWS (EC2, S3, RDS, Lambda)",
       "Microsoft Azure & Google Cloud Platform",
@@ -458,7 +458,7 @@
     "duration": "6-12 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/ai.jpg",
+    "image": "",
     "features": [
       "Python, NumPy & Data Visualization",
       "Search Algorithms & Knowledge Graphs",
@@ -487,7 +487,7 @@
     "duration": "6-9 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/mobile-dev.jpg",
+    "image": "",
     "features": [
       "React Native & Expo Framework",
       "Navigation, Forms & Responsive Layouts",
@@ -516,7 +516,7 @@
     "duration": "3 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/adobe-animate.jpg",
+    "image": "",
     "features": [
       "Timeline & Frame-by-Frame Animation",
       "Symbols, Masking & Easing Techniques",
@@ -546,7 +546,7 @@
     "duration": "2-3 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/ms-office.jpg",
+    "image": "",
     "features": [
       "Microsoft Word — Advanced Formatting & Mail Merge",
       "Microsoft Excel — Pivot Tables, VLOOKUP, Dashboards",
@@ -576,7 +576,7 @@
     "duration": "4 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/graphic-design.jpg",
+    "image": "",
     "features": [
       "Adobe Photoshop — Image Editing & Poster Design",
       "Adobe Illustrator — Logo & Vector Design",
@@ -606,7 +606,7 @@
     "duration": "6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "/images/courses/animation-2d-3d.jpg",
+    "image": "",
     "features": [
       "12 Principles of Animation",
       "2D Frame Animation & Motion Design (Adobe Animate)",
@@ -637,7 +637,7 @@
     "duration": "3–4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/after-effects.jpg",
+    "image": "",
     "features": [
       "Motion Graphics & Kinetic Typography",
       "Green Screen & Chroma Key VFX",
@@ -668,7 +668,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/filmora.jpg",
+    "image": "",
     "features": [
       "Video Cutting, Trimming & Timeline Editing",
       "Transitions, Titles & Visual Effects",
@@ -699,7 +699,7 @@
     "duration": "3 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/premiere-pro.jpg",
+    "image": "",
     "features": [
       "Professional Cutting & Sequence Editing",
       "Audio Editing & Sound Design",
@@ -730,7 +730,7 @@
     "duration": "6 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/maya.jpg",
+    "image": "",
     "features": [
       "Hard Surface & Organic 3D Modeling",
       "UV Mapping, Texturing & Lighting",
@@ -762,7 +762,7 @@
     "duration": "4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/uiux-figma.jpg",
+    "image": "",
     "features": [
       "Design Thinking & UX Research Methods",
       "Wireframing & Information Architecture",
@@ -792,7 +792,7 @@
     "duration": "4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/business-analyst.jpg",
+    "image": "",
     "features": [
       "Excel — VLOOKUP, Pivot Tables, Dashboards",
       "SQL for Business Data Extraction",
@@ -823,7 +823,7 @@
     "duration": "2-3 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/personality-dev.jpg",
+    "image": "",
     "features": [
       "Communication & Active Listening Skills",
       "Public Speaking & Stage Confidence",
@@ -853,7 +853,7 @@
     "duration": "3-4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/spoken-english.jpg",
+    "image": "",
     "features": [
       "Grammar — Tenses, Modals & Sentence Structure",
       "Everyday Conversation Practice",
@@ -883,7 +883,7 @@
     "duration": "2-3 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/excel-vba.jpg",
+    "image": "",
     "features": [
       "VBA Editor & Module Basics",
       "Recording & Editing Macros",
@@ -914,7 +914,7 @@
     "duration": "2-3 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/ms-access.jpg",
+    "image": "",
     "features": [
       "Relational Database Design",
       "Tables, Relationships & Referential Integrity",
@@ -944,7 +944,7 @@
     "duration": "9-12 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/adfa.jpg",
+    "image": "",
     "features": [
       "Financial Accounting — Journal to Balance Sheet",
       "Corporate Accounting & IFRS/GAAP",
@@ -977,7 +977,7 @@
     "duration": "2-3 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/aml.jpg",
+    "image": "",
     "features": [
       "Money Laundering Stages & Financial Crimes",
       "PMLA, FIU-IND, RBI & FATF Guidelines",
@@ -1008,7 +1008,7 @@
     "duration": "2-3 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/tally.jpg",
+    "image": "",
     "features": [
       "Tally Prime — Complete Accounting Setup",
       "Ledger Groups & Voucher Entries",
@@ -1037,7 +1037,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/cia.jpg",
+    "image": "",
     "features": [
       "Financial Accounting — Journal to Balance Sheet",
       "Advanced Excel — MIS Reports & Dashboards",
@@ -1067,7 +1067,7 @@
     "duration": "1-2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/busy.jpg",
+    "image": "",
     "features": [
       "Company Setup in BUSY",
       "Ledger Accounts & Voucher Entries",
@@ -1096,7 +1096,7 @@
     "duration": "3-4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/sap-fico.jpg",
+    "image": "",
     "features": [
       "SAP FI — Chart of Accounts & GL Posting",
       "Accounts Payable & Receivable",
@@ -1126,7 +1126,7 @@
     "duration": "3-4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/sap-mm.jpg",
+    "image": "",
     "features": [
       "Material Master Records & Purchasing Org",
       "Purchase Requisition to PO Workflow",
@@ -1157,7 +1157,7 @@
     "duration": "3-4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/sap-sd.jpg",
+    "image": "",
     "features": [
       "Customer & Material Master Data",
       "Quotation to Sales Order Processing",
@@ -1188,7 +1188,7 @@
     "duration": "3-4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/sap-pp.jpg",
+    "image": "",
     "features": [
       "Bill of Materials (BOM) & Work Centers",
       "Routing & Machine Capacity Planning",
@@ -1219,7 +1219,7 @@
     "duration": "3-4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/sap-hcm.jpg",
+    "image": "",
     "features": [
       "Organizational Structure & Position Management",
       "Employee Master Data & Hiring Process",
@@ -1251,7 +1251,7 @@
     "duration": "4–6 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "/images/courses/blender.jpg",
+    "image": "",
     "features": [
       "3D Modeling — Hard Surface & Organic",
       "Materials, UV Mapping & Texturing",
