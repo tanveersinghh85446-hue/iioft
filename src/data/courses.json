@@ -8,7 +8,7 @@
     "duration": "6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "Diploma in Office Automation & Publishing.png",
+    "image": "DOAP.png",
     "features": [
       "Microsoft Office Suite (Word, Excel, PowerPoint, Outlook, Access)",
       "Desktop Publishing with CorelDRAW",
@@ -41,7 +41,7 @@
     "duration": "4 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "ZBrush 3D Sculpting.png",
+    "image": "ZB3DS.png",
     "features": [
       "Industry-standard ZBrush software",
       "Organic & Hard Surface Sculpting",
@@ -72,7 +72,7 @@
     "duration": "3 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "DTP (Desktop Publishing).png",
+    "image": "DTP.png",
     "features": [
       "Adobe InDesign / PageMaker for Layout",
       "CorelDRAW for Print & Graphic Design",
@@ -102,7 +102,7 @@
     "duration": "6-12 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "Full Stack Web Development.png",
+    "image": "FSWD.png",
     "features": [
       "HTML5, CSS3, JavaScript & React.js",
       "Node.js, Express & REST APIs",
@@ -136,7 +136,7 @@
     "duration": "9–12 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "Diploma in Animation, Multimedia & Designing.png",
+    "image": "DAMD.png",
     "features": [
       "Photoshop & Illustrator for Graphic Design",
       "Adobe Animate for 2D Animation",
@@ -168,7 +168,7 @@
     "duration": "6-12 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "Data Science.png",
+    "image": "DS.png",
     "features": [
       "Python, NumPy, Pandas, Matplotlib",
       "Machine Learning (Scikit-learn)",
@@ -197,7 +197,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "Data Analytics.png",
+    "image": "DA.png",
     "features": [
       "Excel for Data Analysis",
       "SQL Queries & Database Analysis",
@@ -226,7 +226,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "Ethical Hacking.png",
+    "image": "EH.png",
     "features": [
       "Kali Linux & Penetration Testing",
       "Network Scanning (Nmap, Nessus)",
@@ -255,7 +255,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "Digital Marketing.png",
+    "image": "DM.png",
     "features": [
       "SEO — On-page, Off-page & Technical",
       "Social Media Marketing (Facebook, Instagram, LinkedIn)",
@@ -284,7 +284,7 @@
     "duration": "6-9 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "Interior Design Diploma.png",
+    "image": "IDD.png",
     "features": [
       "Design Principles & Visual Communication",
       "Space Planning for Residential & Commercial",
@@ -313,7 +313,7 @@
     "duration": "6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "Advanced Finance & Accounting.png",
+    "image": "AFA.png",
     "features": [
       "Corporate Financial Reporting",
       "Financial Ratio & Trend Analysis",
@@ -342,7 +342,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "Human Resource Management Diploma.png",
+    "image": "HRMD.png",
     "features": [
       "SAP SuccessFactors & Workday Basics",
       "Recruitment & ATS (LinkedIn Recruiter)",
@@ -371,7 +371,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "Python Programming.png",
+    "image": "PP.png",
     "features": [
       "Python Fundamentals & Control Flow",
       "Functions, Modules & OOP",
@@ -400,7 +400,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "UI-UX Design.png",
+    "image": "UIUXD.png",
     "features": [
       "Design Thinking & User Research",
       "Wireframing & Information Architecture",
@@ -429,7 +429,7 @@
     "duration": "6-9 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "",
+    "image": "CC.png",
     "features": [
       "AWS (EC2, S3, RDS, Lambda)",
       "Microsoft Azure & Google Cloud Platform",
@@ -458,7 +458,7 @@
     "duration": "6-12 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "",
+    "image": "AI.png",
     "features": [
       "Python, NumPy & Data Visualization",
       "Search Algorithms & Knowledge Graphs",
@@ -487,7 +487,7 @@
     "duration": "6-9 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "",
+    "image": "DAMD.png",
     "features": [
       "React Native & Expo Framework",
       "Navigation, Forms & Responsive Layouts",
@@ -546,7 +546,7 @@
     "duration": "2-3 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "",
+    "image": "MO.png",
     "features": [
       "Microsoft Word — Advanced Formatting & Mail Merge",
       "Microsoft Excel — Pivot Tables, VLOOKUP, Dashboards",
@@ -576,7 +576,7 @@
     "duration": "4 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "",
+    "image": "GD.png",
     "features": [
       "Adobe Photoshop — Image Editing & Poster Design",
       "Adobe Illustrator — Logo & Vector Design",
@@ -606,7 +606,7 @@
     "duration": "6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "",
+    "image": "2D3D.png",
     "features": [
       "12 Principles of Animation",
       "2D Frame Animation & Motion Design (Adobe Animate)",
