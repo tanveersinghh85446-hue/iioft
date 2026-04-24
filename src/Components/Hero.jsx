@@ -442,8 +442,11 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* ── HIRING PARTNERS ── */}
+      {/* Job Oriented Programs */}
 
+      
+
+      {/* ── HIRING PARTNERS ── */}
       <section className="py-20 bg-blue-600">
         <div className="max-w-6xl mx-auto text-center mb-14">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
@@ -513,7 +516,6 @@ export default function Hero() {
       </section>
 
       {/* FAQ */}
-
      <section
   className="relative py-20 bg-cover bg-center bg-no-repeat"
   style={{ backgroundImage: "url('AB.jpeg')" }}

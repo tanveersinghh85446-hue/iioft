@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import { FaHourglassHalf } from "react-icons/fa6";
 import { CiLocationOn, CiPhone } from "react-icons/ci";
+import { GrMapLocation } from "react-icons/gr";
+
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
+import { FaRoute } from "react-icons/fa";
+
 import { Helmet } from "react-helmet-async";
 
 // ─── Static data ──────────────────────────────────────────────────────────────
@@ -40,13 +44,13 @@ const FAQ_SECTIONS = [
 
 const CONTACT_CARDS = [
   {
-    icon: FaHourglassHalf,
+    icon: FaRoute,
     title: "Office Hours",
     lines: ["Monday – Saturday", "9:00 AM – 9:00 PM"],
     gradient: "from-blue-500 to-blue-700",
   },
   {
-    icon: CiLocationOn,
+    icon: GrMapLocation,
     title: "Location",
     lines: ["IIOFT Institute", "Delhi, Dwarka (India)"],
     gradient: "from-blue-600 to-blue-800",
@@ -183,9 +187,7 @@ export default function Contact() {
             Get in{" "}
             <span className="text-blue-600 relative">
               Touch
-              <svg className="absolute -bottom-1 left-0 w-full" viewBox="0 0 200 8" fill="none">
-                <path d="M0 6 Q100 0 200 6" stroke="#2563eb" strokeWidth="3" strokeLinecap="round" fill="none" />
-              </svg>
+              
             </span>
           </motion.h1>
 

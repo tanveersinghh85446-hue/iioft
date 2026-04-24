@@ -155,7 +155,7 @@ export default function About() {
       </motion.section>
 
       {/* VIDEO SECTION */}
-      <motion.section
+      {/* <motion.section
         {...slideUp}
         className="py-20 bg-linear-to-r from-blue-800 to-indigo-900 text-center text-white px-6"
       >
@@ -170,7 +170,7 @@ export default function About() {
           </video>
         </div>
         <h3 className="mt-10 text-3xl font-serif">Hands On Skill Development</h3>
-      </motion.section>
+      </motion.section> */}
 
       {/* USP SECTION */}
       <motion.section
