@@ -3,17 +3,28 @@ import { motion, AnimatePresence } from "framer-motion";
 import { CgPlayButtonR } from "react-icons/cg";
 import { Helmet } from "react-helmet-async";
 
-// ─── Static data ──────────────────────────────────────────────────────────────
-
 const LOGOS = [
-  "DATA ANALYSIS.png",
-  "FINANCE.png",
-  "DATA SCIENCE.png",
-  "DIPLOMA IHRM.png",
-  "WEB DEVELOPMENT.png",
-  "EATHICAL HACKING.png",
-  "DIGITAL MARKETING.png",
-  "DIPLOMA IID.png",
+  "DOAP.png",
+  "ZB3DS.png",
+  "DTP.png",
+  "FSWD.png",
+  "DAMD.png",
+  "DS.png",
+  "DA.png",
+  "EH.png",
+  "DM.png",
+  "IDD.png",
+  "AFA.png",
+  "HRMD.png",
+  "PP.png",
+  "UIUXD.png",
+  "CC.png",
+  "AI.png",
+  "DAMD.png",
+  "AA.png",
+  "MO.png",
+  "GD.png",
+  "2D3DA.png",
 ];
 
 const STATS = [
@@ -22,27 +33,48 @@ const STATS = [
   { number: "100%", label: "Placement Support" },
 ];
 
-const PROGRAMS = ["Web Development", "App Development", "AI & Robotics", "Cyber Security"];
-
-const COURSES = [
+const PROGRAMS = [
   "Web Development",
   "App Development",
   "AI & Robotics",
   "Cyber Security",
-  "Data Science",
-  "Data Analysis",
-  "Digital Marketing",
-  "Ethical Hacking",
-  "Finance",
-  "Diploma IHRM",
-  "Diploma IID",
 ];
 
-const QUALIFICATIONS = ["10th Pass", "12th Pass", "Graduation", "Post Graduation", "Other"];
+const COURSES = [
+  "AAE.png",
+  "FVEC.png",
+  "APP.png",
+  "MAYA.png",
+  "UIUXDAF.png",
+  "BA.png",
+  "PD.png",
+  "SE.png",
+  "MEVBA.png",
+  "MA.png",
+  "ADFA.png",
+  "ALMC.png",
+  "TPGST.png",
+  "CIA.png",
+  "BUSYAS.png",
+  "SAPFICO.png",
+  "SAPMM.png",
+  "SAPSD.png",
+  "SAPPP.png",
+  "SAPHCM.png",
+  "B3DA.png",
+];
+
+const QUALIFICATIONS = [
+  "10th Pass",
+  "12th Pass",
+  "Graduation",
+  "Post Graduation",
+  "Other",
+];
 
 const WHATSAPP_NUMBER = "919217661339";
 const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Hello IIOFT! 👋\nI need information about admission..\nKindly guide me. 🙏"
+  "Hello IIOFT! \nI need information about admission..\nKindly guide me. ",
 );
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`;
 
@@ -72,7 +104,13 @@ function WhatsAppIcon({ size = 24 }) {
 
 function ApplyForm() {
   const [form, setForm] = useState({
-    name: "", phone: "", email: "", course: "", qualification: "", city: "", message: "",
+    name: "",
+    phone: "",
+    email: "",
+    course: "",
+    qualification: "",
+    city: "",
+    message: "",
   });
   const [errors, setErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -133,9 +171,11 @@ function ApplyForm() {
           className="w-full max-w-xl mx-auto bg-white/80 backdrop-blur-xl border border-white/60 rounded-xl shadow-2xl p-8"
         >
           <div className="items-center gap-4 mb-6">
-           <img src="/Logo.png" alt="Logo" className="w-120 h-22" />
+            <img src="/Logo.png" alt="Logo" className="w-120 h-22" />
             <div>
-              <h3 className="text-xl mt-6 font-extrabold text-gray-800 justify-center items-center flex">Admission</h3>
+              <h3 className="text-xl mt-6 font-extrabold text-gray-800 justify-center items-center flex">
+                Admission
+              </h3>
             </div>
           </div>
 
@@ -146,19 +186,33 @@ function ApplyForm() {
               <label className="block text-xs font-semibold text-gray-500 mb-1.5 uppercase tracking-wide">
                 Full Name <span className="text-red-400">*</span>
               </label>
-              <input type="text" name="name" value={form.name} onChange={handleChange}
+              <input
+                type="text"
+                name="name"
+                value={form.name}
+                onChange={handleChange}
                 placeholder="Enter your full name"
-                className={`${inputBase} ${errors.name ? errorBorder : normalBorder}`} />
-              {errors.name && <p className="text-xs text-red-500 mt-1">{errors.name}</p>}
+                className={`${inputBase} ${errors.name ? errorBorder : normalBorder}`}
+              />
+              {errors.name && (
+                <p className="text-xs text-red-500 mt-1">{errors.name}</p>
+              )}
             </div>
             <div>
               <label className="block text-xs font-semibold text-gray-500 mb-1.5 uppercase tracking-wide">
                 Phone Number <span className="text-red-400">*</span>
               </label>
-              <input type="tel" name="phone" value={form.phone} onChange={handleChange}
+              <input
+                type="tel"
+                name="phone"
+                value={form.phone}
+                onChange={handleChange}
                 placeholder="Valid 10-digit mobile number"
-                className={`${inputBase} ${errors.phone ? errorBorder : normalBorder}`} />
-              {errors.phone && <p className="text-xs text-red-500 mt-1">{errors.phone}</p>}
+                className={`${inputBase} ${errors.phone ? errorBorder : normalBorder}`}
+              />
+              {errors.phone && (
+                <p className="text-xs text-red-500 mt-1">{errors.phone}</p>
+              )}
             </div>
           </div>
 
@@ -166,9 +220,14 @@ function ApplyForm() {
             <label className="block text-xs font-semibold text-gray-500 mb-1.5 uppercase tracking-wide">
               Email Address
             </label>
-            <input type="email" name="email" value={form.email} onChange={handleChange}
+            <input
+              type="email"
+              name="email"
+              value={form.email}
+              onChange={handleChange}
               placeholder="Your email (optional)"
-              className={`${inputBase} ${normalBorder}`} />
+              className={`${inputBase} ${normalBorder}`}
+            />
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
@@ -176,21 +235,39 @@ function ApplyForm() {
               <label className="block text-xs font-semibold text-gray-500 mb-1.5 uppercase tracking-wide">
                 Course <span className="text-red-400">*</span>
               </label>
-              <select name="course" value={form.course} onChange={handleChange}
-                className={`${inputBase} ${errors.course ? errorBorder : normalBorder}`}>
+              <select
+                name="course"
+                value={form.course}
+                onChange={handleChange}
+                className={`${inputBase} ${errors.course ? errorBorder : normalBorder}`}
+              >
                 <option value="">Select a course</option>
-                {COURSES.map((c) => <option key={c} value={c}>{c}</option>)}
+                {COURSES.map((c) => (
+                  <option key={c} value={c}>
+                    {c}
+                  </option>
+                ))}
               </select>
-              {errors.course && <p className="text-xs text-red-500 mt-1">{errors.course}</p>}
+              {errors.course && (
+                <p className="text-xs text-red-500 mt-1">{errors.course}</p>
+              )}
             </div>
             <div>
               <label className="block text-xs font-semibold text-gray-500 mb-1.5 uppercase tracking-wide">
                 Qualification
               </label>
-              <select name="qualification" value={form.qualification} onChange={handleChange}
-                className={`${inputBase} ${normalBorder}`}>
+              <select
+                name="qualification"
+                value={form.qualification}
+                onChange={handleChange}
+                className={`${inputBase} ${normalBorder}`}
+              >
                 <option value="">Select qualification</option>
-                {QUALIFICATIONS.map((q) => <option key={q} value={q}>{q}</option>)}
+                {QUALIFICATIONS.map((q) => (
+                  <option key={q} value={q}>
+                    {q}
+                  </option>
+                ))}
               </select>
             </div>
           </div>
@@ -199,18 +276,28 @@ function ApplyForm() {
             <label className="block text-xs font-semibold text-gray-500 mb-1.5 uppercase tracking-wide">
               City / Location
             </label>
-            <input type="text" name="city" value={form.city} onChange={handleChange}
+            <input
+              type="text"
+              name="city"
+              value={form.city}
+              onChange={handleChange}
               placeholder="Your city or location"
-              className={`${inputBase} ${normalBorder}`} />
+              className={`${inputBase} ${normalBorder}`}
+            />
           </div>
 
           <div className="mb-6">
             <label className="block text-xs font-semibold text-gray-500 mb-1.5 uppercase tracking-wide">
               Message (Optional)
             </label>
-            <textarea name="message" value={form.message} onChange={handleChange} rows={3}
+            <textarea
+              name="message"
+              value={form.message}
+              onChange={handleChange}
+              rows={3}
               placeholder="Any questions or queries?"
-              className={`${inputBase} ${normalBorder} resize-none`} />
+              className={`${inputBase} ${normalBorder} resize-none`}
+            />
           </div>
 
           {(form.name || form.phone || form.course) && (
@@ -222,13 +309,18 @@ function ApplyForm() {
               <p className="text-green-700 font-semibold mb-1 text-xs uppercase tracking-wide">
                 WhatsApp Message Preview
               </p>
-              <p className="text-gray-500 whitespace-pre-line">{buildMessage()}</p>
+              <p className="text-gray-500 whitespace-pre-line">
+                {buildMessage()}
+              </p>
             </motion.div>
           )}
 
           <motion.button
             onClick={handleSubmit}
-            whileHover={{ scale: 1.03, boxShadow: "0px 0px 24px rgba(37,211,102,0.5)" }}
+            whileHover={{
+              scale: 1.03,
+              boxShadow: "0px 0px 24px rgba(37,211,102,0.5)",
+            }}
             whileTap={{ scale: 0.97 }}
             className="w-full flex items-center justify-center gap-3 py-3.5 rounded-2xl bg-[#25D366] hover:bg-[#20c25c] text-white font-bold text-base shadow-lg transition-colors"
           >
@@ -251,19 +343,39 @@ function ApplyForm() {
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
-            transition={{ type: "spring", stiffness: 200, damping: 12, delay: 0.2 }}
+            transition={{
+              type: "spring",
+              stiffness: 200,
+              damping: 12,
+              delay: 0.2,
+            }}
             className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center text-green-600"
           >
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
               <polyline points="20 6 9 17 4 12" />
             </svg>
           </motion.div>
-          <h3 className="text-xl font-extrabold text-gray-800">WhatsApp Opening...</h3>
+          <h3 className="text-xl font-extrabold text-gray-800">
+            WhatsApp Opening...
+          </h3>
           <p className="text-sm text-gray-500">
-            Your application is ready. Just hit <span className="font-semibold text-green-600">Send</span> on WhatsApp!
+            Your application is ready. Just hit{" "}
+            <span className="font-semibold text-green-600">Send</span> on
+            WhatsApp!
           </p>
-          <button onClick={() => setSubmitted(false)}
-            className="mt-2 text-xs text-indigo-500 underline underline-offset-2 hover:text-indigo-700">
+          <button
+            onClick={() => setSubmitted(false)}
+            className="mt-2 text-xs text-indigo-500 underline underline-offset-2 hover:text-indigo-700"
+          >
             Go back to form
           </button>
         </motion.div>
@@ -277,14 +389,25 @@ function ApplyForm() {
 export default function Apply() {
   return (
     <div className="relative overflow-hidden bg-linear-to-b from-white via-blue-50 to-indigo-100">
-
       {/* HELMET */}
       <Helmet>
         <title>Apply Now - IIOFT Delhi | Admission Open 2026</title>
-        <meta name="description" content="IIOFT Delhi mein admission ke liye abhi apply karo. Web Development, Data Science, AI & Robotics, Cyber Security aur bahut saare courses mein enroll karo. 100% Placement Support." />
-        <meta name="keywords" content="IIOFT admission, apply IIOFT Delhi, IIOFT enrollment 2026, technology course admission Delhi, data science admission, web development admission Delhi" />
-        <meta property="og:title" content="Apply Now - IIOFT Delhi | Admission Open 2026" />
-        <meta property="og:description" content="IIOFT Delhi mein admission ke liye abhi apply karo. Limited seats available. 100% Placement Support!" />
+        <meta
+          name="description"
+          content="IIOFT Delhi mein admission ke liye abhi apply karo. Web Development, Data Science, AI & Robotics, Cyber Security aur bahut saare courses mein enroll karo. 100% Placement Support."
+        />
+        <meta
+          name="keywords"
+          content="IIOFT admission, apply IIOFT Delhi, IIOFT enrollment 2026, technology course admission Delhi, data science admission, web development admission Delhi"
+        />
+        <meta
+          property="og:title"
+          content="Apply Now - IIOFT Delhi | Admission Open 2026"
+        />
+        <meta
+          property="og:description"
+          content="IIOFT Delhi mein admission ke liye abhi apply karo. Limited seats available. 100% Placement Support!"
+        />
         <meta property="og:url" content="https://iioft.co.in/Apply" />
         <link rel="canonical" href="https://iioft.co.in/Apply" />
       </Helmet>
@@ -307,7 +430,7 @@ export default function Apply() {
               loading="lazy"
               alt="course logo"
               whileHover={{ scale: 1.1 }}
-              className="h-32 md:h-44 w-auto object-contain opacity-70 hover:opacity-100 transition duration-300"
+              className="h-32 md:h-44 w-auto object-contain transition duration-300"
             />
           ))}
         </motion.div>
@@ -321,18 +444,35 @@ export default function Apply() {
         viewport={{ once: true }}
         className="flex flex-col justify-center items-center text-center px-4 py-20 relative z-10"
       >
-        <motion.h2 variants={fadeUp} className="text-3xl md:text-5xl font-extrabold text-gray-800 mb-6">
+        <motion.h2
+          variants={fadeUp}
+          className="text-3xl md:text-5xl font-extrabold text-gray-800 mb-6"
+        >
           Ready to Start Your Tech Journey?
         </motion.h2>
 
-        <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mb-10 text-lg">
-          Join IIOFT and build industry-ready skills that top companies are looking for.
+        <motion.p
+          variants={fadeUp}
+          className="text-gray-600 max-w-2xl mb-10 text-lg"
+        >
+          Join IIOFT and build industry-ready skills that top companies are
+          looking for.
         </motion.p>
 
-        <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 items-center">
-          <motion.a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+        <motion.div
+          variants={fadeUp}
+          className="flex flex-col sm:flex-row gap-4 items-center"
+        >
+          <motion.a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <motion.button
-              whileHover={{ scale: 1.08, boxShadow: "0px 0px 30px rgba(37,211,102,0.6)" }}
+              whileHover={{
+                scale: 1.08,
+                boxShadow: "0px 0px 30px rgba(37,211,102,0.6)",
+              }}
               whileTap={{ scale: 0.95 }}
               className="flex items-center gap-3 px-10 py-4 bg-[#25D366] hover:bg-[#20c25c] text-white text-lg font-semibold rounded-full shadow-xl transition-colors"
             >
@@ -433,9 +573,24 @@ export default function Apply() {
             © 2026 IIOFT. All Rights Reserved.
           </p>
           <div className="flex gap-4">
-            <a href="tel:+919560307098" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">+91 9560307098</a>
-            <a href="mailto:info@iioft.co.in" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">info@iioft.co.in</a>
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-white text-xs sm:text-sm transition-colors flex items-center gap-1">
+            <a
+              href="tel:+919560307098"
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+            >
+              +91 9560307098
+            </a>
+            <a
+              href="mailto:info@iioft.co.in"
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+            >
+              info@iioft.co.in
+            </a>
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-400 hover:text-white text-xs sm:text-sm transition-colors flex items-center gap-1"
+            >
               <WhatsAppIcon size={14} /> WhatsApp
             </a>
           </div>
