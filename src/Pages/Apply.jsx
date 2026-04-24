@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { CgPlayButtonR } from "react-icons/cg";
 import { Helmet } from "react-helmet-async";
 
 const LOGOS = [
@@ -384,7 +383,7 @@ function ApplyForm() {
   );
 }
 
-// ─── Main Apply Page ───────────────────────────────────────────────────────────
+//Main Apply Page
 
 export default function Apply() {
   return (
@@ -487,7 +486,6 @@ export default function Apply() {
               whileTap={{ scale: 0.95 }}
               className="flex items-center gap-3 px-8 py-4 border-2 border-indigo-600 text-indigo-700 text-lg font-semibold rounded-full shadow hover:bg-indigo-50 transition-colors"
             >
-              <CgPlayButtonR size={24} />
               Call Us Now
             </motion.button>
           </motion.a>
