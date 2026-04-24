@@ -2,8 +2,6 @@ import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import coursesData from "../data/courses.json";
 
-// ─── ICON MAP (using emoji fallbacks since react-icons not available in all setups)
-// Replace with your actual icons from the original file if needed
 const categoryColors = {
   master: {
     bg: "bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600",
@@ -24,8 +22,6 @@ const categoryColors = {
     tabActive: "bg-gradient-to-r from-indigo-700 to-indigo-600",
   },
 };
-
-const BATCH_SIZE = 6;
 
 // ─── COURSE CARD ──────────────────────────────────────────────────────────────
 function CourseCard({ course }) {
@@ -109,7 +105,7 @@ function CourseCard({ course }) {
             rel="noopener noreferrer"
             className={`text-xs font-semibold px-4 py-1.5 rounded-full border cursor-pointer transition-all duration-150 ${cat.accent} ${cat.btnBorder} ${cat.btnHover} hover:text-white no-underline`}
           >
-            View Details 
+            View Details
           </Link>
         </div>
       </div>
@@ -121,7 +117,6 @@ function CourseCard({ course }) {
 export default function Courses() {
   const [activeTab, setActiveTab] = useState("master");
   const [search, setSearch] = useState("");
-  const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
 
   const allCourses = useMemo(
     () => coursesData.filter((c) => c.category === activeTab),
@@ -138,16 +133,10 @@ export default function Courses() {
     );
   }, [allCourses, search]);
 
-  const visible = filtered.slice(0, visibleCount);
-  const hasMore = visibleCount < filtered.length;
-
   const handleTab = (tab) => {
     setActiveTab(tab);
-    setVisibleCount(BATCH_SIZE);
     setSearch("");
   };
-
-  const cat = categoryColors[activeTab];
 
   return (
     <div className="min-h-screen bg-slate-50">
@@ -205,10 +194,7 @@ export default function Courses() {
             </svg>
             <input
               value={search}
-              onChange={(e) => {
-                setSearch(e.target.value);
-                setVisibleCount(BATCH_SIZE);
-              }}
+              onChange={(e) => setSearch(e.target.value)}
               placeholder="Search courses..."
               className="bg-transparent border-0 outline-none text-sm text-black w-full placeholder-slate-400"
             />
@@ -264,25 +250,9 @@ export default function Courses() {
               gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
             }}
           >
-            {visible.map((course) => (
+            {filtered.map((course) => (
               <CourseCard key={course.id} course={course} />
             ))}
-          </div>
-        )}
-
-        {/* Load More */}
-        {hasMore && (
-          <div className="text-center mt-12">
-            <button
-              onClick={() => setVisibleCount((c) => c + BATCH_SIZE)}
-              className={`inline-flex items-center gap-2 px-8 py-3 rounded-full font-semibold text-sm border-2 cursor-pointer transition-all duration-150 ${
-                activeTab === "master"
-                  ? "border-blue-700 text-blue-700 hover:bg-blue-700 hover:text-white"
-                  : "border-indigo-700 text-indigo-700 hover:bg-indigo-700 hover:text-white"
-              }`}
-            >
-              Load More ({filtered.length - visibleCount} remaining)
-            </button>
           </div>
         )}
       </main>
