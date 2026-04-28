@@ -13,7 +13,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
 import { IoMdPricetags } from "react-icons/io";
-
+import { Link } from "react-router-dom";
 // Shared animation variants
 const fadeUp = {
   hidden: { opacity: 0, y: 60 },
@@ -368,14 +368,40 @@ export default function Blog() {
       </motion.section>
 
       {/* ── Footer ── */}
+        {/* ── Footer ── */}
       <footer className="bg-blue-950 mt-6">
         <div className="max-w-6xl mx-auto px-4 py-4 sm:py-5 flex flex-col sm:flex-row justify-between items-center gap-2">
           <p className="text-blue-300 text-xs sm:text-sm text-center">
             © 2026 IIOFT. All Rights Reserved.
           </p>
           <div className="flex gap-4">
-            <a href="tel:+919560307098" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">+91 9560307098</a>
-            <a href="mailto:info@iioft.co.in" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">info@iioft.co.in</a>
+            <a
+              href="tel:+919560307098"
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+            >
+              +91 9560307098
+            </a>
+            <a
+              href="mailto:info@iioft.co.in"
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+            >
+              info@iioft.co.in
+            </a>
+          </div>
+          <div className="flex gap-4">
+            <Link
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+              to="/PrivacyPolicy"
+            >
+              PrivacyPolicy
+            </Link>
+
+            <Link
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+              to="/TermsConditions"
+            >
+              TermsConditions
+            </Link>
           </div>
         </div>
       </footer>

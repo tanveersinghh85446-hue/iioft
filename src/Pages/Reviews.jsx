@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet-async";
-
+import { Link } from "react-router-dom";
 const TESTIMONIALS = [
   {
     name: "Urvi",
@@ -47,12 +47,12 @@ const TESTIMONIALS = [
   },
 ];
 
-export default function Testimonials() {
+export default function Reviews() {
   return (
     <div className="font-sans bg-gray-50 overflow-hidden">
 
       <Helmet>
-        <title>Testimonials - IIOFT | Student Reviews</title>
+        <title>Reviews - IIOFT | Student Reviews</title>
         <meta
           name="description"
           content="IIOFT students ki real stories. Janiye kaise IIOFT ne unki zindagi badal di. 100% Placement Support ke saath Data Science, Web Development aur aur bhi courses."
@@ -145,18 +145,40 @@ export default function Testimonials() {
       </section>
 
       {/* Footer */}
+      {/* ── Footer ── */}
       <footer className="bg-blue-950 mt-6">
         <div className="max-w-6xl mx-auto px-4 py-4 sm:py-5 flex flex-col sm:flex-row justify-between items-center gap-2">
           <p className="text-blue-300 text-xs sm:text-sm text-center">
             © 2026 IIOFT. All Rights Reserved.
           </p>
           <div className="flex gap-4">
-            <a href="tel:+919560307098" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">
+            <a
+              href="tel:+919560307098"
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+            >
               +91 9560307098
             </a>
-            <a href="mailto:info@iioft.co.in" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">
+            <a
+              href="mailto:info@iioft.co.in"
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+            >
               info@iioft.co.in
             </a>
+          </div>
+          <div className="flex gap-4">
+            <Link
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+              to="/PrivacyPolicy"
+            >
+              PrivacyPolicy
+            </Link>
+
+            <Link
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+              to="/TermsConditions"
+            >
+              TermsConditions
+            </Link>
           </div>
         </div>
       </footer>

@@ -375,7 +375,7 @@ export default function Hero() {
             </Link>
             <Link to="apply">
               <button className="px-5 py-2 sm:px-8 sm:py-3 border-2 border-white rounded-lg font-semibold hover:bg-white hover:text-black transition duration-300 w-full sm:w-auto animate-bounce">
-                Apply Now
+                Enquire Now
               </button>
             </Link>
           </div>
@@ -443,8 +443,6 @@ export default function Hero() {
       </div>
 
       {/* Job Oriented Programs */}
-
-      
 
       {/* ── HIRING PARTNERS ── */}
       <section className="py-20 bg-blue-600">
@@ -516,50 +514,50 @@ export default function Hero() {
       </section>
 
       {/* FAQ */}
-     <section
-  className="relative py-20 bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: "url('AB.jpeg')" }}
->
-  {/* Overlay */}
-  <div className="absolute inset-0 bg-black/50"></div>
+      <section
+        className="relative py-20 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('AB.jpeg')" }}
+      >
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/50"></div>
 
-  {/* Content */}
-  <div className="relative max-w-6xl mx-auto px-4">
-    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-white mb-14">
-      Frequently Asked Questions
-    </h2>
+        {/* Content */}
+        <div className="relative max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-white mb-14">
+            Frequently Asked Questions
+          </h2>
 
-    <div className="space-y-4">
-      {FAQS.map((faq, i) => (
-        <div
-          key={i}
-          className="bg-white/90 backdrop-blur-sm rounded-lg shadow-md overflow-hidden"
-        >
-          <button
-            className="flex justify-between items-center p-4 sm:p-6 w-full text-left"
-            onClick={() => toggle(i)}
-          >
-            <h3 className="text-base sm:text-lg font-semibold text-black">
-              {faq.question}
-            </h3>
+          <div className="space-y-4">
+            {FAQS.map((faq, i) => (
+              <div
+                key={i}
+                className="bg-white/90 backdrop-blur-sm rounded-lg shadow-md overflow-hidden"
+              >
+                <button
+                  className="flex justify-between items-center p-4 sm:p-6 w-full text-left"
+                  onClick={() => toggle(i)}
+                >
+                  <h3 className="text-base sm:text-lg font-semibold text-black">
+                    {faq.question}
+                  </h3>
 
-            <span className="text-red-600 text-xl font-bold">
-              {openIndex === i ? "−" : "+"}
-            </span>
-          </button>
+                  <span className="text-red-600 text-xl font-bold">
+                    {openIndex === i ? "−" : "+"}
+                  </span>
+                </button>
 
-          {openIndex === i && (
-            <div className="p-4 sm:p-6 border-t border-gray-200 bg-gray-50">
-              <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                {faq.answer}
-              </p>
-            </div>
-          )}
+                {openIndex === i && (
+                  <div className="p-4 sm:p-6 border-t border-gray-200 bg-gray-50">
+                    <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+                      {faq.answer}
+                    </p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
-      ))}
-    </div>
-  </div>
-</section>
+      </section>
 
       <LogoMarquee />
 
@@ -672,15 +670,6 @@ export default function Hero() {
           </div>
 
           {/* Map */}
-          {/* <div className="w-full lg:w-56 lg:shrink-0">
-            <img
-              src="Map.png"
-              alt="Global Presence Map"
-              className="w-full lg:w-56 h-auto rounded-xl shadow-lg opacity-90 hover:opacity-100 transition-opacity duration-300"
-            />
-          </div> */}
-
-          {/* Map */}
           <div className="w-full lg:w-56 lg:shrink-0">
             <img
               src="Map.png"
@@ -730,6 +719,21 @@ export default function Hero() {
             >
               info@iioft.co.in
             </a>
+          </div>
+          <div className="flex gap-4">
+            <Link
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+              to="/PrivacyPolicy"
+            >
+              PrivacyPolicy
+            </Link>
+
+            <Link
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+              to="/TermsConditions"
+            >
+              TermsConditions
+            </Link>
           </div>
         </div>
       </footer>

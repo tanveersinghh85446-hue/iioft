@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { MdOndemandVideo } from "react-icons/md";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 // ─── Shared animation variants ────────────────────────────────────────────────
 
@@ -63,13 +64,27 @@ const USP_ITEMS = [
 export default function About() {
   return (
     <div className="font-sans text-gray-800 bg-gray-50 overflow-hidden">
-
       <Helmet>
-        <title>About Us - IIOFT | International Institute of Futuristic Technology Delhi</title>
-        <meta name="description" content="IIOFT ke baare mein jaano. Hamaara mission hai students ko future-ready banana with world-class technology education. Advanced Curriculum, Expert Faculty aur Global Opportunities." />
-        <meta name="keywords" content="about IIOFT, IIOFT Delhi, International Institute of Futuristic Technology, best technology institute Delhi, futuristic education, IIOFT mission vision" />
-        <meta property="og:title" content="About Us - IIOFT | International Institute of Futuristic Technology Delhi" />
-        <meta property="og:description" content="IIOFT ke baare mein jaano. Advanced Curriculum, Expert Faculty aur 100% Placement Support." />
+        <title>
+          About Us - IIOFT | International Institute of Futuristic Technology
+          Delhi
+        </title>
+        <meta
+          name="description"
+          content="IIOFT ke baare mein jaano. Hamaara mission hai students ko future-ready banana with world-class technology education. Advanced Curriculum, Expert Faculty aur Global Opportunities."
+        />
+        <meta
+          name="keywords"
+          content="about IIOFT, IIOFT Delhi, International Institute of Futuristic Technology, best technology institute Delhi, futuristic education, IIOFT mission vision"
+        />
+        <meta
+          property="og:title"
+          content="About Us - IIOFT | International Institute of Futuristic Technology Delhi"
+        />
+        <meta
+          property="og:description"
+          content="IIOFT ke baare mein jaano. Advanced Curriculum, Expert Faculty aur 100% Placement Support."
+        />
         <meta property="og:url" content="https://iioft.co.in/about" />
         <link rel="canonical" href="https://iioft.co.in/about" />
       </Helmet>
@@ -123,7 +138,8 @@ export default function About() {
           About <span className="font-serif">(IIOFT)</span>
         </h2>
         <p className="text-lg md:text-xl max-w-4xl mx-auto">
-          IIOFT is dedicated to equipping students with knowledge and skills for emerging technologies and global challenges.
+          IIOFT is dedicated to equipping students with knowledge and skills for
+          emerging technologies and global challenges.
         </p>
       </motion.section>
 
@@ -206,27 +222,51 @@ export default function About() {
         {...scaleIn}
         className="py-20 bg-linear-to-r from-blue-600 to-indigo-600 text-white text-center px-6"
       >
-        <h2 className="text-4xl font-bold mb-6">Shape Your Future with IIOFT</h2>
-        <p className="text-lg">Explore our programs and admissions to begin your journey today.</p>
+        <h2 className="text-4xl font-bold mb-6">
+          Shape Your Future with IIOFT
+        </h2>
+        <p className="text-lg">
+          Explore our programs and admissions to begin your journey today.
+        </p>
       </motion.section>
 
-      {/* Footer */}
+      {/* ── Footer ── */}
       <footer className="bg-blue-950 mt-6">
         <div className="max-w-6xl mx-auto px-4 py-4 sm:py-5 flex flex-col sm:flex-row justify-between items-center gap-2">
           <p className="text-blue-300 text-xs sm:text-sm text-center">
             © 2026 IIOFT. All Rights Reserved.
           </p>
           <div className="flex gap-4">
-            <a href="tel:+919560307098" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">
+            <a
+              href="tel:+919560307098"
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+            >
               +91 9560307098
             </a>
-            <a href="mailto:info@iioft.co.in" className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors">
+            <a
+              href="mailto:info@iioft.co.in"
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+            >
               info@iioft.co.in
             </a>
           </div>
+          <div className="flex gap-4">
+            <Link
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+              to="/PrivacyPolicy"
+            >
+              PrivacyPolicy
+            </Link>
+
+            <Link
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+              to="/TermsConditions"
+            >
+              TermsConditions
+            </Link>
+          </div>
         </div>
       </footer>
-
     </div>
   );
 }

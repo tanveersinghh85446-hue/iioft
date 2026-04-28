@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Helmet } from "react-helmet-async";
-
+import { Link } from "react-router-dom";
 const LOGOS = [
   "DOAP.png",
   "ZB3DS.png",
@@ -40,27 +40,28 @@ const PROGRAMS = [
 ];
 
 const COURSES = [
-  "AAE.png",
-  "FVEC.png",
-  "APP.png",
-  "MAYA.png",
-  "UIUXDAF.png",
-  "BA.png",
-  "PD.png",
-  "SE.png",
-  "MEVBA.png",
-  "MA.png",
-  "ADFA.png",
-  "ALMC.png",
-  "TPGST.png",
-  "CIA.png",
-  "BUSYAS.png",
-  "SAPFICO.png",
-  "SAPMM.png",
-  "SAPSD.png",
-  "SAPPP.png",
-  "SAPHCM.png",
-  "B3DA.png",
+  "AAE",
+  "FVEC",
+  "APP",
+  "MAYA",
+  "UIUXDAF",
+  "BA",
+  "PD",
+  "SE",
+  "MEVBA",
+  "MA",
+  "ADFA",
+  "ALMC",
+  "TPGST",
+  "CIA",
+  "BUSYAS",
+  "SAPFICO",
+  "SAPMM",
+  "SAPSD",
+  "SAPPP",
+  "SAPHCM",
+  "B3DA",
+  "Others",
 ];
 
 const QUALIFICATIONS = [
@@ -99,7 +100,7 @@ function WhatsAppIcon({ size = 24 }) {
   );
 }
 
-// ─── Apply Form Component ──────────────────────────────────────────────────────
+// ─── Enquire Form Component ──────────────────────────────────────────────────────
 
 function ApplyForm() {
   const [form, setForm] = useState({
@@ -383,14 +384,14 @@ function ApplyForm() {
   );
 }
 
-//Main Apply Page
+//Main Enquire Page
 
-export default function Apply() {
+export default function Enquire() {
   return (
     <div className="relative overflow-hidden bg-linear-to-b from-white via-blue-50 to-indigo-100">
       {/* HELMET */}
       <Helmet>
-        <title>Apply Now - IIOFT Delhi | Admission Open 2026</title>
+        <title>Enquire Now - IIOFT Delhi | Admission Open 2026</title>
         <meta
           name="description"
           content="IIOFT Delhi mein admission ke liye abhi apply karo. Web Development, Data Science, AI & Robotics, Cyber Security aur bahut saare courses mein enroll karo. 100% Placement Support."
@@ -401,14 +402,14 @@ export default function Apply() {
         />
         <meta
           property="og:title"
-          content="Apply Now - IIOFT Delhi | Admission Open 2026"
+          content="Enquire Now - IIOFT Delhi | Admission Open 2026"
         />
         <meta
           property="og:description"
           content="IIOFT Delhi mein admission ke liye abhi apply karo. Limited seats available. 100% Placement Support!"
         />
-        <meta property="og:url" content="https://iioft.co.in/Apply" />
-        <link rel="canonical" href="https://iioft.co.in/Apply" />
+        <meta property="og:url" content="https://iioft.co.in/Enquire" />
+        <link rel="canonical" href="https://iioft.co.in/Enquire" />
       </Helmet>
 
       {/* Background glows */}
@@ -476,7 +477,7 @@ export default function Apply() {
               className="flex items-center gap-3 px-10 py-4 bg-[#25D366] hover:bg-[#20c25c] text-white text-lg font-semibold rounded-full shadow-xl transition-colors"
             >
               <WhatsAppIcon size={24} />
-              Quick Apply on WhatsApp
+              Enquire on WhatsApp
             </motion.button>
           </motion.a>
 
@@ -555,7 +556,7 @@ export default function Apply() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-extrabold text-indigo-700">Apply Now</h2>
+          <h2 className="text-4xl font-extrabold text-indigo-700">Enquire Now</h2>
           <p className="text-gray-500 mt-6 text-lg">
             INTERNATIONAL INSTITUTE OF FUTURISTIC TECHNOLOGY
           </p>
@@ -564,6 +565,7 @@ export default function Apply() {
         <ApplyForm />
       </section>
 
+      {/* ── Footer ── */}
       {/* ── Footer ── */}
       <footer className="bg-blue-950 mt-6">
         <div className="max-w-6xl mx-auto px-4 py-4 sm:py-5 flex flex-col sm:flex-row justify-between items-center gap-2">
@@ -583,6 +585,21 @@ export default function Apply() {
             >
               info@iioft.co.in
             </a>
+          </div>
+          <div className="flex gap-4">
+            <Link
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+              to="/PrivacyPolicy"
+            >
+              PrivacyPolicy
+            </Link>
+
+            <Link
+              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+              to="/TermsConditions"
+            >
+              TermsConditions
+            </Link>
             <a
               href={WHATSAPP_URL}
               target="_blank"
