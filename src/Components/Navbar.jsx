@@ -34,7 +34,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-blue-600 text-white shadow-md w-full sticky top-0 z-50">
+      <nav className="bg-black text-white shadow-md w-full sticky top-0 z-50">
         <div className="px-4 md:px-10 py-3 border-b border-blue-500">
           <div className="hidden md:flex items-center gap-4">
 
