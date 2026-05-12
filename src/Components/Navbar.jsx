@@ -40,7 +40,7 @@ export default function Navbar() {
             <Link to="/">
               <img
                 className="h-12 w-auto object-contain"
-                src="Logo.png"
+                src="Logo.WebP"
                 alt="Logo"
               />
             </Link>
@@ -69,7 +69,7 @@ export default function Navbar() {
                 <Link to="/">
                   <img
                     className="h-12 w-auto object-contain"
-                    src="Logo.png"
+                    src="Logo.WebP"
                     alt="Logo"
                   />
                 </Link>

@@ -1169,7 +1169,7 @@ export default function Hero() {
           <div className="w-full lg:max-w-55 lg:shrink-0">
             <img
               className="max-h-12 w-auto object-contain mb-4"
-              src="Logo.png"
+              src="Logo.WebP"
               alt="Logo"
             />
             <p className="text-sm text-blue-100 leading-relaxed">
