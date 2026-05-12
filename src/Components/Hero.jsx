@@ -2075,7 +2075,7 @@ export default function Hero() {
             </div>
           </div>
           {/* Copyright */}
-          <p className="text-blue-300 text-xs sm:text-sm text-center sm:text-left">
+          <p className="text-blue-300 text-xs sm:text-sm text-center sm:text-left mt-4">
             © 2026 IIOFT. All Rights Reserved.
           </p>
         </div>
