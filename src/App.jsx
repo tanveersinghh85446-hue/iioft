@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Courses from "./Pages/Courses";
 import Navbar from "./Components/Navbar";
-import WelcomeAnimation from "./Components/WelcomeAnimation";
 import Reviews from "./Pages/Reviews";
 import Contact from "./Pages/Contact";
 import Course from "./Pages/Courses";
@@ -28,7 +27,6 @@ function App() {
 
   return (
     <div className="relative">
-      <WelcomeAnimation />
       <Navbar />
 
       <Routes>
