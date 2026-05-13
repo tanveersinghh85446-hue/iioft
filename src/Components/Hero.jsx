@@ -957,7 +957,7 @@ export default function Hero() {
 
       {/* ── HERO ── */}
       <section className="relative w-full h-screen flex items-center justify-center text-center overflow-hidden">
-        <motion.img
+        {/* <motion.img
           key={index}
           src={IMAGES[index]}
           initial={{ x: "100%" }}
@@ -965,7 +965,18 @@ export default function Hero() {
           exit={{ x: "-100%" }}
           transition={{ duration: 1 }}
           className="absolute w-full h-full object-cover"
+        /> */}
+        <motion.img
+          key={index}
+          src={IMAGES[index]}
+          alt="IIOFT students and campus"
+          initial={{ x: "100%" }}
+          animate={{ x: "0%" }}
+          exit={{ x: "-100%" }}
+          transition={{ duration: 1 }}
+          className="absolute w-full h-full object-cover"
         />
+
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 px-6 max-w-4xl text-white">
           <motion.h2
