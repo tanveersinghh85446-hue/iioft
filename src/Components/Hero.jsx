@@ -55,7 +55,7 @@ const FAQS = [
   {
     question: "What are the course fees, and are EMI options available?",
     answer:
-      "Course fees vary depending on the program. We offer flexible payment plans and EMI options to make learning accessible. For detailed fee information, please contact us at +91 9560307098 or fill out the Apply Now form.",
+      "Course fees vary depending on the program. We offer flexible payment plans and EMI options to make learning accessible. For detailed fee information, please contact us at +91 9560307098 or fill out the Enquire Now form.",
   },
   {
     question:
@@ -71,7 +71,7 @@ const FAQS = [
   {
     question: "What are the eligibility criteria for admission?",
     answer:
-      "Most courses require a minimum qualification of 10+2. Some advanced programs may require a graduate degree. Students from all backgrounds—engineering, commerce, or arts—are welcome. The admission process is simple: just click on the Apply Now button.",
+      "Most courses require a minimum qualification of 10+2. Some advanced programs may require a graduate degree. Students from all backgrounds—engineering, commerce, or arts—are welcome. The admission process is simple: just click on the Enquire Now button.",
   },
 ];
 
@@ -315,7 +315,7 @@ function ChatBot() {
         options: [
           "📅 Batch timings",
           "💰 Fees",
-          "✅ Apply Now",
+          "✅ Enquire Now",
           "📚 Back to courses",
         ],
       };
@@ -347,10 +347,10 @@ function ChatBot() {
       lowerMsg.includes("company")
     ) {
       return {
-        text: "IIOFT ki placement record bahut strong hai! 🎯\n\n✅ 100% Placement Support\n✅ Top companies: Google, Microsoft, IBM, Accenture, Wipro, TCS, Infosys, Amazon\n✅ Resume building & mock interviews\n✅ Dedicated placement team\n✅ IIOFT Alumni Network benefits\n\n💰 Average package: 4-8 LPA\n💰 Highest package: 15+ LPA\n\n🎓 Last batch: 98% students placed!\n\nAap apply karna chahenge?",
+        text: "IIOFT ki placement record bahut strong hai! 🎯\n\n✅ 100% Placement Support\n✅ Top companies: Google, Microsoft, IBM, Accenture, Wipro, TCS, Infosys, Amazon\n✅ Resume building & mock interviews\n✅ Dedicated placement team\n✅ IIOFT Alumni Network benefits\n\n💰 Average package: 4-8 LPA\n💰 Highest package: 15+ LPA\n\n🎓 Last batch: 98% students placed!\n\nAap Enquire karna chahenge?",
         options: [
           "⭐ Success stories",
-          "✅ Apply Now",
+          "✅ Enquire Now",
           "📚 Course details",
           "📞 Talk to counselor",
         ],
@@ -369,7 +369,7 @@ function ChatBot() {
         text: "Humare students ka experience suniye! ⭐\n\n⭐⭐⭐⭐⭐ (4.8/5)\n\n💬 'IIOFT ne meri life badal di! 6 months mein Google mein placement mili!'\n— Rahul Sharma, Data Scientist @ Google\n\n💬 'Best decision of my life. Teachers bahut supportive hain!'\n— Priya Singh, Full Stack Developer @ Microsoft\n\n💬 'From zero to hero! Thank you IIOFT team!'\n— Amit Kumar, Cyber Security Analyst @ IBM\n\n📊 10,000+ successful students worldwide! 🌍",
         options: [
           "🎥 Video testimonials",
-          "✅ Main bhi apply karunga",
+          "✅ Main bhi enquire karunga",
           "📚 Course details",
           "💼 Placement info",
         ],
@@ -389,7 +389,7 @@ function ChatBot() {
         options: [
           "💰 Scholarship calculator",
           "📞 Call karo",
-          "✅ Apply Now",
+          "✅ Enquire Now",
           "📚 Course details",
         ],
       };
@@ -403,10 +403,10 @@ function ChatBot() {
       lowerMsg.includes("chhut")
     ) {
       return {
-        text: "IIOFT Scholarship opportunities! 🎓💰\n\n✅ Merit-based scholarship: Up to 50%\n✅ Women empowerment: 10% extra\n✅ Armed forces family: 15% discount\n✅ Early bird offer: 20% OFF\n✅ Group enrollment (3+): 25% OFF\n\n📝 Eligibility check karne ke liye:\n1️⃣ Apni qualification batao\n2️⃣ Counselor se baat karo\n3️⃣ Instant scholarship calculation\n\nAbhi apply karo, offers limited time ke liye hain! ⏰",
+        text: "IIOFT Scholarship opportunities! 🎓💰\n\n✅ Merit-based scholarship: Up to 50%\n✅ Women empowerment: 10% extra\n✅ Armed forces family: 15% discount\n✅ Early bird offer: 20% OFF\n✅ Group enrollment (3+): 25% OFF\n\n📝 Eligibility check karne ke liye:\n1️⃣ Apni qualification batao\n2️⃣ Counselor se baat karo\n3️⃣ Instant scholarship calculation\n\nAbhi enquire karo, offers limited time ke liye hain! ⏰",
         options: [
           "📞 Check eligibility",
-          "✅ Apply Now",
+          "✅ Enquire Now",
           "💼 Placement info",
           "🏠 Main menu",
         ],
@@ -426,22 +426,22 @@ function ChatBot() {
         options: [
           "📞 Contact details",
           "🗺️ Google Maps",
-          "✅ Apply Now",
+          "✅ Enquire Now",
           "💼 Placement info",
         ],
       };
     }
 
-    // Apply / Admission
+    // Enquire / Admission
     if (
-      lowerMsg.includes("apply") ||
+      lowerMsg.includes("enquire") ||
       lowerMsg.includes("admission") ||
       lowerMsg.includes("enroll") ||
       lowerMsg.includes("join") ||
       lowerMsg.includes("interested")
     ) {
       return {
-        text: "Great choice! 🎉 IIOFT mein admission bahut easy hai!\n\n📋 Eligibility:\n• Minimum 10+2 (most courses)\n• All backgrounds welcome\n• Age no bar\n\n📝 Apply kaise karein:\n1️⃣ Form fill karein (2 minutes)\n2️⃣ Document upload (10th/12th)\n3️⃣ Counselor call (within 24hrs)\n4️⃣ Seat confirmation\n\n🎁 Apply karte hi: Free demo class + Study material!\n\n🚀 Quick Contact:\n📞 +91 9560307098\n📧 info@iioft.co.in",
+        text: "Great choice! 🎉 IIOFT mein admission bahut easy hai!\n\n📋 Eligibility:\n• Minimum 10+2 (most courses)\n• All backgrounds welcome\n• Age no bar\n\n📝 Enquire kaise karein:\n1️⃣ Form fill karein (2 minutes)\n2️⃣ Document upload (10th/12th)\n3️⃣ Counselor call (within 24hrs)\n4️⃣ Seat confirmation\n\n🎁 Enquire karte hi: Free demo class + Study material!\n\n🚀 Quick Contact:\n📞 +91 9560307098\n📧 info@iioft.co.in",
         options: [
           "📝 Fill form now",
           "📞 Call now",
@@ -466,7 +466,7 @@ function ChatBot() {
           "📞 Call karo",
           "💬 WhatsApp chat",
           "📧 Email bhejo",
-          "✅ Apply Now",
+          "✅ Enquire Now",
         ],
       };
     }
@@ -500,7 +500,7 @@ function ChatBot() {
         text: "IIOFT Certifications 🎓\n\n✅ Globally recognized certificates\n✅ ISO certified institute\n✅ Industry-approved curriculum\n✅ LinkedIn profile add karo\n✅ Resume value increase\n\n🏆 Certificates include:\n• Course completion certificate\n• Internship certificate\n• Project certificates\n• Skill badges\n\n📜 Hard copy + Digital copy dono milte hain!\n\nYe certificates corporate world mein highly valued hain! 🌟",
         options: [
           "📚 Course details",
-          "✅ Apply Now",
+          "✅ Enquire Now",
           "💼 Placement",
           "📞 Contact",
         ],
@@ -537,7 +537,7 @@ function ChatBot() {
         options: [
           "📧 Email me",
           "💬 WhatsApp pe bhejo",
-          "✅ Apply directly",
+          "✅ Enquire directly",
           "📞 Call for details",
         ],
       };
@@ -553,7 +553,7 @@ function ChatBot() {
       return {
         text: "IIOFT ki website visit karo! 🌐\n\n🔗 www.iioft.co.in\n\nWebsite pe milega:\n✅ Complete course details\n✅ Video testimonials\n✅ Live chat support\n✅ Online application form\n✅ Upcoming events & webinars\n✅ Blog & resources\n\nAbhi visit karo! 👆",
         options: [
-          "✅ Apply online",
+          "✅ Enquire online",
           "📞 Call instead",
           "💬 Continue chatting",
           "🏠 Main menu",
@@ -590,7 +590,7 @@ function ChatBot() {
         text: "Aapka swagat hai! 😊\n\nKoi aur help chahiye to zaroor puchiye!\n\n🎓 IIOFT team hamesha ready hai aapki help karne ke liye!\n\n💪 Your success is our mission!\n\nAll the best! 🚀",
         options: [
           "📚 More about courses",
-          "✅ Apply Now",
+          "✅ Enquire Now",
           "📞 Contact us",
           "🏠 Main menu",
         ],
@@ -608,7 +608,7 @@ function ChatBot() {
         text: "Jaate jaate ek request! 🙏\n\nHamari team se ek baar baat zaroor karo:\n📞 +91 9560307098\n\nAapke career ki sahi direction mil sakti hai! 🎯\n\nGoodbye! Phir milenge! 👋",
         options: [
           "📞 Quick call",
-          "✅ Apply Now",
+          "✅ Enquire Now",
           "💬 Continue chat",
           "🏠 Restart",
         ],
@@ -1007,7 +1007,7 @@ export default function Hero() {
                 Explore Courses
               </button>
             </Link>
-            <Link to="apply">
+            <Link to="Enquire">
               <button className="px-5 py-2 sm:px-8 sm:py-3 border-2 border-white rounded-lg font-semibold hover:bg-white hover:text-black transition duration-300 w-full sm:w-auto animate-bounce">
                 Enquire Now
               </button>
@@ -1287,9 +1287,9 @@ export default function Hero() {
                   ease: "easeInOut",
                 }}
               >
-                <Link to="apply">
+                <Link to="Enquire">
                   <button className="w-full sm:w-auto px-6 py-2 border-2 border-white rounded-lg font-semibold text-sm hover:bg-white hover:text-blue-600 transition-all duration-300">
-                    Apply Now →
+                    Enquire Now →
                   </button>
                 </Link>
               </motion.div>

@@ -102,7 +102,7 @@ function WhatsAppIcon({ size = 24 }) {
 
 // ─── Enquire Form Component ──────────────────────────────────────────────────────
 
-function ApplyForm() {
+function EnquireForm() {
   const [form, setForm] = useState({
     name: "",
     phone: "",
@@ -394,11 +394,11 @@ export default function Enquire() {
         <title>Enquire Now - IIOFT Delhi | Admission Open 2026</title>
         <meta
           name="description"
-          content="IIOFT Delhi mein admission ke liye abhi apply karo. Web Development, Data Science, AI & Robotics, Cyber Security aur bahut saare courses mein enroll karo. 100% Placement Support."
+          content="IIOFT Delhi mein admission ke liye abhi Enquire karo. Web Development, Data Science, AI & Robotics, Cyber Security aur bahut saare courses mein enroll karo. 100% Placement Support."
         />
         <meta
           name="keywords"
-          content="IIOFT admission, apply IIOFT Delhi, IIOFT enrollment 2026, technology course admission Delhi, data science admission, web development admission Delhi"
+          content="IIOFT admission, Enquire IIOFT Delhi, IIOFT enrollment 2026, technology course admission Delhi, data science admission, web development admission Delhi"
         />
         <meta
           property="og:title"
@@ -406,7 +406,7 @@ export default function Enquire() {
         />
         <meta
           property="og:description"
-          content="IIOFT Delhi mein admission ke liye abhi apply karo. Limited seats available. 100% Placement Support!"
+          content="IIOFT Delhi mein admission ke liye abhi Enquire karo. Limited seats available. 100% Placement Support!"
         />
         <meta property="og:url" content="https://iioft.co.in/Enquire" />
         <link rel="canonical" href="https://iioft.co.in/Enquire" />
@@ -547,7 +547,7 @@ export default function Enquire() {
         </motion.div>
       </section>
 
-      {/* ── APPLY FORM SECTION (NEW) ── */}
+      {/* ── Enquire FORM SECTION (NEW) ── */}
       <section className="py-24 px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -562,7 +562,7 @@ export default function Enquire() {
           </p>
         </motion.div>
 
-        <ApplyForm />
+        <EnquireForm />
       </section>
 
       {/* ── FOOTER BOTTOM ── */}

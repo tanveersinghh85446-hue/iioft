@@ -10,7 +10,7 @@ const NAV_LINKS = [
   { path: "/blog", name: "Blog" },
   { path: "/testimonials", name: "Reviews" },
   { path: "/contact", name: "Contact" },
-  { path: "/Enquire", name: "Enquire" },
+  { path: "/enquire", name: "Enquire" },
 ];
 
 const ABOUT_DROPDOWN = [

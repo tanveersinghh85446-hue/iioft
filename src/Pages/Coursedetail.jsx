@@ -144,10 +144,10 @@ export default function CourseDetail() {
         </p>
         <div className="flex flex-wrap gap-4">
           <Link
-            to="/apply"
+            to="/Enquire"
             className="px-6 py-2.5 bg-blue-600 text-white font-bold rounded-full text-sm hover:bg-blue-700 transition"
           >
-            Apply Now →
+            Enquire Now →
           </Link>
          
         </div>
