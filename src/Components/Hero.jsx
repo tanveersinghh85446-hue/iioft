@@ -31,7 +31,7 @@ import { IoMdMail } from "react-icons/io";
 // ─── Static data ──────────────────────────────────────────────────────────────
 
 const IMAGES = [
-  "AB.AVIF",
+  "AB.WebP",
   "Bulding.AVIF",
   "Graduation.AVIF",
   "Student.AVIF",
@@ -1156,7 +1156,7 @@ export default function Hero() {
       {/* ── FAQ ── */}
       <section
         className="relative py-20 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('AB.AVIF')" }}
+        style={{ backgroundImage: "url('AB.WebP')" }}
       >
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative max-w-6xl mx-auto px-4">
@@ -1206,8 +1206,8 @@ export default function Hero() {
             /> */}
             <img
               className="max-h-12 w-auto object-contain mb-4"
-              src="/Logo-175w.webp"
-              srcSet="/Logo-175w.webp 175w, /Logo-350w.webp 350w"
+              src="/Logo-175w.WebP"
+              srcSet="/Logo-175w.WebP 175w, /Logo-350w.WebP 350w"
               sizes="175px"
               alt="Logo"
               loading="lazy"
@@ -1309,14 +1309,6 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* <div className="w-full lg:w-56 lg:shrink-0">
-            <img
-              src="Map.AVIF"
-              alt="Global Presence Map"
-              onClick={() => setShowMap(true)}
-              className="w-full lg:w-56 h-auto rounded-xl shadow-lg opacity-90 hover:opacity-100 transition duration-300 cursor-pointer"
-            />
-          </div> */}
 
           <div className="w-full lg:w-56 lg:shrink-0">
             <img
