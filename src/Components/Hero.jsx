@@ -1039,12 +1039,12 @@ export default function Hero() {
           </motion.h2>
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight">
             International Institute of <br />
-            <span className="text-blue-500">Futuristic Technology</span>
+            <span className="text-blue-300">Futuristic Technology</span>
           </h1>
           <p className="mt-6 text-base sm:text-lg md:text-xl lg:text-2xl font-semibold drop-shadow-md">
-            <span className="text-red-500">Think</span>{" "}
+            <span className="text-red-300">Think</span>{" "}
             <span className="text-yellow-400">Smart</span> |{" "}
-            <span className="text-red-500">Learn</span>{" "}
+            <span className="text-red-300">Learn</span>{" "}
             <span className="text-yellow-400">Smart</span>
             <br />
             <span className="text-yellow-400">Skill Up with </span>
@@ -1355,7 +1355,7 @@ export default function Hero() {
           </div>
 
           {showMap && (
-            <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50">
+            <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
               <button
                 onClick={() => setShowMap(false)}
                 className="absolute top-5 right-5 text-white text-3xl font-bold"
