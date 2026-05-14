@@ -81,11 +81,11 @@ const LOGOS = [
   "accenture.WebP",
   "Genpact.WebP",
   "GoldManSachs.WebP",
-  "Hcl.webp",
+  "Hcl.WebP",
   "Ibm.Webp",
   "Microsoft.WebP",
   "NielsenIQ.WebP",
-  "Ramboll.png",
+  "Ramboll.WebP",
   "Wipro.WebP",
   "Wsp.WebP",
 ];
