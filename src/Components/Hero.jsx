@@ -78,7 +78,7 @@ const FAQS = [
 const LOGOS = [
   "Google.WebP",
   "Alcoa.WebP",
-  "accenture.WebP",
+  "Accenture.png",
   "Genpact.WebP",
   "GoldManSachs.WebP",
   "Hcl.WebP",
