@@ -20,6 +20,7 @@ function App() {
 
   useEffect(() => {
     const hasSeenPopup = localStorage.getItem("careerPopupShown");
+
     if (hasSeenPopup !== "true") {
       setShowPopup(true);
       localStorage.setItem("careerPopupShown", "true");
@@ -27,26 +28,28 @@ function App() {
   }, []);
 
   return (
-    <div className="relative">
+    <>
       <Navbar />
 
-      <Suspense fallback={<div>Loading...</div>}>
-        <Routes>
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/" element={<HeroSection />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/course" element={<Courses />} />
-          <Route path="/course/:slug" element={<CourseDetail />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/testimonials" element={<Reviews />} />
-          <Route path="/know-more" element={<KnowMore />} />
-          <Route path="/Enquire" element={<Enquire />} />
-          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
-          <Route path="/TermsConditions" element={<TermsConditions />} />
-        </Routes>
-      </Suspense>
-    </div>
+      <main className="relative min-h-screen">
+        <Suspense fallback={<div>Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<HeroSection />} />
+            <Route path="/courses" element={<Courses />} />
+            <Route path="/course" element={<Courses />} />
+            <Route path="/course/:slug" element={<CourseDetail />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/testimonials" element={<Reviews />} />
+            <Route path="/know-more" element={<KnowMore />} />
+            <Route path="/Enquire" element={<Enquire />} />
+            <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+            <Route path="/TermsConditions" element={<TermsConditions />} />
+          </Routes>
+        </Suspense>
+      </main>
+    </>
   );
 }
 
