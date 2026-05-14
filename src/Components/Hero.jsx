@@ -908,15 +908,6 @@ function LogoMarquee() {
   );
 }
 
-// function SocialButton({ href, icon }) {
-//   return (
-//     <a href={href} target="_blank" rel="noopener noreferrer">
-//       <button className="bg-white transition-transform duration-300 hover:scale-150 h-9 w-9 md:h-12 md:w-12 rounded-full flex items-center justify-center">
-//         {icon}
-//       </button>
-//     </a>
-//   );
-// }
 
 // ─── Main Hero Component ──────────────────────────────────────────────────────
 
@@ -1006,15 +997,6 @@ export default function Hero() {
 
       {/* ── HERO ── */}
       <section className="relative w-full h-screen flex items-center justify-center text-center overflow-hidden">
-        {/* <motion.img
-          key={index}
-          src={IMAGES[index]}
-          initial={{ x: "100%" }}
-          animate={{ x: "0%" }}
-          exit={{ x: "-100%" }}
-          transition={{ duration: 1 }}
-          className="absolute w-full h-full object-cover"
-        /> */}
         <motion.img
           key={index}
           src={IMAGES[index]}
@@ -1271,24 +1253,7 @@ export default function Hero() {
             <div className="lg:shrink-0">
               <h3 className="text-lg font-bold mb-3">Quick Links</h3>
               <div className="w-8 h-0.5 bg-blue-300 mb-3" />
-              {/* <ul className="flex flex-col space-y-1.5">
-                {[
-                  ["Home", "/"],
-                  ["Contact", "/contact"],
-                  ["Course", "/course"],
-                  ["About", "/about"],
-                  ["Know More", "/know-more"],
-                ].map(([label, to]) => (
-                  <Link
-                    key={to}
-                    to={to}
-                    className="flex items-center gap-2 text-sm text-white hover:text-black transition-colors duration-200"
-                  >
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-300 shrink-0" />{" "}
-                    {label}
-                  </Link>
-                ))}
-              </ul> */}
+
               <ul className="flex flex-col space-y-1.5">
                 {[
                   ["Home", "/"],
