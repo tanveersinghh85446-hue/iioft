@@ -91,9 +91,9 @@ export default function CourseDetail() {
           <p className="text-gray-700">
             <span className="font-bold">Duration:</span> {course.duration}
           </p>
-          <p className="text-gray-700">
+          {/* <p className="text-gray-700">
             <span className="font-bold">Price:</span> {course.price}
-          </p>
+          </p> */}
         </div>
 
         {/* Full Description */}
