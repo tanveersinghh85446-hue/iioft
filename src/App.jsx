@@ -16,7 +16,7 @@ const PrivacyPolicy = lazy(() => import("./Pages/PrivacyPolicy"));
 const TermsConditions = lazy(() => import("./Pages/TermsConditions"));
 
 function App() {
-  const [showPopup, setShowPopup] = useState(false);
+  // const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
     const hasSeenPopup = localStorage.getItem("careerPopupShown");
@@ -36,7 +36,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HeroSection />} />
             <Route path="/courses" element={<Courses />} />
-            <Route path="/course" element={<Courses />} />
+            {/* <Route path="/courses" element={<Courses />} /> */}
             <Route path="/course/:slug" element={<CourseDetail />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
