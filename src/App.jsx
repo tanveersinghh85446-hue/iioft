@@ -2,6 +2,7 @@ import React, { useState, useEffect, lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 const Courses = lazy(() => import("./Pages/Courses"));
 const Reviews = lazy(() => import("./Pages/Reviews"));
@@ -46,6 +47,7 @@ function App() {
             <Route path="/Enquire" element={<Enquire />} />
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/TermsConditions" element={<TermsConditions />} />
+            <Route path="/footer" element={<Footer />} />
           </Routes>
         </Suspense>
       </main>
