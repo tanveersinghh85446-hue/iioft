@@ -226,7 +226,7 @@ export default function Home() {
 
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 px-6 max-w-4xl text-white">
-          <motion.h2
+          {/* <motion.h2
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
@@ -234,7 +234,7 @@ export default function Home() {
             className="uppercase tracking-widest text-sm md:text-base text-blue-400 mb-4"
           >
             World's Best Institute
-          </motion.h2>
+          </motion.h2> */}
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight">
             International Institute of <br />
             <span className="text-blue-300">Futuristic Technology</span>
