@@ -47,18 +47,18 @@ const TESTIMONIALS = [
   },
 ];
 
-export default function Reviews() {
+export default function FeedBack() {
   return (
     <div className="font-sans bg-gray-50 overflow-hidden">
       <Helmet>
-        <title>Reviews - IIOFT | Student Reviews</title>
+        <title>FeedBack - IIOFT | Student FeedBack</title>
         <meta
           name="description"
           content="IIOFT students ki real stories. Janiye kaise IIOFT ne unki zindagi badal di. 100% Placement Support ke saath Data Science, Web Development aur aur bhi courses."
         />
         <meta
           name="keywords"
-          content="IIOFT testimonials, IIOFT student reviews, IIOFT placement stories, best institute Delhi reviews"
+          content="IIOFT testimonials, IIOFT student FeedBack, IIOFT placement stories, best institute Delhi FeedBack"
         />
         <link rel="canonical" href="https://iioft.co.in/testimonials" />
       </Helmet>

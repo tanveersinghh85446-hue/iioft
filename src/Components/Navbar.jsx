@@ -8,7 +8,7 @@ const NAV_LINKS = [
   { path: "/about", name: "About" },
   { path: "/know-more", name: "Know More" },
   { path: "/blog", name: "Blog" },
-  { path: "/testimonials", name: "Reviews" },
+  { path: "/testimonials", name: "FeedBack" },
   { path: "/contact", name: "Contact" },
   { path: "/enquire", name: "Enquire" },
 ];
@@ -17,7 +17,7 @@ const ABOUT_DROPDOWN = [
   { path: "/about", name: "About" },
   { path: "/know-more", name: "Know More" },
   { path: "/blog", name: "Blog" },
-  { path: "/testimonials", name: "Reviews" },
+  { path: "/testimonials", name: "FeedBack" },
 ];
 
 export default function Navbar() {
