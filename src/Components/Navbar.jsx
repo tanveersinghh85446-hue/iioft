@@ -71,6 +71,13 @@ export default function Navbar() {
                     alt="Logo"
                   />
                 </Link>
+                <Link to="/">
+                  <img
+                    className="h-12 w-auto object-contain"
+                    src="NSDC.WebP"
+                    alt="Logo"
+                  />
+                </Link>
               </div>
               <button
                 className="flex flex-col gap-1.5 p-2 focus:outline-none absolute right-4"
