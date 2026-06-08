@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
 
 const NAV_LINKS = [
   { path: "/", name: "Home" },
@@ -13,30 +12,28 @@ const NAV_LINKS = [
   { path: "/enquire", name: "Enquire" },
 ];
 
-const ABOUT_DROPDOWN = [
+const ALL_MOBILE_LINKS = [
+  { path: "/", name: "Home" },
+  { path: "/course", name: "Course" },
   { path: "/about", name: "About" },
   { path: "/know-more", name: "Know More" },
   { path: "/blog", name: "Blog" },
   { path: "/testimonials", name: "FeedBack" },
+  { path: "/contact", name: "Contact" },
+  { path: "/enquire", name: "Enquire" },
 ];
 
 export default function Navbar() {
   const { pathname } = useLocation();
   const [isOpen, setIsOpen] = useState(false);
-  const [aboutMobileOpen, setAboutMobileOpen] = useState(false);
-
-  const MOBILE_LINKS = [
-    { path: "/", name: "Home" },
-    { path: "/course", name: "Course" },
-    { path: "/contact", name: "Contact" },
-    { path: "/enquire", name: "Enquire" },
-  ];
 
   return (
     <>
       <nav className="bg-blue-700 text-white shadow-md w-full sticky top-0 z-50">
+        {/* Header Row */}
         <div className="px-4 md:px-10 py-3 border-b border-blue-600">
-          <div className="hidden md:flex justify-center gap-20">
+          {/* Desktop Header */}
+          <div className="hidden md:flex justify-center items-center gap-20">
             <Link to="/">
               <img
                 className="h-12 w-auto object-contain"
@@ -45,42 +42,48 @@ export default function Navbar() {
               />
             </Link>
 
-            <h1 className="font-bold text-2xl lg:text-3xl leading-tight tracking-wide">
+            <h1 className="font-bold text-2xl lg:text-3xl leading-tight tracking-wide text-center">
               INTERNATIONAL INSTITUTE OF FUTURISTIC TECHNOLOGY
             </h1>
 
-            <div className="bg-blue-700 flex gap-10">
+            <div className="flex flex-col items-center gap-1">
               <Link to="/">
                 <img
                   className="h-12 w-auto object-contain"
                   src="NSDC.WebP"
-                  alt="Logo"
+                  alt="NSDC Logo"
                 />
               </Link>
+              <span className="text-xs font-semibold text-yellow-300 tracking-wide whitespace-nowrap">
+                Authorised by NSDC
+              </span>
             </div>
           </div>
 
           {/* Mobile Header */}
           <div className="md:hidden">
             <div className="flex items-center justify-between">
-              <div className="flex-1 flex justify-center">
+              {/* Logos Side by Side */}
+              <div className="flex items-center gap-3">
                 <Link to="/">
                   <img
-                    className="h-12 w-auto object-contain"
+                    className="h-10 w-auto object-contain"
                     src="Logo.WebP"
                     alt="Logo"
                   />
                 </Link>
                 <Link to="/">
                   <img
-                    className="h-12 w-auto object-contain"
+                    className="h-10 w-auto object-contain"
                     src="NSDC.WebP"
-                    alt="Logo"
+                    alt="NSDC Logo"
                   />
                 </Link>
               </div>
+
+              {/* Hamburger Button */}
               <button
-                className="flex flex-col gap-1.5 p-2 focus:outline-none absolute right-4"
+                className="flex flex-col gap-1.5 p-2 focus:outline-none"
                 onClick={() => setIsOpen(!isOpen)}
                 aria-label="Toggle menu"
               >
@@ -101,7 +104,8 @@ export default function Navbar() {
                 />
               </button>
             </div>
-            <h1 className="font-bold text-base sm:text-lg text-center mt-3 leading-tight tracking-wide">
+
+            <h1 className="font-bold text-sm sm:text-base text-center mt-2 leading-tight tracking-wide">
               INTERNATIONAL INSTITUTE OF FUTURISTIC TECHNOLOGY
             </h1>
           </div>
@@ -123,99 +127,36 @@ export default function Navbar() {
             </Link>
           ))}
         </div>
-      </nav>
 
-      {/* Overlay */}
-      <AnimatePresence>
+        {/* Mobile Dropdown Menu (inline, no animation lib needed) */}
         {isOpen && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="fixed inset-0 bg-black/50 z-40 md:hidden"
-            onClick={() => setIsOpen(false)}
-          />
-        )}
-      </AnimatePresence>
-
-      {/* Mobile Drawer */}
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ x: "100%" }}
-            animate={{ x: 0 }}
-            exit={{ x: "100%" }}
-            transition={{ duration: 0.35, ease: "easeInOut" }}
-            className="fixed top-0 right-0 h-full w-72 bg-blue-700 text-white z-50 shadow-2xl md:hidden flex flex-col pt-20 px-6 gap-4 font-semibold text-lg"
-          >
-            {/* Close Button */}
-            <button
-              className="absolute top-5 right-5 p-2 focus:outline-none"
-              onClick={() => setIsOpen(false)}
-            >
-              <span className="block w-6 h-0.5 bg-white rotate-45 translate-y-1" />
-              <span className="block w-6 h-0.5 bg-white -rotate-45 -translate-y-0.5" />
-            </button>
-
-            {/* Mobile Links */}
-            {MOBILE_LINKS.map(({ path, name }) => (
+          <div className="md:hidden bg-blue-800 px-6 py-4 flex flex-col gap-1 border-t border-blue-600">
+            {ALL_MOBILE_LINKS.map(({ path, name }) => (
               <Link
                 key={path}
                 to={path}
                 onClick={() => setIsOpen(false)}
-                className={`transition duration-300 border-b border-blue-600 pb-4 hover:text-yellow-300 ${
-                  pathname === path ? "text-yellow-300" : ""
+                className={`py-3 border-b border-blue-600 font-semibold text-base transition duration-300 hover:text-yellow-300 ${
+                  pathname === path ? "text-yellow-300" : "text-white"
                 }`}
               >
                 {name}
               </Link>
             ))}
-
-            {/* About Accordion - Mobile */}
-            <div className="border-b border-blue-600 pb-4">
-              <button
-                onClick={() => setAboutMobileOpen(!aboutMobileOpen)}
-                className="w-full flex justify-between items-center hover:text-yellow-300 transition duration-300"
-              >
-                About
-                <motion.span
-                  animate={{ rotate: aboutMobileOpen ? 180 : 0 }}
-                  transition={{ duration: 0.3 }}
-                  className="text-sm"
-                >
-                  ▾
-                </motion.span>
-              </button>
-
-              <AnimatePresence>
-                {aboutMobileOpen && (
-                  <motion.div
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: "auto", opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.3 }}
-                    className="overflow-hidden mt-4 flex flex-col gap-3 pl-4"
-                  >
-                    {ABOUT_DROPDOWN.map(({ path, name }) => (
-                      <Link
-                        key={path}
-                        to={path}
-                        onClick={() => setIsOpen(false)}
-                        className={`text-base font-medium transition duration-300 hover:text-yellow-300 ${
-                          pathname === path ? "text-yellow-300" : "text-white"
-                        }`}
-                      >
-                        → {name}
-                      </Link>
-                    ))}
-                  </motion.div>
-                )}
-              </AnimatePresence>
+            {/* Authorised by NSDC - bottom of mobile menu */}
+            <div className="pt-4 pb-1 flex items-center justify-center gap-2">
+              <img
+                className="h-7 w-auto object-contain"
+                src="NSDC.WebP"
+                alt="NSDC Logo"
+              />
+              <span className="text-sm font-semibold text-yellow-300 tracking-wide">
+                Authorised by NSDC
+              </span>
             </div>
-          </motion.div>
+          </div>
         )}
-      </AnimatePresence>
+      </nav>
     </>
   );
 }
