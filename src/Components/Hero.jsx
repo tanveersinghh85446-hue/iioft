@@ -10,7 +10,7 @@ import Footer from "./Footer";
 // ─── Static data ──────────────────────────────────────────────────────────────
 
 const IMAGES = [
-  "AB.WebP",
+  "AB.AVIF",
   "Bulding.AVIF",
   "Graduation.AVIF",
   "Student.AVIF",
@@ -386,7 +386,7 @@ export default function Home() {
       {/* ── FAQ ── */}
       <section
         className="relative py-20 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('AB.WebP')" }}
+        style={{ backgroundImage: "url('AB.AVIF')" }}
       >
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative max-w-6xl mx-auto px-4">

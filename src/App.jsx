@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 
 const Courses = lazy(() => import("./Pages/Courses"));
-const FeedBack = lazy(() => import("./Pages/FeedBack"));
+const Reviews = lazy(() => import("./Pages/Reviews"));
 const Contact = lazy(() => import("./Pages/Contact"));
 const CourseDetail = lazy(() => import("./Pages/Coursedetail"));
 const About = lazy(() => import("./Pages/About"));
@@ -42,7 +42,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/testimonials" element={<FeedBack />} />
+            <Route path="/testimonials" element={<Reviews />} />
             <Route path="/know-more" element={<KnowMore />} />
             <Route path="/Enquire" element={<Enquire />} />
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
