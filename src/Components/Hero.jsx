@@ -55,18 +55,18 @@ const FAQS = [
 ];
 
 const LOGOS = [
+  "tcs.WebP",
   "Google.WebP",
-  "Alcoa.WebP",
-  "Accenture.WebP",
-  "Genpact.WebP",
-  "GoldManSachs.WebP",
   "Hcl.WebP",
-  "Ibm.Webp",
+  "Alcoa.WebP",
   "Microsoft.WebP",
-  "NielsenIQ.WebP",
   "Ramboll.WebP",
-  "Wipro.WebP",
-  "Wsp.WebP",
+  "NielsenIQ.WebP",
+  "GoldManSachs.WebP",
+  "Ibm.Webp",
+  "Infosys.png",
+  "Nvidia.WebP",
+  "Salesforce.WebP",
 ];
 
 const PLACEMENT_LOGOS = [
