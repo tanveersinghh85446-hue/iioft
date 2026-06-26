@@ -52,11 +52,18 @@ const TEAM = [
     initial: "R",
   },
   {
+    name: "Anjali Singh",
+    role: "Career & Placement Coordinator",
+    img: "Anjali.AVIF",
+    initial: "An",
+  },
+  {
     name: "Manoj Soni",
     role: "Head of Department",
     img: "Manoj Soni.AVIF",
     initial: "M",
   },
+
   {
     name: "Vinay Rojha",
     role: "Marketing Head & Managing Director",
@@ -68,12 +75,6 @@ const TEAM = [
     role: "Technical Head",
     img: "Akash Soni.AVIF",
     initial: "A",
-  },
-  {
-    name: "Anjali Singh",
-    role: "Career & Placement Coordinator",
-    img: "Anjali.AVIF",
-    initial: "An",
   },
 ];
 
