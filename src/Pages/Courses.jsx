@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import coursesData from "../data/courses.json";
+import { MdMoreTime } from "react-icons/md";
 
 const categoryColors = {
   master: {
@@ -100,10 +101,10 @@ function CourseCard({ course }) {
 
       {/* Body */}
       <div className="flex flex-col flex-1 p-5 gap-3">
-        <h3 className="text-base font-bold text-slate-900 leading-snug">
+        <h3 className="text-lg font-bold text-slate-900 leading-snug">
           {course.title}
         </h3>
-        <p className="text-xs text-slate-500 leading-relaxed line-clamp-2">
+        <p className="text-sm text-slate-600 leading-relaxed line-clamp-2">
           {course.shortDescription}
         </p>
 
@@ -112,7 +113,7 @@ function CourseCard({ course }) {
           {(course.features || []).slice(0, 3).map((f, i) => (
             <li
               key={i}
-              className="flex items-start gap-1.5 text-xs text-slate-500"
+              className="flex items-start gap-1.5 text-xs text-black font-semibold"
             >
               <span
                 className={`mt-1.5 w-1.5 h-1.5 rounded-full shrink-0 ${cat.accent.replace(
@@ -132,9 +133,14 @@ function CourseCard({ course }) {
 
         {/* Footer */}
         <div className="flex items-center justify-between pt-3 border-t border-slate-100 mt-1">
-          <span className="text-xs text-slate-400 font-medium">
-            {course.duration}
-          </span>
+          <div className="flex gap-2">
+            <span>
+              <MdMoreTime className="text-xl"/>
+            </span>
+            <span className="text-xs mt-0.5 text-black font-bold">
+              {course.duration}
+            </span>
+          </div>
           <Link
             to={`/course/${course.slug}`}
             target="_blank"

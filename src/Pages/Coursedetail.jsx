@@ -321,7 +321,7 @@ export default function CourseDetail() {
             <h1 className="text-3xl sm:text-4xl font-black text-white mb-2 leading-tight">
               {course.title}
             </h1>
-            <p className="text-white/70 italic text-sm mb-5">
+            <p className="text-black italic text-sm mb-5">
               {course.shortDescription}
             </p>
 
@@ -329,7 +329,7 @@ export default function CourseDetail() {
             <div className="flex flex-wrap gap-3">
               <div className="flex items-center gap-2 bg-white/15 border border-white/20 rounded-xl px-4 py-2 text-sm text-white font-medium">
                 <svg
-                  className="w-4 h-4 text-white/70"
+                  className="w-4 h-4 text-black"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -356,7 +356,7 @@ export default function CourseDetail() {
               {course.features?.length > 0 && (
                 <div className="flex items-center gap-2 bg-white/15 border border-white/20 rounded-xl px-4 py-2 text-sm text-white font-medium">
                   <svg
-                    className="w-4 h-4 text-white/70"
+                    className="w-4 h-4 text-black"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
