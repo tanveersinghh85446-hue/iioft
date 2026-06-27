@@ -17,7 +17,7 @@ const IMAGES = [
   "Hero1.AVIF",
   "Hero2.AVIF",
   "Hero3.AVIF",
-  "Hero4.AVIF",
+  "Hero4.AVIF"
 ];
 
 const FAQS = [
@@ -66,7 +66,7 @@ const LOGOS = [
   "Ibm.Webp",
   "Infosys.png",
   "Nvidia.WebP",
-  "Salesforce.WebP",
+  "Salesforce.WebP"
 ];
 
 const PLACEMENT_LOGOS = [
@@ -89,7 +89,7 @@ const PLACEMENT_LOGOS = [
   "Cognizant.WebP",
   "Salesforce.WebP",
   "Tm.WebP",
-  "Nvidia.WebP",
+  "Nvidia.WebP"
 ];
 
 const PROS = [
