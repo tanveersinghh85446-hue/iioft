@@ -8043,7 +8043,7 @@
     "title": "React JS Course",
     "shortDescription": "Master React JS through practical training covering components, hooks, routing, API integration, Redux, and deployment with 5 mini projects and 1 major e-commerce project.",
     "fullDescription": "React JS Course is a 1.5-month intensive program designed for learners with basic knowledge of HTML, CSS, and JavaScript. The course covers React Fundamentals, Components & State Management, React Hooks, Routing, API Integration, Advanced State Management with Redux Toolkit, Performance Optimization, and Deployment. Students gain hands-on experience through 90–100 hours of theory and practical training, 5 mini projects, and a final major E-Commerce Web Application project.",
-    "duration": "1.5 Months (6 Weeks)",
+    "duration": "1.5 Months",
     "price": "Contact for Pricing",
     "category": "advance",
     "image": "RJ.AVIF",
@@ -8268,7 +8268,7 @@
     "title": "Laravel PHP Framework Training Course",
     "shortDescription": "Master Laravel PHP framework through practical training covering MVC architecture, Eloquent ORM, REST API development, authentication, and deployment.",
     "fullDescription": "This Laravel PHP framework course covers MVC architecture, Routing, Controllers, Blade Templates, Database Management, Eloquent ORM, Authentication, Middleware, API Development, Storage, Email Notifications, Queues, and Deployment. 2-month intensive program with 120 hours of theory, practical training, 4 mini projects, and a major Online Course Management System project.",
-    "duration": "2 Months (8 Weeks)",
+    "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
     "image": "LPFTC.AVIF",
@@ -8405,7 +8405,7 @@
     "title": "Magento CMS Training Course",
     "shortDescription": "Master Magento e-commerce platform through practical training covering store setup, product management, theme customization, module development, and API integration.",
     "fullDescription": "This Magento CMS course covers Store Setup, Catalog Management, Theme Customization, Customer & Order Management, Extension Development, API Integration, SEO & Marketing, Security & Performance, and Live Deployment. 2-month intensive program with 120 hours of theory, practical training, 4 mini projects, and a major Complete E-Commerce Store Development project.",
-    "duration": "2 Months (8 Weeks)",
+    "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
     "image": "MCTC.AVIF",
@@ -8545,7 +8545,7 @@
     "title": "WordPress CMS Training Course",
     "shortDescription": "Master WordPress website development through practical training covering content management, theme customization, WooCommerce, SEO optimization, and live deployment.",
     "fullDescription": "This WordPress CMS course covers Website Creation, Theme Management, Plugin Development, WooCommerce E-Commerce, SEO & Digital Marketing, Website Security & Performance, and Live Deployment. 2-month intensive program with 120 hours of theory, practical training, 4 mini projects, and a major E-Commerce Website Development project.",
-    "duration": "2 Months (8 Weeks)",
+    "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
     "image": "WPCMSTC.AVIF",
@@ -10033,678 +10033,1166 @@
     "metaDescription": "Master AutoCAD Civil for professional civil engineering drafting, building layouts, road design, and infrastructure planning. Hands-on training with real projects and portfolio development."
   },
 
+  {
+    "id": "autodesk-revit",
+    "slug": "autodesk-revit-professional-training",
+    "title": "Autodesk Revit Professional Training Course",
+    "shortDescription": "Master Autodesk Revit for professional BIM modeling. Learn architectural design, structural modeling, construction documentation, and 3D visualization.",
+    "fullDescription": "This Autodesk Revit Professional Training Course covers everything from Building Information Modeling (BIM) fundamentals to advanced architectural and structural modeling, construction documentation, and 3D visualization. Includes 100% practical training, real-time building design projects, portfolio development, and industry-oriented curriculum designed for architecture students, civil engineers, interior designers, and construction professionals.",
+    "duration": "1.5 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "ADR.AVIF",
+    "features": [
+      "Building Information Modeling (BIM) Fundamentals",
+      "Architectural Modeling & Design",
+      "Structural Modeling & Analysis",
+      "Advanced Annotation & Documentation",
+      "Revit Families & BIM Components",
+      "3D Visualization & Rendering",
+      "BIM Collaboration & Worksharing",
+      "Construction Documentation & Schedules",
+      "Quantity Take-Off & Project Planning"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Autodesk Revit",
+        "topics": [
+          "Introduction to Building Information Modeling (BIM)",
+          "Revit Interface & Workspace",
+          "Project Setup",
+          "Templates & Project Browser",
+          "Levels & Grids",
+          "Views & Navigation",
+          "Units & Project Settings",
+          "File Management",
+          "BIM Workflow Overview"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Architectural Modeling",
+        "topics": [
+          "Wall Creation & Editing",
+          "Doors & Windows",
+          "Floors",
+          "Roofs",
+          "Ceilings",
+          "Curtain Walls",
+          "Stairs & Railings",
+          "Ramps",
+          "Openings",
+          "Components & Furniture Placement"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Structural Modeling",
+        "topics": [
+          "Structural Columns",
+          "Beams & Beam Systems",
+          "Foundations",
+          "Structural Floors",
+          "Structural Walls",
+          "Trusses",
+          "Bracing",
+          "Structural Connections",
+          "Reinforcement Basics"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Annotation & Documentation",
+        "topics": [
+          "Dimensions",
+          "Text & Notes",
+          "Tags",
+          "Room Tags",
+          "Sections",
+          "Elevations",
+          "Callouts",
+          "Detail Views",
+          "Legends",
+          "Schedules & Quantities"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Families & BIM Components",
+        "topics": [
+          "Introduction to Revit Families",
+          "System Families",
+          "Loadable Families",
+          "In-Place Families",
+          "Family Creation",
+          "Family Parameters",
+          "Material Assignment",
+          "Editing Families"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "3D Visualization & Rendering",
+        "topics": [
+          "3D Views",
+          "Camera Views",
+          "Walkthrough Creation",
+          "Materials & Textures",
+          "Lighting Setup",
+          "Rendering",
+          "Sun & Shadow Analysis",
+          "Realistic Presentation Views"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Collaboration & BIM Workflow",
+        "topics": [
+          "Worksharing",
+          "Linked CAD & Revit Files",
+          "Shared Coordinates",
+          "Copy/Monitor",
+          "Design Options",
+          "Phases",
+          "View Templates",
+          "BIM Collaboration Basics"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Project Completion & Final Project",
+        "topics": [
+          "Sheet Creation",
+          "Layout Preparation",
+          "Printing & PDF Export",
+          "Quantity Take-Off",
+          "Project Standards",
+          "Portfolio Development",
+          "Resume & Interview Preparation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "type": "practical",
+        "title": "New Building Project Creation",
+        "description": "Create and setup a new building project with proper templates and settings"
+      },
+      {
+        "type": "practical",
+        "title": "Residential Building Model",
+        "description": "Develop a complete residential building architectural model"
+      },
+      {
+        "type": "practical",
+        "title": "Structural Frame Modeling",
+        "description": "Model a complete structural frame for a building"
+      },
+      {
+        "type": "practical",
+        "title": "Construction Documentation",
+        "description": "Prepare complete construction documentation with annotations and schedules"
+      },
+      {
+        "type": "practical",
+        "title": "Custom Families Creation",
+        "description": "Create custom doors, windows, and furniture families"
+      },
+      {
+        "type": "practical",
+        "title": "3D Building Rendering",
+        "description": "Render a realistic 3D view of a building model"
+      },
+      {
+        "type": "project",
+        "title": "Residential Building Modeling",
+        "description": "Complete residential building BIM model with all details"
+      },
+      {
+        "type": "project",
+        "title": "Commercial Building Design",
+        "description": "Professional commercial building design and modeling"
+      },
+      {
+        "type": "project",
+        "title": "Structural Modeling Project",
+        "description": "Advanced structural system modeling and analysis"
+      },
+      {
+        "type": "project",
+        "title": "Interior Layout Design",
+        "description": "Complete interior design and layout planning"
+      },
+      {
+        "type": "project",
+        "title": "BIM Coordination Project",
+        "description": "Coordinate multiple building models and trades"
+      },
+      {
+        "type": "project",
+        "title": "Complete BIM Building Documentation",
+        "description": "Develop a complete BIM model of a residential or commercial building including floor plans, elevations, sections, 3D building model, structural elements, door & window schedules, room schedules, construction sheets, rendered views, and print-ready documentation"
+      }
+    ],
+    "toolsCovered": [
+      "Autodesk Revit (Latest Version)",
+      "Revit Families",
+      "BIM Coordination Tools",
+      "Rendering Engine",
+      "Documentation Tools"
+    ],
+    "trainingHours": {
+      "theory": 15,
+      "practicalLabs": 40,
+      "projects": 25,
+      "total": "80 Hours"
+    },
+    "learningOutcomes": [
+      "Understand Building Information Modeling (BIM) concepts and workflows",
+      "Create professional architectural and structural BIM models",
+      "Generate floor plans, elevations, sections, and schedules automatically",
+      "Produce construction documentation and drawing sheets",
+      "Create realistic 3D visualizations and rendered presentations",
+      "Collaborate efficiently on BIM projects using Revit",
+      "Build a professional portfolio for careers in architecture, civil engineering, interior design, and BIM modeling"
+    ],
+    "careerPaths": [
+      "BIM Modeler",
+      "Architect",
+      "Structural Engineer",
+      "Interior Designer",
+      "CAD Manager",
+      "Construction Manager",
+      "Project Coordinator"
+    ],
+    "highlights": [
+      "100% Practical Training",
+      "Industry-Oriented Curriculum",
+      "Real-Time Building Design Projects",
+      "Hands-on BIM Modeling",
+      "Complete Construction Documentation",
+      "Portfolio Development",
+      "Certificate of Completion",
+      "Placement Assistance (if applicable)"
+    ],
+    "eligibility": [
+      "Basic Computer Knowledge",
+      "Architecture Students",
+      "Civil Engineering Students",
+      "Interior Designers",
+      "Diploma Holders",
+      "Engineers",
+      "Construction Professionals",
+      "Basic AutoCAD Knowledge Recommended"
+    ],
+    "trainingMode": ["Classroom", "Online"],
+    "targetAudience": [
+      "Architecture Students",
+      "Civil Engineering Students",
+      "Interior Designers",
+      "Architects",
+      "Structural Engineers",
+      "Construction Professionals",
+      "CAD Professionals"
+    ],
+    "prerequisites": [
+      "Basic Computer Knowledge",
+      "Basic AutoCAD Knowledge (Recommended)"
+    ],
+    "metaTitle": "Autodesk Revit Professional Course | BIM Modeling, Architecture & Construction Docs",
+    "metaDescription": "Master Autodesk Revit for professional BIM modeling, architectural design, structural modeling, and construction documentation. Hands-on training with real building projects and portfolio development."
+  },
+
+  {
+    "id": "staad-pro",
+    "slug": "staad-pro-structural-engineering-training",
+    "title": "STAAD.Pro Structural Engineering Professional Training Course",
+    "shortDescription": "Master STAAD.Pro for structural analysis and design. Learn RCC and steel structure design, load analysis, and structural optimization using Indian Standards.",
+    "fullDescription": "This STAAD.Pro Structural Engineering Professional Training Course covers everything from structural modeling and analysis to RCC and steel design using Indian Standard codes (IS 456:2000 & IS 800:2007). Includes 100% practical training, real-time structural engineering projects, IS code-based design, portfolio development, and industry-oriented curriculum designed for civil engineers and structural professionals.",
+    "duration": "2 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "STAAD.AVIF",
+    "features": [
+      "Structural Modeling & Frame Analysis",
+      "Load Definition & Load Cases (Dead, Live, Wind, Seismic)",
+      "RCC Structure Design per IS 456:2000",
+      "Steel Structure Design per IS 800:2007",
+      "Beam & Column Design",
+      "Foundation Analysis & Design",
+      "Advanced Structural Analysis",
+      "Design Reports & Documentation",
+      "Quantity Estimation"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to STAAD.Pro",
+        "topics": [
+          "Introduction to Structural Analysis & Design",
+          "Overview of STAAD.Pro Interface",
+          "Project Setup",
+          "Units & Coordinate Systems",
+          "Geometry Creation",
+          "Node & Beam Generation",
+          "Material Properties",
+          "Section Properties",
+          "File Management"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Structural Modeling",
+        "topics": [
+          "Beam Modeling",
+          "Column Modeling",
+          "Slab Modeling Concepts",
+          "Truss Modeling",
+          "Portal Frame Modeling",
+          "Space Frame Modeling",
+          "Supports & Boundary Conditions",
+          "Member Incidences",
+          "Model Verification"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Load Definition & Analysis",
+        "topics": [
+          "Dead Load",
+          "Live Load",
+          "Wind Load",
+          "Earthquake (Seismic) Load",
+          "Floor Load",
+          "Member Load",
+          "Area Load",
+          "Load Combinations",
+          "Load Cases",
+          "Analysis Commands"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Structural Analysis",
+        "topics": [
+          "Linear Static Analysis",
+          "Deflection Analysis",
+          "Bending Moment Diagram (BMD)",
+          "Shear Force Diagram (SFD)",
+          "Axial Force Diagram",
+          "Torsion Analysis",
+          "Reaction Forces",
+          "Member End Forces",
+          "Result Interpretation"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "RCC Structural Design",
+        "topics": [
+          "RCC Design Concepts",
+          "Design as per IS 456:2000",
+          "Beam Design",
+          "Column Design",
+          "Footing Design",
+          "Slab Design Concepts",
+          "Reinforcement Detailing",
+          "Design Reports"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Steel Structure Design",
+        "topics": [
+          "Steel Design Concepts",
+          "IS 800:2007 Design Code",
+          "Steel Beam Design",
+          "Steel Column Design",
+          "Truss Design",
+          "Industrial Shed Design",
+          "Connection Basics",
+          "Design Optimization"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Advanced Structural Design",
+        "topics": [
+          "Plate Elements",
+          "Surface Modeling",
+          "Foundation Modeling",
+          "Water Tank Analysis",
+          "Staircase Analysis",
+          "Response Spectrum Analysis",
+          "P-Delta Analysis",
+          "Model Optimization",
+          "Structural Documentation"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Project, Documentation & Reporting",
+        "topics": [
+          "Design Reports",
+          "Quantity Estimation",
+          "Drawing Integration",
+          "Exporting Results",
+          "Model Validation",
+          "Project Documentation",
+          "Portfolio Development",
+          "Industry Best Practices",
+          "Interview Preparation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "type": "practical",
+        "title": "Simple Structural Frame Model",
+        "description": "Create a basic structural frame model with supports and loads"
+      },
+      {
+        "type": "practical",
+        "title": "Multi-Storey Building Frame",
+        "description": "Develop a complete multi-storey building frame structure"
+      },
+      {
+        "type": "practical",
+        "title": "Building Structure with Loads",
+        "description": "Apply comprehensive loads (dead, live, wind, seismic) to a building"
+      },
+      {
+        "type": "practical",
+        "title": "RCC Frame Analysis",
+        "description": "Analyze a reinforced concrete frame structure"
+      },
+      {
+        "type": "practical",
+        "title": "RCC Structural Design",
+        "description": "Design RCC structural members including beams and columns"
+      },
+      {
+        "type": "practical",
+        "title": "Steel Industrial Structure",
+        "description": "Design a complete steel industrial structure"
+      },
+      {
+        "type": "project",
+        "title": "RCC Residential Building",
+        "description": "Complete RCC residential building structural design"
+      },
+      {
+        "type": "project",
+        "title": "Commercial Building Structure",
+        "description": "Complex commercial building structural analysis and design"
+      },
+      {
+        "type": "project",
+        "title": "Steel Industrial Shed",
+        "description": "Complete industrial shed design with steel members"
+      },
+      {
+        "type": "project",
+        "title": "Foundation Analysis",
+        "description": "Detailed foundation design and analysis"
+      },
+      {
+        "type": "project",
+        "title": "Water Tank Structure",
+        "description": "Water tank analysis and design"
+      },
+      {
+        "type": "project",
+        "title": "G+5 Building Complete Design",
+        "description": "Design and analyze a complete G+5 residential or commercial building including structural modeling, load calculations, RCC beam & column design, steel member design, foundation analysis, structural reports, design documentation, and quantity estimation"
+      }
+    ],
+    "toolsCovered": [
+      "STAAD.Pro (Latest Version)",
+      "Indian Standard Codes (IS 456:2000 & IS 800:2007)",
+      "Analysis Tools",
+      "Design Tools",
+      "Reporting Tools"
+    ],
+    "trainingHours": {
+      "theory": 20,
+      "practicalLabs": 45,
+      "projects": 35,
+      "total": "100 Hours"
+    },
+    "learningOutcomes": [
+      "Develop structural models using STAAD.Pro",
+      "Perform structural analysis for RCC and steel structures",
+      "Apply dead, live, wind, and seismic loads according to Indian Standards",
+      "Design beams, columns, foundations, and steel members",
+      "Interpret structural analysis results and prepare design reports",
+      "Optimize structural designs for safety and economy",
+      "Build a professional portfolio for careers in structural engineering"
+    ],
+    "careerPaths": [
+      "Structural Engineer",
+      "Design Engineer",
+      "Consultant",
+      "Project Manager",
+      "CAD Manager",
+      "Construction Engineer",
+      "Freelance Structural Designer"
+    ],
+    "highlights": [
+      "100% Practical Training",
+      "Industry-Oriented Curriculum",
+      "Real-Time Structural Engineering Projects",
+      "IS Code-Based Design (IS 456:2000 & IS 800:2007)",
+      "Project-Based Learning",
+      "Portfolio Development",
+      "Certificate of Completion",
+      "Placement Assistance (if applicable)"
+    ],
+    "eligibility": [
+      "Diploma in Civil Engineering",
+      "B.Tech/B.E. in Civil Engineering",
+      "Civil Engineering Students",
+      "Structural Engineers",
+      "Basic Knowledge of Structural Engineering (Recommended)",
+      "Basic AutoCAD Knowledge (Recommended)"
+    ],
+    "trainingMode": ["Classroom", "Online"],
+    "targetAudience": [
+      "Civil Engineering Students",
+      "Structural Engineers",
+      "Design Engineers",
+      "Construction Professionals",
+      "Diploma Holders"
+    ],
+    "prerequisites": [
+      "Diploma or B.Tech in Civil Engineering",
+      "Basic Structural Engineering Knowledge",
+      "Basic AutoCAD Knowledge (Recommended)"
+    ],
+    "isCodeStandards": [
+      "IS 456:2000 - RCC Design Code",
+      "IS 800:2007 - Steel Design Code"
+    ],
+    "metaTitle": "STAAD.Pro Structural Engineering Course | RCC & Steel Design with Indian Standards",
+    "metaDescription": "Master STAAD.Pro for structural analysis and design of RCC and steel structures. Learn IS 456:2000 and IS 800:2007 codes with real building projects."
+  },
+
+  {
+    "id": "vray-rendering",
+    "slug": "vray-professional-training",
+    "title": "V-Ray Professional Training Course",
+    "shortDescription": "Master V-Ray rendering engine for photorealistic architectural visualization. Learn materials, lighting, and rendering techniques for interior and exterior designs.",
+    "fullDescription": "This V-Ray Professional Training Course covers everything from V-Ray basics to advanced rendering techniques including realistic materials, professional lighting, camera setup, and post-production. Includes 100% practical training, real-time architectural visualization projects, portfolio development, and industry-oriented curriculum designed for architecture students, interior designers, and 3D visualization artists.",
+    "duration": "1.5 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "V-RAY.AVIF",
+    "features": [
+      "V-Ray Rendering Engine Fundamentals",
+      "Realistic Materials & Textures Creation",
+      "Professional Lighting Techniques",
+      "Camera Setup & Composition",
+      "Interior & Exterior Rendering",
+      "Advanced Rendering Techniques",
+      "Global Illumination & Ambient Occlusion",
+      "Post-Production & Image Enhancement",
+      "Portfolio Development"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to V-Ray",
+        "topics": [
+          "Introduction to V-Ray Rendering Engine",
+          "Installation & Interface Overview",
+          "V-Ray Toolbar & Asset Editor",
+          "Render Settings",
+          "Project Setup",
+          "Camera Setup",
+          "Navigation Tools",
+          "Importing 3D Models",
+          "File Management"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Materials & Textures",
+        "topics": [
+          "V-Ray Material Editor",
+          "Creating Standard Materials",
+          "Reflection & Refraction",
+          "Glossiness Settings",
+          "Bump Maps",
+          "Displacement Maps",
+          "Opacity Maps",
+          "Texture Mapping",
+          "UV Mapping Basics",
+          "Material Libraries"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Lighting Techniques",
+        "topics": [
+          "Natural Daylight System",
+          "Sun & Sky Setup",
+          "Artificial Lighting",
+          "Spot Lights",
+          "Area Lights",
+          "IES Lights",
+          "Dome Lights",
+          "HDRI Lighting",
+          "Interior & Exterior Lighting"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Camera & Rendering",
+        "topics": [
+          "Physical Camera Settings",
+          "Camera Exposure",
+          "Depth of Field (DOF)",
+          "White Balance",
+          "Composition Techniques",
+          "Render Quality Settings",
+          "Noise Reduction",
+          "Render Optimization",
+          "Interactive Rendering"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Advanced Rendering Techniques",
+        "topics": [
+          "Global Illumination (GI)",
+          "Ambient Occlusion",
+          "Render Elements",
+          "Render Passes",
+          "Caustics",
+          "Fog & Atmospheric Effects",
+          "Proxy Objects",
+          "Scene Optimization",
+          "Asset Management"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Post-Production & Final Project",
+        "topics": [
+          "Color Correction",
+          "Exposure Adjustment",
+          "Render Enhancement",
+          "Image Editing Workflow",
+          "Export Settings",
+          "Print & Web Output",
+          "Portfolio Development",
+          "Freelancing & Client Presentation",
+          "Interview Preparation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "type": "practical",
+        "title": "Basic Interior Rendering Setup",
+        "description": "Set up a basic interior rendering project with models and cameras"
+      },
+      {
+        "type": "practical",
+        "title": "Realistic Materials Creation",
+        "description": "Create photorealistic wood, glass, metal, and fabric materials"
+      },
+      {
+        "type": "practical",
+        "title": "Interior Lighting Setup",
+        "description": "Design realistic interior lighting with natural and artificial lights"
+      },
+      {
+        "type": "practical",
+        "title": "High-Quality Interior & Exterior Renders",
+        "description": "Produce professional interior and exterior rendering images"
+      },
+      {
+        "type": "practical",
+        "title": "Complex Architectural Scene Rendering",
+        "description": "Render a complex architectural scene with advanced techniques"
+      },
+      {
+        "type": "practical",
+        "title": "Post-Production Image Enhancement",
+        "description": "Enhance renders with color correction and post-processing"
+      },
+      {
+        "type": "project",
+        "title": "Residential Interior Rendering",
+        "description": "Complete residential interior visualization project"
+      },
+      {
+        "type": "project",
+        "title": "Living Room Visualization",
+        "description": "Photorealistic living room rendering"
+      },
+      {
+        "type": "project",
+        "title": "Kitchen Design Rendering",
+        "description": "Professional kitchen interior rendering"
+      },
+      {
+        "type": "project",
+        "title": "Office Interior Visualization",
+        "description": "Commercial office space rendering"
+      },
+      {
+        "type": "project",
+        "title": "Exterior Building Rendering",
+        "description": "Photorealistic exterior building visualization"
+      },
+      {
+        "type": "project",
+        "title": "Complete Architectural Visualization Portfolio",
+        "description": "Create complete architectural visualization project including interior scene rendering, exterior building rendering, realistic materials & textures, day & night lighting, camera composition, high-resolution final render, and post-processed presentation images"
+      }
+    ],
+    "toolsCovered": [
+      "V-Ray (Latest Version)",
+      "SketchUp / Autodesk 3ds Max / Revit (for Integration)",
+      "Adobe Photoshop (Basic Post-Production)"
+    ],
+    "trainingHours": {
+      "theory": 10,
+      "practicalLabs": 30,
+      "projects": 20,
+      "total": "60 Hours"
+    },
+    "learningOutcomes": [
+      "Create photorealistic architectural and interior renderings using V-Ray",
+      "Apply realistic materials, textures, and lighting to 3D models",
+      "Optimize rendering settings for quality and performance",
+      "Produce professional interior and exterior visualization images",
+      "Enhance renders using post-production techniques",
+      "Develop a professional rendering portfolio for architecture and interior design projects",
+      "Work confidently as a 3D Visualization Artist, Architectural Renderer, or Interior Rendering Specialist"
+    ],
+    "careerPaths": [
+      "3D Visualization Artist",
+      "Architectural Renderer",
+      "Interior Rendering Specialist",
+      "Visualization Consultant",
+      "Freelance 3D Artist",
+      "Product Rendering Specialist",
+      "Real Estate Visualization Expert"
+    ],
+    "highlights": [
+      "100% Practical Training",
+      "Industry-Oriented Curriculum",
+      "Real-Time Architectural Visualization Projects",
+      "Hands-on Material, Lighting & Rendering Techniques",
+      "Portfolio Development",
+      "Professional Rendering Standards",
+      "Certificate of Completion",
+      "Placement Assistance (if applicable)"
+    ],
+    "eligibility": [
+      "Basic Computer Knowledge",
+      "Basic Knowledge of SketchUp, 3ds Max, Revit, or Rhino (Recommended)",
+      "Suitable for Architecture Students",
+      "Interior Designers",
+      "Civil Engineers",
+      "3D Visualization Artists"
+    ],
+    "trainingMode": ["Classroom", "Online"],
+    "targetAudience": [
+      "Architecture Students",
+      "Interior Designers",
+      "Civil Engineers",
+      "3D Artists",
+      "Architects",
+      "Visualization Professionals"
+    ],
+    "prerequisites": [
+      "Basic Computer Knowledge",
+      "Basic Knowledge of 3D Modeling Software (Recommended)"
+    ],
+    "softwareIntegration": [
+      "SketchUp Integration",
+      "Autodesk 3ds Max",
+      "Revit Integration",
+      "Rhino Integration",
+      "Adobe Photoshop"
+    ],
+    "metaTitle": "V-Ray Professional Rendering Course | Architectural & Interior Visualization",
+    "metaDescription": "Master V-Ray rendering for photorealistic architectural and interior visualization. Learn materials, lighting, cameras, and post-production techniques."
+  },
+
+
+
+
 
 
 
 
 
   {
-  "id": "autodesk-revit",
-  "slug": "autodesk-revit-professional-training",
-  "title": "Autodesk Revit Professional Training Course",
-  "shortDescription": "Master Autodesk Revit for professional BIM modeling. Learn architectural design, structural modeling, construction documentation, and 3D visualization.",
-  "fullDescription": "This Autodesk Revit Professional Training Course covers everything from Building Information Modeling (BIM) fundamentals to advanced architectural and structural modeling, construction documentation, and 3D visualization. Includes 100% practical training, real-time building design projects, portfolio development, and industry-oriented curriculum designed for architecture students, civil engineers, interior designers, and construction professionals.",
-  "duration": "1.5 Months (6 Weeks)",
+  "id": "autocad-mechanical",
+  "slug": "autocad-mechanical-professional-training",
+  "title": "AutoCAD for Mechanical Professional Training Course",
+  "shortDescription": "Master AutoCAD for mechanical engineering drafting. Learn 2D mechanical design, manufacturing drawings, assembly layouts, and engineering documentation.",
+  "fullDescription": "This AutoCAD for Mechanical Professional Training Course covers everything from mechanical drafting basics to advanced manufacturing drawings, assembly layouts, and engineering documentation. Includes 100% practical training, real-time mechanical projects, GD&T basics, and industry-oriented curriculum designed for mechanical engineers, CAD designers, and manufacturing professionals.",
+  "duration": "1 Month",
   "price": "Contact for Pricing",
   "category": "master",
-  "image": "ADR.AVIF",
+  "image": "ACM.AVIF",
   "features": [
-    "Building Information Modeling (BIM) Fundamentals",
-    "Architectural Modeling & Design",
-    "Structural Modeling & Analysis",
-    "Advanced Annotation & Documentation",
-    "Revit Families & BIM Components",
-    "3D Visualization & Rendering",
-    "BIM Collaboration & Worksharing",
-    "Construction Documentation & Schedules",
-    "Quantity Take-Off & Project Planning"
-  ],
-  "syllabus": [
-    {
-      "module": 1,
-      "title": "Introduction to Autodesk Revit",
-      "topics": [
-        "Introduction to Building Information Modeling (BIM)",
-        "Revit Interface & Workspace",
-        "Project Setup",
-        "Templates & Project Browser",
-        "Levels & Grids",
-        "Views & Navigation",
-        "Units & Project Settings",
-        "File Management",
-        "BIM Workflow Overview"
-      ]
-    },
-    {
-      "module": 2,
-      "title": "Architectural Modeling",
-      "topics": [
-        "Wall Creation & Editing",
-        "Doors & Windows",
-        "Floors",
-        "Roofs",
-        "Ceilings",
-        "Curtain Walls",
-        "Stairs & Railings",
-        "Ramps",
-        "Openings",
-        "Components & Furniture Placement"
-      ]
-    },
-    {
-      "module": 3,
-      "title": "Structural Modeling",
-      "topics": [
-        "Structural Columns",
-        "Beams & Beam Systems",
-        "Foundations",
-        "Structural Floors",
-        "Structural Walls",
-        "Trusses",
-        "Bracing",
-        "Structural Connections",
-        "Reinforcement Basics"
-      ]
-    },
-    {
-      "module": 4,
-      "title": "Annotation & Documentation",
-      "topics": [
-        "Dimensions",
-        "Text & Notes",
-        "Tags",
-        "Room Tags",
-        "Sections",
-        "Elevations",
-        "Callouts",
-        "Detail Views",
-        "Legends",
-        "Schedules & Quantities"
-      ]
-    },
-    {
-      "module": 5,
-      "title": "Families & BIM Components",
-      "topics": [
-        "Introduction to Revit Families",
-        "System Families",
-        "Loadable Families",
-        "In-Place Families",
-        "Family Creation",
-        "Family Parameters",
-        "Material Assignment",
-        "Editing Families"
-      ]
-    },
-    {
-      "module": 6,
-      "title": "3D Visualization & Rendering",
-      "topics": [
-        "3D Views",
-        "Camera Views",
-        "Walkthrough Creation",
-        "Materials & Textures",
-        "Lighting Setup",
-        "Rendering",
-        "Sun & Shadow Analysis",
-        "Realistic Presentation Views"
-      ]
-    },
-    {
-      "module": 7,
-      "title": "Collaboration & BIM Workflow",
-      "topics": [
-        "Worksharing",
-        "Linked CAD & Revit Files",
-        "Shared Coordinates",
-        "Copy/Monitor",
-        "Design Options",
-        "Phases",
-        "View Templates",
-        "BIM Collaboration Basics"
-      ]
-    },
-    {
-      "module": 8,
-      "title": "Project Completion & Final Project",
-      "topics": [
-        "Sheet Creation",
-        "Layout Preparation",
-        "Printing & PDF Export",
-        "Quantity Take-Off",
-        "Project Standards",
-        "Portfolio Development",
-        "Resume & Interview Preparation"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "type": "practical",
-      "title": "New Building Project Creation",
-      "description": "Create and setup a new building project with proper templates and settings"
-    },
-    {
-      "type": "practical",
-      "title": "Residential Building Model",
-      "description": "Develop a complete residential building architectural model"
-    },
-    {
-      "type": "practical",
-      "title": "Structural Frame Modeling",
-      "description": "Model a complete structural frame for a building"
-    },
-    {
-      "type": "practical",
-      "title": "Construction Documentation",
-      "description": "Prepare complete construction documentation with annotations and schedules"
-    },
-    {
-      "type": "practical",
-      "title": "Custom Families Creation",
-      "description": "Create custom doors, windows, and furniture families"
-    },
-    {
-      "type": "practical",
-      "title": "3D Building Rendering",
-      "description": "Render a realistic 3D view of a building model"
-    },
-    {
-      "type": "project",
-      "title": "Residential Building Modeling",
-      "description": "Complete residential building BIM model with all details"
-    },
-    {
-      "type": "project",
-      "title": "Commercial Building Design",
-      "description": "Professional commercial building design and modeling"
-    },
-    {
-      "type": "project",
-      "title": "Structural Modeling Project",
-      "description": "Advanced structural system modeling and analysis"
-    },
-    {
-      "type": "project",
-      "title": "Interior Layout Design",
-      "description": "Complete interior design and layout planning"
-    },
-    {
-      "type": "project",
-      "title": "BIM Coordination Project",
-      "description": "Coordinate multiple building models and trades"
-    },
-    {
-      "type": "project",
-      "title": "Complete BIM Building Documentation",
-      "description": "Develop a complete BIM model of a residential or commercial building including floor plans, elevations, sections, 3D building model, structural elements, door & window schedules, room schedules, construction sheets, rendered views, and print-ready documentation"
-    }
-  ],
-  "toolsCovered": [
-    "Autodesk Revit (Latest Version)",
-    "Revit Families",
-    "BIM Coordination Tools",
-    "Rendering Engine",
-    "Documentation Tools"
-  ],
-  "trainingHours": {
-    "theory": 15,
-    "practicalLabs": 40,
-    "projects": 25,
-    "total": "80 Hours"
-  },
-  "learningOutcomes": [
-    "Understand Building Information Modeling (BIM) concepts and workflows",
-    "Create professional architectural and structural BIM models",
-    "Generate floor plans, elevations, sections, and schedules automatically",
-    "Produce construction documentation and drawing sheets",
-    "Create realistic 3D visualizations and rendered presentations",
-    "Collaborate efficiently on BIM projects using Revit",
-    "Build a professional portfolio for careers in architecture, civil engineering, interior design, and BIM modeling"
-  ],
-  "careerPaths": [
-    "BIM Modeler",
-    "Architect",
-    "Structural Engineer",
-    "Interior Designer",
-    "CAD Manager",
-    "Construction Manager",
-    "Project Coordinator"
-  ],
-  "highlights": [
-    "100% Practical Training",
-    "Industry-Oriented Curriculum",
-    "Real-Time Building Design Projects",
-    "Hands-on BIM Modeling",
-    "Complete Construction Documentation",
-    "Portfolio Development",
-    "Certificate of Completion",
-    "Placement Assistance (if applicable)"
-  ],
-  "eligibility": [
-    "Basic Computer Knowledge",
-    "Architecture Students",
-    "Civil Engineering Students",
-    "Interior Designers",
-    "Diploma Holders",
-    "Engineers",
-    "Construction Professionals",
-    "Basic AutoCAD Knowledge Recommended"
-  ],
-  "trainingMode": [
-    "Classroom",
-    "Online"
-  ],
-  "targetAudience": [
-    "Architecture Students",
-    "Civil Engineering Students",
-    "Interior Designers",
-    "Architects",
-    "Structural Engineers",
-    "Construction Professionals",
-    "CAD Professionals"
-  ],
-  "prerequisites": [
-    "Basic Computer Knowledge",
-    "Basic AutoCAD Knowledge (Recommended)"
-  ],
-  "metaTitle": "Autodesk Revit Professional Course | BIM Modeling, Architecture & Construction Docs",
-  "metaDescription": "Master Autodesk Revit for professional BIM modeling, architectural design, structural modeling, and construction documentation. Hands-on training with real building projects and portfolio development."
-},
-
-
-
-
-{
-  "id": "staad-pro",
-  "slug": "staad-pro-structural-engineering-training",
-  "title": "STAAD.Pro Structural Engineering Professional Training Course",
-  "shortDescription": "Master STAAD.Pro for structural analysis and design. Learn RCC and steel structure design, load analysis, and structural optimization using Indian Standards.",
-  "fullDescription": "This STAAD.Pro Structural Engineering Professional Training Course covers everything from structural modeling and analysis to RCC and steel design using Indian Standard codes (IS 456:2000 & IS 800:2007). Includes 100% practical training, real-time structural engineering projects, IS code-based design, portfolio development, and industry-oriented curriculum designed for civil engineers and structural professionals.",
-  "duration": "2 Months (8 Weeks)",
-  "price": "Contact for Pricing",
-  "category": "master",
-  "image": "STAAD.AVIF",
-  "features": [
-    "Structural Modeling & Frame Analysis",
-    "Load Definition & Load Cases (Dead, Live, Wind, Seismic)",
-    "RCC Structure Design per IS 456:2000",
-    "Steel Structure Design per IS 800:2007",
-    "Beam & Column Design",
-    "Foundation Analysis & Design",
-    "Advanced Structural Analysis",
-    "Design Reports & Documentation",
-    "Quantity Estimation"
-  ],
-  "syllabus": [
-    {
-      "module": 1,
-      "title": "Introduction to STAAD.Pro",
-      "topics": [
-        "Introduction to Structural Analysis & Design",
-        "Overview of STAAD.Pro Interface",
-        "Project Setup",
-        "Units & Coordinate Systems",
-        "Geometry Creation",
-        "Node & Beam Generation",
-        "Material Properties",
-        "Section Properties",
-        "File Management"
-      ]
-    },
-    {
-      "module": 2,
-      "title": "Structural Modeling",
-      "topics": [
-        "Beam Modeling",
-        "Column Modeling",
-        "Slab Modeling Concepts",
-        "Truss Modeling",
-        "Portal Frame Modeling",
-        "Space Frame Modeling",
-        "Supports & Boundary Conditions",
-        "Member Incidences",
-        "Model Verification"
-      ]
-    },
-    {
-      "module": 3,
-      "title": "Load Definition & Analysis",
-      "topics": [
-        "Dead Load",
-        "Live Load",
-        "Wind Load",
-        "Earthquake (Seismic) Load",
-        "Floor Load",
-        "Member Load",
-        "Area Load",
-        "Load Combinations",
-        "Load Cases",
-        "Analysis Commands"
-      ]
-    },
-    {
-      "module": 4,
-      "title": "Structural Analysis",
-      "topics": [
-        "Linear Static Analysis",
-        "Deflection Analysis",
-        "Bending Moment Diagram (BMD)",
-        "Shear Force Diagram (SFD)",
-        "Axial Force Diagram",
-        "Torsion Analysis",
-        "Reaction Forces",
-        "Member End Forces",
-        "Result Interpretation"
-      ]
-    },
-    {
-      "module": 5,
-      "title": "RCC Structural Design",
-      "topics": [
-        "RCC Design Concepts",
-        "Design as per IS 456:2000",
-        "Beam Design",
-        "Column Design",
-        "Footing Design",
-        "Slab Design Concepts",
-        "Reinforcement Detailing",
-        "Design Reports"
-      ]
-    },
-    {
-      "module": 6,
-      "title": "Steel Structure Design",
-      "topics": [
-        "Steel Design Concepts",
-        "IS 800:2007 Design Code",
-        "Steel Beam Design",
-        "Steel Column Design",
-        "Truss Design",
-        "Industrial Shed Design",
-        "Connection Basics",
-        "Design Optimization"
-      ]
-    },
-    {
-      "module": 7,
-      "title": "Advanced Structural Design",
-      "topics": [
-        "Plate Elements",
-        "Surface Modeling",
-        "Foundation Modeling",
-        "Water Tank Analysis",
-        "Staircase Analysis",
-        "Response Spectrum Analysis",
-        "P-Delta Analysis",
-        "Model Optimization",
-        "Structural Documentation"
-      ]
-    },
-    {
-      "module": 8,
-      "title": "Project, Documentation & Reporting",
-      "topics": [
-        "Design Reports",
-        "Quantity Estimation",
-        "Drawing Integration",
-        "Exporting Results",
-        "Model Validation",
-        "Project Documentation",
-        "Portfolio Development",
-        "Industry Best Practices",
-        "Interview Preparation"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "type": "practical",
-      "title": "Simple Structural Frame Model",
-      "description": "Create a basic structural frame model with supports and loads"
-    },
-    {
-      "type": "practical",
-      "title": "Multi-Storey Building Frame",
-      "description": "Develop a complete multi-storey building frame structure"
-    },
-    {
-      "type": "practical",
-      "title": "Building Structure with Loads",
-      "description": "Apply comprehensive loads (dead, live, wind, seismic) to a building"
-    },
-    {
-      "type": "practical",
-      "title": "RCC Frame Analysis",
-      "description": "Analyze a reinforced concrete frame structure"
-    },
-    {
-      "type": "practical",
-      "title": "RCC Structural Design",
-      "description": "Design RCC structural members including beams and columns"
-    },
-    {
-      "type": "practical",
-      "title": "Steel Industrial Structure",
-      "description": "Design a complete steel industrial structure"
-    },
-    {
-      "type": "project",
-      "title": "RCC Residential Building",
-      "description": "Complete RCC residential building structural design"
-    },
-    {
-      "type": "project",
-      "title": "Commercial Building Structure",
-      "description": "Complex commercial building structural analysis and design"
-    },
-    {
-      "type": "project",
-      "title": "Steel Industrial Shed",
-      "description": "Complete industrial shed design with steel members"
-    },
-    {
-      "type": "project",
-      "title": "Foundation Analysis",
-      "description": "Detailed foundation design and analysis"
-    },
-    {
-      "type": "project",
-      "title": "Water Tank Structure",
-      "description": "Water tank analysis and design"
-    },
-    {
-      "type": "project",
-      "title": "G+5 Building Complete Design",
-      "description": "Design and analyze a complete G+5 residential or commercial building including structural modeling, load calculations, RCC beam & column design, steel member design, foundation analysis, structural reports, design documentation, and quantity estimation"
-    }
-  ],
-  "toolsCovered": [
-    "STAAD.Pro (Latest Version)",
-    "Indian Standard Codes (IS 456:2000 & IS 800:2007)",
-    "Analysis Tools",
-    "Design Tools",
-    "Reporting Tools"
-  ],
-  "trainingHours": {
-    "theory": 20,
-    "practicalLabs": 45,
-    "projects": 35,
-    "total": "100 Hours"
-  },
-  "learningOutcomes": [
-    "Develop structural models using STAAD.Pro",
-    "Perform structural analysis for RCC and steel structures",
-    "Apply dead, live, wind, and seismic loads according to Indian Standards",
-    "Design beams, columns, foundations, and steel members",
-    "Interpret structural analysis results and prepare design reports",
-    "Optimize structural designs for safety and economy",
-    "Build a professional portfolio for careers in structural engineering"
-  ],
-  "careerPaths": [
-    "Structural Engineer",
-    "Design Engineer",
-    "Consultant",
-    "Project Manager",
-    "CAD Manager",
-    "Construction Engineer",
-    "Freelance Structural Designer"
-  ],
-  "highlights": [
-    "100% Practical Training",
-    "Industry-Oriented Curriculum",
-    "Real-Time Structural Engineering Projects",
-    "IS Code-Based Design (IS 456:2000 & IS 800:2007)",
-    "Project-Based Learning",
-    "Portfolio Development",
-    "Certificate of Completion",
-    "Placement Assistance (if applicable)"
-  ],
-  "eligibility": [
-    "Diploma in Civil Engineering",
-    "B.Tech/B.E. in Civil Engineering",
-    "Civil Engineering Students",
-    "Structural Engineers",
-    "Basic Knowledge of Structural Engineering (Recommended)",
-    "Basic AutoCAD Knowledge (Recommended)"
-  ],
-  "trainingMode": [
-    "Classroom",
-    "Online"
-  ],
-  "targetAudience": [
-    "Civil Engineering Students",
-    "Structural Engineers",
-    "Design Engineers",
-    "Construction Professionals",
-    "Diploma Holders"
-  ],
-  "prerequisites": [
-    "Diploma or B.Tech in Civil Engineering",
-    "Basic Structural Engineering Knowledge",
-    "Basic AutoCAD Knowledge (Recommended)"
-  ],
-  "isCodeStandards": [
-    "IS 456:2000 - RCC Design Code",
-    "IS 800:2007 - Steel Design Code"
-  ],
-  "metaTitle": "STAAD.Pro Structural Engineering Course | RCC & Steel Design with Indian Standards",
-  "metaDescription": "Master STAAD.Pro for structural analysis and design of RCC and steel structures. Learn IS 456:2000 and IS 800:2007 codes with real building projects."
-},
-
-
-
-
-{
-  "id": "vray-rendering",
-  "slug": "vray-professional-training",
-  "title": "V-Ray Professional Training Course",
-  "shortDescription": "Master V-Ray rendering engine for photorealistic architectural visualization. Learn materials, lighting, and rendering techniques for interior and exterior designs.",
-  "fullDescription": "This V-Ray Professional Training Course covers everything from V-Ray basics to advanced rendering techniques including realistic materials, professional lighting, camera setup, and post-production. Includes 100% practical training, real-time architectural visualization projects, portfolio development, and industry-oriented curriculum designed for architecture students, interior designers, and 3D visualization artists.",
-  "duration": "1.5 Months (6 Weeks)",
-  "price": "Contact for Pricing",
-  "category": "master",
-  "image": "V-RAY.AVIF",
-  "features": [
-    "V-Ray Rendering Engine Fundamentals",
-    "Realistic Materials & Textures Creation",
-    "Professional Lighting Techniques",
-    "Camera Setup & Composition",
-    "Interior & Exterior Rendering",
-    "Advanced Rendering Techniques",
-    "Global Illumination & Ambient Occlusion",
-    "Post-Production & Image Enhancement",
+    "2D Mechanical Drafting Fundamentals",
+    "Manufacturing & Fabrication Drawings",
+    "Dimensioning & Tolerancing (GD&T)",
+    "Assembly Drawings & BOM",
+    "Machine Component Design",
+    "Sheet Metal & Pipe Layouts",
+    "Professional Drafting Standards",
+    "Print-Ready Technical Drawings",
     "Portfolio Development"
   ],
   "syllabus": [
     {
       "module": 1,
-      "title": "Introduction to V-Ray",
+      "title": "Introduction to AutoCAD Mechanical",
       "topics": [
-        "Introduction to V-Ray Rendering Engine",
-        "Installation & Interface Overview",
-        "V-Ray Toolbar & Asset Editor",
-        "Render Settings",
-        "Project Setup",
-        "Camera Setup",
+        "Introduction to CAD and Mechanical Drafting",
+        "AutoCAD Interface & Workspace",
+        "Drawing Setup & Units",
+        "Coordinate Systems",
+        "Object Snap (OSNAP)",
+        "Grid & Snap Settings",
+        "File Management",
         "Navigation Tools",
-        "Importing 3D Models",
-        "File Management"
+        "Mechanical Standards (ISO, BIS)"
       ]
     },
     {
       "module": 2,
-      "title": "Materials & Textures",
+      "title": "2D Mechanical Drafting",
       "topics": [
-        "V-Ray Material Editor",
-        "Creating Standard Materials",
-        "Reflection & Refraction",
-        "Glossiness Settings",
-        "Bump Maps",
-        "Displacement Maps",
-        "Opacity Maps",
-        "Texture Mapping",
-        "UV Mapping Basics",
-        "Material Libraries"
+        "Line, Polyline & Construction Line",
+        "Circle, Arc & Ellipse",
+        "Rectangle & Polygon",
+        "Hatch & Gradient",
+        "Trim, Extend & Offset",
+        "Fillet & Chamfer",
+        "Mirror, Rotate & Scale",
+        "Move, Copy & Stretch",
+        "Array Commands",
+        "Explode & Join"
       ]
     },
     {
       "module": 3,
-      "title": "Lighting Techniques",
+      "title": "Dimensioning & Annotation",
       "topics": [
-        "Natural Daylight System",
-        "Sun & Sky Setup",
-        "Artificial Lighting",
-        "Spot Lights",
-        "Area Lights",
-        "IES Lights",
-        "Dome Lights",
-        "HDRI Lighting",
-        "Interior & Exterior Lighting"
+        "Linear, Angular & Radial Dimensions",
+        "Diameter & Radius Dimensions",
+        "Tolerances",
+        "Geometric Dimensioning & Tolerancing (GD&T) Basics",
+        "Text & Leaders",
+        "Center Marks & Center Lines",
+        "Layer Management",
+        "Linetypes & Lineweights",
+        "Mechanical Symbols"
       ]
     },
     {
       "module": 4,
-      "title": "Camera & Rendering",
+      "title": "Blocks & Assembly Drawings",
       "topics": [
-        "Physical Camera Settings",
-        "Camera Exposure",
-        "Depth of Field (DOF)",
-        "White Balance",
-        "Composition Techniques",
-        "Render Quality Settings",
-        "Noise Reduction",
-        "Render Optimization",
-        "Interactive Rendering"
+        "Creating Blocks",
+        "Dynamic Blocks",
+        "External References (XREF)",
+        "Assembly Drawings",
+        "Exploded Views",
+        "Bill of Materials (BOM) Basics",
+        "Part Numbering",
+        "Drawing Templates"
       ]
     },
     {
       "module": 5,
-      "title": "Advanced Rendering Techniques",
+      "title": "Mechanical Design Applications",
       "topics": [
-        "Global Illumination (GI)",
-        "Ambient Occlusion",
-        "Render Elements",
-        "Render Passes",
-        "Caustics",
-        "Fog & Atmospheric Effects",
-        "Proxy Objects",
-        "Scene Optimization",
-        "Asset Management"
+        "Machine Part Drawings",
+        "Shaft Design Drawings",
+        "Gear Drawings",
+        "Bearing Layout",
+        "Coupling Drawings",
+        "Flange Drawings",
+        "Pipe & Fitting Drawings",
+        "Sheet Metal Layout Basics"
       ]
     },
     {
       "module": 6,
-      "title": "Post-Production & Final Project",
+      "title": "Printing & Final Project",
       "topics": [
-        "Color Correction",
-        "Exposure Adjustment",
-        "Render Enhancement",
-        "Image Editing Workflow",
-        "Export Settings",
-        "Print & Web Output",
+        "Layout Setup",
+        "Viewports",
+        "Plotting & Printing",
+        "PDF Export",
+        "DWG & DXF Export",
+        "Drawing Standards",
+        "File Organization",
+        "Project Documentation",
+        "Portfolio Preparation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "type": "practical",
+      "title": "Basic Mechanical Drawings",
+      "description": "Create fundamental mechanical engineering drawings"
+    },
+    {
+      "type": "practical",
+      "title": "Mechanical Components",
+      "description": "Draw various mechanical components with precision"
+    },
+    {
+      "type": "practical",
+      "title": "Manufacturing Drawings",
+      "description": "Prepare manufacturing and fabrication drawings"
+    },
+    {
+      "type": "practical",
+      "title": "Assembly Drawing with Components",
+      "description": "Create assembly drawings with multiple components"
+    },
+    {
+      "type": "practical",
+      "title": "Standard Mechanical Components",
+      "description": "Design standard mechanical components and parts"
+    },
+    {
+      "type": "practical",
+      "title": "Print-Ready Drawing Sheets",
+      "description": "Prepare complete print-ready mechanical drawings"
+    },
+    {
+      "type": "project",
+      "title": "Machine Component Drawing",
+      "description": "Complete machine component drawing set"
+    },
+    {
+      "type": "project",
+      "title": "Shaft & Bearing Assembly",
+      "description": "Detailed shaft design and bearing assembly"
+    },
+    {
+      "type": "project",
+      "title": "Flange Drawing",
+      "description": "Professional flange design and layout"
+    },
+    {
+      "type": "project",
+      "title": "Gear Drawing",
+      "description": "Precision gear design and specification"
+    },
+    {
+      "type": "project",
+      "title": "Mechanical Assembly Layout",
+      "description": "Complete mechanical assembly layout"
+    },
+    {
+      "type": "project",
+      "title": "Complete Mechanical Drawing Set",
+      "description": "Prepare complete mechanical drawing set including machine component drawing, shaft & bearing assembly, flange drawing, gear drawing, mechanical assembly layout, dimensioned manufacturing drawings, and print-ready drawing sheets"
+    }
+  ],
+  "toolsCovered": [
+    "AutoCAD (Latest Version)",
+    "Mechanical Standards (ISO, BIS)",
+    "GD&T Tools",
+    "Block & Assembly Features"
+  ],
+  "trainingHours": {
+    "theory": 8,
+    "practicalLabs": 28,
+    "projects": 16,
+    "total": "52 Hours"
+  },
+  "learningOutcomes": [
+    "Create accurate 2D mechanical engineering drawings using AutoCAD",
+    "Prepare manufacturing and fabrication drawings as per industry standards",
+    "Apply dimensions, tolerances, and GD&T basics to engineering drawings",
+    "Develop assembly drawings and basic BOM documentation",
+    "Create professional print-ready mechanical design documents",
+    "Build a portfolio of mechanical drafting projects for manufacturing and engineering industries"
+  ],
+  "careerPaths": [
+    "CAD Draughtsman",
+    "Mechanical Designer",
+    "Manufacturing Engineer",
+    "CAD Engineer",
+    "Design Engineer",
+    "Technical Designer",
+    "Freelance CAD Designer"
+  ],
+  "highlights": [
+    "100% Practical Training",
+    "Industry-Oriented Curriculum",
+    "Real-Time Mechanical Drafting Projects",
+    "Hands-on CAD Practice",
+    "GD&T & Manufacturing Standards",
+    "Portfolio Development",
+    "Certificate of Completion",
+    "Placement Assistance (if applicable)"
+  ],
+  "eligibility": [
+    "Basic Computer Knowledge",
+    "ITI Students",
+    "Diploma in Mechanical Engineering",
+    "B.Tech/B.E. Mechanical Engineering Students",
+    "Mechanical Engineers",
+    "CAD Designers",
+    "Manufacturing Professionals",
+    "No Prior AutoCAD Experience Required"
+  ],
+  "trainingMode": [
+    "Classroom",
+    "Online"
+  ],
+  "targetAudience": [
+    "ITI Students",
+    "Diploma Holders",
+    "Mechanical Engineering Students",
+    "Mechanical Engineers",
+    "CAD Designers",
+    "Manufacturing Professionals"
+  ],
+  "standards": [
+    "ISO Standards",
+    "BIS Standards",
+    "GD&T (Geometric Dimensioning & Tolerancing)"
+  ],
+  "metaTitle": "AutoCAD for Mechanical Professional Course | Manufacturing Drawings & Design",
+  "metaDescription": "Master AutoCAD for mechanical engineering drafting, manufacturing drawings, assembly layouts, and GD&T. Hands-on training for CAD designers and mechanical engineers."
+},
+
+
+
+
+
+
+
+
+
+{
+  "id": "primavera-p6",
+  "slug": "primavera-p6-professional-training",
+  "title": "Primavera P6 Professional Training Course",
+  "shortDescription": "Master Primavera P6 for professional project planning and management. Learn scheduling, resource management, cost control, and project monitoring.",
+  "fullDescription": "This Primavera P6 Professional Training Course covers everything from project planning and scheduling basics to advanced resource management, cost control, earned value management, and portfolio management. Includes 100% practical training, real-time construction and infrastructure projects, hands-on scheduling practice, and industry-oriented curriculum designed for project managers, engineers, and construction professionals.",
+  "duration": "1.5 Months",
+  "price": "Contact for Pricing",
+  "category": "master",
+  "image": "PP6.AVIF",
+  "features": [
+    "Project Planning & Scheduling Fundamentals",
+    "Work Breakdown Structure (WBS) Creation",
+    "Resource & Cost Management",
+    "Earned Value Management (EVM)",
+    "Project Tracking & Monitoring",
+    "Baseline & Progress Tracking",
+    "Advanced Reporting & Dashboards",
+    "Multi-Project Management",
+    "Portfolio Management Basics"
+  ],
+  "syllabus": [
+    {
+      "module": 1,
+      "title": "Introduction to Primavera P6",
+      "topics": [
+        "Introduction to Project Management",
+        "Overview of Primavera P6",
+        "Primavera Interface & Navigation",
+        "Enterprise Project Structure (EPS)",
+        "Organizational Breakdown Structure (OBS)",
+        "User Preferences",
+        "Calendar Creation",
+        "Project Setup",
+        "Data Management"
+      ]
+    },
+    {
+      "module": 2,
+      "title": "Project Planning & Scheduling",
+      "topics": [
+        "Work Breakdown Structure (WBS)",
+        "Creating Activities",
+        "Activity Types",
+        "Activity Codes",
+        "Relationships (FS, SS, FF, SF)",
+        "Constraints",
+        "Milestones",
+        "Calendars",
+        "Scheduling Techniques"
+      ]
+    },
+    {
+      "module": 3,
+      "title": "Resource & Cost Management",
+      "topics": [
+        "Resource Creation",
+        "Resource Assignment",
+        "Resource Calendars",
+        "Resource Levelling",
+        "Cost Accounts",
+        "Expense Management",
+        "Budget Planning",
+        "Resource Analysis",
+        "Cost Loading"
+      ]
+    },
+    {
+      "module": 4,
+      "title": "Project Tracking & Monitoring",
+      "topics": [
+        "Baseline Creation",
+        "Updating Project Progress",
+        "Activity Status",
+        "Progress Measurement",
+        "Earned Value Management (EVM)",
+        "Variance Analysis",
+        "Delay Analysis",
+        "Recovery Scheduling",
+        "Project Forecasting"
+      ]
+    },
+    {
+      "module": 5,
+      "title": "Reports & Documentation",
+      "topics": [
+        "Layout Creation",
+        "Filters & Grouping",
+        "Global Change",
+        "User Defined Fields (UDF)",
+        "Reports Generation",
+        "Gantt Chart Customization",
+        "Dashboards",
+        "PDF & Excel Export",
+        "Printing Project Reports"
+      ]
+    },
+    {
+      "module": 6,
+      "title": "Final Project & Portfolio Development",
+      "topics": [
+        "Multi-Project Management",
+        "Project Portfolio Management",
+        "Risk Management Basics",
+        "Claim Documentation",
+        "Project Documentation Standards",
         "Portfolio Development",
-        "Freelancing & Client Presentation",
+        "Resume Building",
         "Interview Preparation"
       ]
     }
@@ -10712,137 +11200,408 @@
   "projects": [
     {
       "type": "practical",
-      "title": "Basic Interior Rendering Setup",
-      "description": "Set up a basic interior rendering project with models and cameras"
+      "title": "New Project Creation",
+      "description": "Create and setup a new project in Primavera P6"
     },
     {
       "type": "practical",
-      "title": "Realistic Materials Creation",
-      "description": "Create photorealistic wood, glass, metal, and fabric materials"
+      "title": "Project Schedule Preparation",
+      "description": "Prepare a complete project schedule with WBS"
     },
     {
       "type": "practical",
-      "title": "Interior Lighting Setup",
-      "description": "Design realistic interior lighting with natural and artificial lights"
+      "title": "Resource Allocation & Budget",
+      "description": "Allocate resources and prepare project budget"
     },
     {
       "type": "practical",
-      "title": "High-Quality Interior & Exterior Renders",
-      "description": "Produce professional interior and exterior rendering images"
+      "title": "Project Progress Tracking",
+      "description": "Track and update project progress"
     },
     {
       "type": "practical",
-      "title": "Complex Architectural Scene Rendering",
-      "description": "Render a complex architectural scene with advanced techniques"
+      "title": "Reports & Dashboards",
+      "description": "Generate project reports and dashboards"
     },
     {
       "type": "practical",
-      "title": "Post-Production Image Enhancement",
-      "description": "Enhance renders with color correction and post-processing"
+      "title": "Multi-Project Management",
+      "description": "Manage multiple projects simultaneously"
     },
     {
       "type": "project",
-      "title": "Residential Interior Rendering",
-      "description": "Complete residential interior visualization project"
+      "title": "Residential Building Construction",
+      "description": "Complete residential building project schedule"
     },
     {
       "type": "project",
-      "title": "Living Room Visualization",
-      "description": "Photorealistic living room rendering"
+      "title": "Commercial Building Project",
+      "description": "Commercial building planning and scheduling"
     },
     {
       "type": "project",
-      "title": "Kitchen Design Rendering",
-      "description": "Professional kitchen interior rendering"
+      "title": "Highway Construction Project",
+      "description": "Infrastructure highway construction project"
     },
     {
       "type": "project",
-      "title": "Office Interior Visualization",
-      "description": "Commercial office space rendering"
+      "title": "Bridge Construction Project",
+      "description": "Bridge construction scheduling and management"
     },
     {
       "type": "project",
-      "title": "Exterior Building Rendering",
-      "description": "Photorealistic exterior building visualization"
+      "title": "Industrial Plant Project",
+      "description": "Industrial plant setup and project management"
     },
     {
       "type": "project",
-      "title": "Complete Architectural Visualization Portfolio",
-      "description": "Create complete architectural visualization project including interior scene rendering, exterior building rendering, realistic materials & textures, day & night lighting, camera composition, high-resolution final render, and post-processed presentation images"
+      "title": "Complete Project Management Portfolio",
+      "description": "Develop complete project schedule for residential building, commercial project, or infrastructure project including enterprise project structure (EPS), work breakdown structure (WBS), activity scheduling, resource allocation, cost planning, baseline creation, progress tracking, earned value analysis, and project reports & dashboards"
     }
   ],
   "toolsCovered": [
-    "V-Ray (Latest Version)",
-    "SketchUp / Autodesk 3ds Max / Revit (for Integration)",
-    "Adobe Photoshop (Basic Post-Production)"
+    "Primavera P6 Professional (Latest Version)",
+    "Scheduling Tools",
+    "Resource Management Tools",
+    "Reporting Tools"
   ],
   "trainingHours": {
-    "theory": 10,
-    "practicalLabs": 30,
-    "projects": 20,
-    "total": "60 Hours"
+    "theory": 15,
+    "practicalLabs": 35,
+    "projects": 25,
+    "total": "75 Hours"
   },
   "learningOutcomes": [
-    "Create photorealistic architectural and interior renderings using V-Ray",
-    "Apply realistic materials, textures, and lighting to 3D models",
-    "Optimize rendering settings for quality and performance",
-    "Produce professional interior and exterior visualization images",
-    "Enhance renders using post-production techniques",
-    "Develop a professional rendering portfolio for architecture and interior design projects",
-    "Work confidently as a 3D Visualization Artist, Architectural Renderer, or Interior Rendering Specialist"
+    "Create and manage project schedules using Primavera P6",
+    "Develop Work Breakdown Structures (WBS) and project calendars",
+    "Allocate resources and manage project costs effectively",
+    "Monitor project progress using baselines and Earned Value Management (EVM)",
+    "Generate professional reports, dashboards, and Gantt charts",
+    "Manage multiple projects and project portfolios",
+    "Build a professional portfolio for careers in project planning and construction management"
   ],
   "careerPaths": [
-    "3D Visualization Artist",
-    "Architectural Renderer",
-    "Interior Rendering Specialist",
-    "Visualization Consultant",
-    "Freelance 3D Artist",
-    "Product Rendering Specialist",
-    "Real Estate Visualization Expert"
+    "Project Manager",
+    "Project Planner",
+    "Project Scheduler",
+    "Construction Manager",
+    "Site Engineer",
+    "Program Manager",
+    "Planning Engineer"
   ],
   "highlights": [
     "100% Practical Training",
     "Industry-Oriented Curriculum",
-    "Real-Time Architectural Visualization Projects",
-    "Hands-on Material, Lighting & Rendering Techniques",
+    "Real-Time Construction & Infrastructure Projects",
+    "Hands-on Project Scheduling & Planning",
+    "Earned Value Management (EVM)",
     "Portfolio Development",
-    "Professional Rendering Standards",
     "Certificate of Completion",
     "Placement Assistance (if applicable)"
   ],
   "eligibility": [
     "Basic Computer Knowledge",
-    "Basic Knowledge of SketchUp, 3ds Max, Revit, or Rhino (Recommended)",
-    "Suitable for Architecture Students",
-    "Interior Designers",
-    "Civil Engineers",
-    "3D Visualization Artists"
+    "Civil Engineering Students",
+    "Mechanical Engineers",
+    "Project Engineers",
+    "Construction Professionals",
+    "Project Managers",
+    "Basic Knowledge of Project Management (Recommended)"
   ],
   "trainingMode": [
     "Classroom",
     "Online"
   ],
   "targetAudience": [
-    "Architecture Students",
-    "Interior Designers",
     "Civil Engineers",
-    "3D Artists",
-    "Architects",
-    "Visualization Professionals"
+    "Mechanical Engineers",
+    "Project Managers",
+    "Project Planners",
+    "Construction Professionals",
+    "Site Engineers",
+    "Planning Professionals"
   ],
   "prerequisites": [
     "Basic Computer Knowledge",
-    "Basic Knowledge of 3D Modeling Software (Recommended)"
+    "Basic Project Management Knowledge (Recommended)"
   ],
-  "softwareIntegration": [
-    "SketchUp Integration",
-    "Autodesk 3ds Max",
-    "Revit Integration",
-    "Rhino Integration",
-    "Adobe Photoshop"
+  "methodologies": [
+    "Work Breakdown Structure (WBS)",
+    "Earned Value Management (EVM)",
+    "Gantt Chart Scheduling",
+    "Resource Levelling",
+    "Critical Path Method"
   ],
-  "metaTitle": "V-Ray Professional Rendering Course | Architectural & Interior Visualization",
-  "metaDescription": "Master V-Ray rendering for photorealistic architectural and interior visualization. Learn materials, lighting, cameras, and post-production techniques."
-}
+  "metaTitle": "Primavera P6 Professional Course | Project Planning, Scheduling & Management",
+  "metaDescription": "Master Primavera P6 for professional project planning, scheduling, resource management, and cost control. Hands-on training with real construction and infrastructure projects."
+},
 
+
+
+
+
+
+
+
+
+{
+  "id": "catia",
+  "slug": "catia-professional-training",
+  "title": "CATIA Professional Training Course",
+  "shortDescription": "Master CATIA for 3D mechanical design. Learn part modeling, assembly design, technical drawings, and surface modeling for product development.",
+  "fullDescription": "This CATIA Professional Training Course covers everything from CAD/CAM/CAE basics to advanced 3D part modeling, assembly design, technical drafting, and surface modeling. Includes 100% practical training, real-time mechanical design projects, hands-on product modeling, and industry-oriented curriculum designed for mechanical engineers, product designers, and manufacturing professionals.",
+  "duration": "1 Month",
+  "price": "Contact for Pricing",
+  "category": "master",
+  "image": "CATAI.AVIF",
+  "features": [
+    "Sketcher Workbench & 2D Design",
+    "Part Design & 3D Modeling",
+    "Assembly Design & Product Structure",
+    "Drafting & Technical Drawings",
+    "Geometric & Dimensional Constraints",
+    "Surface Design & Modeling",
+    "GD&T & Manufacturing Standards",
+    "Bill of Materials (BOM) Creation",
+    "Export Formats (STEP, IGES, STL)"
+  ],
+  "syllabus": [
+    {
+      "module": 1,
+      "title": "Introduction to CATIA",
+      "topics": [
+        "Introduction to CAD/CAM/CAE",
+        "CATIA Interface & Workspace",
+        "Project Setup",
+        "Sketcher Workbench",
+        "Drawing Standards",
+        "Units & Constraints",
+        "File Management",
+        "Navigation & View Tools"
+      ]
+    },
+    {
+      "module": 2,
+      "title": "Sketcher Workbench",
+      "topics": [
+        "Sketch Creation",
+        "Geometrical Constraints",
+        "Dimensional Constraints",
+        "Lines, Circles & Arcs",
+        "Splines & Profiles",
+        "Trim & Extend",
+        "Mirror & Pattern",
+        "Fully Constrained Sketches"
+      ]
+    },
+    {
+      "module": 3,
+      "title": "Part Design",
+      "topics": [
+        "Pad",
+        "Pocket",
+        "Shaft",
+        "Groove",
+        "Rib & Slot",
+        "Hole Creation",
+        "Draft",
+        "Shell",
+        "Fillet",
+        "Chamfer",
+        "Pattern Features",
+        "Boolean Operations"
+      ]
+    },
+    {
+      "module": 4,
+      "title": "Assembly Design",
+      "topics": [
+        "Product Structure",
+        "Component Assembly",
+        "Constraints",
+        "Assembly Navigation",
+        "Clash Detection Basics",
+        "Exploded Views",
+        "Assembly Analysis",
+        "Assembly Management"
+      ]
+    },
+    {
+      "module": 5,
+      "title": "Drafting Workbench",
+      "topics": [
+        "Creating 2D Drawings",
+        "Standard Views",
+        "Section Views",
+        "Auxiliary Views",
+        "Dimensions",
+        "Annotations",
+        "GD&T Basics",
+        "Bill of Materials (BOM)",
+        "Drawing Templates"
+      ]
+    },
+    {
+      "module": 6,
+      "title": "Surface Design & Final Project",
+      "topics": [
+        "Introduction to Surface Design",
+        "Wireframe Creation",
+        "Multi-Section Surface",
+        "Sweep",
+        "Join & Trim Surfaces",
+        "Surface Analysis",
+        "Model Validation",
+        "Export Formats (STEP, IGES, STL)"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "type": "practical",
+      "title": "Basic 2D Sketches",
+      "description": "Create basic 2D sketches using sketcher tools"
+    },
+    {
+      "type": "practical",
+      "title": "Mechanical Sketches",
+      "description": "Design mechanical sketches with constraints"
+    },
+    {
+      "type": "practical",
+      "title": "Mechanical Machine Parts",
+      "description": "Create 3D mechanical machine parts using part design"
+    },
+    {
+      "type": "practical",
+      "title": "Mechanical Product Assembly",
+      "description": "Assemble mechanical products with multiple components"
+    },
+    {
+      "type": "practical",
+      "title": "Manufacturing Drawings",
+      "description": "Prepare manufacturing drawings from 3D models"
+    },
+    {
+      "type": "practical",
+      "title": "Surface Models",
+      "description": "Create basic surface models and analysis"
+    },
+    {
+      "type": "project",
+      "title": "Machine Component Design",
+      "description": "Complete machine component 3D design"
+    },
+    {
+      "type": "project",
+      "title": "Gear Design",
+      "description": "Precision gear design and modeling"
+    },
+    {
+      "type": "project",
+      "title": "Shaft Design",
+      "description": "Complex shaft design with features"
+    },
+    {
+      "type": "project",
+      "title": "Flange Design",
+      "description": "Professional flange component design"
+    },
+    {
+      "type": "project",
+      "title": "Mechanical Assembly",
+      "description": "Complete mechanical product assembly"
+    },
+    {
+      "type": "project",
+      "title": "Complete Mechanical Product Design",
+      "description": "Design and document complete mechanical product including 2D sketch, 3D part model, assembly model, manufacturing drawing, bill of materials (BOM), and product presentation"
+    }
+  ],
+  "toolsCovered": [
+    "CATIA V5 (Latest Version)",
+    "Sketcher Workbench",
+    "Part Design Workbench",
+    "Assembly Design Workbench",
+    "Drafting Workbench",
+    "Surface Design Tools"
+  ],
+  "trainingHours": {
+    "theory": 10,
+    "practicalLabs": 32,
+    "projects": 18,
+    "total": "60 Hours"
+  },
+  "learningOutcomes": [
+    "Create fully constrained 2D sketches using CATIA",
+    "Develop complex 3D mechanical parts and assemblies",
+    "Generate production-ready engineering drawings",
+    "Apply design constraints and assembly relationships",
+    "Create basic surface models for product design",
+    "Export models for manufacturing and CNC applications",
+    "Build a professional CAD portfolio for product design and mechanical engineering careers"
+  ],
+  "careerPaths": [
+    "CAD Designer",
+    "Product Designer",
+    "Mechanical Engineer",
+    "Design Engineer",
+    "Manufacturing Engineer",
+    "Freelance CAD Professional",
+    "Design Consultant"
+  ],
+  "highlights": [
+    "100% Practical Training",
+    "Industry-Oriented Curriculum",
+    "Real-Time Mechanical Design Projects",
+    "Hands-on Product Modeling",
+    "3D Design & Assembly",
+    "Portfolio Development",
+    "Certificate of Completion",
+    "Placement Assistance (if applicable)"
+  ],
+  "eligibility": [
+    "Basic Computer Knowledge",
+    "ITI Students",
+    "Diploma in Mechanical Engineering",
+    "B.Tech/B.E. Mechanical Engineering Students",
+    "Mechanical Engineers",
+    "Product Designers",
+    "Manufacturing Professionals",
+    "Basic Knowledge of Engineering Drawing (Recommended)"
+  ],
+  "trainingMode": [
+    "Classroom",
+    "Online"
+  ],
+  "targetAudience": [
+    "ITI Students",
+    "Diploma Holders",
+    "Mechanical Engineering Students",
+    "Mechanical Engineers",
+    "Product Designers",
+    "Manufacturing Professionals",
+    "Design Engineers"
+  ],
+  "prerequisites": [
+    "Basic Computer Knowledge",
+    "Basic Engineering Drawing Knowledge (Recommended)"
+  ],
+  "exportFormats": [
+    "STEP",
+    "IGES",
+    "STL",
+    "DWG",
+    "PDF"
+  ],
+  "workbenches": [
+    "Sketcher",
+    "Part Design",
+    "Assembly Design",
+    "Drafting",
+    "Surface Design"
+  ],
+  "metaTitle": "CATIA Professional Course | 3D Design, Assembly & Manufacturing Drawings",
+  "metaDescription": "Master CATIA for 3D mechanical design, product modeling, assembly design, and technical drawings. Hands-on training with real mechanical design projects."
+}
 ]
