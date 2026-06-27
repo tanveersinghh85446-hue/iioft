@@ -3089,7 +3089,7 @@
     "title": "Interview Skills",
     "shortDescription": "Build confidence, communication, and preparation skills to crack HR, technical, and panel interviews successfully.",
     "fullDescription": "This Interview Skills course takes you from self-assessment and resume building to confident HR and technical interview performance. You'll practice body language, communication, mock interviews, group discussions, and real-world interview scenarios to help you land your dream job.",
-    "duration": "Basic: 15–20 Hours | Advanced: 30–45 Hours",
+    "duration": "Basic | Advanced",
     "price": "Contact for Pricing",
     "category": "soft skill's",
     "image": "IS.AVIF",
@@ -4268,7 +4268,7 @@
     "title": "Full Stack PHP Development",
     "shortDescription": "Become a job-ready Full Stack PHP Developer with Core PHP, Laravel, MySQL, REST APIs, and deployment in 3.5–4 months.",
     "fullDescription": "This Full Stack PHP Development course covers PHP basics, OOP, sessions, file handling, security fundamentals, frontend (HTML, CSS, JS, Bootstrap), MySQL database design, Laravel MVC framework, REST API development, payment gateway integration, and live deployment. You'll build 4–6 mini projects and one major E-commerce web application.",
-    "duration": "3.5-4 Months",
+    "duration": "3-4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
     "image": "FSPD.AVIF",
@@ -4381,7 +4381,7 @@
     "fullDescription": "This Full Stack MEAN Stack Development course covers web fundamentals, advanced JavaScript (ES6+), Node.js with Express, MongoDB with Mongoose, JWT-based REST APIs, Angular framework, full-stack integration, and deployment. You'll build 4–6 mini projects and one major E-commerce web application.",
     "duration": "4-5 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "tranding course",
     "image": "FSMD.AVIF",
     "features": [
       "HTML5, CSS3, JavaScript & Responsive Design",
@@ -4687,7 +4687,7 @@
     "fullDescription": "This CSS course takes you from styling fundamentals to advanced layout techniques with Flexbox and Grid, responsive design with media queries, transitions, animations, pseudo-elements, and Bootstrap components. You'll build 3–4 real-world UI projects including a fully responsive website.",
     "duration": "1 Month",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "tranding course",
     "image": "CSS.AVIF",
     "features": [
       "CSS Basics — Selectors, Colors, Fonts & Box Model",
@@ -4757,7 +4757,7 @@
     "fullDescription": "This Core Java course takes complete beginners from Java setup and syntax to OOP principles, arrays, strings, exception handling, Collections Framework, file handling, and multithreading basics. You'll build console-based applications and complete a final mini project.",
     "duration": "1 Month",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "tranding course",
     "image": "CJ.AVIF",
     "features": [
       "Java Setup — JDK, JVM, JRE Concepts",
@@ -7133,7 +7133,7 @@
     "fullDescription": "Advanced Diploma in Mobile App Development (ADMAD) is a comprehensive one-year professional diploma designed for 10+2 students, graduates, diploma holders, and working professionals. The course covers Computer Fundamentals, Java Programming, Database Management, Android Development, Flutter, Firebase, UI/UX Design, Backend Development, and App Deployment. Students gain hands-on experience through 800+ hours of theory, practical training, 7 major live projects, and internship with placement assistance.",
     "duration": "12 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "master",
     "image": "ADMID.AVIF",
 
     "eligibility": "10+2 / Graduate / Diploma Holders / Working Professionals",
@@ -7740,7 +7740,7 @@
     "id": "adce",
     "slug": "advanced-diploma-civil-engineering",
     "title": "Advanced Diploma in Civil Engineering",
-    "shortDescription": "Master civil engineering design, construction technology, surveying, estimation & costing, structural analysis, and project management with industry software like AutoCAD, STAAD Pro, Revit, and Primavera.",
+    "shortDescription": "Master civil engineering design, construction technology, estimation & costing, structural analysis, and project management with industry software like AutoCAD, STAAD Pro, Revit, and Primavera.",
     "fullDescription": "Advanced Diploma in Civil Engineering (ADCE) is a comprehensive one-year professional diploma designed for 10+2 (PCM) students, ITI holders, diploma holders, and working professionals. The course covers Engineering Drawing, Building Materials, Surveying, Structural Analysis, Concrete Technology & RCC Design, Quantity Surveying, Environmental Engineering, Transportation Engineering, Soil Mechanics, STAAD Pro, Revit & BIM, and Construction Project Management. Students gain hands-on experience through 800+ hours of theory, practical labs, software training, 8 live projects, and site visits.",
     "duration": "12 Months",
     "price": "Contact for Pricing",
@@ -8691,7 +8691,7 @@
     "title": "AWS Cloud Computing Certification Training",
     "shortDescription": "Master AWS core services, networking, security, serverless computing, and DevOps with hands-on labs and live projects.",
     "fullDescription": "This AWS Cloud Computing course covers everything from cloud fundamentals and AWS core services to advanced topics like serverless architecture, DevOps pipelines, and security. Includes 40+ hours of practical labs, 4 mini projects, a major live project, and AWS Certified Cloud Practitioner exam preparation.",
-    "duration": "1.5 Months (90–100 Hours)",
+    "duration": "1.5 Months",
     "price": "Contact for Pricing",
     "category": "tranding course",
     "image": "AWSCC.AVIF",
@@ -8852,7 +8852,7 @@
     "title": "Microsoft Azure Cloud Certification Training",
     "shortDescription": "Master Azure compute, storage, networking, security, serverless computing, and DevOps with hands-on labs and live projects.",
     "fullDescription": "This Microsoft Azure Cloud Computing course covers everything from cloud fundamentals and Azure core services to advanced topics like serverless architecture, Azure DevOps, and infrastructure automation. Includes 40+ hours of practical labs, 4 mini projects, a major live project, and AZ-900 & AZ-104 certification preparation.",
-    "duration": "1.5 Months (90–100 Hours)",
+    "duration": "1.5 Months",
     "price": "Contact for Pricing",
     "category": "tranding course",
     "image": "CCTMA.AVIF",
@@ -9021,5 +9021,1828 @@
     },
     "metaTitle": "Microsoft Azure Course | VM, Storage, VNet, Functions, DevOps & AZ-900 Certification",
     "metaDescription": "Master Microsoft Azure — Virtual Machines, Storage, Networking, Entra ID, Azure Functions, DevOps & more. Hands-on labs, live projects, and AZ-900 certification preparation."
-  }
+  },
+
+  {
+    "id": "adobe-illustrator",
+    "slug": "adobe-illustrator-professional-training",
+    "title": "Adobe Illustrator Professional Training Course",
+    "shortDescription": "Master vector graphics and graphic design with Adobe Illustrator. Learn logo design, icons, branding, and more with hands-on projects.",
+    "fullDescription": "This Adobe Illustrator Professional Training Course covers everything from vector graphics basics to advanced design techniques including logo design, branding, social media graphics, packaging design, and illustrations. Includes 100% practical training, 12 live projects, portfolio development, and industry-oriented curriculum designed for beginners.",
+    "duration": "2 Months",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "AILL.AVIF",
+    "features": [
+      "Vector Graphics & Design Fundamentals",
+      "Logo Design & Brand Identity",
+      "Social Media Graphics & Marketing Materials",
+      "Print Design — Business Cards, Brochures, Flyers",
+      "Packaging Design & Product Labels",
+      "Illustrations & Infographics",
+      "Advanced Design Tools & Effects",
+      "Professional Portfolio Development",
+      "Print & Digital Export Techniques"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Adobe Illustrator",
+        "topics": [
+          "Introduction to Vector Graphics",
+          "Difference Between Vector & Raster Images",
+          "Adobe Illustrator Interface",
+          "Creating New Documents",
+          "Artboards & Workspace Customization",
+          "Saving and Exporting Files",
+          "File Formats (AI, EPS, PDF, SVG, PNG, JPG)"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Drawing Tools",
+        "topics": [
+          "Selection Tool",
+          "Direct Selection Tool",
+          "Pen Tool",
+          "Pencil Tool",
+          "Curvature Tool",
+          "Brush Tool",
+          "Shape Builder Tool",
+          "Blob Brush Tool",
+          "Eraser Tool",
+          "Scissors Tool",
+          "Knife Tool"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Shape Creation & Editing",
+        "topics": [
+          "Rectangle Tool",
+          "Ellipse Tool",
+          "Polygon Tool",
+          "Star Tool",
+          "Line Segment Tool",
+          "Shape Builder",
+          "Pathfinder Panel",
+          "Compound Shapes",
+          "Align & Distribute Objects",
+          "Smart Guides"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Color & Gradient",
+        "topics": [
+          "Fill & Stroke",
+          "Swatches Panel",
+          "Gradient Tool",
+          "Gradient Mesh",
+          "Live Paint Bucket",
+          "Recolor Artwork",
+          "Color Guide",
+          "Global Colors",
+          "Transparency & Opacity"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Typography",
+        "topics": [
+          "Character Panel",
+          "Paragraph Panel",
+          "Type Tool",
+          "Area Type",
+          "Type on a Path",
+          "Font Management",
+          "Text Effects",
+          "Convert Text to Outlines"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Advanced Illustrator Tools",
+        "topics": [
+          "Clipping Mask",
+          "Opacity Mask",
+          "Appearance Panel",
+          "Symbols Panel",
+          "Pattern Creation",
+          "Image Trace",
+          "Expand Appearance",
+          "Blend Tool",
+          "Envelope Distort",
+          "Warp Effects"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Logo Design",
+        "topics": [
+          "Principles of Logo Design",
+          "Grid System",
+          "Golden Ratio Basics",
+          "Vector Logo Creation",
+          "Icon Design",
+          "Brand Identity Basics",
+          "Export Logo for Print & Digital"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Social Media Graphics",
+        "topics": [
+          "Instagram Post Design",
+          "Facebook Banner",
+          "YouTube Thumbnail",
+          "LinkedIn Banner",
+          "Promotional Posters",
+          "Event Posters",
+          "Offer Banners",
+          "Festival Creative Designs"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Print Design",
+        "topics": [
+          "Visiting Card Design",
+          "Letterhead Design",
+          "Brochure Design",
+          "Flyer Design",
+          "Pamphlet Design",
+          "Certificate Design",
+          "Invitation Card",
+          "ID Card Design"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "Packaging Design",
+        "topics": [
+          "Product Label Design",
+          "Box Packaging",
+          "Bottle Label",
+          "Food Packaging",
+          "Cosmetic Packaging",
+          "Mockup Presentation"
+        ]
+      },
+      {
+        "module": 11,
+        "title": "Infographics & Illustrations",
+        "topics": [
+          "Creating Infographics",
+          "Charts & Icons",
+          "Character Illustration",
+          "Flat Illustration",
+          "Isometric Illustration",
+          "Vector Portrait"
+        ]
+      },
+      {
+        "module": 12,
+        "title": "Portfolio & Final Project",
+        "topics": [
+          "Portfolio Creation",
+          "Export for Print & Web",
+          "PDF Presentation",
+          "Client File Management",
+          "Portfolio Optimization",
+          "Freelancing Tips",
+          "Interview Preparation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "type": "practical",
+        "title": "Simple Business Card Layout",
+        "description": "Create a basic business card design using Adobe Illustrator"
+      },
+      {
+        "type": "practical",
+        "title": "Basic Shapes and Icons",
+        "description": "Design basic shapes and custom icons using drawing tools"
+      },
+      {
+        "type": "practical",
+        "title": "Flat Icons Design",
+        "description": "Create professional flat-style icons"
+      },
+      {
+        "type": "practical",
+        "title": "Gradient Logo",
+        "description": "Design a logo using gradient fills and advanced color techniques"
+      },
+      {
+        "type": "practical",
+        "title": "Poster Typography Design",
+        "description": "Create a professional poster with typography focus"
+      },
+      {
+        "type": "practical",
+        "title": "Custom Pattern Design",
+        "description": "Design and create custom patterns using advanced tools"
+      },
+      {
+        "type": "project",
+        "title": "Professional Company Logo",
+        "description": "Design a complete company logo with brand guidelines"
+      },
+      {
+        "type": "project",
+        "title": "Complete Social Media Campaign Design",
+        "description": "Design all social media graphics for a complete campaign"
+      },
+      {
+        "type": "project",
+        "title": "Corporate Branding Stationery Kit",
+        "description": "Create complete print design stationery package"
+      },
+      {
+        "type": "project",
+        "title": "Product Packaging Design",
+        "description": "Design professional product packaging with mockups"
+      },
+      {
+        "type": "project",
+        "title": "Educational Infographic",
+        "description": "Create a detailed educational infographic with icons and illustrations"
+      },
+      {
+        "type": "project",
+        "title": "Professional Portfolio Presentation",
+        "description": "Create a portfolio showcasing all designs"
+      }
+    ],
+    "toolsCovered": ["Adobe Illustrator (Latest Version)"],
+    "trainingHours": {
+      "theory": 15,
+      "practicalLabs": 35,
+      "projects": 28,
+      "total": "78 Hours"
+    },
+    "learningOutcomes": [
+      "Create professional vector graphics",
+      "Design logos and complete brand identities",
+      "Design marketing materials for print and digital platforms",
+      "Create social media creatives and promotional banners",
+      "Develop packaging designs and product labels",
+      "Produce illustrations and infographics",
+      "Build a professional graphic design portfolio",
+      "Work as Graphic Designer, Illustrator, Branding Designer, or Freelancer"
+    ],
+    "careerPaths": [
+      "Graphic Designer",
+      "Logo Designer",
+      "Illustrator",
+      "Branding Designer",
+      "Freelance Designer",
+      "Marketing Designer",
+      "Package Designer"
+    ],
+    "highlights": [
+      "100% Practical Training",
+      "Industry-Oriented Curriculum",
+      "12 Live Projects",
+      "Portfolio Development",
+      "Interview Preparation",
+      "Certificate of Completion",
+      "Placement Assistance (if applicable)"
+    ],
+    "eligibility": [
+      "Basic Computer Knowledge",
+      "No Prior Graphic Design Experience Required"
+    ],
+    "trainingMode": ["Classroom", "Online"],
+    "metaTitle": "Adobe Illustrator Professional Course | Logo Design, Branding, Packaging & Graphics",
+    "metaDescription": "Master Adobe Illustrator for professional vector graphics, logo design, branding, social media graphics, packaging, and illustrations. Hands-on training with 12 live projects."
+  },
+
+  {
+    "id": "adobe-indesign",
+    "slug": "adobe-indesign-professional-training",
+    "title": "Adobe InDesign Professional Training Course",
+    "shortDescription": "Master Desktop Publishing (DTP) with Adobe InDesign. Learn page layout, typography, print & digital publishing with hands-on projects.",
+    "fullDescription": "This Adobe InDesign Professional Training Course covers everything from desktop publishing fundamentals to advanced layout design, typography, and print/digital publishing. Includes 100% practical training, 12 live projects, portfolio development, and industry-oriented curriculum designed for beginners and aspiring graphic designers.",
+    "duration": "1-2 Months",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "AIPTC.AVIF",
+    "features": [
+      "Desktop Publishing (DTP) Fundamentals",
+      "Professional Page Layout & Design",
+      "Typography & Text Formatting",
+      "Image & Graphics Management",
+      "Master Pages & Styles",
+      "Print-Ready PDF & Interactive EPUB Export",
+      "Multi-Page Document Management",
+      "Interactive Buttons & Hyperlinks",
+      "Data Merge & Variable Printing",
+      "Portfolio Development"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Adobe InDesign",
+        "topics": [
+          "Introduction to Desktop Publishing (DTP)",
+          "Adobe InDesign Interface & Workspace",
+          "Creating New Documents",
+          "Page Size, Orientation, Margins & Bleed",
+          "Understanding Pages & Spreads",
+          "Saving and Managing Files",
+          "Importing and Exporting Documents",
+          "File Formats (INDD, IDML, PDF, EPUB)"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Working with Text",
+        "topics": [
+          "Text Frames & Text Formatting",
+          "Character & Paragraph Formatting",
+          "Fonts and Typography",
+          "Text Alignment, Indentation & Tabs",
+          "Drop Caps",
+          "Bullets & Numbering",
+          "Find & Replace",
+          "Spell Check",
+          "Text Threading"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Working with Images & Graphics",
+        "topics": [
+          "Importing Images",
+          "Image Placement & Linking",
+          "Cropping and Fitting Images",
+          "Wrapping Text Around Images",
+          "Working with Shapes",
+          "Stroke & Fill Options",
+          "Transparency Effects",
+          "Object Styles"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Layout Design Techniques",
+        "topics": [
+          "Master Pages & Parent Pages",
+          "Page Numbering",
+          "Headers & Footers",
+          "Columns & Grids",
+          "Guides & Smart Guides",
+          "Layers Management",
+          "Tables Creation",
+          "Table Formatting"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Advanced Features",
+        "topics": [
+          "Paragraph Styles",
+          "Character Styles",
+          "Object Styles",
+          "Nested Styles",
+          "Libraries",
+          "Anchored Objects",
+          "Hyperlinks",
+          "Interactive Buttons",
+          "Book Feature",
+          "QR Code Generation",
+          "Data Merge (Variable Data Printing)"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Print & Digital Publishing",
+        "topics": [
+          "Preflight Checking",
+          "Packaging Files",
+          "Exporting Print-Ready PDF",
+          "PDF Presets",
+          "Interactive PDF",
+          "EPUB Export",
+          "Print Settings",
+          "Color Management (CMYK & RGB)",
+          "Printer Marks & Bleed",
+          "Preparing Files for Commercial Printing"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "type": "practical",
+        "title": "Multi-Page Document Creation",
+        "description": "Create a professional multi-page document with proper layout and formatting"
+      },
+      {
+        "type": "practical",
+        "title": "Professional Newsletter Design",
+        "description": "Design and layout a complete newsletter with text formatting and images"
+      },
+      {
+        "type": "practical",
+        "title": "Magazine Cover Design",
+        "description": "Create an eye-catching magazine cover with images and graphics"
+      },
+      {
+        "type": "practical",
+        "title": "Multi-Page Magazine Layout",
+        "description": "Design complete magazine spreads with master pages and styling"
+      },
+      {
+        "type": "practical",
+        "title": "Product Catalogue",
+        "description": "Create a professional product catalogue using advanced features and styles"
+      },
+      {
+        "type": "project",
+        "title": "Magazine Design",
+        "description": "Complete magazine publication with multiple pages and professional layout"
+      },
+      {
+        "type": "project",
+        "title": "Company Brochure",
+        "description": "Design a professional corporate brochure for print and digital"
+      },
+      {
+        "type": "project",
+        "title": "Corporate Profile",
+        "description": "Create a comprehensive corporate profile document"
+      },
+      {
+        "type": "project",
+        "title": "Restaurant Menu Card",
+        "description": "Design an attractive restaurant menu with professional typography"
+      },
+      {
+        "type": "project",
+        "title": "Book Layout",
+        "description": "Design and layout a complete book with chapters, styles, and pagination"
+      },
+      {
+        "type": "project",
+        "title": "Annual Report",
+        "description": "Create a professional annual report with data and graphics"
+      },
+      {
+        "type": "project",
+        "title": "Print-Ready Brochure & Interactive PDF",
+        "description": "Export brochure as print-ready PDF and interactive EPUB format"
+      }
+    ],
+    "toolsCovered": [
+      "Adobe InDesign (Latest Version)",
+      "Adobe Bridge",
+      "Adobe Fonts",
+      "PDF Export Tools",
+      "Preflight Tools",
+      "Color Management Tools"
+    ],
+    "trainingHours": {
+      "theory": 10,
+      "practicalLabs": 20,
+      "projects": 18,
+      "total": "48 Hours"
+    },
+    "learningOutcomes": [
+      "Create professional page layouts for print and digital publishing",
+      "Design brochures, magazines, books, and newsletters",
+      "Work efficiently with typography, styles, and master pages",
+      "Prepare print-ready files for commercial printing",
+      "Create interactive PDFs and EPUB publications",
+      "Manage multi-page documents professionally",
+      "Build a portfolio of professional publishing projects"
+    ],
+    "careerPaths": [
+      "Graphic Designer",
+      "DTP Operator",
+      "Publisher",
+      "Marketing Professional",
+      "Freelance Designer",
+      "Content Layout Specialist"
+    ],
+    "highlights": [
+      "100% Practical Training",
+      "Industry-Oriented Curriculum",
+      "12 Live Projects",
+      "Portfolio Development",
+      "Print & Digital Publishing Techniques",
+      "Certificate of Completion",
+      "Placement Assistance (if applicable)"
+    ],
+    "eligibility": [
+      "Basic Computer Knowledge",
+      "No Prior Design Experience Required"
+    ],
+    "trainingMode": ["Classroom", "Online"],
+    "metaTitle": "Adobe InDesign Professional Course | DTP, Magazine Design, Brochure & Print Publishing",
+    "metaDescription": "Master Adobe InDesign for professional page layout, typography, brochures, magazines, and print publishing. Hands-on training with 12 live projects and portfolio development."
+  },
+
+  {
+    "id": "adobe-photoshop",
+    "slug": "adobe-photoshop-professional-training",
+    "title": "Adobe Photoshop Professional Training Course",
+    "shortDescription": "Master image editing and photo retouching with Adobe Photoshop. Learn professional photo editing, design graphics, and create marketing materials.",
+    "fullDescription": "This Adobe Photoshop Professional Training Course covers everything from raster graphics basics to advanced photo retouching, image editing, and creative design. Includes 100% practical training, 12 live projects, portfolio development, and industry-oriented curriculum designed for beginners, photographers, and aspiring graphic designers.",
+    "duration": "1 Month",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "PS.AVIF",
+    "features": [
+      "Raster Graphics & Image Editing Fundamentals",
+      "Professional Photo Retouching & Restoration",
+      "Advanced Selection & Masking Techniques",
+      "Photo Manipulation & Creative Effects",
+      "Social Media Graphics & Marketing Design",
+      "Color Correction & Image Enhancement",
+      "Filters & Creative Effects",
+      "Print & Digital Export Techniques",
+      "Professional Portfolio Development"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Adobe Photoshop",
+        "topics": [
+          "Introduction to Adobe Photoshop",
+          "Understanding Raster Graphics",
+          "Photoshop Interface & Workspace",
+          "Creating New Documents",
+          "Opening, Saving & Managing Files",
+          "Image Resolution & Dimensions",
+          "Color Modes (RGB, CMYK, Grayscale)",
+          "File Formats (PSD, JPG, PNG, TIFF, PDF)"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Selection & Basic Editing Tools",
+        "topics": [
+          "Move Tool",
+          "Marquee Tools",
+          "Lasso Tools",
+          "Quick Selection Tool",
+          "Magic Wand Tool",
+          "Crop Tool",
+          "Eyedropper Tool",
+          "Hand & Zoom Tool",
+          "Free Transform",
+          "Content-Aware Fill"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Layers & Image Editing",
+        "topics": [
+          "Understanding Layers",
+          "Layer Management",
+          "Layer Styles",
+          "Layer Masks",
+          "Clipping Masks",
+          "Smart Objects",
+          "Adjustment Layers",
+          "Blend Modes",
+          "Opacity & Fill"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Photo Retouching & Restoration",
+        "topics": [
+          "Spot Healing Brush",
+          "Healing Brush Tool",
+          "Clone Stamp Tool",
+          "Patch Tool",
+          "Red Eye Removal",
+          "Dodge, Burn & Sponge Tools",
+          "Skin Retouching",
+          "Color Correction",
+          "Brightness & Contrast",
+          "Curves & Levels"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Working with Text & Shapes",
+        "topics": [
+          "Type Tool",
+          "Character & Paragraph Panels",
+          "Shape Tools",
+          "Pen Tool Basics",
+          "Custom Shapes",
+          "Text Effects",
+          "Gradients",
+          "Stroke & Fill"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Filters & Effects",
+        "topics": [
+          "Blur Gallery",
+          "Liquify Filter",
+          "Camera Raw Filter",
+          "Smart Filters",
+          "Artistic Filters",
+          "Noise Reduction",
+          "Sharpening Images",
+          "Lighting Effects"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Social Media & Print Design",
+        "topics": [
+          "Instagram Post Design",
+          "Facebook Banner",
+          "YouTube Thumbnail",
+          "Web Banner",
+          "Flyer Design",
+          "Poster Design",
+          "Visiting Card Design",
+          "Certificate Design"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Exporting & Portfolio Development",
+        "topics": [
+          "Export for Web",
+          "Export for Print",
+          "Save for Web",
+          "Print Settings",
+          "File Optimization",
+          "Portfolio Preparation",
+          "Client Project Management"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "type": "practical",
+        "title": "Custom Photoshop Workspace Setup",
+        "description": "Create and customize a new Photoshop workspace for efficient workflow"
+      },
+      {
+        "type": "practical",
+        "title": "Object Selection & Background Removal",
+        "description": "Master selection tools and remove backgrounds professionally"
+      },
+      {
+        "type": "practical",
+        "title": "Professional Photo Composition",
+        "description": "Create a composite image using layers and masking techniques"
+      },
+      {
+        "type": "practical",
+        "title": "Professional Portrait Retouching",
+        "description": "Perform advanced portrait retouching and skin enhancement"
+      },
+      {
+        "type": "practical",
+        "title": "Promotional Poster Design",
+        "description": "Design an eye-catching promotional poster with text and effects"
+      },
+      {
+        "type": "practical",
+        "title": "Creative Photo Manipulation",
+        "description": "Apply filters and effects for creative photo manipulation"
+      },
+      {
+        "type": "project",
+        "title": "Photo Editing",
+        "description": "Professional photo enhancement and editing"
+      },
+      {
+        "type": "project",
+        "title": "Photo Manipulation",
+        "description": "Advanced photo manipulation techniques"
+      },
+      {
+        "type": "project",
+        "title": "Social Media Marketing Creatives",
+        "description": "Create complete social media marketing materials"
+      },
+      {
+        "type": "project",
+        "title": "Product Advertisement",
+        "description": "Design professional product advertisement campaigns"
+      },
+      {
+        "type": "project",
+        "title": "Complete Branding Kit",
+        "description": "Design a complete branding kit including logo mockup, social media posts, posters, business cards, and flyers"
+      },
+      {
+        "type": "project",
+        "title": "Marketing Campaign Bundle",
+        "description": "Create web banners, certificates, and comprehensive marketing materials"
+      }
+    ],
+    "toolsCovered": [
+      "Adobe Photoshop (Latest Version)",
+      "Adobe Camera Raw",
+      "Adobe Bridge"
+    ],
+    "trainingHours": {
+      "theory": 8,
+      "practicalLabs": 30,
+      "projects": 14,
+      "total": "52 Hours"
+    },
+    "learningOutcomes": [
+      "Edit and enhance photographs professionally",
+      "Remove backgrounds and create image composites",
+      "Perform advanced photo retouching and color correction",
+      "Design social media graphics and marketing materials",
+      "Create posters, flyers, banners, and promotional designs",
+      "Apply filters, effects, and creative photo manipulations",
+      "Export images for both print and digital platforms",
+      "Build a professional portfolio for freelance and graphic design careers"
+    ],
+    "careerPaths": [
+      "Graphic Designer",
+      "Photo Editor",
+      "Photographer",
+      "Content Creator",
+      "Digital Marketer",
+      "Freelance Designer",
+      "Retouching Specialist"
+    ],
+    "highlights": [
+      "100% Practical Training",
+      "Industry-Oriented Curriculum",
+      "12 Live Projects",
+      "Portfolio Development",
+      "Fast-Track Learning (1 Month)",
+      "Certificate of Completion",
+      "Placement Assistance (if applicable)"
+    ],
+    "eligibility": [
+      "Basic Computer Knowledge",
+      "No Prior Graphic Design Experience Required"
+    ],
+    "trainingMode": ["Classroom", "Online"],
+    "metaTitle": "Adobe Photoshop Professional Course | Photo Editing, Retouching & Design",
+    "metaDescription": "Master Adobe Photoshop for professional photo editing, retouching, image manipulation, and graphic design. Hands-on training with 12 live projects and portfolio development."
+  },
+
+  {
+    "id": "autocad-civil",
+    "slug": "autocad-civil-professional-training",
+    "title": "AutoCAD Civil Professional Training Course",
+    "shortDescription": "Master AutoCAD Civil for professional engineering drafting. Learn building layouts, road design, infrastructure planning, and civil engineering documentation.",
+    "fullDescription": "This AutoCAD Civil Professional Training Course covers everything from CAD fundamentals to advanced civil engineering drafting including building layouts, road design, infrastructure planning, and complete project documentation. Includes 100% practical training, real-time civil projects, portfolio development, and industry-oriented curriculum designed for civil engineering students, architects, and construction professionals.",
+    "duration": "1.5 MonthS",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "ACC.AVIF",
+    "features": [
+      "2D Civil Engineering Drafting Fundamentals",
+      "Building Layout & Foundation Plans",
+      "Road & Infrastructure Design",
+      "Drainage & Utility Layout",
+      "Advanced Annotation & Dimensioning",
+      "Layers, Blocks & Dynamic Blocks",
+      "Plot Layout & Site Planning",
+      "Print-Ready Engineering Drawings",
+      "Project Documentation & Standards"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to AutoCAD Civil",
+        "topics": [
+          "Introduction to CAD and Civil Engineering Drafting",
+          "AutoCAD Interface & Workspace",
+          "Drawing Setup and Units",
+          "Coordinate Systems (Absolute, Relative & Polar)",
+          "Navigation Tools (Zoom, Pan & View)",
+          "Object Snap (OSNAP) & Tracking",
+          "Grid & Snap Settings",
+          "File Management and Templates"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "2D Drawing & Editing Tools",
+        "topics": [
+          "Line, Polyline & Multiline",
+          "Circle, Arc, Rectangle & Polygon",
+          "Ellipse & Spline",
+          "Hatch & Gradient",
+          "Trim, Extend, Offset",
+          "Mirror, Rotate & Scale",
+          "Move, Copy & Stretch",
+          "Fillet & Chamfer",
+          "Array Commands",
+          "Explode & Join"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Layers, Annotation & Blocks",
+        "topics": [
+          "Layer Creation and Management",
+          "Line Types & Line Weights",
+          "Text Styles & Multiline Text",
+          "Dimensioning Techniques",
+          "Dimension Styles",
+          "Leaders & Multileaders",
+          "Tables",
+          "Blocks & Dynamic Blocks",
+          "External References (XREF)"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Civil Engineering Drawings",
+        "topics": [
+          "Site Layout Plan",
+          "Plot Development Plan",
+          "Building Layout",
+          "Foundation Plan",
+          "Footing Layout",
+          "Column Layout",
+          "Beam Layout",
+          "Slab Layout",
+          "Section & Elevation Drawings",
+          "Centerline Drawings"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Road & Infrastructure Drafting",
+        "topics": [
+          "Road Alignment",
+          "Road Cross Sections",
+          "Pavement Layout",
+          "Drainage System Layout",
+          "Storm Water Drain Design",
+          "Water Supply Layout",
+          "Sewerage Layout",
+          "Culvert Drawing",
+          "Boundary Wall Layout",
+          "Parking Area Layout"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Plotting & Project Documentation",
+        "topics": [
+          "Layout Setup",
+          "Viewports",
+          "Scale Management",
+          "Paper Space & Model Space",
+          "Plot Styles (CTB/STB)",
+          "Printing Engineering Drawings",
+          "PDF & DWG Export",
+          "Drawing Standards",
+          "Project Documentation",
+          "File Organization"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "type": "practical",
+        "title": "Basic Civil Engineering Drawing",
+        "description": "Create fundamental civil engineering drawings using AutoCAD tools"
+      },
+      {
+        "type": "practical",
+        "title": "Residential Plot Layout",
+        "description": "Prepare a complete residential plot layout with proper dimensions"
+      },
+      {
+        "type": "practical",
+        "title": "Fully Annotated Site Plan",
+        "description": "Create a site plan with complete annotations and dimensioning"
+      },
+      {
+        "type": "practical",
+        "title": "Residential Building Plan",
+        "description": "Design a complete residential building layout with all details"
+      },
+      {
+        "type": "practical",
+        "title": "Road and Utility Layout",
+        "description": "Prepare road alignment and utility infrastructure layout"
+      },
+      {
+        "type": "practical",
+        "title": "Complete Civil Project Print and Export",
+        "description": "Print and export a complete civil engineering project to PDF and DWG"
+      },
+      {
+        "type": "project",
+        "title": "Residential Building Plan",
+        "description": "Complete residential building design with floor plans"
+      },
+      {
+        "type": "project",
+        "title": "Site Development Plan",
+        "description": "Comprehensive site development planning"
+      },
+      {
+        "type": "project",
+        "title": "Plot Layout Design",
+        "description": "Professional plot layout with dimensions and annotations"
+      },
+      {
+        "type": "project",
+        "title": "Road Layout Plan",
+        "description": "Road alignment and layout with cross sections"
+      },
+      {
+        "type": "project",
+        "title": "Complete Infrastructure Project",
+        "description": "Comprehensive residential building and site development project including site plan, plot layout, floor plan, foundation plan, column & beam layout, road layout, drainage layout, water supply layout, parking plan, boundary wall plan, section & elevation drawings, and print-ready drawing set"
+      },
+      {
+        "type": "project",
+        "title": "Water Supply & Drainage Network",
+        "description": "Complete water supply and drainage infrastructure design"
+      }
+    ],
+    "toolsCovered": [
+      "AutoCAD (Latest Version)",
+      "CAD Standards",
+      "Plot Styles",
+      "Layout Tools",
+      "Annotation Tools"
+    ],
+    "trainingHours": {
+      "theory": 12,
+      "practicalLabs": 35,
+      "projects": 25,
+      "total": "72 Hours"
+    },
+    "learningOutcomes": [
+      "Create professional 2D civil engineering drawings using AutoCAD",
+      "Develop residential and commercial building layouts",
+      "Prepare foundation, footing, road, and utility drawings",
+      "Manage layers, dimensions, annotations, and blocks efficiently",
+      "Produce print-ready engineering drawings following industry standards",
+      "Prepare project documentation and construction drawings",
+      "Build a professional portfolio for civil engineering drafting jobs"
+    ],
+    "careerPaths": [
+      "CAD Draughtsman",
+      "Civil Engineer",
+      "Architectural Drafter",
+      "Infrastructure Designer",
+      "Construction Professional",
+      "Site Engineer",
+      "Project Coordinator"
+    ],
+    "highlights": [
+      "100% Practical Training",
+      "Industry-Oriented Curriculum",
+      "Real-Time Civil Engineering Projects",
+      "Hands-on CAD Drafting Practice",
+      "Complete Infrastructure Projects",
+      "Portfolio Development",
+      "Certificate of Completion",
+      "Placement Assistance (if applicable)"
+    ],
+    "eligibility": [
+      "Basic Computer Knowledge",
+      "Civil Engineering Students, Diploma Holders, Engineers, Architects, Surveyors",
+      "Construction Professionals Welcome",
+      "No Prior AutoCAD Experience Required"
+    ],
+    "trainingMode": ["Classroom", "Online"],
+    "targetAudience": [
+      "Civil Engineering Students",
+      "Diploma Holders",
+      "Civil Engineers",
+      "Architects",
+      "Surveyors",
+      "Construction Professionals"
+    ],
+    "metaTitle": "AutoCAD Civil Professional Course | Building, Road & Infrastructure Drafting",
+    "metaDescription": "Master AutoCAD Civil for professional civil engineering drafting, building layouts, road design, and infrastructure planning. Hands-on training with real projects and portfolio development."
+  },
+
+
+
+
+
+
+  {
+  "id": "autodesk-revit",
+  "slug": "autodesk-revit-professional-training",
+  "title": "Autodesk Revit Professional Training Course",
+  "shortDescription": "Master Autodesk Revit for professional BIM modeling. Learn architectural design, structural modeling, construction documentation, and 3D visualization.",
+  "fullDescription": "This Autodesk Revit Professional Training Course covers everything from Building Information Modeling (BIM) fundamentals to advanced architectural and structural modeling, construction documentation, and 3D visualization. Includes 100% practical training, real-time building design projects, portfolio development, and industry-oriented curriculum designed for architecture students, civil engineers, interior designers, and construction professionals.",
+  "duration": "1.5 Months (6 Weeks)",
+  "price": "Contact for Pricing",
+  "category": "master",
+  "image": "ADR.AVIF",
+  "features": [
+    "Building Information Modeling (BIM) Fundamentals",
+    "Architectural Modeling & Design",
+    "Structural Modeling & Analysis",
+    "Advanced Annotation & Documentation",
+    "Revit Families & BIM Components",
+    "3D Visualization & Rendering",
+    "BIM Collaboration & Worksharing",
+    "Construction Documentation & Schedules",
+    "Quantity Take-Off & Project Planning"
+  ],
+  "syllabus": [
+    {
+      "module": 1,
+      "title": "Introduction to Autodesk Revit",
+      "topics": [
+        "Introduction to Building Information Modeling (BIM)",
+        "Revit Interface & Workspace",
+        "Project Setup",
+        "Templates & Project Browser",
+        "Levels & Grids",
+        "Views & Navigation",
+        "Units & Project Settings",
+        "File Management",
+        "BIM Workflow Overview"
+      ]
+    },
+    {
+      "module": 2,
+      "title": "Architectural Modeling",
+      "topics": [
+        "Wall Creation & Editing",
+        "Doors & Windows",
+        "Floors",
+        "Roofs",
+        "Ceilings",
+        "Curtain Walls",
+        "Stairs & Railings",
+        "Ramps",
+        "Openings",
+        "Components & Furniture Placement"
+      ]
+    },
+    {
+      "module": 3,
+      "title": "Structural Modeling",
+      "topics": [
+        "Structural Columns",
+        "Beams & Beam Systems",
+        "Foundations",
+        "Structural Floors",
+        "Structural Walls",
+        "Trusses",
+        "Bracing",
+        "Structural Connections",
+        "Reinforcement Basics"
+      ]
+    },
+    {
+      "module": 4,
+      "title": "Annotation & Documentation",
+      "topics": [
+        "Dimensions",
+        "Text & Notes",
+        "Tags",
+        "Room Tags",
+        "Sections",
+        "Elevations",
+        "Callouts",
+        "Detail Views",
+        "Legends",
+        "Schedules & Quantities"
+      ]
+    },
+    {
+      "module": 5,
+      "title": "Families & BIM Components",
+      "topics": [
+        "Introduction to Revit Families",
+        "System Families",
+        "Loadable Families",
+        "In-Place Families",
+        "Family Creation",
+        "Family Parameters",
+        "Material Assignment",
+        "Editing Families"
+      ]
+    },
+    {
+      "module": 6,
+      "title": "3D Visualization & Rendering",
+      "topics": [
+        "3D Views",
+        "Camera Views",
+        "Walkthrough Creation",
+        "Materials & Textures",
+        "Lighting Setup",
+        "Rendering",
+        "Sun & Shadow Analysis",
+        "Realistic Presentation Views"
+      ]
+    },
+    {
+      "module": 7,
+      "title": "Collaboration & BIM Workflow",
+      "topics": [
+        "Worksharing",
+        "Linked CAD & Revit Files",
+        "Shared Coordinates",
+        "Copy/Monitor",
+        "Design Options",
+        "Phases",
+        "View Templates",
+        "BIM Collaboration Basics"
+      ]
+    },
+    {
+      "module": 8,
+      "title": "Project Completion & Final Project",
+      "topics": [
+        "Sheet Creation",
+        "Layout Preparation",
+        "Printing & PDF Export",
+        "Quantity Take-Off",
+        "Project Standards",
+        "Portfolio Development",
+        "Resume & Interview Preparation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "type": "practical",
+      "title": "New Building Project Creation",
+      "description": "Create and setup a new building project with proper templates and settings"
+    },
+    {
+      "type": "practical",
+      "title": "Residential Building Model",
+      "description": "Develop a complete residential building architectural model"
+    },
+    {
+      "type": "practical",
+      "title": "Structural Frame Modeling",
+      "description": "Model a complete structural frame for a building"
+    },
+    {
+      "type": "practical",
+      "title": "Construction Documentation",
+      "description": "Prepare complete construction documentation with annotations and schedules"
+    },
+    {
+      "type": "practical",
+      "title": "Custom Families Creation",
+      "description": "Create custom doors, windows, and furniture families"
+    },
+    {
+      "type": "practical",
+      "title": "3D Building Rendering",
+      "description": "Render a realistic 3D view of a building model"
+    },
+    {
+      "type": "project",
+      "title": "Residential Building Modeling",
+      "description": "Complete residential building BIM model with all details"
+    },
+    {
+      "type": "project",
+      "title": "Commercial Building Design",
+      "description": "Professional commercial building design and modeling"
+    },
+    {
+      "type": "project",
+      "title": "Structural Modeling Project",
+      "description": "Advanced structural system modeling and analysis"
+    },
+    {
+      "type": "project",
+      "title": "Interior Layout Design",
+      "description": "Complete interior design and layout planning"
+    },
+    {
+      "type": "project",
+      "title": "BIM Coordination Project",
+      "description": "Coordinate multiple building models and trades"
+    },
+    {
+      "type": "project",
+      "title": "Complete BIM Building Documentation",
+      "description": "Develop a complete BIM model of a residential or commercial building including floor plans, elevations, sections, 3D building model, structural elements, door & window schedules, room schedules, construction sheets, rendered views, and print-ready documentation"
+    }
+  ],
+  "toolsCovered": [
+    "Autodesk Revit (Latest Version)",
+    "Revit Families",
+    "BIM Coordination Tools",
+    "Rendering Engine",
+    "Documentation Tools"
+  ],
+  "trainingHours": {
+    "theory": 15,
+    "practicalLabs": 40,
+    "projects": 25,
+    "total": "80 Hours"
+  },
+  "learningOutcomes": [
+    "Understand Building Information Modeling (BIM) concepts and workflows",
+    "Create professional architectural and structural BIM models",
+    "Generate floor plans, elevations, sections, and schedules automatically",
+    "Produce construction documentation and drawing sheets",
+    "Create realistic 3D visualizations and rendered presentations",
+    "Collaborate efficiently on BIM projects using Revit",
+    "Build a professional portfolio for careers in architecture, civil engineering, interior design, and BIM modeling"
+  ],
+  "careerPaths": [
+    "BIM Modeler",
+    "Architect",
+    "Structural Engineer",
+    "Interior Designer",
+    "CAD Manager",
+    "Construction Manager",
+    "Project Coordinator"
+  ],
+  "highlights": [
+    "100% Practical Training",
+    "Industry-Oriented Curriculum",
+    "Real-Time Building Design Projects",
+    "Hands-on BIM Modeling",
+    "Complete Construction Documentation",
+    "Portfolio Development",
+    "Certificate of Completion",
+    "Placement Assistance (if applicable)"
+  ],
+  "eligibility": [
+    "Basic Computer Knowledge",
+    "Architecture Students",
+    "Civil Engineering Students",
+    "Interior Designers",
+    "Diploma Holders",
+    "Engineers",
+    "Construction Professionals",
+    "Basic AutoCAD Knowledge Recommended"
+  ],
+  "trainingMode": [
+    "Classroom",
+    "Online"
+  ],
+  "targetAudience": [
+    "Architecture Students",
+    "Civil Engineering Students",
+    "Interior Designers",
+    "Architects",
+    "Structural Engineers",
+    "Construction Professionals",
+    "CAD Professionals"
+  ],
+  "prerequisites": [
+    "Basic Computer Knowledge",
+    "Basic AutoCAD Knowledge (Recommended)"
+  ],
+  "metaTitle": "Autodesk Revit Professional Course | BIM Modeling, Architecture & Construction Docs",
+  "metaDescription": "Master Autodesk Revit for professional BIM modeling, architectural design, structural modeling, and construction documentation. Hands-on training with real building projects and portfolio development."
+},
+
+
+
+
+{
+  "id": "staad-pro",
+  "slug": "staad-pro-structural-engineering-training",
+  "title": "STAAD.Pro Structural Engineering Professional Training Course",
+  "shortDescription": "Master STAAD.Pro for structural analysis and design. Learn RCC and steel structure design, load analysis, and structural optimization using Indian Standards.",
+  "fullDescription": "This STAAD.Pro Structural Engineering Professional Training Course covers everything from structural modeling and analysis to RCC and steel design using Indian Standard codes (IS 456:2000 & IS 800:2007). Includes 100% practical training, real-time structural engineering projects, IS code-based design, portfolio development, and industry-oriented curriculum designed for civil engineers and structural professionals.",
+  "duration": "2 Months (8 Weeks)",
+  "price": "Contact for Pricing",
+  "category": "master",
+  "image": "STAAD.AVIF",
+  "features": [
+    "Structural Modeling & Frame Analysis",
+    "Load Definition & Load Cases (Dead, Live, Wind, Seismic)",
+    "RCC Structure Design per IS 456:2000",
+    "Steel Structure Design per IS 800:2007",
+    "Beam & Column Design",
+    "Foundation Analysis & Design",
+    "Advanced Structural Analysis",
+    "Design Reports & Documentation",
+    "Quantity Estimation"
+  ],
+  "syllabus": [
+    {
+      "module": 1,
+      "title": "Introduction to STAAD.Pro",
+      "topics": [
+        "Introduction to Structural Analysis & Design",
+        "Overview of STAAD.Pro Interface",
+        "Project Setup",
+        "Units & Coordinate Systems",
+        "Geometry Creation",
+        "Node & Beam Generation",
+        "Material Properties",
+        "Section Properties",
+        "File Management"
+      ]
+    },
+    {
+      "module": 2,
+      "title": "Structural Modeling",
+      "topics": [
+        "Beam Modeling",
+        "Column Modeling",
+        "Slab Modeling Concepts",
+        "Truss Modeling",
+        "Portal Frame Modeling",
+        "Space Frame Modeling",
+        "Supports & Boundary Conditions",
+        "Member Incidences",
+        "Model Verification"
+      ]
+    },
+    {
+      "module": 3,
+      "title": "Load Definition & Analysis",
+      "topics": [
+        "Dead Load",
+        "Live Load",
+        "Wind Load",
+        "Earthquake (Seismic) Load",
+        "Floor Load",
+        "Member Load",
+        "Area Load",
+        "Load Combinations",
+        "Load Cases",
+        "Analysis Commands"
+      ]
+    },
+    {
+      "module": 4,
+      "title": "Structural Analysis",
+      "topics": [
+        "Linear Static Analysis",
+        "Deflection Analysis",
+        "Bending Moment Diagram (BMD)",
+        "Shear Force Diagram (SFD)",
+        "Axial Force Diagram",
+        "Torsion Analysis",
+        "Reaction Forces",
+        "Member End Forces",
+        "Result Interpretation"
+      ]
+    },
+    {
+      "module": 5,
+      "title": "RCC Structural Design",
+      "topics": [
+        "RCC Design Concepts",
+        "Design as per IS 456:2000",
+        "Beam Design",
+        "Column Design",
+        "Footing Design",
+        "Slab Design Concepts",
+        "Reinforcement Detailing",
+        "Design Reports"
+      ]
+    },
+    {
+      "module": 6,
+      "title": "Steel Structure Design",
+      "topics": [
+        "Steel Design Concepts",
+        "IS 800:2007 Design Code",
+        "Steel Beam Design",
+        "Steel Column Design",
+        "Truss Design",
+        "Industrial Shed Design",
+        "Connection Basics",
+        "Design Optimization"
+      ]
+    },
+    {
+      "module": 7,
+      "title": "Advanced Structural Design",
+      "topics": [
+        "Plate Elements",
+        "Surface Modeling",
+        "Foundation Modeling",
+        "Water Tank Analysis",
+        "Staircase Analysis",
+        "Response Spectrum Analysis",
+        "P-Delta Analysis",
+        "Model Optimization",
+        "Structural Documentation"
+      ]
+    },
+    {
+      "module": 8,
+      "title": "Project, Documentation & Reporting",
+      "topics": [
+        "Design Reports",
+        "Quantity Estimation",
+        "Drawing Integration",
+        "Exporting Results",
+        "Model Validation",
+        "Project Documentation",
+        "Portfolio Development",
+        "Industry Best Practices",
+        "Interview Preparation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "type": "practical",
+      "title": "Simple Structural Frame Model",
+      "description": "Create a basic structural frame model with supports and loads"
+    },
+    {
+      "type": "practical",
+      "title": "Multi-Storey Building Frame",
+      "description": "Develop a complete multi-storey building frame structure"
+    },
+    {
+      "type": "practical",
+      "title": "Building Structure with Loads",
+      "description": "Apply comprehensive loads (dead, live, wind, seismic) to a building"
+    },
+    {
+      "type": "practical",
+      "title": "RCC Frame Analysis",
+      "description": "Analyze a reinforced concrete frame structure"
+    },
+    {
+      "type": "practical",
+      "title": "RCC Structural Design",
+      "description": "Design RCC structural members including beams and columns"
+    },
+    {
+      "type": "practical",
+      "title": "Steel Industrial Structure",
+      "description": "Design a complete steel industrial structure"
+    },
+    {
+      "type": "project",
+      "title": "RCC Residential Building",
+      "description": "Complete RCC residential building structural design"
+    },
+    {
+      "type": "project",
+      "title": "Commercial Building Structure",
+      "description": "Complex commercial building structural analysis and design"
+    },
+    {
+      "type": "project",
+      "title": "Steel Industrial Shed",
+      "description": "Complete industrial shed design with steel members"
+    },
+    {
+      "type": "project",
+      "title": "Foundation Analysis",
+      "description": "Detailed foundation design and analysis"
+    },
+    {
+      "type": "project",
+      "title": "Water Tank Structure",
+      "description": "Water tank analysis and design"
+    },
+    {
+      "type": "project",
+      "title": "G+5 Building Complete Design",
+      "description": "Design and analyze a complete G+5 residential or commercial building including structural modeling, load calculations, RCC beam & column design, steel member design, foundation analysis, structural reports, design documentation, and quantity estimation"
+    }
+  ],
+  "toolsCovered": [
+    "STAAD.Pro (Latest Version)",
+    "Indian Standard Codes (IS 456:2000 & IS 800:2007)",
+    "Analysis Tools",
+    "Design Tools",
+    "Reporting Tools"
+  ],
+  "trainingHours": {
+    "theory": 20,
+    "practicalLabs": 45,
+    "projects": 35,
+    "total": "100 Hours"
+  },
+  "learningOutcomes": [
+    "Develop structural models using STAAD.Pro",
+    "Perform structural analysis for RCC and steel structures",
+    "Apply dead, live, wind, and seismic loads according to Indian Standards",
+    "Design beams, columns, foundations, and steel members",
+    "Interpret structural analysis results and prepare design reports",
+    "Optimize structural designs for safety and economy",
+    "Build a professional portfolio for careers in structural engineering"
+  ],
+  "careerPaths": [
+    "Structural Engineer",
+    "Design Engineer",
+    "Consultant",
+    "Project Manager",
+    "CAD Manager",
+    "Construction Engineer",
+    "Freelance Structural Designer"
+  ],
+  "highlights": [
+    "100% Practical Training",
+    "Industry-Oriented Curriculum",
+    "Real-Time Structural Engineering Projects",
+    "IS Code-Based Design (IS 456:2000 & IS 800:2007)",
+    "Project-Based Learning",
+    "Portfolio Development",
+    "Certificate of Completion",
+    "Placement Assistance (if applicable)"
+  ],
+  "eligibility": [
+    "Diploma in Civil Engineering",
+    "B.Tech/B.E. in Civil Engineering",
+    "Civil Engineering Students",
+    "Structural Engineers",
+    "Basic Knowledge of Structural Engineering (Recommended)",
+    "Basic AutoCAD Knowledge (Recommended)"
+  ],
+  "trainingMode": [
+    "Classroom",
+    "Online"
+  ],
+  "targetAudience": [
+    "Civil Engineering Students",
+    "Structural Engineers",
+    "Design Engineers",
+    "Construction Professionals",
+    "Diploma Holders"
+  ],
+  "prerequisites": [
+    "Diploma or B.Tech in Civil Engineering",
+    "Basic Structural Engineering Knowledge",
+    "Basic AutoCAD Knowledge (Recommended)"
+  ],
+  "isCodeStandards": [
+    "IS 456:2000 - RCC Design Code",
+    "IS 800:2007 - Steel Design Code"
+  ],
+  "metaTitle": "STAAD.Pro Structural Engineering Course | RCC & Steel Design with Indian Standards",
+  "metaDescription": "Master STAAD.Pro for structural analysis and design of RCC and steel structures. Learn IS 456:2000 and IS 800:2007 codes with real building projects."
+},
+
+
+
+
+{
+  "id": "vray-rendering",
+  "slug": "vray-professional-training",
+  "title": "V-Ray Professional Training Course",
+  "shortDescription": "Master V-Ray rendering engine for photorealistic architectural visualization. Learn materials, lighting, and rendering techniques for interior and exterior designs.",
+  "fullDescription": "This V-Ray Professional Training Course covers everything from V-Ray basics to advanced rendering techniques including realistic materials, professional lighting, camera setup, and post-production. Includes 100% practical training, real-time architectural visualization projects, portfolio development, and industry-oriented curriculum designed for architecture students, interior designers, and 3D visualization artists.",
+  "duration": "1.5 Months (6 Weeks)",
+  "price": "Contact for Pricing",
+  "category": "master",
+  "image": "V-RAY.AVIF",
+  "features": [
+    "V-Ray Rendering Engine Fundamentals",
+    "Realistic Materials & Textures Creation",
+    "Professional Lighting Techniques",
+    "Camera Setup & Composition",
+    "Interior & Exterior Rendering",
+    "Advanced Rendering Techniques",
+    "Global Illumination & Ambient Occlusion",
+    "Post-Production & Image Enhancement",
+    "Portfolio Development"
+  ],
+  "syllabus": [
+    {
+      "module": 1,
+      "title": "Introduction to V-Ray",
+      "topics": [
+        "Introduction to V-Ray Rendering Engine",
+        "Installation & Interface Overview",
+        "V-Ray Toolbar & Asset Editor",
+        "Render Settings",
+        "Project Setup",
+        "Camera Setup",
+        "Navigation Tools",
+        "Importing 3D Models",
+        "File Management"
+      ]
+    },
+    {
+      "module": 2,
+      "title": "Materials & Textures",
+      "topics": [
+        "V-Ray Material Editor",
+        "Creating Standard Materials",
+        "Reflection & Refraction",
+        "Glossiness Settings",
+        "Bump Maps",
+        "Displacement Maps",
+        "Opacity Maps",
+        "Texture Mapping",
+        "UV Mapping Basics",
+        "Material Libraries"
+      ]
+    },
+    {
+      "module": 3,
+      "title": "Lighting Techniques",
+      "topics": [
+        "Natural Daylight System",
+        "Sun & Sky Setup",
+        "Artificial Lighting",
+        "Spot Lights",
+        "Area Lights",
+        "IES Lights",
+        "Dome Lights",
+        "HDRI Lighting",
+        "Interior & Exterior Lighting"
+      ]
+    },
+    {
+      "module": 4,
+      "title": "Camera & Rendering",
+      "topics": [
+        "Physical Camera Settings",
+        "Camera Exposure",
+        "Depth of Field (DOF)",
+        "White Balance",
+        "Composition Techniques",
+        "Render Quality Settings",
+        "Noise Reduction",
+        "Render Optimization",
+        "Interactive Rendering"
+      ]
+    },
+    {
+      "module": 5,
+      "title": "Advanced Rendering Techniques",
+      "topics": [
+        "Global Illumination (GI)",
+        "Ambient Occlusion",
+        "Render Elements",
+        "Render Passes",
+        "Caustics",
+        "Fog & Atmospheric Effects",
+        "Proxy Objects",
+        "Scene Optimization",
+        "Asset Management"
+      ]
+    },
+    {
+      "module": 6,
+      "title": "Post-Production & Final Project",
+      "topics": [
+        "Color Correction",
+        "Exposure Adjustment",
+        "Render Enhancement",
+        "Image Editing Workflow",
+        "Export Settings",
+        "Print & Web Output",
+        "Portfolio Development",
+        "Freelancing & Client Presentation",
+        "Interview Preparation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "type": "practical",
+      "title": "Basic Interior Rendering Setup",
+      "description": "Set up a basic interior rendering project with models and cameras"
+    },
+    {
+      "type": "practical",
+      "title": "Realistic Materials Creation",
+      "description": "Create photorealistic wood, glass, metal, and fabric materials"
+    },
+    {
+      "type": "practical",
+      "title": "Interior Lighting Setup",
+      "description": "Design realistic interior lighting with natural and artificial lights"
+    },
+    {
+      "type": "practical",
+      "title": "High-Quality Interior & Exterior Renders",
+      "description": "Produce professional interior and exterior rendering images"
+    },
+    {
+      "type": "practical",
+      "title": "Complex Architectural Scene Rendering",
+      "description": "Render a complex architectural scene with advanced techniques"
+    },
+    {
+      "type": "practical",
+      "title": "Post-Production Image Enhancement",
+      "description": "Enhance renders with color correction and post-processing"
+    },
+    {
+      "type": "project",
+      "title": "Residential Interior Rendering",
+      "description": "Complete residential interior visualization project"
+    },
+    {
+      "type": "project",
+      "title": "Living Room Visualization",
+      "description": "Photorealistic living room rendering"
+    },
+    {
+      "type": "project",
+      "title": "Kitchen Design Rendering",
+      "description": "Professional kitchen interior rendering"
+    },
+    {
+      "type": "project",
+      "title": "Office Interior Visualization",
+      "description": "Commercial office space rendering"
+    },
+    {
+      "type": "project",
+      "title": "Exterior Building Rendering",
+      "description": "Photorealistic exterior building visualization"
+    },
+    {
+      "type": "project",
+      "title": "Complete Architectural Visualization Portfolio",
+      "description": "Create complete architectural visualization project including interior scene rendering, exterior building rendering, realistic materials & textures, day & night lighting, camera composition, high-resolution final render, and post-processed presentation images"
+    }
+  ],
+  "toolsCovered": [
+    "V-Ray (Latest Version)",
+    "SketchUp / Autodesk 3ds Max / Revit (for Integration)",
+    "Adobe Photoshop (Basic Post-Production)"
+  ],
+  "trainingHours": {
+    "theory": 10,
+    "practicalLabs": 30,
+    "projects": 20,
+    "total": "60 Hours"
+  },
+  "learningOutcomes": [
+    "Create photorealistic architectural and interior renderings using V-Ray",
+    "Apply realistic materials, textures, and lighting to 3D models",
+    "Optimize rendering settings for quality and performance",
+    "Produce professional interior and exterior visualization images",
+    "Enhance renders using post-production techniques",
+    "Develop a professional rendering portfolio for architecture and interior design projects",
+    "Work confidently as a 3D Visualization Artist, Architectural Renderer, or Interior Rendering Specialist"
+  ],
+  "careerPaths": [
+    "3D Visualization Artist",
+    "Architectural Renderer",
+    "Interior Rendering Specialist",
+    "Visualization Consultant",
+    "Freelance 3D Artist",
+    "Product Rendering Specialist",
+    "Real Estate Visualization Expert"
+  ],
+  "highlights": [
+    "100% Practical Training",
+    "Industry-Oriented Curriculum",
+    "Real-Time Architectural Visualization Projects",
+    "Hands-on Material, Lighting & Rendering Techniques",
+    "Portfolio Development",
+    "Professional Rendering Standards",
+    "Certificate of Completion",
+    "Placement Assistance (if applicable)"
+  ],
+  "eligibility": [
+    "Basic Computer Knowledge",
+    "Basic Knowledge of SketchUp, 3ds Max, Revit, or Rhino (Recommended)",
+    "Suitable for Architecture Students",
+    "Interior Designers",
+    "Civil Engineers",
+    "3D Visualization Artists"
+  ],
+  "trainingMode": [
+    "Classroom",
+    "Online"
+  ],
+  "targetAudience": [
+    "Architecture Students",
+    "Interior Designers",
+    "Civil Engineers",
+    "3D Artists",
+    "Architects",
+    "Visualization Professionals"
+  ],
+  "prerequisites": [
+    "Basic Computer Knowledge",
+    "Basic Knowledge of 3D Modeling Software (Recommended)"
+  ],
+  "softwareIntegration": [
+    "SketchUp Integration",
+    "Autodesk 3ds Max",
+    "Revit Integration",
+    "Rhino Integration",
+    "Adobe Photoshop"
+  ],
+  "metaTitle": "V-Ray Professional Rendering Course | Architectural & Interior Visualization",
+  "metaDescription": "Master V-Ray rendering for photorealistic architectural and interior visualization. Learn materials, lighting, cameras, and post-production techniques."
+}
+
 ]

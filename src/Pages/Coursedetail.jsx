@@ -373,16 +373,7 @@ export default function CourseDetail() {
         </div>
 
         {/* ── CONTENT ──────────────────────────────────────────── */}
-        <div className="max-w-3xl mx-auto px-5 py-8 space-y-8">
-          {/* Full Description */}
-          {course.fullDescription && (
-            <div className="bg-white rounded-2xl border border-black p-6 shadow-sm">
-              <p className="text-black leading-relaxed font-semibold">
-                {course.fullDescription}
-              </p>
-            </div>
-          )}
-
+        <div className="max-w-4xl mx-auto px-5 py-8 space-y-8">
           {/* Course Features */}
           {course.features?.length > 0 && (
             <div>
@@ -393,7 +384,7 @@ export default function CourseDetail() {
                 </h2>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                 {course.features.map((f, i) => (
                   <div
                     key={i}
@@ -431,6 +422,15 @@ export default function CourseDetail() {
                   <SyllabusItem key={i} mod={mod} theme={theme} index={i} />
                 ))}
               </div>
+            </div>
+          )}
+
+          {/* Full Description */}
+          {course.fullDescription && (
+            <div className="bg-white rounded-2xl border border-black p-6 shadow-sm">
+              <p className="text-black leading-relaxed font-semibold">
+                {course.fullDescription}
+              </p>
             </div>
           )}
 

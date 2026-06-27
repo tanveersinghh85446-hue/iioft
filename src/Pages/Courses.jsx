@@ -135,7 +135,7 @@ function CourseCard({ course }) {
         <div className="flex items-center justify-between pt-3 border-t border-slate-100 mt-1">
           <div className="flex gap-2">
             <span>
-              <MdMoreTime className="text-xl"/>
+              <MdMoreTime className="text-xl" />
             </span>
             <span className="text-xs mt-0.5 text-black font-bold">
               {course.duration}
@@ -281,7 +281,6 @@ export default function Courses() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2 w-full border-2 border-black rounded-xl overflow-hidden p-2">
             <TabButton
               label="Master Diploma"
-              // emoji="🎓"
               tabKey="master"
               activeTab={activeTab}
               activeClass="bg-gradient-to-r from-blue-700 to-blue-600"
@@ -289,7 +288,6 @@ export default function Courses() {
             />
             <TabButton
               label="Soft Skill's"
-              // emoji="📚"
               tabKey="soft skill's"
               activeTab={activeTab}
               activeClass="bg-gradient-to-r from-green-600 to-green-600"
@@ -297,7 +295,6 @@ export default function Courses() {
             />
             <TabButton
               label="Trending Course"
-              // emoji="🚀"
               tabKey="tranding course"
               activeTab={activeTab}
               activeClass="bg-gradient-to-r from-yellow-500 to-yellow-500"
@@ -305,7 +302,6 @@ export default function Courses() {
             />
             <TabButton
               label="Advance Professional"
-              // emoji="⭐"
               tabKey="advance"
               activeTab={activeTab}
               activeClass="bg-gradient-to-r from-indigo-700 to-indigo-600"
