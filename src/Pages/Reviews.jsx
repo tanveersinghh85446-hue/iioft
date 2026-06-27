@@ -165,6 +165,13 @@ const TESTIMONIALS = [
       "The AWS and cloud fundamentals were explained with hands-on labs. I enjoyed every session and learned a lot.",
     Image: "/Riya.AVIF",
   },
+  {
+    name: "Jatin",
+    course: "Data Science",
+    review:
+      "The Data Science course was well-structured with practical projects in Python, Pandas, NumPy, and Machine Learning. I gained valuable hands-on experience.",
+    Image: "/Jatin.AVIF",
+  },
 ];
 
 export default function Reviews() {
