@@ -10825,783 +10825,744 @@
     "metaDescription": "Master V-Ray rendering for photorealistic architectural and interior visualization. Learn materials, lighting, cameras, and post-production techniques."
   },
 
-
-
-
-
-
-
-
+  {
+    "id": "autocad-mechanical",
+    "slug": "autocad-mechanical-professional-training",
+    "title": "AutoCAD for Mechanical Professional Training Course",
+    "shortDescription": "Master AutoCAD for mechanical engineering drafting. Learn 2D mechanical design, manufacturing drawings, assembly layouts, and engineering documentation.",
+    "fullDescription": "This AutoCAD for Mechanical Professional Training Course covers everything from mechanical drafting basics to advanced manufacturing drawings, assembly layouts, and engineering documentation. Includes 100% practical training, real-time mechanical projects, GD&T basics, and industry-oriented curriculum designed for mechanical engineers, CAD designers, and manufacturing professionals.",
+    "duration": "1 Month",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "ACM.AVIF",
+    "features": [
+      "2D Mechanical Drafting Fundamentals",
+      "Manufacturing & Fabrication Drawings",
+      "Dimensioning & Tolerancing (GD&T)",
+      "Assembly Drawings & BOM",
+      "Machine Component Design",
+      "Sheet Metal & Pipe Layouts",
+      "Professional Drafting Standards",
+      "Print-Ready Technical Drawings",
+      "Portfolio Development"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to AutoCAD Mechanical",
+        "topics": [
+          "Introduction to CAD and Mechanical Drafting",
+          "AutoCAD Interface & Workspace",
+          "Drawing Setup & Units",
+          "Coordinate Systems",
+          "Object Snap (OSNAP)",
+          "Grid & Snap Settings",
+          "File Management",
+          "Navigation Tools",
+          "Mechanical Standards (ISO, BIS)"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "2D Mechanical Drafting",
+        "topics": [
+          "Line, Polyline & Construction Line",
+          "Circle, Arc & Ellipse",
+          "Rectangle & Polygon",
+          "Hatch & Gradient",
+          "Trim, Extend & Offset",
+          "Fillet & Chamfer",
+          "Mirror, Rotate & Scale",
+          "Move, Copy & Stretch",
+          "Array Commands",
+          "Explode & Join"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Dimensioning & Annotation",
+        "topics": [
+          "Linear, Angular & Radial Dimensions",
+          "Diameter & Radius Dimensions",
+          "Tolerances",
+          "Geometric Dimensioning & Tolerancing (GD&T) Basics",
+          "Text & Leaders",
+          "Center Marks & Center Lines",
+          "Layer Management",
+          "Linetypes & Lineweights",
+          "Mechanical Symbols"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Blocks & Assembly Drawings",
+        "topics": [
+          "Creating Blocks",
+          "Dynamic Blocks",
+          "External References (XREF)",
+          "Assembly Drawings",
+          "Exploded Views",
+          "Bill of Materials (BOM) Basics",
+          "Part Numbering",
+          "Drawing Templates"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Mechanical Design Applications",
+        "topics": [
+          "Machine Part Drawings",
+          "Shaft Design Drawings",
+          "Gear Drawings",
+          "Bearing Layout",
+          "Coupling Drawings",
+          "Flange Drawings",
+          "Pipe & Fitting Drawings",
+          "Sheet Metal Layout Basics"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Printing & Final Project",
+        "topics": [
+          "Layout Setup",
+          "Viewports",
+          "Plotting & Printing",
+          "PDF Export",
+          "DWG & DXF Export",
+          "Drawing Standards",
+          "File Organization",
+          "Project Documentation",
+          "Portfolio Preparation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "type": "practical",
+        "title": "Basic Mechanical Drawings",
+        "description": "Create fundamental mechanical engineering drawings"
+      },
+      {
+        "type": "practical",
+        "title": "Mechanical Components",
+        "description": "Draw various mechanical components with precision"
+      },
+      {
+        "type": "practical",
+        "title": "Manufacturing Drawings",
+        "description": "Prepare manufacturing and fabrication drawings"
+      },
+      {
+        "type": "practical",
+        "title": "Assembly Drawing with Components",
+        "description": "Create assembly drawings with multiple components"
+      },
+      {
+        "type": "practical",
+        "title": "Standard Mechanical Components",
+        "description": "Design standard mechanical components and parts"
+      },
+      {
+        "type": "practical",
+        "title": "Print-Ready Drawing Sheets",
+        "description": "Prepare complete print-ready mechanical drawings"
+      },
+      {
+        "type": "project",
+        "title": "Machine Component Drawing",
+        "description": "Complete machine component drawing set"
+      },
+      {
+        "type": "project",
+        "title": "Shaft & Bearing Assembly",
+        "description": "Detailed shaft design and bearing assembly"
+      },
+      {
+        "type": "project",
+        "title": "Flange Drawing",
+        "description": "Professional flange design and layout"
+      },
+      {
+        "type": "project",
+        "title": "Gear Drawing",
+        "description": "Precision gear design and specification"
+      },
+      {
+        "type": "project",
+        "title": "Mechanical Assembly Layout",
+        "description": "Complete mechanical assembly layout"
+      },
+      {
+        "type": "project",
+        "title": "Complete Mechanical Drawing Set",
+        "description": "Prepare complete mechanical drawing set including machine component drawing, shaft & bearing assembly, flange drawing, gear drawing, mechanical assembly layout, dimensioned manufacturing drawings, and print-ready drawing sheets"
+      }
+    ],
+    "toolsCovered": [
+      "AutoCAD (Latest Version)",
+      "Mechanical Standards (ISO, BIS)",
+      "GD&T Tools",
+      "Block & Assembly Features"
+    ],
+    "trainingHours": {
+      "theory": 8,
+      "practicalLabs": 28,
+      "projects": 16,
+      "total": "52 Hours"
+    },
+    "learningOutcomes": [
+      "Create accurate 2D mechanical engineering drawings using AutoCAD",
+      "Prepare manufacturing and fabrication drawings as per industry standards",
+      "Apply dimensions, tolerances, and GD&T basics to engineering drawings",
+      "Develop assembly drawings and basic BOM documentation",
+      "Create professional print-ready mechanical design documents",
+      "Build a portfolio of mechanical drafting projects for manufacturing and engineering industries"
+    ],
+    "careerPaths": [
+      "CAD Draughtsman",
+      "Mechanical Designer",
+      "Manufacturing Engineer",
+      "CAD Engineer",
+      "Design Engineer",
+      "Technical Designer",
+      "Freelance CAD Designer"
+    ],
+    "highlights": [
+      "100% Practical Training",
+      "Industry-Oriented Curriculum",
+      "Real-Time Mechanical Drafting Projects",
+      "Hands-on CAD Practice",
+      "GD&T & Manufacturing Standards",
+      "Portfolio Development",
+      "Certificate of Completion",
+      "Placement Assistance (if applicable)"
+    ],
+    "eligibility": [
+      "Basic Computer Knowledge",
+      "ITI Students",
+      "Diploma in Mechanical Engineering",
+      "B.Tech/B.E. Mechanical Engineering Students",
+      "Mechanical Engineers",
+      "CAD Designers",
+      "Manufacturing Professionals",
+      "No Prior AutoCAD Experience Required"
+    ],
+    "trainingMode": ["Classroom", "Online"],
+    "targetAudience": [
+      "ITI Students",
+      "Diploma Holders",
+      "Mechanical Engineering Students",
+      "Mechanical Engineers",
+      "CAD Designers",
+      "Manufacturing Professionals"
+    ],
+    "standards": [
+      "ISO Standards",
+      "BIS Standards",
+      "GD&T (Geometric Dimensioning & Tolerancing)"
+    ],
+    "metaTitle": "AutoCAD for Mechanical Professional Course | Manufacturing Drawings & Design",
+    "metaDescription": "Master AutoCAD for mechanical engineering drafting, manufacturing drawings, assembly layouts, and GD&T. Hands-on training for CAD designers and mechanical engineers."
+  },
 
   {
-  "id": "autocad-mechanical",
-  "slug": "autocad-mechanical-professional-training",
-  "title": "AutoCAD for Mechanical Professional Training Course",
-  "shortDescription": "Master AutoCAD for mechanical engineering drafting. Learn 2D mechanical design, manufacturing drawings, assembly layouts, and engineering documentation.",
-  "fullDescription": "This AutoCAD for Mechanical Professional Training Course covers everything from mechanical drafting basics to advanced manufacturing drawings, assembly layouts, and engineering documentation. Includes 100% practical training, real-time mechanical projects, GD&T basics, and industry-oriented curriculum designed for mechanical engineers, CAD designers, and manufacturing professionals.",
-  "duration": "1 Month",
-  "price": "Contact for Pricing",
-  "category": "master",
-  "image": "ACM.AVIF",
-  "features": [
-    "2D Mechanical Drafting Fundamentals",
-    "Manufacturing & Fabrication Drawings",
-    "Dimensioning & Tolerancing (GD&T)",
-    "Assembly Drawings & BOM",
-    "Machine Component Design",
-    "Sheet Metal & Pipe Layouts",
-    "Professional Drafting Standards",
-    "Print-Ready Technical Drawings",
-    "Portfolio Development"
-  ],
-  "syllabus": [
-    {
-      "module": 1,
-      "title": "Introduction to AutoCAD Mechanical",
-      "topics": [
-        "Introduction to CAD and Mechanical Drafting",
-        "AutoCAD Interface & Workspace",
-        "Drawing Setup & Units",
-        "Coordinate Systems",
-        "Object Snap (OSNAP)",
-        "Grid & Snap Settings",
-        "File Management",
-        "Navigation Tools",
-        "Mechanical Standards (ISO, BIS)"
-      ]
+    "id": "primavera-p6",
+    "slug": "primavera-p6-professional-training",
+    "title": "Primavera P6 Professional Training Course",
+    "shortDescription": "Master Primavera P6 for professional project planning and management. Learn scheduling, resource management, cost control, and project monitoring.",
+    "fullDescription": "This Primavera P6 Professional Training Course covers everything from project planning and scheduling basics to advanced resource management, cost control, earned value management, and portfolio management. Includes 100% practical training, real-time construction and infrastructure projects, hands-on scheduling practice, and industry-oriented curriculum designed for project managers, engineers, and construction professionals.",
+    "duration": "1.5 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "PP6.AVIF",
+    "features": [
+      "Project Planning & Scheduling Fundamentals",
+      "Work Breakdown Structure (WBS) Creation",
+      "Resource & Cost Management",
+      "Earned Value Management (EVM)",
+      "Project Tracking & Monitoring",
+      "Baseline & Progress Tracking",
+      "Advanced Reporting & Dashboards",
+      "Multi-Project Management",
+      "Portfolio Management Basics"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Primavera P6",
+        "topics": [
+          "Introduction to Project Management",
+          "Overview of Primavera P6",
+          "Primavera Interface & Navigation",
+          "Enterprise Project Structure (EPS)",
+          "Organizational Breakdown Structure (OBS)",
+          "User Preferences",
+          "Calendar Creation",
+          "Project Setup",
+          "Data Management"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Project Planning & Scheduling",
+        "topics": [
+          "Work Breakdown Structure (WBS)",
+          "Creating Activities",
+          "Activity Types",
+          "Activity Codes",
+          "Relationships (FS, SS, FF, SF)",
+          "Constraints",
+          "Milestones",
+          "Calendars",
+          "Scheduling Techniques"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Resource & Cost Management",
+        "topics": [
+          "Resource Creation",
+          "Resource Assignment",
+          "Resource Calendars",
+          "Resource Levelling",
+          "Cost Accounts",
+          "Expense Management",
+          "Budget Planning",
+          "Resource Analysis",
+          "Cost Loading"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Project Tracking & Monitoring",
+        "topics": [
+          "Baseline Creation",
+          "Updating Project Progress",
+          "Activity Status",
+          "Progress Measurement",
+          "Earned Value Management (EVM)",
+          "Variance Analysis",
+          "Delay Analysis",
+          "Recovery Scheduling",
+          "Project Forecasting"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Reports & Documentation",
+        "topics": [
+          "Layout Creation",
+          "Filters & Grouping",
+          "Global Change",
+          "User Defined Fields (UDF)",
+          "Reports Generation",
+          "Gantt Chart Customization",
+          "Dashboards",
+          "PDF & Excel Export",
+          "Printing Project Reports"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Final Project & Portfolio Development",
+        "topics": [
+          "Multi-Project Management",
+          "Project Portfolio Management",
+          "Risk Management Basics",
+          "Claim Documentation",
+          "Project Documentation Standards",
+          "Portfolio Development",
+          "Resume Building",
+          "Interview Preparation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "type": "practical",
+        "title": "New Project Creation",
+        "description": "Create and setup a new project in Primavera P6"
+      },
+      {
+        "type": "practical",
+        "title": "Project Schedule Preparation",
+        "description": "Prepare a complete project schedule with WBS"
+      },
+      {
+        "type": "practical",
+        "title": "Resource Allocation & Budget",
+        "description": "Allocate resources and prepare project budget"
+      },
+      {
+        "type": "practical",
+        "title": "Project Progress Tracking",
+        "description": "Track and update project progress"
+      },
+      {
+        "type": "practical",
+        "title": "Reports & Dashboards",
+        "description": "Generate project reports and dashboards"
+      },
+      {
+        "type": "practical",
+        "title": "Multi-Project Management",
+        "description": "Manage multiple projects simultaneously"
+      },
+      {
+        "type": "project",
+        "title": "Residential Building Construction",
+        "description": "Complete residential building project schedule"
+      },
+      {
+        "type": "project",
+        "title": "Commercial Building Project",
+        "description": "Commercial building planning and scheduling"
+      },
+      {
+        "type": "project",
+        "title": "Highway Construction Project",
+        "description": "Infrastructure highway construction project"
+      },
+      {
+        "type": "project",
+        "title": "Bridge Construction Project",
+        "description": "Bridge construction scheduling and management"
+      },
+      {
+        "type": "project",
+        "title": "Industrial Plant Project",
+        "description": "Industrial plant setup and project management"
+      },
+      {
+        "type": "project",
+        "title": "Complete Project Management Portfolio",
+        "description": "Develop complete project schedule for residential building, commercial project, or infrastructure project including enterprise project structure (EPS), work breakdown structure (WBS), activity scheduling, resource allocation, cost planning, baseline creation, progress tracking, earned value analysis, and project reports & dashboards"
+      }
+    ],
+    "toolsCovered": [
+      "Primavera P6 Professional (Latest Version)",
+      "Scheduling Tools",
+      "Resource Management Tools",
+      "Reporting Tools"
+    ],
+    "trainingHours": {
+      "theory": 15,
+      "practicalLabs": 35,
+      "projects": 25,
+      "total": "75 Hours"
     },
-    {
-      "module": 2,
-      "title": "2D Mechanical Drafting",
-      "topics": [
-        "Line, Polyline & Construction Line",
-        "Circle, Arc & Ellipse",
-        "Rectangle & Polygon",
-        "Hatch & Gradient",
-        "Trim, Extend & Offset",
-        "Fillet & Chamfer",
-        "Mirror, Rotate & Scale",
-        "Move, Copy & Stretch",
-        "Array Commands",
-        "Explode & Join"
-      ]
-    },
-    {
-      "module": 3,
-      "title": "Dimensioning & Annotation",
-      "topics": [
-        "Linear, Angular & Radial Dimensions",
-        "Diameter & Radius Dimensions",
-        "Tolerances",
-        "Geometric Dimensioning & Tolerancing (GD&T) Basics",
-        "Text & Leaders",
-        "Center Marks & Center Lines",
-        "Layer Management",
-        "Linetypes & Lineweights",
-        "Mechanical Symbols"
-      ]
-    },
-    {
-      "module": 4,
-      "title": "Blocks & Assembly Drawings",
-      "topics": [
-        "Creating Blocks",
-        "Dynamic Blocks",
-        "External References (XREF)",
-        "Assembly Drawings",
-        "Exploded Views",
-        "Bill of Materials (BOM) Basics",
-        "Part Numbering",
-        "Drawing Templates"
-      ]
-    },
-    {
-      "module": 5,
-      "title": "Mechanical Design Applications",
-      "topics": [
-        "Machine Part Drawings",
-        "Shaft Design Drawings",
-        "Gear Drawings",
-        "Bearing Layout",
-        "Coupling Drawings",
-        "Flange Drawings",
-        "Pipe & Fitting Drawings",
-        "Sheet Metal Layout Basics"
-      ]
-    },
-    {
-      "module": 6,
-      "title": "Printing & Final Project",
-      "topics": [
-        "Layout Setup",
-        "Viewports",
-        "Plotting & Printing",
-        "PDF Export",
-        "DWG & DXF Export",
-        "Drawing Standards",
-        "File Organization",
-        "Project Documentation",
-        "Portfolio Preparation"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "type": "practical",
-      "title": "Basic Mechanical Drawings",
-      "description": "Create fundamental mechanical engineering drawings"
-    },
-    {
-      "type": "practical",
-      "title": "Mechanical Components",
-      "description": "Draw various mechanical components with precision"
-    },
-    {
-      "type": "practical",
-      "title": "Manufacturing Drawings",
-      "description": "Prepare manufacturing and fabrication drawings"
-    },
-    {
-      "type": "practical",
-      "title": "Assembly Drawing with Components",
-      "description": "Create assembly drawings with multiple components"
-    },
-    {
-      "type": "practical",
-      "title": "Standard Mechanical Components",
-      "description": "Design standard mechanical components and parts"
-    },
-    {
-      "type": "practical",
-      "title": "Print-Ready Drawing Sheets",
-      "description": "Prepare complete print-ready mechanical drawings"
-    },
-    {
-      "type": "project",
-      "title": "Machine Component Drawing",
-      "description": "Complete machine component drawing set"
-    },
-    {
-      "type": "project",
-      "title": "Shaft & Bearing Assembly",
-      "description": "Detailed shaft design and bearing assembly"
-    },
-    {
-      "type": "project",
-      "title": "Flange Drawing",
-      "description": "Professional flange design and layout"
-    },
-    {
-      "type": "project",
-      "title": "Gear Drawing",
-      "description": "Precision gear design and specification"
-    },
-    {
-      "type": "project",
-      "title": "Mechanical Assembly Layout",
-      "description": "Complete mechanical assembly layout"
-    },
-    {
-      "type": "project",
-      "title": "Complete Mechanical Drawing Set",
-      "description": "Prepare complete mechanical drawing set including machine component drawing, shaft & bearing assembly, flange drawing, gear drawing, mechanical assembly layout, dimensioned manufacturing drawings, and print-ready drawing sheets"
-    }
-  ],
-  "toolsCovered": [
-    "AutoCAD (Latest Version)",
-    "Mechanical Standards (ISO, BIS)",
-    "GD&T Tools",
-    "Block & Assembly Features"
-  ],
-  "trainingHours": {
-    "theory": 8,
-    "practicalLabs": 28,
-    "projects": 16,
-    "total": "52 Hours"
+    "learningOutcomes": [
+      "Create and manage project schedules using Primavera P6",
+      "Develop Work Breakdown Structures (WBS) and project calendars",
+      "Allocate resources and manage project costs effectively",
+      "Monitor project progress using baselines and Earned Value Management (EVM)",
+      "Generate professional reports, dashboards, and Gantt charts",
+      "Manage multiple projects and project portfolios",
+      "Build a professional portfolio for careers in project planning and construction management"
+    ],
+    "careerPaths": [
+      "Project Manager",
+      "Project Planner",
+      "Project Scheduler",
+      "Construction Manager",
+      "Site Engineer",
+      "Program Manager",
+      "Planning Engineer"
+    ],
+    "highlights": [
+      "100% Practical Training",
+      "Industry-Oriented Curriculum",
+      "Real-Time Construction & Infrastructure Projects",
+      "Hands-on Project Scheduling & Planning",
+      "Earned Value Management (EVM)",
+      "Portfolio Development",
+      "Certificate of Completion",
+      "Placement Assistance (if applicable)"
+    ],
+    "eligibility": [
+      "Basic Computer Knowledge",
+      "Civil Engineering Students",
+      "Mechanical Engineers",
+      "Project Engineers",
+      "Construction Professionals",
+      "Project Managers",
+      "Basic Knowledge of Project Management (Recommended)"
+    ],
+    "trainingMode": ["Classroom", "Online"],
+    "targetAudience": [
+      "Civil Engineers",
+      "Mechanical Engineers",
+      "Project Managers",
+      "Project Planners",
+      "Construction Professionals",
+      "Site Engineers",
+      "Planning Professionals"
+    ],
+    "prerequisites": [
+      "Basic Computer Knowledge",
+      "Basic Project Management Knowledge (Recommended)"
+    ],
+    "methodologies": [
+      "Work Breakdown Structure (WBS)",
+      "Earned Value Management (EVM)",
+      "Gantt Chart Scheduling",
+      "Resource Levelling",
+      "Critical Path Method"
+    ],
+    "metaTitle": "Primavera P6 Professional Course | Project Planning, Scheduling & Management",
+    "metaDescription": "Master Primavera P6 for professional project planning, scheduling, resource management, and cost control. Hands-on training with real construction and infrastructure projects."
   },
-  "learningOutcomes": [
-    "Create accurate 2D mechanical engineering drawings using AutoCAD",
-    "Prepare manufacturing and fabrication drawings as per industry standards",
-    "Apply dimensions, tolerances, and GD&T basics to engineering drawings",
-    "Develop assembly drawings and basic BOM documentation",
-    "Create professional print-ready mechanical design documents",
-    "Build a portfolio of mechanical drafting projects for manufacturing and engineering industries"
-  ],
-  "careerPaths": [
-    "CAD Draughtsman",
-    "Mechanical Designer",
-    "Manufacturing Engineer",
-    "CAD Engineer",
-    "Design Engineer",
-    "Technical Designer",
-    "Freelance CAD Designer"
-  ],
-  "highlights": [
-    "100% Practical Training",
-    "Industry-Oriented Curriculum",
-    "Real-Time Mechanical Drafting Projects",
-    "Hands-on CAD Practice",
-    "GD&T & Manufacturing Standards",
-    "Portfolio Development",
-    "Certificate of Completion",
-    "Placement Assistance (if applicable)"
-  ],
-  "eligibility": [
-    "Basic Computer Knowledge",
-    "ITI Students",
-    "Diploma in Mechanical Engineering",
-    "B.Tech/B.E. Mechanical Engineering Students",
-    "Mechanical Engineers",
-    "CAD Designers",
-    "Manufacturing Professionals",
-    "No Prior AutoCAD Experience Required"
-  ],
-  "trainingMode": [
-    "Classroom",
-    "Online"
-  ],
-  "targetAudience": [
-    "ITI Students",
-    "Diploma Holders",
-    "Mechanical Engineering Students",
-    "Mechanical Engineers",
-    "CAD Designers",
-    "Manufacturing Professionals"
-  ],
-  "standards": [
-    "ISO Standards",
-    "BIS Standards",
-    "GD&T (Geometric Dimensioning & Tolerancing)"
-  ],
-  "metaTitle": "AutoCAD for Mechanical Professional Course | Manufacturing Drawings & Design",
-  "metaDescription": "Master AutoCAD for mechanical engineering drafting, manufacturing drawings, assembly layouts, and GD&T. Hands-on training for CAD designers and mechanical engineers."
-},
 
-
-
-
-
-
-
-
-
-{
-  "id": "primavera-p6",
-  "slug": "primavera-p6-professional-training",
-  "title": "Primavera P6 Professional Training Course",
-  "shortDescription": "Master Primavera P6 for professional project planning and management. Learn scheduling, resource management, cost control, and project monitoring.",
-  "fullDescription": "This Primavera P6 Professional Training Course covers everything from project planning and scheduling basics to advanced resource management, cost control, earned value management, and portfolio management. Includes 100% practical training, real-time construction and infrastructure projects, hands-on scheduling practice, and industry-oriented curriculum designed for project managers, engineers, and construction professionals.",
-  "duration": "1.5 Months",
-  "price": "Contact for Pricing",
-  "category": "master",
-  "image": "PP6.AVIF",
-  "features": [
-    "Project Planning & Scheduling Fundamentals",
-    "Work Breakdown Structure (WBS) Creation",
-    "Resource & Cost Management",
-    "Earned Value Management (EVM)",
-    "Project Tracking & Monitoring",
-    "Baseline & Progress Tracking",
-    "Advanced Reporting & Dashboards",
-    "Multi-Project Management",
-    "Portfolio Management Basics"
-  ],
-  "syllabus": [
-    {
-      "module": 1,
-      "title": "Introduction to Primavera P6",
-      "topics": [
-        "Introduction to Project Management",
-        "Overview of Primavera P6",
-        "Primavera Interface & Navigation",
-        "Enterprise Project Structure (EPS)",
-        "Organizational Breakdown Structure (OBS)",
-        "User Preferences",
-        "Calendar Creation",
-        "Project Setup",
-        "Data Management"
-      ]
+  {
+    "id": "catia",
+    "slug": "catia-professional-training",
+    "title": "CATIA Professional Training Course",
+    "shortDescription": "Master CATIA for 3D mechanical design. Learn part modeling, assembly design, technical drawings, and surface modeling for product development.",
+    "fullDescription": "This CATIA Professional Training Course covers everything from CAD/CAM/CAE basics to advanced 3D part modeling, assembly design, technical drafting, and surface modeling. Includes 100% practical training, real-time mechanical design projects, hands-on product modeling, and industry-oriented curriculum designed for mechanical engineers, product designers, and manufacturing professionals.",
+    "duration": "1 Month",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "CATAI.AVIF",
+    "features": [
+      "Sketcher Workbench & 2D Design",
+      "Part Design & 3D Modeling",
+      "Assembly Design & Product Structure",
+      "Drafting & Technical Drawings",
+      "Geometric & Dimensional Constraints",
+      "Surface Design & Modeling",
+      "GD&T & Manufacturing Standards",
+      "Bill of Materials (BOM) Creation",
+      "Export Formats (STEP, IGES, STL)"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to CATIA",
+        "topics": [
+          "Introduction to CAD/CAM/CAE",
+          "CATIA Interface & Workspace",
+          "Project Setup",
+          "Sketcher Workbench",
+          "Drawing Standards",
+          "Units & Constraints",
+          "File Management",
+          "Navigation & View Tools"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Sketcher Workbench",
+        "topics": [
+          "Sketch Creation",
+          "Geometrical Constraints",
+          "Dimensional Constraints",
+          "Lines, Circles & Arcs",
+          "Splines & Profiles",
+          "Trim & Extend",
+          "Mirror & Pattern",
+          "Fully Constrained Sketches"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Part Design",
+        "topics": [
+          "Pad",
+          "Pocket",
+          "Shaft",
+          "Groove",
+          "Rib & Slot",
+          "Hole Creation",
+          "Draft",
+          "Shell",
+          "Fillet",
+          "Chamfer",
+          "Pattern Features",
+          "Boolean Operations"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Assembly Design",
+        "topics": [
+          "Product Structure",
+          "Component Assembly",
+          "Constraints",
+          "Assembly Navigation",
+          "Clash Detection Basics",
+          "Exploded Views",
+          "Assembly Analysis",
+          "Assembly Management"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Drafting Workbench",
+        "topics": [
+          "Creating 2D Drawings",
+          "Standard Views",
+          "Section Views",
+          "Auxiliary Views",
+          "Dimensions",
+          "Annotations",
+          "GD&T Basics",
+          "Bill of Materials (BOM)",
+          "Drawing Templates"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Surface Design & Final Project",
+        "topics": [
+          "Introduction to Surface Design",
+          "Wireframe Creation",
+          "Multi-Section Surface",
+          "Sweep",
+          "Join & Trim Surfaces",
+          "Surface Analysis",
+          "Model Validation",
+          "Export Formats (STEP, IGES, STL)"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "type": "practical",
+        "title": "Basic 2D Sketches",
+        "description": "Create basic 2D sketches using sketcher tools"
+      },
+      {
+        "type": "practical",
+        "title": "Mechanical Sketches",
+        "description": "Design mechanical sketches with constraints"
+      },
+      {
+        "type": "practical",
+        "title": "Mechanical Machine Parts",
+        "description": "Create 3D mechanical machine parts using part design"
+      },
+      {
+        "type": "practical",
+        "title": "Mechanical Product Assembly",
+        "description": "Assemble mechanical products with multiple components"
+      },
+      {
+        "type": "practical",
+        "title": "Manufacturing Drawings",
+        "description": "Prepare manufacturing drawings from 3D models"
+      },
+      {
+        "type": "practical",
+        "title": "Surface Models",
+        "description": "Create basic surface models and analysis"
+      },
+      {
+        "type": "project",
+        "title": "Machine Component Design",
+        "description": "Complete machine component 3D design"
+      },
+      {
+        "type": "project",
+        "title": "Gear Design",
+        "description": "Precision gear design and modeling"
+      },
+      {
+        "type": "project",
+        "title": "Shaft Design",
+        "description": "Complex shaft design with features"
+      },
+      {
+        "type": "project",
+        "title": "Flange Design",
+        "description": "Professional flange component design"
+      },
+      {
+        "type": "project",
+        "title": "Mechanical Assembly",
+        "description": "Complete mechanical product assembly"
+      },
+      {
+        "type": "project",
+        "title": "Complete Mechanical Product Design",
+        "description": "Design and document complete mechanical product including 2D sketch, 3D part model, assembly model, manufacturing drawing, bill of materials (BOM), and product presentation"
+      }
+    ],
+    "toolsCovered": [
+      "CATIA V5 (Latest Version)",
+      "Sketcher Workbench",
+      "Part Design Workbench",
+      "Assembly Design Workbench",
+      "Drafting Workbench",
+      "Surface Design Tools"
+    ],
+    "trainingHours": {
+      "theory": 10,
+      "practicalLabs": 32,
+      "projects": 18,
+      "total": "60 Hours"
     },
-    {
-      "module": 2,
-      "title": "Project Planning & Scheduling",
-      "topics": [
-        "Work Breakdown Structure (WBS)",
-        "Creating Activities",
-        "Activity Types",
-        "Activity Codes",
-        "Relationships (FS, SS, FF, SF)",
-        "Constraints",
-        "Milestones",
-        "Calendars",
-        "Scheduling Techniques"
-      ]
-    },
-    {
-      "module": 3,
-      "title": "Resource & Cost Management",
-      "topics": [
-        "Resource Creation",
-        "Resource Assignment",
-        "Resource Calendars",
-        "Resource Levelling",
-        "Cost Accounts",
-        "Expense Management",
-        "Budget Planning",
-        "Resource Analysis",
-        "Cost Loading"
-      ]
-    },
-    {
-      "module": 4,
-      "title": "Project Tracking & Monitoring",
-      "topics": [
-        "Baseline Creation",
-        "Updating Project Progress",
-        "Activity Status",
-        "Progress Measurement",
-        "Earned Value Management (EVM)",
-        "Variance Analysis",
-        "Delay Analysis",
-        "Recovery Scheduling",
-        "Project Forecasting"
-      ]
-    },
-    {
-      "module": 5,
-      "title": "Reports & Documentation",
-      "topics": [
-        "Layout Creation",
-        "Filters & Grouping",
-        "Global Change",
-        "User Defined Fields (UDF)",
-        "Reports Generation",
-        "Gantt Chart Customization",
-        "Dashboards",
-        "PDF & Excel Export",
-        "Printing Project Reports"
-      ]
-    },
-    {
-      "module": 6,
-      "title": "Final Project & Portfolio Development",
-      "topics": [
-        "Multi-Project Management",
-        "Project Portfolio Management",
-        "Risk Management Basics",
-        "Claim Documentation",
-        "Project Documentation Standards",
-        "Portfolio Development",
-        "Resume Building",
-        "Interview Preparation"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "type": "practical",
-      "title": "New Project Creation",
-      "description": "Create and setup a new project in Primavera P6"
-    },
-    {
-      "type": "practical",
-      "title": "Project Schedule Preparation",
-      "description": "Prepare a complete project schedule with WBS"
-    },
-    {
-      "type": "practical",
-      "title": "Resource Allocation & Budget",
-      "description": "Allocate resources and prepare project budget"
-    },
-    {
-      "type": "practical",
-      "title": "Project Progress Tracking",
-      "description": "Track and update project progress"
-    },
-    {
-      "type": "practical",
-      "title": "Reports & Dashboards",
-      "description": "Generate project reports and dashboards"
-    },
-    {
-      "type": "practical",
-      "title": "Multi-Project Management",
-      "description": "Manage multiple projects simultaneously"
-    },
-    {
-      "type": "project",
-      "title": "Residential Building Construction",
-      "description": "Complete residential building project schedule"
-    },
-    {
-      "type": "project",
-      "title": "Commercial Building Project",
-      "description": "Commercial building planning and scheduling"
-    },
-    {
-      "type": "project",
-      "title": "Highway Construction Project",
-      "description": "Infrastructure highway construction project"
-    },
-    {
-      "type": "project",
-      "title": "Bridge Construction Project",
-      "description": "Bridge construction scheduling and management"
-    },
-    {
-      "type": "project",
-      "title": "Industrial Plant Project",
-      "description": "Industrial plant setup and project management"
-    },
-    {
-      "type": "project",
-      "title": "Complete Project Management Portfolio",
-      "description": "Develop complete project schedule for residential building, commercial project, or infrastructure project including enterprise project structure (EPS), work breakdown structure (WBS), activity scheduling, resource allocation, cost planning, baseline creation, progress tracking, earned value analysis, and project reports & dashboards"
-    }
-  ],
-  "toolsCovered": [
-    "Primavera P6 Professional (Latest Version)",
-    "Scheduling Tools",
-    "Resource Management Tools",
-    "Reporting Tools"
-  ],
-  "trainingHours": {
-    "theory": 15,
-    "practicalLabs": 35,
-    "projects": 25,
-    "total": "75 Hours"
-  },
-  "learningOutcomes": [
-    "Create and manage project schedules using Primavera P6",
-    "Develop Work Breakdown Structures (WBS) and project calendars",
-    "Allocate resources and manage project costs effectively",
-    "Monitor project progress using baselines and Earned Value Management (EVM)",
-    "Generate professional reports, dashboards, and Gantt charts",
-    "Manage multiple projects and project portfolios",
-    "Build a professional portfolio for careers in project planning and construction management"
-  ],
-  "careerPaths": [
-    "Project Manager",
-    "Project Planner",
-    "Project Scheduler",
-    "Construction Manager",
-    "Site Engineer",
-    "Program Manager",
-    "Planning Engineer"
-  ],
-  "highlights": [
-    "100% Practical Training",
-    "Industry-Oriented Curriculum",
-    "Real-Time Construction & Infrastructure Projects",
-    "Hands-on Project Scheduling & Planning",
-    "Earned Value Management (EVM)",
-    "Portfolio Development",
-    "Certificate of Completion",
-    "Placement Assistance (if applicable)"
-  ],
-  "eligibility": [
-    "Basic Computer Knowledge",
-    "Civil Engineering Students",
-    "Mechanical Engineers",
-    "Project Engineers",
-    "Construction Professionals",
-    "Project Managers",
-    "Basic Knowledge of Project Management (Recommended)"
-  ],
-  "trainingMode": [
-    "Classroom",
-    "Online"
-  ],
-  "targetAudience": [
-    "Civil Engineers",
-    "Mechanical Engineers",
-    "Project Managers",
-    "Project Planners",
-    "Construction Professionals",
-    "Site Engineers",
-    "Planning Professionals"
-  ],
-  "prerequisites": [
-    "Basic Computer Knowledge",
-    "Basic Project Management Knowledge (Recommended)"
-  ],
-  "methodologies": [
-    "Work Breakdown Structure (WBS)",
-    "Earned Value Management (EVM)",
-    "Gantt Chart Scheduling",
-    "Resource Levelling",
-    "Critical Path Method"
-  ],
-  "metaTitle": "Primavera P6 Professional Course | Project Planning, Scheduling & Management",
-  "metaDescription": "Master Primavera P6 for professional project planning, scheduling, resource management, and cost control. Hands-on training with real construction and infrastructure projects."
-},
-
-
-
-
-
-
-
-
-
-{
-  "id": "catia",
-  "slug": "catia-professional-training",
-  "title": "CATIA Professional Training Course",
-  "shortDescription": "Master CATIA for 3D mechanical design. Learn part modeling, assembly design, technical drawings, and surface modeling for product development.",
-  "fullDescription": "This CATIA Professional Training Course covers everything from CAD/CAM/CAE basics to advanced 3D part modeling, assembly design, technical drafting, and surface modeling. Includes 100% practical training, real-time mechanical design projects, hands-on product modeling, and industry-oriented curriculum designed for mechanical engineers, product designers, and manufacturing professionals.",
-  "duration": "1 Month",
-  "price": "Contact for Pricing",
-  "category": "master",
-  "image": "CATAI.AVIF",
-  "features": [
-    "Sketcher Workbench & 2D Design",
-    "Part Design & 3D Modeling",
-    "Assembly Design & Product Structure",
-    "Drafting & Technical Drawings",
-    "Geometric & Dimensional Constraints",
-    "Surface Design & Modeling",
-    "GD&T & Manufacturing Standards",
-    "Bill of Materials (BOM) Creation",
-    "Export Formats (STEP, IGES, STL)"
-  ],
-  "syllabus": [
-    {
-      "module": 1,
-      "title": "Introduction to CATIA",
-      "topics": [
-        "Introduction to CAD/CAM/CAE",
-        "CATIA Interface & Workspace",
-        "Project Setup",
-        "Sketcher Workbench",
-        "Drawing Standards",
-        "Units & Constraints",
-        "File Management",
-        "Navigation & View Tools"
-      ]
-    },
-    {
-      "module": 2,
-      "title": "Sketcher Workbench",
-      "topics": [
-        "Sketch Creation",
-        "Geometrical Constraints",
-        "Dimensional Constraints",
-        "Lines, Circles & Arcs",
-        "Splines & Profiles",
-        "Trim & Extend",
-        "Mirror & Pattern",
-        "Fully Constrained Sketches"
-      ]
-    },
-    {
-      "module": 3,
-      "title": "Part Design",
-      "topics": [
-        "Pad",
-        "Pocket",
-        "Shaft",
-        "Groove",
-        "Rib & Slot",
-        "Hole Creation",
-        "Draft",
-        "Shell",
-        "Fillet",
-        "Chamfer",
-        "Pattern Features",
-        "Boolean Operations"
-      ]
-    },
-    {
-      "module": 4,
-      "title": "Assembly Design",
-      "topics": [
-        "Product Structure",
-        "Component Assembly",
-        "Constraints",
-        "Assembly Navigation",
-        "Clash Detection Basics",
-        "Exploded Views",
-        "Assembly Analysis",
-        "Assembly Management"
-      ]
-    },
-    {
-      "module": 5,
-      "title": "Drafting Workbench",
-      "topics": [
-        "Creating 2D Drawings",
-        "Standard Views",
-        "Section Views",
-        "Auxiliary Views",
-        "Dimensions",
-        "Annotations",
-        "GD&T Basics",
-        "Bill of Materials (BOM)",
-        "Drawing Templates"
-      ]
-    },
-    {
-      "module": 6,
-      "title": "Surface Design & Final Project",
-      "topics": [
-        "Introduction to Surface Design",
-        "Wireframe Creation",
-        "Multi-Section Surface",
-        "Sweep",
-        "Join & Trim Surfaces",
-        "Surface Analysis",
-        "Model Validation",
-        "Export Formats (STEP, IGES, STL)"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "type": "practical",
-      "title": "Basic 2D Sketches",
-      "description": "Create basic 2D sketches using sketcher tools"
-    },
-    {
-      "type": "practical",
-      "title": "Mechanical Sketches",
-      "description": "Design mechanical sketches with constraints"
-    },
-    {
-      "type": "practical",
-      "title": "Mechanical Machine Parts",
-      "description": "Create 3D mechanical machine parts using part design"
-    },
-    {
-      "type": "practical",
-      "title": "Mechanical Product Assembly",
-      "description": "Assemble mechanical products with multiple components"
-    },
-    {
-      "type": "practical",
-      "title": "Manufacturing Drawings",
-      "description": "Prepare manufacturing drawings from 3D models"
-    },
-    {
-      "type": "practical",
-      "title": "Surface Models",
-      "description": "Create basic surface models and analysis"
-    },
-    {
-      "type": "project",
-      "title": "Machine Component Design",
-      "description": "Complete machine component 3D design"
-    },
-    {
-      "type": "project",
-      "title": "Gear Design",
-      "description": "Precision gear design and modeling"
-    },
-    {
-      "type": "project",
-      "title": "Shaft Design",
-      "description": "Complex shaft design with features"
-    },
-    {
-      "type": "project",
-      "title": "Flange Design",
-      "description": "Professional flange component design"
-    },
-    {
-      "type": "project",
-      "title": "Mechanical Assembly",
-      "description": "Complete mechanical product assembly"
-    },
-    {
-      "type": "project",
-      "title": "Complete Mechanical Product Design",
-      "description": "Design and document complete mechanical product including 2D sketch, 3D part model, assembly model, manufacturing drawing, bill of materials (BOM), and product presentation"
-    }
-  ],
-  "toolsCovered": [
-    "CATIA V5 (Latest Version)",
-    "Sketcher Workbench",
-    "Part Design Workbench",
-    "Assembly Design Workbench",
-    "Drafting Workbench",
-    "Surface Design Tools"
-  ],
-  "trainingHours": {
-    "theory": 10,
-    "practicalLabs": 32,
-    "projects": 18,
-    "total": "60 Hours"
-  },
-  "learningOutcomes": [
-    "Create fully constrained 2D sketches using CATIA",
-    "Develop complex 3D mechanical parts and assemblies",
-    "Generate production-ready engineering drawings",
-    "Apply design constraints and assembly relationships",
-    "Create basic surface models for product design",
-    "Export models for manufacturing and CNC applications",
-    "Build a professional CAD portfolio for product design and mechanical engineering careers"
-  ],
-  "careerPaths": [
-    "CAD Designer",
-    "Product Designer",
-    "Mechanical Engineer",
-    "Design Engineer",
-    "Manufacturing Engineer",
-    "Freelance CAD Professional",
-    "Design Consultant"
-  ],
-  "highlights": [
-    "100% Practical Training",
-    "Industry-Oriented Curriculum",
-    "Real-Time Mechanical Design Projects",
-    "Hands-on Product Modeling",
-    "3D Design & Assembly",
-    "Portfolio Development",
-    "Certificate of Completion",
-    "Placement Assistance (if applicable)"
-  ],
-  "eligibility": [
-    "Basic Computer Knowledge",
-    "ITI Students",
-    "Diploma in Mechanical Engineering",
-    "B.Tech/B.E. Mechanical Engineering Students",
-    "Mechanical Engineers",
-    "Product Designers",
-    "Manufacturing Professionals",
-    "Basic Knowledge of Engineering Drawing (Recommended)"
-  ],
-  "trainingMode": [
-    "Classroom",
-    "Online"
-  ],
-  "targetAudience": [
-    "ITI Students",
-    "Diploma Holders",
-    "Mechanical Engineering Students",
-    "Mechanical Engineers",
-    "Product Designers",
-    "Manufacturing Professionals",
-    "Design Engineers"
-  ],
-  "prerequisites": [
-    "Basic Computer Knowledge",
-    "Basic Engineering Drawing Knowledge (Recommended)"
-  ],
-  "exportFormats": [
-    "STEP",
-    "IGES",
-    "STL",
-    "DWG",
-    "PDF"
-  ],
-  "workbenches": [
-    "Sketcher",
-    "Part Design",
-    "Assembly Design",
-    "Drafting",
-    "Surface Design"
-  ],
-  "metaTitle": "CATIA Professional Course | 3D Design, Assembly & Manufacturing Drawings",
-  "metaDescription": "Master CATIA for 3D mechanical design, product modeling, assembly design, and technical drawings. Hands-on training with real mechanical design projects."
-}
+    "learningOutcomes": [
+      "Create fully constrained 2D sketches using CATIA",
+      "Develop complex 3D mechanical parts and assemblies",
+      "Generate production-ready engineering drawings",
+      "Apply design constraints and assembly relationships",
+      "Create basic surface models for product design",
+      "Export models for manufacturing and CNC applications",
+      "Build a professional CAD portfolio for product design and mechanical engineering careers"
+    ],
+    "careerPaths": [
+      "CAD Designer",
+      "Product Designer",
+      "Mechanical Engineer",
+      "Design Engineer",
+      "Manufacturing Engineer",
+      "Freelance CAD Professional",
+      "Design Consultant"
+    ],
+    "highlights": [
+      "100% Practical Training",
+      "Industry-Oriented Curriculum",
+      "Real-Time Mechanical Design Projects",
+      "Hands-on Product Modeling",
+      "3D Design & Assembly",
+      "Portfolio Development",
+      "Certificate of Completion",
+      "Placement Assistance (if applicable)"
+    ],
+    "eligibility": [
+      "Basic Computer Knowledge",
+      "ITI Students",
+      "Diploma in Mechanical Engineering",
+      "B.Tech/B.E. Mechanical Engineering Students",
+      "Mechanical Engineers",
+      "Product Designers",
+      "Manufacturing Professionals",
+      "Basic Knowledge of Engineering Drawing (Recommended)"
+    ],
+    "trainingMode": ["Classroom", "Online"],
+    "targetAudience": [
+      "ITI Students",
+      "Diploma Holders",
+      "Mechanical Engineering Students",
+      "Mechanical Engineers",
+      "Product Designers",
+      "Manufacturing Professionals",
+      "Design Engineers"
+    ],
+    "prerequisites": [
+      "Basic Computer Knowledge",
+      "Basic Engineering Drawing Knowledge (Recommended)"
+    ],
+    "exportFormats": ["STEP", "IGES", "STL", "DWG", "PDF"],
+    "workbenches": [
+      "Sketcher",
+      "Part Design",
+      "Assembly Design",
+      "Drafting",
+      "Surface Design"
+    ],
+    "metaTitle": "CATIA Professional Course | 3D Design, Assembly & Manufacturing Drawings",
+    "metaDescription": "Master CATIA for 3D mechanical design, product modeling, assembly design, and technical drawings. Hands-on training with real mechanical design projects."
+  }
 ]
