@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import coursesData from "../data/courses.json";
 import { MdMoreTime } from "react-icons/md";
 
@@ -51,13 +51,26 @@ const defaultColors = categoryColors.advance;
 // ─── COURSE CARD ──────────────────────────────────────────────────────────────
 function CourseCard({ course }) {
   const cat = categoryColors[course.category] || defaultColors;
+  const navigate = useNavigate();
+
+  const handleImageClick = () => {
+    navigate(`/course/${course.slug}`);
+  };
 
   return (
     <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden flex flex-col shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200">
       {/* Header */}
       <div
-        className={`relative ${cat.bg} overflow-hidden`}
+        className={`relative ${cat.bg} overflow-hidden cursor-pointer`}
         style={{ height: "150px" }}
+        onClick={handleImageClick}
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            handleImageClick();
+          }
+        }}
       >
         <img
           src={`/${(course.image || "").split("/").pop()}`}
@@ -132,7 +145,7 @@ function CourseCard({ course }) {
         </ul>
 
         {/* Footer */}
-        <div className="flex items-center justify-between pt-3 border-t border-slate-100 mt-1">
+        <div className="flex items-center justify-start pt-3 border-t border-slate-100 mt-1">
           <div className="flex gap-2">
             <span>
               <MdMoreTime className="text-xl" />
@@ -141,14 +154,6 @@ function CourseCard({ course }) {
               {course.duration}
             </span>
           </div>
-          <Link
-            to={`/course/${course.slug}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`text-xs font-semibold px-4 py-1.5 rounded-full border cursor-pointer transition-all duration-150 ${cat.accent} ${cat.btnBorder} ${cat.btnHover} hover:text-white no-underline`}
-          >
-            View Details
-          </Link>
         </div>
       </div>
     </div>
