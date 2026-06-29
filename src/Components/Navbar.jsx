@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -20,10 +20,32 @@ const ABOUT_DROPDOWN = [
   { path: "/testimonials", name: "Reviews" },
 ];
 
+const EXPLORE_DROPDOWN = [
+  { path: "/internship", name: "Internship" },
+  { path: "/scholarship-examination", name: "Scholarship Examination" },
+  { path: "/job-vacancy", name: "Job Vacancy" },
+];
+
 export default function Navbar() {
   const { pathname } = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const [aboutMobileOpen, setAboutMobileOpen] = useState(false);
+  const [exploreMobileOpen, setExploreMobileOpen] = useState(false);
+  const [exploreHover, setExploreHover] = useState(false);
+  const hoverTimeout = useRef(null);
+
+  const isExplorePath = EXPLORE_DROPDOWN.some((item) => item.path === pathname);
+
+  const handleMouseEnter = () => {
+    clearTimeout(hoverTimeout.current);
+    setExploreHover(true);
+  };
+
+  const handleMouseLeave = () => {
+    hoverTimeout.current = setTimeout(() => {
+      setExploreHover(false);
+    }, 150);
+  };
 
   const MOBILE_LINKS = [
     { path: "/", name: "Home" },
@@ -115,6 +137,58 @@ export default function Navbar() {
               {name}
             </Link>
           ))}
+
+          {/* Explore Opportunity Dropdown */}
+          <div
+            className="relative"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <button
+              className={`flex items-center gap-1 transition duration-300 hover:text-yellow-300 focus:outline-none ${
+                isExplorePath
+                  ? "text-yellow-300 border-b-2 border-yellow-300"
+                  : ""
+              }`}
+            >
+              Explore Opportunity
+              <motion.span
+                animate={{ rotate: exploreHover ? 180 : 0 }}
+                transition={{ duration: 0.25 }}
+                className="text-xs mt-0.5"
+              >
+                ▾
+              </motion.span>
+            </button>
+
+            <AnimatePresence>
+              {exploreHover && (
+                <motion.div
+                  initial={{ opacity: 0, y: -6 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -6 }}
+                  transition={{ duration: 0.2 }}
+                  className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-56 bg-white text-blue-800 shadow-xl overflow-hidden z-50"
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  {EXPLORE_DROPDOWN.map(({ path, name }) => (
+                    <Link
+                      key={path}
+                      to={path}
+                      className={`block px-5 py-3 text-sm font-semibold hover:bg-blue-50 hover:text-blue-700 transition duration-200 border-b border-gray-100 last:border-b-0 ${
+                        pathname === path
+                          ? "bg-blue-50 text-blue-700"
+                          : "text-blue-800"
+                      }`}
+                    >
+                      {name}
+                    </Link>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
         </div>
       </nav>
 
@@ -140,7 +214,7 @@ export default function Navbar() {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ duration: 0.35, ease: "easeInOut" }}
-            className="fixed top-0 right-0 h-full w-72 bg-blue-700 text-white z-50 shadow-2xl md:hidden flex flex-col pt-20 px-6 gap-4 font-semibold text-lg"
+            className="fixed top-0 right-0 h-full w-72 bg-blue-700 text-white z-50 shadow-2xl md:hidden flex flex-col pt-20 px-6 gap-4 font-semibold text-lg overflow-y-auto"
           >
             {/* Close Button */}
             <button
@@ -191,6 +265,50 @@ export default function Navbar() {
                     className="overflow-hidden mt-4 flex flex-col gap-3 pl-4"
                   >
                     {ABOUT_DROPDOWN.map(({ path, name }) => (
+                      <Link
+                        key={path}
+                        to={path}
+                        onClick={() => setIsOpen(false)}
+                        className={`text-base font-medium transition duration-300 hover:text-yellow-300 ${
+                          pathname === path ? "text-yellow-300" : "text-white"
+                        }`}
+                      >
+                        → {name}
+                      </Link>
+                    ))}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Explore Opportunity Accordion - Mobile */}
+            <div className="border-b border-blue-600 pb-4">
+              <button
+                onClick={() => setExploreMobileOpen(!exploreMobileOpen)}
+                className={`w-full flex justify-between items-center hover:text-yellow-300 transition duration-300 ${
+                  isExplorePath ? "text-yellow-300" : ""
+                }`}
+              >
+                Explore Opportunity
+                <motion.span
+                  animate={{ rotate: exploreMobileOpen ? 180 : 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="text-sm"
+                >
+                  ▾
+                </motion.span>
+              </button>
+
+              <AnimatePresence>
+                {exploreMobileOpen && (
+                  <motion.div
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.3 }}
+                    className="overflow-hidden mt-4 flex flex-col gap-3 pl-4"
+                  >
+                    {EXPLORE_DROPDOWN.map(({ path, name }) => (
                       <Link
                         key={path}
                         to={path}

@@ -3,6 +3,10 @@ import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import ExploreOpportunity from "./Pages/ExploreOpportunity";
+import InternShip from "./Pages/InternShip";
+import JobVacancy from "./Pages/JobVacancy";
+import ScholarshipExamination from "./Pages/ScholarshipExamination";
 
 const Courses = lazy(() => import("./Pages/Courses"));
 const Reviews = lazy(() => import("./Pages/Reviews"));
@@ -48,6 +52,13 @@ function App() {
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/TermsConditions" element={<TermsConditions />} />
             <Route path="/footer" element={<Footer />} />
+            <Route path="/" element={<ExploreOpportunity />} />
+            <Route path="/internship" element={<InternShip />} />
+            <Route path="/job-vacancy" element={<JobVacancy />} />
+            <Route
+              path="/scholarship-examination"
+              element={<ScholarshipExamination />}
+            />
           </Routes>
         </Suspense>
       </main>
