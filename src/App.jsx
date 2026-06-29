@@ -6,7 +6,7 @@ import Footer from "./Components/Footer";
 import ExploreOpportunity from "./Pages/ExploreOpportunity";
 import InternShip from "./Pages/InternShip";
 import JobVacancy from "./Pages/JobVacancy";
-import ScholarshipExamination from "./Pages/ScholarshipExamination";
+import ScholarShipExamination from "./Pages/ScholarShipExamination";
 
 const Courses = lazy(() => import("./Pages/Courses"));
 const Reviews = lazy(() => import("./Pages/Reviews"));
@@ -57,7 +57,7 @@ function App() {
             <Route path="/job-vacancy" element={<JobVacancy />} />
             <Route
               path="/scholarship-examination"
-              element={<ScholarshipExamination />}
+              element={<ScholarShipExamination />}
             />
           </Routes>
         </Suspense>
