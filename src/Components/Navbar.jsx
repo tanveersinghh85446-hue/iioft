@@ -156,9 +156,7 @@ export default function Navbar() {
                 animate={{ rotate: exploreHover ? 180 : 0 }}
                 transition={{ duration: 0.25 }}
                 className="text-xs mt-0.5"
-              >
-                -
-              </motion.span>
+              ></motion.span>
             </button>
 
             <AnimatePresence>
