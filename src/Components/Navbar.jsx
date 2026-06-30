@@ -157,7 +157,7 @@ export default function Navbar() {
                 transition={{ duration: 0.25 }}
                 className="text-xs mt-0.5"
               >
-                ▾
+                -
               </motion.span>
             </button>
 
@@ -251,7 +251,7 @@ export default function Navbar() {
                   transition={{ duration: 0.3 }}
                   className="text-sm"
                 >
-                  ▾
+                  -
                 </motion.span>
               </button>
 
@@ -295,7 +295,7 @@ export default function Navbar() {
                   transition={{ duration: 0.3 }}
                   className="text-sm"
                 >
-                  ▾
+                  -
                 </motion.span>
               </button>
 
